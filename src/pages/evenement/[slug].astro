@@ -1,0 +1,40 @@
+---
+// src/pages/evenement/[slug].astro — Fiche événement (simple, sans TypeScript)
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  return [{ params: { slug: 'placeholder' } }];
+}
+
+const { slug } = Astro.params;
+const siteUrl = 'https://sortirici.github.io';
+---
+
+<BaseLayout
+  title={slug === 'placeholder' ? 'Événement — SortirIci' : `${slug} — SortirIci`}
+  description="Détails de l'événement"
+  noIndex={slug === 'placeholder'}
+>
+  <div class="container" style="padding: 3rem 1rem;">
+    <nav aria-label="Fil d'Ariane" style="margin-bottom: 1rem; font-size: 0.875rem; color: #6A6A8A;">
+      <a href="/" style="color: #6A6A8A;">Accueil</a>
+      <span style="margin: 0 0.5rem;">›</span>
+      <span style="color: #1A1A2E; font-weight: 600;">Événement</span>
+    </nav>
+
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 4rem 1rem; text-align: center; background: #F0F0F5; border-radius: 0.75rem;">
+      <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#CACADD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 1rem;">
+        <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
+      </svg>
+      <h2 style="font-size: 1.25rem; font-weight: 600; color: #1A1A2E; margin-bottom: 0.5rem;">
+        Événement en cours de chargement
+      </h2>
+      <p style="color: #6A6A8A; max-width: 400px; line-height: 1.5; margin-bottom: 1rem;">
+        Les fiches détaillées seront disponibles après le prochain cycle de mise à jour.
+      </p>
+      <a href="/" style="padding: 0.75rem 2rem; background: #1A5FB4; color: white; border-radius: 0.75rem; text-decoration: none; font-weight: 600;">
+        Retour à l'accueil
+      </a>
+    </div>
+  </div>
+</BaseLayout>

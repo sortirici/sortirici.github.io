@@ -1,0 +1,841 @@
+---
+// src/pages/index.astro — Page d'accueil SortirIci
+// Carte Leaflet, statistiques, liste des départements + JSON-LD + maillage sémantique
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+// ---- Chargement des données ----
+let indexData = {
+  totalEvents: 0,
+  totalDepartements: 0,
+  departements: [] as Array<{ departement: string; nom: string; totalEvents: number; visibleEvents: number }>,
+  sources: [] as string[],
+};
+try {
+  const { readFileSync } = await import('node:fs');
+  const { join } = await import('node:path');
+  const raw = readFileSync(join(process.cwd(), 'public', 'data', 'events-index.json'), 'utf-8');
+  indexData = JSON.parse(raw);
+} catch {
+  /* Pas encore de données — affichage à vide */
+}
+
+const orderedDepts = indexData.departements
+  .filter(d => d.departement !== '00')
+  .sort((a, b) => b.totalEvents - a.totalEvents);
+
+const topDepts = orderedDepts.slice(0, 6);
+const allDepts = orderedDepts;
+
+const siteUrl = 'https://sortirici.github.io';
+const pageTitle = "SortirIci — L'agenda local de confiance — 100% open data, 0 cookie";
+const pageDesc = "Découvrez gratuitement tous les événements près de chez vous : concerts, festivals, expositions, théâtre, ateliers. Données open data, zéro cookie, zéro tracking.";
+
+// ---- JSON-LD ----
+const organizationLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": `${siteUrl}/#organization`,
+  "name": "SortirIci",
+  "url": siteUrl,
+  "logo": `${siteUrl}/logo.svg`,
+  "description": pageDesc,
+  "slogan": "L'agenda local de confiance",
+  "knowsAbout": ["Événements culturels", "Open Data", "Agenda local"],
+  "ethicsPolicy": `${siteUrl}/mentions/`,
+};
+
+const breadcrumbLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "@id": `${siteUrl}/#breadcrumb`,
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": siteUrl },
+  ],
+};
+
+const itemListLd = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "@id": `${siteUrl}/#departements`,
+  "name": "Départements couverts par SortirIci",
+  "description": `Liste des ${allDepts.length} départements avec événements référencés`,
+  "numberOfItems": allDepts.length,
+  "itemListElement": allDepts.slice(0, 20).map((d, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "name": `Département ${d.departement}`,
+    "url": `${siteUrl}/departement/${d.departement}/`,
+  })),
+};
+
+const webSiteLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": `${siteUrl}/#website`,
+  "name": "SortirIci",
+  "url": siteUrl,
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": `${siteUrl}/?q={search_term_string}`,
+    },
+    "query-input": "required name=search_term_string",
+  },
+};
+---
+
+<BaseLayout
+  title={pageTitle}
+  description={pageDesc}
+  canonical="/"
+  jsonLd={[organizationLd, breadcrumbLd, itemListLd, webSiteLd]}
+>
+  <!-- Hero Section -->
+  <section class="hero" aria-label="Présentation de SortirIci">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">Sortir près de chez vous</h1>
+        <p class="hero-subtitle">L'agenda local de confiance. Concerts, festivals, expos, théâtre, ateliers — 100% open data, <strong>0 cookie, 0 tracking</strong>.</p>
+        
+        <div class="search-bar" x-data="searchApp()" role="search" aria-label="Rechercher un événement">
+          <div class="search-bar__wrapper">
+            <svg class="search-bar__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            <input
+              type="search"
+              class="search-bar__input"
+              placeholder="Rechercher un événement, une ville, un département…"
+              aria-label="Rechercher un événement, une ville ou un département"
+              x-model="query"
+              @input.debounce.300ms="search()"
+              @keydown.down.prevent="highlightNext()"
+              @keydown.up.prevent="highlightPrev()"
+              @keydown.enter.prevent="goToResult()"
+              @keydown.escape.prevent="close()"
+            />
+            <button class="search-bar__submit" aria-label="Lancer la recherche" @click="goToResult()">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m21 21-4.35-4.35"/><circle cx="11" cy="11" r="8"/></svg>
+            </button>
+          </div>
+          <!-- Résultats auto-complétion -->
+          <ul
+            class="search-bar__results"
+            x-show="results.length > 0"
+            x-cloak
+            role="listbox"
+            aria-label="Suggestions de recherche"
+          >
+            <template x-for="(r, i) in results" :key="r.url">
+              <li>
+                <a :href="r.url" class="search-bar__result" :class="{ 'search-bar__result--active': i === highlightIndex }" role="option" :aria-selected="i === highlightIndex" x-text="r.label" @mouseenter="highlightIndex = i"></a>
+              </li>
+            </template>
+          </ul>
+        </div>
+
+        <!-- Liens rapides (maillage descendant) -->
+        <nav class="hero-quicklinks" aria-label="Accès rapide aux départements populaires">
+          <span class="hero-quicklinks__label">Départements populaires :</span>
+          {topDepts.length > 0 ? (
+            <div class="hero-quicklinks__list">
+              {topDepts.map(d => (
+                <a href={`/departement/${d.departement}/`} class="hero-quicklinks__link">
+                  {d.nom || `Département ${d.departement}`}
+                  <small>({d.totalEvents})</small>
+                </a>
+              ))}
+            </div>
+          ) : (
+            <span class="hero-quicklinks__empty">Les données seront bientôt disponibles</span>
+          )}
+          <a href="/sources/" class="hero-quicklinks__link hero-quicklinks__all">Toutes nos sources →</a>
+        </nav>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Bar -->
+  <section class="stats-section" aria-label="Statistiques clés">
+    <div class="container">
+      <div class="stats-bar">
+        <article class="stat-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand-blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg>
+          <div>
+            <span class="stat-value">{indexData.totalEvents.toLocaleString('fr-FR')}</span>
+            <span class="stat-label">Événements référencés</span>
+          </div>
+        </article>
+        <article class="stat-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand-blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v5"/><circle cx="13" cy="19" r="4"/><path d="m15 18 2 2 4-4"/></svg>
+          <div>
+            <span class="stat-value">{indexData.totalDepartements}</span>
+            <span class="stat-label">Départements couverts</span>
+          </div>
+        </article>
+        <article class="stat-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand-blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19a9 3 0 0 0 18 0V5"/></svg>
+          <div>
+            <span class="stat-value">{indexData.sources.length}</span>
+            <span class="stat-label">Sources open data</span>
+          </div>
+        </article>
+        <article class="stat-item stat-item--ethics">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand-green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          <div>
+            <span class="stat-value stat-value--small">0 cookie</span>
+            <span class="stat-label">0 tracking · Respect RGPD</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Carte Leaflet -->
+  <section class="map-section" aria-label="Carte des événements par département">
+    <div class="container">
+      <div class="map-section__header">
+        <h2 class="section-title">Explorez la carte</h2>
+        <p class="section-desc">Visualisez les événements référencés partout en France</p>
+      </div>
+      <div
+        id="home-map"
+        class="map-container"
+        aria-label="Carte interactive des événements en France"
+        x-data="mapApp()"
+        data-map-type="home"
+        data-center-lat="46.6"
+        data-center-lng="2.5"
+        data-zoom="6"
+      >
+        <noscript>
+          <div class="map-fallback" role="status">
+            <p>La carte interactive nécessite JavaScript. Consultez la <a href="#departements-grid">liste des départements</a> ci-dessous.</p>
+          </div>
+        </noscript>
+      </div>
+      <p class="map-credit">
+        Données cartographiques © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> — 
+        <a href="/mentions/">En savoir plus sur notre utilisation éthique des données</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Départements -->
+  <section class="depts-section" id="departements-grid" aria-label="Liste des départements">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">
+          Tous les départements
+          {allDepts.length > 0 && <span class="section-badge">{allDepts.length}</span>}
+        </h2>
+        <p class="section-desc">Choisissez un département pour découvrir les événements près de chez vous</p>
+      </div>
+
+      {allDepts.length > 0 ? (
+        <div class="depts-grid">
+          {allDepts.map(d => (
+            <a
+              href={`/departement/${d.departement}/`}
+              class="departement-card"
+              aria-label={`Département ${d.nom || d.departement} — ${d.totalEvents} événements`}
+            >
+              <span class="departement-card__numero">{d.departement}</span>
+              <span class="departement-card__nom">{d.nom || `Département ${d.departement}`}</span>
+              <span class="departement-card__count">{d.totalEvents} événement{(d.totalEvents > 1) ? 's' : ''}</span>
+            </a>
+          ))}
+        </div>
+      ) : (
+        <div class="empty-state" role="status">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--color-neutral-300)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h18"/></svg>
+          <h3>Les données arrivent bientôt</h3>
+          <p>Les événements sont en cours de collecte. Revenez dans quelques instants !</p>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <!-- Section éthique (maillage transversal) -->
+  <section class="ethics-section" aria-label="Nos engagements">
+    <div class="container">
+      <div class="ethics-grid">
+        <article class="ethics-card">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand-green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <h3>100% open data</h3>
+          <p>Tous les événements proviennent de sources publiques ouvertes (OpenAgenda, Ministère de la Culture, portails locaux).</p>
+          <a href="/sources/" class="ethics-link">Voir nos sources →</a>
+        </article>
+        <article class="ethics-card">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand-green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 18a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v2H2Z"/><path d="M6 12h12"/><path d="M10 4h4"/><path d="M12 12v6"/></svg>
+          <h3>0 cookie · 0 tracking</h3>
+          <p>Aucun tracker, aucune publicité, aucune revente de données. Pas de compte, pas de profil. Votre vie privée est respectée.</p>
+          <a href="/mentions/" class="ethics-link">Lire notre charte →</a>
+        </article>
+        <article class="ethics-card">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand-green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+          <h3>Sources citées</h3>
+          <p>Chaque événement affiche clairement sa source et sa licence. Vous savez toujours d'où vient l'information.</p>
+          <a href="/sources/" class="ethics-link">Consulter les licences →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style is:global>
+  /* ====== HERO ====== */
+  .hero {
+    background: linear-gradient(135deg, var(--color-neutral-50) 0%, #E8F0FA 50%, var(--color-neutral-50) 100%);
+    padding: var(--space-12) 0 var(--space-10);
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(26,95,180,0.04) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .hero-content {
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  .hero-title {
+    font-size: clamp(var(--text-3xl), 5vw, var(--text-4xl));
+    font-weight: var(--font-bold);
+    color: var(--color-neutral-900);
+    margin-bottom: var(--space-3);
+    letter-spacing: -0.02em;
+  }
+  .hero-subtitle {
+    font-size: var(--text-lg);
+    color: var(--color-neutral-700);
+    line-height: var(--leading-relaxed);
+    margin-bottom: var(--space-8);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-subtitle strong { color: var(--color-brand-green); }
+
+  /* Search */
+  .search-bar {
+    max-width: 560px;
+    margin: 0 auto var(--space-6);
+    position: relative;
+  }
+  .search-bar__wrapper {
+    display: flex;
+    align-items: center;
+    background: white;
+    border: 2px solid var(--color-neutral-200);
+    border-radius: var(--radius-xl);
+    padding: var(--space-2) var(--space-4);
+    box-shadow: var(--shadow-medium);
+    transition: all var(--transition-default);
+    position: relative;
+  }
+  .search-bar__wrapper:focus-within {
+    border-color: var(--color-brand-blue);
+    box-shadow: var(--shadow-strong), 0 0 0 4px rgba(26,95,180,0.1);
+    outline: none;
+  }
+  .search-bar__icon {
+    flex-shrink: 0;
+    color: var(--color-neutral-400);
+    margin-right: var(--space-3);
+  }
+  .search-bar__input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-size: var(--text-base);
+    padding: var(--space-1) 0;
+    color: var(--color-neutral-900);
+    outline: none;
+    font-family: var(--font-sans);
+  }
+  .search-bar__input::placeholder { color: var(--color-neutral-400); }
+  .search-bar__submit {
+    flex-shrink: 0;
+    background: var(--color-brand-blue);
+    color: white;
+    border: none;
+    border-radius: var(--radius-lg);
+    padding: var(--space-2);
+    cursor: pointer;
+    transition: background var(--transition-fast);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: var(--space-2);
+  }
+  .search-bar__submit:hover { background: #164E94; }
+  .search-bar__results {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    right: 0;
+    list-style: none;
+    background: white;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-strong);
+    border: 1px solid var(--color-neutral-200);
+    z-index: 100;
+    max-height: 320px;
+    overflow-y: auto;
+  }
+  .search-bar__result {
+    display: block;
+    padding: var(--space-3) var(--space-4);
+    font-size: var(--text-sm);
+    color: var(--color-neutral-700);
+    text-decoration: none;
+    transition: background var(--transition-fast);
+    border-bottom: 1px solid var(--color-neutral-100);
+  }
+  .search-bar__result:last-child { border-bottom: none; }
+  .search-bar__result:hover,
+  .search-bar__result--active { background: var(--color-neutral-100); color: var(--color-brand-blue); }
+
+  /* Quicklinks */
+  .hero-quicklinks {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    font-size: var(--text-sm);
+  }
+  .hero-quicklinks__label {
+    color: var(--color-neutral-500);
+    font-weight: var(--font-medium);
+  }
+  .hero-quicklinks__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+  .hero-quicklinks__link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1);
+    padding: var(--space-1) var(--space-3);
+    border-radius: var(--radius-full);
+    background: white;
+    border: 1px solid var(--color-neutral-200);
+    color: var(--color-neutral-700);
+    font-weight: var(--font-medium);
+    transition: all var(--transition-fast);
+    text-decoration: none;
+  }
+  .hero-quicklinks__link:hover {
+    border-color: var(--color-brand-blue);
+    color: var(--color-brand-blue);
+    background: #F0F6FF;
+  }
+  .hero-quicklinks__link small {
+    font-weight: var(--font-normal);
+    opacity: 0.7;
+  }
+  .hero-quicklinks__all {
+    color: var(--color-brand-blue);
+    font-weight: var(--font-semibold);
+    border-color: transparent;
+    background: transparent;
+  }
+  .hero-quicklinks__empty {
+    color: var(--color-neutral-400);
+    font-style: italic;
+  }
+
+  /* ====== STATS ====== */
+  .stats-section { padding: var(--space-6) 0; }
+  .stats-bar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: var(--space-4);
+  }
+  .stat-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    background: white;
+    padding: var(--space-4);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-soft);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  }
+  .stat-item:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-medium);
+  }
+  .stat-item--ethics { border-left: 3px solid var(--color-brand-green); }
+  .stat-value {
+    display: block;
+    font-size: var(--text-2xl);
+    font-weight: var(--font-bold);
+    color: var(--color-neutral-900);
+    line-height: var(--leading-tight);
+  }
+  .stat-value--small { font-size: var(--text-lg); }
+  .stat-label {
+    display: block;
+    font-size: var(--text-sm);
+    color: var(--color-neutral-500);
+    margin-top: 2px;
+  }
+
+  /* ====== MAP ====== */
+  .map-section { padding: var(--space-10) 0; }
+  .map-section__header {
+    text-align: center;
+    margin-bottom: var(--space-6);
+  }
+  .map-container {
+    width: 100%;
+    height: 420px;
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    box-shadow: var(--shadow-medium);
+    background: var(--color-neutral-100);
+    position: relative;
+  }
+  .map-fallback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: var(--space-8);
+    text-align: center;
+    background: var(--color-neutral-100);
+    color: var(--color-neutral-500);
+  }
+  .map-credit {
+    font-size: var(--text-xs);
+    color: var(--color-neutral-400);
+    text-align: center;
+    margin-top: var(--space-2);
+  }
+  .map-credit a { color: var(--color-neutral-500); }
+
+  /* ====== SECTIONS ====== */
+  .section-title {
+    font-size: var(--text-3xl);
+    font-weight: var(--font-bold);
+    color: var(--color-neutral-900);
+    margin-bottom: var(--space-2);
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-3);
+  }
+  .section-badge {
+    font-size: var(--text-sm);
+    font-weight: var(--font-semibold);
+    background: var(--color-brand-blue);
+    color: white;
+    padding: 2px var(--space-3);
+    border-radius: var(--radius-full);
+  }
+  .section-desc {
+    font-size: var(--text-base);
+    color: var(--color-neutral-500);
+    max-width: 600px;
+  }
+  .section-header {
+    text-align: center;
+    margin-bottom: var(--space-8);
+  }
+
+  /* ====== DÉPARTEMENTS GRID ====== */
+  .depts-section { padding: var(--space-10) 0; }
+  .depts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: var(--space-4);
+  }
+  .departement-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    padding: var(--space-5) var(--space-4);
+    background: white;
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-soft);
+    transition: all var(--transition-default);
+    text-decoration: none;
+    border: 1.5px solid transparent;
+  }
+  .departement-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-medium);
+    border-color: var(--color-brand-blue);
+  }
+  .departement-card:focus-visible {
+    outline: 2px solid var(--color-brand-orange);
+    outline-offset: 2px;
+  }
+  .departement-card__numero {
+    font-size: var(--text-3xl);
+    font-weight: var(--font-bold);
+    color: var(--color-brand-blue);
+    line-height: 1;
+  }
+  .departement-card__nom {
+    font-size: var(--text-sm);
+    font-weight: var(--font-semibold);
+    color: var(--color-neutral-900);
+    text-align: center;
+    line-height: var(--leading-tight);
+  }
+  .departement-card__count {
+    font-size: var(--text-xs);
+    color: var(--color-neutral-500);
+  }
+
+  /* ====== ETHICS ====== */
+  .ethics-section {
+    padding: var(--space-12) 0;
+    background: var(--color-neutral-50);
+    border-top: 1px solid var(--color-neutral-200);
+  }
+  .ethics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--space-6);
+  }
+  .ethics-card {
+    padding: var(--space-8);
+    background: white;
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-soft);
+    transition: transform var(--transition-default), box-shadow var(--transition-default);
+  }
+  .ethics-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-medium);
+  }
+  .ethics-card h3 {
+    font-size: var(--text-xl);
+    font-weight: var(--font-semibold);
+    color: var(--color-neutral-900);
+    margin: var(--space-4) 0 var(--space-2);
+  }
+  .ethics-card p {
+    font-size: var(--text-sm);
+    color: var(--color-neutral-600);
+    line-height: var(--leading-relaxed);
+    margin-bottom: var(--space-4);
+  }
+  .ethics-link {
+    font-size: var(--text-sm);
+    font-weight: var(--font-semibold);
+    color: var(--color-brand-blue);
+    text-decoration: none;
+  }
+  .ethics-link:hover { color: var(--color-brand-orange); }
+
+  /* ====== EMPTY STATE ====== */
+  .empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-4);
+    padding: var(--space-12) var(--space-4);
+    text-align: center;
+  }
+  .empty-state h3 {
+    font-size: var(--text-xl);
+    font-weight: var(--font-semibold);
+    color: var(--color-neutral-700);
+  }
+  .empty-state p {
+    font-size: var(--text-base);
+    color: var(--color-neutral-500);
+    max-width: 400px;
+    line-height: var(--leading-relaxed);
+  }
+
+  /* ====== SKELETON ====== */
+  @keyframes shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+  }
+  .skeleton {
+    background: linear-gradient(90deg, var(--color-neutral-100) 25%, var(--color-neutral-200) 50%, var(--color-neutral-100) 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s ease-in-out infinite;
+  }
+  .skeleton--card { height: 180px; border-radius: var(--radius-xl); }
+  .skeleton--text { height: 1rem; border-radius: var(--radius-md); width: 80%; }
+
+  /* ====== ANIMATIONS ====== */
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .stats-bar .stat-item:nth-child(1) { animation: fadeInUp var(--transition-slow) ease-out both; }
+  .stats-bar .stat-item:nth-child(2) { animation: fadeInUp var(--transition-slow) ease-out 100ms both; }
+  .stats-bar .stat-item:nth-child(3) { animation: fadeInUp var(--transition-slow) ease-out 200ms both; }
+  .stats-bar .stat-item:nth-child(4) { animation: fadeInUp var(--transition-slow) ease-out 300ms both; }
+  .depts-grid > .departement-card:nth-child(1) { animation: fadeInUp var(--transition-slow) ease-out 50ms both; }
+  .depts-grid > .departement-card:nth-child(2) { animation: fadeInUp var(--transition-slow) ease-out 100ms both; }
+  .depts-grid > .departement-card:nth-child(3) { animation: fadeInUp var(--transition-slow) ease-out 150ms both; }
+  .depts-grid > .departement-card:nth-child(4) { animation: fadeInUp var(--transition-slow) ease-out 200ms both; }
+  .depts-grid > .departement-card:nth-child(5) { animation: fadeInUp var(--transition-slow) ease-out 250ms both; }
+  .depts-grid > .departement-card:nth-child(6) { animation: fadeInUp var(--transition-slow) ease-out 300ms both; }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+
+  /* Alpine.js cloak */
+  [x-cloak] { display: none !important; }
+</style>
+
+<script>
+  // ====== Search App (Alpine.js) ======
+  document.addEventListener('alpine:init', () => {
+    Alpine.data('searchApp', () => ({
+      query: '',
+      results: [],
+      highlightIndex: -1,
+      async search() {
+        if (this.query.length < 2) { this.results = []; this.highlightIndex = -1; return; }
+        const q = this.query.toLowerCase();
+        const res = [];
+
+        // Search in department names (from global dataset if available)
+        try {
+          const r = await fetch('/data/events-index.json');
+          const idx = await r.json();
+          for (const d of idx.departements || []) {
+            const label = `${d.nom || `Département ${d.departement}`} (${d.departement})`;
+            if (label.toLowerCase().includes(q)) {
+              res.push({ label: `📍 ${label} — ${d.totalEvents} événements`, url: `/departement/${d.departement}/` });
+            }
+          }
+        } catch {}
+
+        // Static suggestions for common terms
+        const staticSuggestions = [
+          { label: '🎵 Concerts', url: '/departement/' },
+          { label: '🎭 Théâtre', url: '/departement/' },
+          { label: '🖼️ Expositions', url: '/departement/' },
+          { label: '🎪 Festivals', url: '/departement/' },
+          { label: '👶 Enfants', url: '/departement/' },
+        ];
+        for (const s of staticSuggestions) {
+          if (s.label.toLowerCase().includes(q)) res.push(s);
+        }
+
+        this.results = res.slice(0, 8);
+        this.highlightIndex = -1;
+      },
+      highlightNext() {
+        if (this.results.length === 0) return;
+        this.highlightIndex = Math.min(this.highlightIndex + 1, this.results.length - 1);
+      },
+      highlightPrev() {
+        if (this.results.length === 0) return;
+        this.highlightIndex = Math.max(this.highlightIndex - 1, -1);
+      },
+      goToResult() {
+        if (this.highlightIndex >= 0 && this.results[this.highlightIndex]) {
+          window.location.href = this.results[this.highlightIndex].url;
+        } else if (this.results.length === 1) {
+          window.location.href = this.results[0].url;
+        }
+      },
+      close() { this.results = []; this.highlightIndex = -1; },
+    }));
+
+    // ====== Map App (Leaflet) ======
+    Alpine.data('mapApp', () => ({
+      init() {
+        const el = this.$el;
+        if (typeof L === 'undefined') {
+          // Charger Leaflet depuis CDN
+          const link = document.createElement('link');
+          link.rel = 'stylesheet';
+          link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+          document.head.appendChild(link);
+          const script = document.createElement('script');
+          script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+          script.onload = () => this.initMap(el);
+          document.body.appendChild(script);
+        } else {
+          this.initMap(el);
+        }
+      },
+      initMap(el) {
+        const lat = parseFloat(el.dataset.centerLat) || 46.6;
+        const lng = parseFloat(el.dataset.centerLng) || 2.5;
+        const zoom = parseInt(el.dataset.zoom) || 6;
+
+        const map = L.map(el, {
+          center: [lat, lng],
+          zoom,
+          zoomControl: true,
+          attributionControl: true,
+        });
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+          maxZoom: 18,
+        }).addTo(map);
+
+        // Charger les marqueurs depuis l'index
+        fetch('/data/events-index.json')
+          .then(r => r.json())
+          .catch(() => null)
+          .then(idx => {
+            if (!idx) return;
+            // On ne peut pas charger tous les events, on affiche les clusters par dépt
+            // En attendant : marqueurs symboliques
+            const deptCoords = {
+              // Coordonnées approximatives des préfectures
+              '75': [48.8566, 2.3522], '77': [48.8589, 2.6877], '78': [48.8667, 2.0833],
+              '91': [48.5333, 2.1667], '92': [48.8833, 2.25], '93': [48.9167, 2.45],
+              '94': [48.8167, 2.4], '95': [49.0, 2.0833], '13': [43.2965, 5.3698],
+              '69': [45.7640, 4.8357], '31': [43.6047, 1.4442], '33': [44.8378, -0.5792],
+              '44': [47.2184, -1.5536], '59': [50.6292, 3.0573], '06': [43.7102, 7.2620],
+              '34': [43.6108, 3.8767], '35': [48.1173, -1.6778], '38': [45.1885, 5.7245],
+              '67': [48.5734, 7.7521], '54': [48.6921, 6.1844],
+            };
+
+            // Marker clusters par dépt avec événements
+            for (const d of idx.departements || []) {
+              const coords = deptCoords[d.departement];
+              if (!coords) continue;
+              const marker = L.marker(coords, {
+                title: `${d.nom || `Département ${d.departement}`} — ${d.totalEvents} événements`,
+              }).addTo(map);
+              marker.bindPopup(`
+                <strong>${d.nom || `Département ${d.departement}`}</strong><br>
+                ${d.totalEvents} événement${d.totalEvents > 1 ? 's' : ''}<br>
+                <a href="/departement/${d.departement}/" style="color:#1A5FB4;font-weight:600;">Voir les événements →</a>
+              `);
+            }
+
+            if ((idx.departements || []).length > 0) {
+              // Ajuster la vue pour voir tous les markers
+              const bounds = map.getBounds();
+              try { map.fitBounds(bounds); } catch {}
+            }
+          });
+      }
+    }));
+  });
+</script>
