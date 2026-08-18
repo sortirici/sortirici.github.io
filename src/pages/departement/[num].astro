@@ -1,10 +1,10 @@
 ---
-// src/pages/departement/[num].astro — Hub département simple
-// Prêt pour le build, sans TypeScript complexe
+// src/pages/departement/[num].astro — Hub département
+// Liste événements + carte Leaflet + filtres Alpine.js + JSON-LD + maillage sémantique
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 export async function getStaticPaths() {
-  let depts = [];
+  let depts: string[] = [];
   try {
     const { readdirSync } = await import('node:fs');
     const { join } = await import('node:path');
@@ -19,10 +19,33 @@ export async function getStaticPaths() {
 }
 
 const { num } = Astro.params;
-const siteUrl = 'https://sortirici.github.io';
-const pageTitle = `Département ${num} — Sortir dans le ${num} — Événements | SortirIci`;
-const pageDesc = `Découvrez tous les événements dans le département ${num}.`;
 
+// ---- Chargement des données ----
+let events: any[] = [];
+let deptNom = `Département ${num}`;
+let deptRegion = '';
+let allSources: string[] = [];
+try {
+  const { readFileSync } = await import('node:fs');
+  const { join } = await import('node:path');
+  const raw = readFileSync(join(process.cwd(), 'public', 'data', `events-${num}.json`), 'utf-8');
+  events = JSON.parse(raw);
+  if (events.length > 0) {
+    deptNom = events[0].lieuDepartement || deptNom;
+    deptRegion = events[0].lieuRegion || '';
+  }
+  const rawIdx = readFileSync(join(process.cwd(), 'public', 'data', 'events-index.json'), 'utf-8');
+  allSources = JSON.parse(rawIdx).sources || [];
+} catch {}
+
+const categories = [...new Set(events.map((e: any) => e.categorie).filter(Boolean))] as string[];
+const villes = [...new Set(events.map((e: any) => e.lieuCommune).filter(Boolean))] as string[];
+
+const siteUrl = 'https://sortirici.github.io';
+const pageTitle = `${deptNom} (${num}) — Sortir dans le ${deptNom} — Événements | SortirIci`;
+const pageDesc = `Découvrez tous les événements dans le ${deptNom}${deptRegion ? ` (${deptRegion})` : ''} : concerts, festivals, expositions, théâtre, ateliers.`;
+
+// ---- JSON-LD ----
 const breadcrumbLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -31,41 +54,330 @@ const breadcrumbLd = {
     { "@type": "ListItem", "position": 2, "name": `Département ${num}`, "item": `${siteUrl}/departement/${num}/` },
   ],
 };
+const placeLd = {
+  "@context": "https://schema.org",
+  "@type": "AdministrativeArea",
+  "name": deptNom,
+  "identifier": num,
+  "containedInPlace": deptRegion ? { "@type": "AdministrativeArea", "name": deptRegion } : undefined,
+};
+const itemListLd = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": `Événements dans le ${deptNom}`,
+  "numberOfItems": events.length,
+  "itemListElement": events.slice(0, 20).map((e: any, i: number) => ({
+    "@type": "ListItem", "position": i + 1,
+    "url": `${siteUrl}/evenement/${e.slug || e.uid}/`,
+  })),
+};
 ---
 
-<BaseLayout
-  title={pageTitle}
-  description={pageDesc}
-  canonical={`/departement/${num}/`}
-  jsonLd={[breadcrumbLd]}
->
-  <div class="container" style="padding: 3rem 1rem;">
-    <nav aria-label="Fil d'Ariane" style="margin-bottom: 1rem; font-size: 0.875rem; color: #6A6A8A;">
-      <a href="/" style="color: #6A6A8A;">Accueil</a>
-      <span style="margin: 0 0.5rem;">›</span>
-      <span style="color: #1A1A2E; font-weight: 600;">Département {num}</span>
-    </nav>
-
-    <h1 style="font-size: 2.25rem; font-weight: 700; margin-bottom: 0.5rem; color: #1A1A2E;">
-      Département {num}
-    </h1>
-    <p style="color: #6A6A8A; margin-bottom: 2rem; font-size: 1.125rem;">
-      Événements, sorties, concerts, festivals dans le département {num}.
-    </p>
-
-    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 4rem 1rem; text-align: center; background: #F0F0F5; border-radius: 0.75rem;">
-      <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#CACADD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 1rem;">
-        <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
-      </svg>
-      <h2 style="font-size: 1.25rem; font-weight: 600; color: #1A1A2E; margin-bottom: 0.5rem;">
-        Chargement des événements
-      </h2>
-      <p style="color: #6A6A8A; max-width: 400px; line-height: 1.5;">
-        Les données seront disponibles après le prochain cycle de mise à jour des sources open data.
-      </p>
-      <a href="/" style="margin-top: 1rem; padding: 0.75rem 2rem; background: #1A5FB4; color: white; border-radius: 0.75rem; text-decoration: none; font-weight: 600;">
-        Retour à l'accueil
-      </a>
+<BaseLayout title={pageTitle} description={pageDesc} canonical={`/departement/${num}/`} jsonLd={[breadcrumbLd, placeLd, itemListLd]}>
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb" aria-label="Fil d'Ariane">
+    <div class="container">
+      <ol class="breadcrumb__list">
+        <li class="breadcrumb__item"><a href="/" class="breadcrumb__link">Accueil</a><svg class="breadcrumb__sep" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></li>
+        <li class="breadcrumb__item"><a href="/departement/" class="breadcrumb__link">Départements</a><svg class="breadcrumb__sep" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></li>
+        <li class="breadcrumb__item breadcrumb__item--current" aria-current="page"><span>{deptNom} ({num})</span></li>
+      </ol>
     </div>
-  </div>
+  </nav>
+
+  <!-- En-tête -->
+  <section class="dept-header" aria-label="Présentation du département">
+    <div class="container">
+      <div class="dept-header__content">
+        <div class="dept-header__info">
+          <div class="dept-header__numero">{num}</div>
+          <div>
+            <h1 class="dept-header__title">Le {deptNom}</h1>
+            {deptRegion && <p class="dept-header__region">{deptRegion}</p>}
+            <p class="dept-header__stats"><strong>{events.length}</strong> événement{events.length !== 1 ? 's' : ''} · <a href="/sources/" class="dept-header__link">{allSources.length} sources</a> · <a href="/" class="dept-header__link">← Accueil</a></p>
+          </div>
+        </div>
+        <div class="dept-header__cats">
+          {categories.slice(0, 8).map(cat => (
+            <a href={`/departement/${num}/${cat}/`} class="category-chip">{cat.charAt(0).toUpperCase() + cat.slice(1)}</a>
+          ))}
+          {categories.length > 8 && <span class="category-chip category-chip--more">+{categories.length - 8}</span>}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filtres -->
+  <section class="filters" aria-label="Filtrer les événements">
+    <div class="container">
+      <div class="filter-panel" x-data="filterPanel()">
+        <div class="filter-panel__controls">
+          <div class="filter-panel__search">
+            <input type="search" class="filter-panel__input" placeholder="Rechercher…" aria-label="Rechercher" x-model="searchQuery" @input.debounce.300ms="applyFilters()" />
+          </div>
+          <fieldset class="filter-panel__group">
+            <legend class="filter-panel__legend">Catégorie</legend>
+            <div class="filter-panel__chips">
+              <button class="filter-chip" :class="{ 'filter-chip--active': selectedCat === 'all' }" @click="selectedCat = 'all'; applyFilters()">Toutes</button>
+              {categories.map(cat => (
+                <button class="filter-chip" :class="{ 'filter-chip--active': selectedCat === '{cat}' }" @click="selectedCat = '{cat}'; applyFilters()">{cat.charAt(0).toUpperCase() + cat.slice(1)}</button>
+              ))}
+            </div>
+          </fieldset>
+          <fieldset class="filter-panel__group">
+            <legend class="filter-panel__legend">Période</legend>
+            <div class="filter-panel__chips">
+              <button class="filter-chip" :class="{ 'filter-chip--active filter-chip--date': selectedDate === 'today' }" @click="selectedDate = 'today'; applyFilters()">Aujourd'hui</button>
+              <button class="filter-chip" :class="{ 'filter-chip--active filter-chip--date': selectedDate === 'week' }" @click="selectedDate = 'week'; applyFilters()">Cette semaine</button>
+              <button class="filter-chip" :class="{ 'filter-chip--active filter-chip--date': selectedDate === 'month' }" @click="selectedDate = 'month'; applyFilters()">Ce mois</button>
+              <button class="filter-chip" :class="{ 'filter-chip--active filter-chip--date': selectedDate === 'all' }" @click="selectedDate = 'all'; applyFilters()">Toutes</button>
+            </div>
+          </fieldset>
+          <div class="filter-panel__toggle">
+            <label class="filter-toggle">
+              <div class="filter-toggle__switch" :class="{ 'filter-toggle__switch--active': freeOnly }" @click="freeOnly = !freeOnly; applyFilters()" role="switch" :aria-checked="freeOnly" tabindex="0" @keydown.enter.prevent="freeOnly = !freeOnly; applyFilters()" @keydown.space.prevent="freeOnly = !freeOnly; applyFilters()">
+                <span class="filter-toggle__knob" :class="{ 'filter-toggle__knob--active': freeOnly }"></span>
+              </div>
+              <span class="filter-toggle__label">Gratuit</span>
+            </label>
+          </div>
+          <div class="filter-panel__results" role="status" aria-live="polite">
+            <span x-text="filteredEvents.length + ' événement' + (filteredEvents.length > 1 ? 's' : '')"></span>
+            <button class="filter-panel__reset" @click="resetFilters()" x-show="hasActiveFilters" x-cloak>Réinitialiser</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Carte + Liste -->
+  <section class="content" aria-label="Événements">
+    <div class="container">
+      <div class="content-layout">
+        <div class="content-layout__map">
+          <h2 class="map-title">Carte</h2>
+          <div id="dept-map" class="map-container" aria-label="Carte des événements" x-data="mapApp()" data-map-type="department" data-events='{JSON.stringify(events.slice(0, 100).map((e: any) => ({ lat: e.lieuLatitude, lng: e.lieuLongitude, title: e.titre, slug: e.slug || e.uid })))}'>
+            <noscript><div class="map-fallback">Carte interactive nécessite JS. <a href="#events-list">Voir la liste</a>.</div></noscript>
+          </div>
+        </div>
+        <div class="content-layout__list" id="events-list">
+          <div class="events-list" x-data="{
+            events: {JSON.stringify(events.map((e: any) => ({ uid: e.uid, titre: e.titre, slug: e.slug, categorie: e.categorie, dateDebut: e.dateDebut, gratuit: e.gratuit, lieuCommune: e.lieuCommune, lieuNom: e.lieuNom, descriptionCourte: (e.descriptionCourte || '').slice(0, 150) })))},
+            filteredEvents: [], searchQuery: '', selectedCat: 'all', selectedDate: 'all', freeOnly: false, currentPage: 1, perPage: 20,
+            init() { this.filteredEvents = this.events; },
+            applyFilters() {
+              let r = this.events;
+              if (this.searchQuery.length >= 2) { const q = this.searchQuery.toLowerCase(); r = r.filter(e => (e.titre||'').toLowerCase().includes(q) || (e.lieuCommune||'').toLowerCase().includes(q)); }
+              if (this.selectedCat !== 'all') r = r.filter(e => e.categorie === this.selectedCat);
+              if (this.freeOnly) r = r.filter(e => e.gratuit === true);
+              const now = new Date();
+              if (this.selectedDate === 'today') r = r.filter(e => new Date(e.dateDebut).toDateString() === now.toDateString());
+              else if (this.selectedDate === 'week') { const w = new Date(now); w.setDate(now.getDate()+7); r = r.filter(e => { const d = new Date(e.dateDebut); return d >= now && d <= w; }); }
+              else if (this.selectedDate === 'month') { const m = new Date(now); m.setMonth(now.getMonth()+1); r = r.filter(e => { const d = new Date(e.dateDebut); return d >= now && d <= m; }); }
+              this.filteredEvents = r; this.currentPage = 1;
+            },
+            resetFilters() { this.searchQuery = ''; this.selectedCat = 'all'; this.selectedDate = 'all'; this.freeOnly = false; this.currentPage = 1; this.applyFilters(); },
+            get hasActiveFilters() { return this.searchQuery.length>=2 || this.selectedCat!=='all' || this.selectedDate!=='all' || this.freeOnly; },
+            get paginatedEvents() { const s=(this.currentPage-1)*this.perPage; return this.filteredEvents.slice(s, s+this.perPage); },
+            get totalPages() { return Math.ceil(this.filteredEvents.length/this.perPage); },
+            goToPage(p) { if(p>=1&&p<=this.totalPages){this.currentPage=p;window.scrollTo({top:document.getElementById('events-list')?.offsetTop-100,behavior:'smooth'});} },
+            paginationNumbers() { const t=this.totalPages,c=this.currentPage,p=[];let s=Math.max(1,c-2),e=Math.min(t,c+2);if(s>1){p.push(1);if(s>2)p.push('...');}for(let i=s;i<=e;i++)p.push(i);if(e<t){if(e<t-1)p.push('...');p.push(t);}return p;},
+          }">
+            <template x-if="filteredEvents.length === 0">
+              <div class="empty-state" role="status">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--color-neutral-300)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                <h3>Aucun résultat</h3>
+                <p>Essayez de modifier vos filtres.</p>
+                <button class="btn btn--outline" @click="resetFilters()">Réinitialiser</button>
+              </div>
+            </template>
+            <template x-if="filteredEvents.length > 0">
+              <div>
+                <div class="events-list__items">
+                  <template x-for="e in paginatedEvents" :key="e.uid">
+                    <article class="event-card" itemscope itemtype="https://schema.org/Event">
+                      <div class="event-card__body">
+                        <div class="event-card__meta">
+                          <span class="category-chip" x-text="e.categorie"></span>
+                          <span class="badge badge--gratuit" x-show="e.gratuit">Gratuit</span>
+                        </div>
+                        <h3 class="event-card__title"><a :href="`/evenement/${e.slug}/`" class="event-card__link" x-text="e.titre"></a></h3>
+                        <div class="event-card__info"><span class="event-card__date" x-text="formatDate(e.dateDebut)"></span><span class="event-card__sep" aria-hidden="true">·</span><span class="event-card__place" x-text="e.lieuCommune"></span></div>
+                        <p class="event-card__desc" x-show="e.descriptionCourte" x-text="e.descriptionCourte"></p>
+                        <a :href="`/evenement/${e.slug}/`" class="event-card__cta">Détails →</a>
+                      </div>
+                    </article>
+                  </template>
+                </div>
+                <nav class="pagination" aria-label="Pagination" x-show="totalPages > 1">
+                  <button class="pagination__btn" :disabled="currentPage===1" @click="goToPage(currentPage-1)" aria-label="Précédente"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg>Préc.</button>
+                  <div class="pagination__pages"><template x-for="p in paginationNumbers()" :key="p"><button class="pagination__page" :class="{'pagination__page--active':p===currentPage}" @click="goToPage(p)" :aria-label="`Page ${p}`" :aria-current="p===currentPage?'page':undefined" x-text="p"></button></template></div>
+                  <button class="pagination__btn" :disabled="currentPage===totalPages" @click="goToPage(currentPage+1)" aria-label="Suivante">Suiv.<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg></button>
+                </nav>
+              </div>
+            </template>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Maillage -->
+  <section class="cross-links" aria-label="Explorer">
+    <div class="container">
+      <div class="cross-links__grid">
+        <div class="cross-links__block">
+          <h2 class="cross-links__title">Villes</h2>
+          <nav class="cross-links__list" aria-label="Villes du département">
+            {villes.slice(0, 12).map(v => <a href={`/departement/${num}/`} class="cross-links__item">{v}</a>)}
+            {villes.length > 12 && <span class="cross-links__more">et {villes.length - 12} autres</span>}
+          </nav>
+        </div>
+        <div class="cross-links__block">
+          <h2 class="cross-links__title">Catégories</h2>
+          <nav class="cross-links__list" aria-label="Catégories">
+            {categories.map(cat => <a href={`/departement/${num}/${cat}/`} class="cross-links__item cross-links__item--cat">{cat.charAt(0).toUpperCase() + cat.slice(1)}</a>)}
+          </nav>
+        </div>
+        <div class="cross-links__block">
+          <h2 class="cross-links__title">Liens</h2>
+          <nav class="cross-links__list" aria-label="Liens utiles">
+            <a href="/" class="cross-links__item">← Accueil</a>
+            <a href="/departement/" class="cross-links__item">Tous les départements</a>
+            <a href="/sources/" class="cross-links__item">Sources</a>
+            <a href="/mentions/" class="cross-links__item">Mentions</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
 </BaseLayout>
+
+<style is:global>
+  .breadcrumb { background: white; border-bottom: 1px solid var(--color-neutral-200); }
+  .breadcrumb__list { display: flex; align-items: center; gap: var(--space-2); list-style: none; padding: var(--space-3) 0; font-size: var(--text-sm); flex-wrap: wrap; }
+  .breadcrumb__item { display: flex; align-items: center; gap: var(--space-1); }
+  .breadcrumb__link { color: var(--color-neutral-500); text-decoration: none; }
+  .breadcrumb__link:hover { color: var(--color-brand-blue); }
+  .breadcrumb__item--current span { color: var(--color-neutral-900); font-weight: var(--font-semibold); }
+  .breadcrumb__sep { color: var(--color-neutral-300); flex-shrink: 0; }
+
+  .dept-header { background: linear-gradient(135deg,var(--color-neutral-50),#E8F0FA,var(--color-neutral-50)); padding: var(--space-8) 0; }
+  .dept-header__content { display: flex; flex-direction: column; gap: var(--space-4); }
+  .dept-header__info { display: flex; align-items: flex-start; gap: var(--space-4); }
+  .dept-header__numero { font-size: 3.5rem; font-weight: var(--font-bold); color: var(--color-brand-blue); line-height: 0.9; flex-shrink: 0; min-width: 80px; text-align: center; }
+  .dept-header__title { font-size: var(--text-3xl); font-weight: var(--font-bold); }
+  .dept-header__region { font-size: var(--text-base); color: var(--color-neutral-500); margin-top: var(--space-1); }
+  .dept-header__stats { font-size: var(--text-sm); color: var(--color-neutral-500); margin-top: var(--space-2); }
+  .dept-header__link { color: var(--color-brand-blue); font-weight: var(--font-medium); }
+  .dept-header__cats { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+  .category-chip { display: inline-flex; align-items: center; padding: var(--space-1) var(--space-3); border-radius: var(--radius-full); font-size: var(--text-xs); font-weight: var(--font-medium); background: #E8F0FA; color: var(--color-brand-blue); text-decoration: none; transition: all var(--transition-fast); }
+  .category-chip:hover { background: var(--color-brand-blue); color: white; }
+  .category-chip--more { background: var(--color-neutral-200); color: var(--color-neutral-500); cursor: default; }
+
+  .filters { padding: var(--space-4) 0; background: white; border-bottom: 1px solid var(--color-neutral-200); position: sticky; top: 0; z-index: 50; }
+  .filter-panel__controls { display: flex; flex-direction: column; gap: var(--space-3); }
+  .filter-panel__search { max-width: 400px; }
+  .filter-panel__input { width: 100%; padding: var(--space-2) var(--space-4); border-radius: var(--radius-lg); border: 1.5px solid var(--color-neutral-200); font-size: var(--text-sm); font-family: var(--font-sans); }
+  .filter-panel__input:focus { border-color: var(--color-brand-blue); outline: none; box-shadow: 0 0 0 3px rgba(26,95,180,0.15); }
+  .filter-panel__group { border: none; padding: 0; margin: 0; }
+  .filter-panel__legend { font-size: var(--text-xs); font-weight: var(--font-semibold); text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-400); margin-bottom: var(--space-2); }
+  .filter-panel__chips { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+  .filter-chip { padding: var(--space-1) var(--space-3); border-radius: var(--radius-full); border: 1.5px solid var(--color-neutral-200); font-size: var(--text-sm); cursor: pointer; transition: all var(--transition-fast); background: white; font-family: var(--font-sans); color: var(--color-neutral-700); }
+  .filter-chip:hover { border-color: var(--color-brand-blue); color: var(--color-brand-blue); }
+  .filter-chip--active { background: var(--color-brand-blue); color: white; border-color: var(--color-brand-blue); }
+  .filter-chip--date.filter-chip--active { background: var(--color-brand-orange); border-color: var(--color-brand-orange); }
+  .filter-panel__toggle { display: flex; align-items: center; gap: var(--space-4); flex-wrap: wrap; }
+  .filter-toggle { display: flex; align-items: center; gap: var(--space-2); cursor: pointer; }
+  .filter-toggle__switch { width: 40px; height: 22px; border-radius: var(--radius-full); background: var(--color-neutral-200); transition: background var(--transition-fast); position: relative; flex-shrink: 0; }
+  .filter-toggle__switch--active { background: var(--color-brand-green); }
+  .filter-toggle__knob { width: 18px; height: 18px; border-radius: 50%; background: white; position: absolute; top: 2px; left: 2px; transition: transform var(--transition-fast); box-shadow: 0 1px 2px rgba(0,0,0,0.1); }
+  .filter-toggle__knob--active { transform: translateX(18px); }
+  .filter-toggle__label { font-size: var(--text-sm); color: var(--color-neutral-700); }
+  .filter-panel__reset { font-size: var(--text-sm); color: var(--color-brand-blue); background: none; border: none; cursor: pointer; font-weight: var(--font-medium); font-family: var(--font-sans); text-decoration: underline; }
+  .filter-panel__results { font-size: var(--text-sm); color: var(--color-neutral-500); padding: var(--space-2) 0; display: flex; align-items: center; gap: var(--space-3); }
+
+  .content { padding: var(--space-6) 0; }
+  .content-layout { display: grid; grid-template-columns: 1fr 1.8fr; gap: var(--space-6); align-items: start; }
+  @media (max-width: 768px) { .content-layout { grid-template-columns: 1fr; } .content-layout__map { order: -1; } }
+  .map-title { font-size: var(--text-lg); font-weight: var(--font-semibold); margin-bottom: var(--space-3); }
+  .map-container { width: 100%; height: 520px; border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow-medium); background: var(--color-neutral-100); position: sticky; top: 80px; }
+  .map-fallback { display: flex; align-items: center; justify-content: center; height: 100%; padding: var(--space-8); text-align: center; background: var(--color-neutral-100); color: var(--color-neutral-500); }
+
+  .events-list__items { display: flex; flex-direction: column; gap: var(--space-4); }
+  .event-card { background: white; border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow-soft); transition: all var(--transition-default); }
+  .event-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-medium); }
+  .event-card__body { padding: var(--space-4); display: flex; flex-direction: column; gap: var(--space-2); }
+  .event-card__meta { display: flex; flex-wrap: wrap; gap: var(--space-2); align-items: center; }
+  .badge--gratuit { background: var(--color-brand-green); color: white; font-size: var(--text-xs); font-weight: var(--font-semibold); padding: 2px var(--space-2); border-radius: var(--radius-full); }
+  .event-card__title { font-size: var(--text-lg); font-weight: var(--font-semibold); }
+  .event-card__link { color: inherit; text-decoration: none; }
+  .event-card__link:hover { color: var(--color-brand-blue); }
+  .event-card__info { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2); font-size: var(--text-sm); color: var(--color-neutral-500); }
+  .event-card__sep { color: var(--color-neutral-300); }
+  .event-card__desc { font-size: var(--text-sm); color: var(--color-neutral-600); line-height: var(--leading-relaxed); }
+  .event-card__cta { font-size: var(--text-sm); font-weight: var(--font-semibold); color: var(--color-brand-blue); text-decoration: none; }
+  .event-card__cta:hover { color: var(--color-brand-orange); }
+
+  .pagination { display: flex; justify-content: center; align-items: center; gap: var(--space-2); padding: var(--space-6) 0; flex-wrap: wrap; }
+  .pagination__btn { display: inline-flex; align-items: center; gap: var(--space-1); padding: var(--space-2) var(--space-3); border-radius: var(--radius-lg); border: 1.5px solid var(--color-neutral-200); background: white; font-size: var(--text-sm); font-weight: var(--font-medium); color: var(--color-neutral-700); cursor: pointer; font-family: var(--font-sans); }
+  .pagination__btn:hover:not(:disabled) { border-color: var(--color-brand-blue); color: var(--color-brand-blue); }
+  .pagination__btn:disabled { opacity: 0.4; cursor: not-allowed; }
+  .pagination__pages { display: flex; gap: var(--space-1); flex-wrap: wrap; }
+  .pagination__page { display: inline-flex; align-items: center; justify-content: center; min-width: 40px; height: 40px; border-radius: var(--radius-lg); font-size: var(--text-sm); font-weight: var(--font-medium); border: 1.5px solid var(--color-neutral-200); background: white; color: var(--color-neutral-700); cursor: pointer; font-family: var(--font-sans); }
+  .pagination__page:hover { border-color: var(--color-brand-blue); color: var(--color-brand-blue); }
+  .pagination__page--active { background: var(--color-brand-blue); color: white; border-color: var(--color-brand-blue); }
+
+  .cross-links { padding: var(--space-10) 0; background: var(--color-neutral-50); border-top: 1px solid var(--color-neutral-200); }
+  .cross-links__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: var(--space-8); }
+  .cross-links__title { font-size: var(--text-sm); font-weight: var(--font-semibold); text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-400); margin-bottom: var(--space-3); }
+  .cross-links__list { display: flex; flex-direction: column; gap: var(--space-2); }
+  .cross-links__item { font-size: var(--text-sm); color: var(--color-neutral-700); text-decoration: none; }
+  .cross-links__item:hover { color: var(--color-brand-blue); }
+  .cross-links__item--cat { font-weight: var(--font-medium); }
+  .cross-links__more { font-size: var(--text-sm); color: var(--color-neutral-400); font-style: italic; }
+
+  .empty-state { display: flex; flex-direction: column; align-items: center; gap: var(--space-4); padding: var(--space-12) var(--space-4); text-align: center; }
+  .empty-state h3 { font-size: var(--text-xl); font-weight: var(--font-semibold); color: var(--color-neutral-700); }
+  .empty-state p { font-size: var(--text-base); color: var(--color-neutral-500); max-width: 400px; }
+  .btn { display: inline-flex; align-items: center; gap: var(--space-2); padding: var(--space-2) var(--space-5); border-radius: var(--radius-lg); font-size: var(--text-base); font-weight: var(--font-medium); cursor: pointer; font-family: var(--font-sans); }
+  .btn--outline { background: transparent; color: var(--color-brand-blue); border: 1.5px solid var(--color-brand-blue); }
+  .btn--outline:hover { background: var(--color-neutral-100); }
+  [x-cloak] { display: none !important; }
+  @media (prefers-reduced-motion: reduce) { *,*::before,*::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; } }
+</style>
+
+<script>
+document.addEventListener('alpine:init', () => {
+  Alpine.data('mapApp', () => ({
+    init() {
+      const el = this.$el;
+      const events = JSON.parse(el.dataset.events || '[]');
+      if (events.length === 0) return;
+      const loadMap = () => {
+        if (typeof L === 'undefined') {
+          const link = document.createElement('link'); link.rel = 'stylesheet'; link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css'; document.head.appendChild(link);
+          const s = document.createElement('script'); s.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js'; s.onload = () => initMap(); document.body.appendChild(s);
+        } else { initMap(); }
+      };
+      const initMap = () => {
+        const lat = events.reduce((s, e) => s + parseFloat(e.lat||0), 0) / events.length;
+        const lng = events.reduce((s, e) => s + parseFloat(e.lng||0), 0) / events.length;
+        const map = L.map(el, { center: [lat||46.6, lng||2.5], zoom: 10 });
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; OpenStreetMap', maxZoom: 18 }).addTo(map);
+        const markers = [];
+        for (const e of events) {
+          if (!e.lat || !e.lng) continue;
+          const m = L.marker([e.lat, e.lng], { title: e.title }).addTo(map);
+          m.bindPopup(`<strong>${e.title}</strong><br><a href="/evenement/${e.slug}/">Détails →</a>`);
+          markers.push(m);
+        }
+        if (markers.length > 0) { try { map.fitBounds(L.featureGroup(markers).getBounds().pad(0.1)); } catch {} }
+      };
+      loadMap();
+    },
+  }));
+  Alpine.data('filterPanel', () => ({ searchQuery: '', selectedCat: 'all', selectedDate: 'all', freeOnly: false, applyFilters() {}, resetFilters() {}, get hasActiveFilters() { return false; } }));
+});
+function formatDate(iso) { if (!iso) return ''; return new Date(iso).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }); }
+</script>
