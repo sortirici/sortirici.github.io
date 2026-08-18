@@ -110,40 +110,40 @@ const itemListLd = {
   <!-- Filtres -->
   <section class="filters" aria-label="Filtrer les événements">
     <div class="container">
-      <div class="filter-panel" x-data="filterPanel()">
+      <div class="filter-panel" x-data>
         <div class="filter-panel__controls">
           <div class="filter-panel__search">
-            <input type="search" class="filter-panel__input" placeholder="Rechercher…" aria-label="Rechercher" x-model="searchQuery" @input.debounce.300ms="applyFilters()" />
+            <input type="search" class="filter-panel__input" placeholder="Rechercher…" aria-label="Rechercher" x-model="$store.filters.searchQuery" />
           </div>
           <fieldset class="filter-panel__group">
             <legend class="filter-panel__legend">Catégorie</legend>
             <div class="filter-panel__chips">
-              <button class="filter-chip" :class="{ 'filter-chip--active': selectedCat === 'all' }" @click="selectedCat = 'all'; applyFilters()">Toutes</button>
+              <button class="filter-chip" :class="{ 'filter-chip--active': $store.filters.selectedCat === 'all' }" @click="$store.filters.selectedCat = 'all'">Toutes</button>
               {categories.map(cat => (
-                <button class="filter-chip" :class="{ 'filter-chip--active': selectedCat === '{cat}' }" @click="selectedCat = '{cat}'; applyFilters()">{cat.charAt(0).toUpperCase() + cat.slice(1)}</button>
+                <button class="filter-chip" :class="{ 'filter-chip--active': $store.filters.selectedCat === '{cat}' }" @click="$store.filters.selectedCat = '{cat}'">{cat.charAt(0).toUpperCase() + cat.slice(1)}</button>
               ))}
             </div>
           </fieldset>
           <fieldset class="filter-panel__group">
             <legend class="filter-panel__legend">Période</legend>
             <div class="filter-panel__chips">
-              <button class="filter-chip" :class="{ 'filter-chip--active filter-chip--date': selectedDate === 'today' }" @click="selectedDate = 'today'; applyFilters()">Aujourd'hui</button>
-              <button class="filter-chip" :class="{ 'filter-chip--active filter-chip--date': selectedDate === 'week' }" @click="selectedDate = 'week'; applyFilters()">Cette semaine</button>
-              <button class="filter-chip" :class="{ 'filter-chip--active filter-chip--date': selectedDate === 'month' }" @click="selectedDate = 'month'; applyFilters()">Ce mois</button>
-              <button class="filter-chip" :class="{ 'filter-chip--active filter-chip--date': selectedDate === 'all' }" @click="selectedDate = 'all'; applyFilters()">Toutes</button>
+              <button class="filter-chip" :class="{ 'filter-chip--active filter-chip--date': $store.filters.selectedDate === 'today' }" @click="$store.filters.selectedDate = 'today'">Aujourd'hui</button>
+              <button class="filter-chip" :class="{ 'filter-chip--active filter-chip--date': $store.filters.selectedDate === 'week' }" @click="$store.filters.selectedDate = 'week'">Cette semaine</button>
+              <button class="filter-chip" :class="{ 'filter-chip--active filter-chip--date': $store.filters.selectedDate === 'month' }" @click="$store.filters.selectedDate = 'month'">Ce mois</button>
+              <button class="filter-chip" :class="{ 'filter-chip--active filter-chip--date': $store.filters.selectedDate === 'all' }" @click="$store.filters.selectedDate = 'all'">Toutes</button>
             </div>
           </fieldset>
           <div class="filter-panel__toggle">
             <label class="filter-toggle">
-              <div class="filter-toggle__switch" :class="{ 'filter-toggle__switch--active': freeOnly }" @click="freeOnly = !freeOnly; applyFilters()" role="switch" :aria-checked="freeOnly" tabindex="0" @keydown.enter.prevent="freeOnly = !freeOnly; applyFilters()" @keydown.space.prevent="freeOnly = !freeOnly; applyFilters()">
-                <span class="filter-toggle__knob" :class="{ 'filter-toggle__knob--active': freeOnly }"></span>
+              <div class="filter-toggle__switch" :class="{ 'filter-toggle__switch--active': $store.filters.freeOnly }" @click="$store.filters.freeOnly = !$store.filters.freeOnly" role="switch" :aria-checked="$store.filters.freeOnly" tabindex="0" @keydown.enter.prevent="$store.filters.freeOnly = !$store.filters.freeOnly" @keydown.space.prevent="$store.filters.freeOnly = !$store.filters.freeOnly">
+                <span class="filter-toggle__knob" :class="{ 'filter-toggle__knob--active': $store.filters.freeOnly }"></span>
               </div>
               <span class="filter-toggle__label">Gratuit</span>
             </label>
           </div>
           <div class="filter-panel__results" role="status" aria-live="polite">
-            <span x-text="filteredEvents.length + ' événement' + (filteredEvents.length > 1 ? 's' : '')"></span>
-            <button class="filter-panel__reset" @click="resetFilters()" x-show="hasActiveFilters" x-cloak>Réinitialiser</button>
+            <span x-text="$store.filters.filteredCount + ' événement' + ($store.filters.filteredCount > 1 ? 's' : '')"></span>
+            <button class="filter-panel__reset" @click="resetAllFilters()" x-show="$store.filters.hasFilterActive" x-cloak>Réinitialiser</button>
           </div>
         </div>
       </div>
@@ -156,28 +156,44 @@ const itemListLd = {
       <div class="content-layout">
         <div class="content-layout__map">
           <h2 class="map-title">Carte</h2>
-          <div id="dept-map" class="map-container" aria-label="Carte des événements" x-data="mapApp()" data-map-type="department" data-events='{JSON.stringify(events.filter(e => e.lieuLatitude && e.lieuLongitude).slice(0, 100).map(e => ({ lat: e.lieuLatitude, lng: e.lieuLongitude, title: e.titre, slug: e.slug || e.uid })))}'>
+          <div id="dept-map" class="map-container" aria-label="Carte des événements" x-data="mapApp()" data-map-type="department" data-events={JSON.stringify(events.filter(e => e.lieuLatitude && e.lieuLongitude).slice(0, 100).map(e => ({ lat: parseFloat(e.lieuLatitude), lng: parseFloat(e.lieuLongitude), title: e.titre, slug: e.slug || e.uid })))}>
             <noscript><div class="map-fallback">Carte interactive nécessite JS. <a href="#events-list">Voir la liste</a>.</div></noscript>
           </div>
         </div>
         <div class="content-layout__list" id="events-list">
           <div class="events-list" x-data="{
             events: {JSON.stringify(events.map((e: any) => ({ uid: e.uid, titre: e.titre, slug: e.slug, categorie: e.categorie, dateDebut: e.dateDebut, gratuit: e.gratuit, lieuCommune: e.lieuCommune, lieuNom: e.lieuNom, descriptionCourte: (e.descriptionCourte || '').slice(0, 150) })))},
-            filteredEvents: [], searchQuery: '', selectedCat: 'all', selectedDate: 'all', freeOnly: false, currentPage: 1, perPage: 20,
-            init() { this.filteredEvents = this.events; },
-            applyFilters() {
-              let r = this.events;
-              if (this.searchQuery.length >= 2) { const q = this.searchQuery.toLowerCase(); r = r.filter(e => (e.titre||'').toLowerCase().includes(q) || (e.lieuCommune||'').toLowerCase().includes(q)); }
-              if (this.selectedCat !== 'all') r = r.filter(e => e.categorie === this.selectedCat);
-              if (this.freeOnly) r = r.filter(e => e.gratuit === true);
-              const now = new Date();
-              if (this.selectedDate === 'today') r = r.filter(e => new Date(e.dateDebut).toDateString() === now.toDateString());
-              else if (this.selectedDate === 'week') { const w = new Date(now); w.setDate(now.getDate()+7); r = r.filter(e => { const d = new Date(e.dateDebut); return d >= now && d <= w; }); }
-              else if (this.selectedDate === 'month') { const m = new Date(now); m.setMonth(now.getMonth()+1); r = r.filter(e => { const d = new Date(e.dateDebut); return d >= now && d <= m; }); }
-              this.filteredEvents = r; this.currentPage = 1;
+            filteredEvents: [], currentPage: 1, perPage: 20,
+            init() {
+              this.filteredEvents = this.events;
+              // Watch store changes
+              this.$watch('$store.filters', () => this.applyFilters(), { deep: true });
             },
-            resetFilters() { this.searchQuery = ''; this.selectedCat = 'all'; this.selectedDate = 'all'; this.freeOnly = false; this.currentPage = 1; this.applyFilters(); },
-            get hasActiveFilters() { return this.searchQuery.length>=2 || this.selectedCat!=='all' || this.selectedDate!=='all' || this.freeOnly; },
+            applyFilters() {
+              const f = this.$store.filters;
+              let r = this.events;
+              if (f.searchQuery.length >= 2) { const q = f.searchQuery.toLowerCase(); r = r.filter(e => (e.titre||'').toLowerCase().includes(q) || (e.lieuCommune||'').toLowerCase().includes(q)); }
+              if (f.selectedCat !== 'all') r = r.filter(e => e.categorie === f.selectedCat);
+              if (f.freeOnly) r = r.filter(e => e.gratuit === true);
+              const now = new Date();
+              if (f.selectedDate === 'today') r = r.filter(e => new Date(e.dateDebut).toDateString() === now.toDateString());
+              else if (f.selectedDate === 'week') { const w = new Date(now); w.setDate(now.getDate()+7); r = r.filter(e => { const d = new Date(e.dateDebut); return d >= now && d <= w; }); }
+              else if (f.selectedDate === 'month') { const m = new Date(now); m.setMonth(now.getMonth()+1); r = r.filter(e => { const d = new Date(e.dateDebut); return d >= now && d <= m; }); }
+              this.filteredEvents = r; this.currentPage = 1;
+              // Sync to store for filter panel display
+              this.$store.filters.filteredCount = this.filteredEvents.length;
+              this.$store.filters.hasFilterActive = f.searchQuery.length>=2 || f.selectedCat!=='all' || f.selectedDate!=='all' || f.freeOnly;
+            },
+            get filteredCount() { return this.filteredEvents.length; },
+            get hasFilterActive() {
+              const f = this.$store.filters;
+              return f.searchQuery.length>=2 || f.selectedCat!=='all' || f.selectedDate!=='all' || f.freeOnly;
+            },
+            resetAllFilters() {
+              const f = this.$store.filters;
+              f.searchQuery = ''; f.selectedCat = 'all'; f.selectedDate = 'all'; f.freeOnly = false;
+              this.currentPage = 1; this.applyFilters();
+            },
             get paginatedEvents() { const s=(this.currentPage-1)*this.perPage; return this.filteredEvents.slice(s, s+this.perPage); },
             get totalPages() { return Math.ceil(this.filteredEvents.length/this.perPage); },
             goToPage(p) { if(p>=1&&p<=this.totalPages){this.currentPage=p;window.scrollTo({top:document.getElementById('events-list')?.offsetTop-100,behavior:'smooth'});} },
@@ -275,7 +291,7 @@ const itemListLd = {
   .category-chip:hover { background: var(--color-brand-blue); color: white; }
   .category-chip--more { background: var(--color-neutral-200); color: var(--color-neutral-500); cursor: default; }
 
-  .filters { padding: var(--space-4) 0; background: white; border-bottom: 1px solid var(--color-neutral-200); position: sticky; top: 0; z-index: 50; }
+  .filters { padding: var(--space-4) 0; background: white; border-bottom: 1px solid var(--color-neutral-200); }
   .filter-panel__controls { display: flex; flex-direction: column; gap: var(--space-3); }
   .filter-panel__search { max-width: 400px; }
   .filter-panel__input { width: 100%; padding: var(--space-2) var(--space-4); border-radius: var(--radius-lg); border: 1.5px solid var(--color-neutral-200); font-size: var(--text-sm); font-family: var(--font-sans); }
@@ -328,7 +344,7 @@ const itemListLd = {
   .pagination__page:hover { border-color: var(--color-brand-blue); color: var(--color-brand-blue); }
   .pagination__page--active { background: var(--color-brand-blue); color: white; border-color: var(--color-brand-blue); }
 
-  .cross-links { padding: var(--space-10) 0; background: var(--color-neutral-50); border-top: 1px solid var(--color-neutral-200); }
+  .cross-links { padding: var(--space-10) 0; background: linear-gradient(135deg, var(--color-neutral-50) 0%, #F4F6FC 50%, var(--color-neutral-50) 100%); border-top: 1px solid var(--color-neutral-200); }
   .cross-links__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: var(--space-8); }
   .cross-links__title { font-size: var(--text-sm); font-weight: var(--font-semibold); text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-400); margin-bottom: var(--space-3); }
   .cross-links__list { display: flex; flex-direction: column; gap: var(--space-2); }
@@ -349,26 +365,44 @@ const itemListLd = {
 
 <script>
 document.addEventListener('alpine:init', () => {
+  // ---- Store de filtres partagé entre le panneau de filtres et la liste d'événements ----
+  Alpine.store('filters', {
+    searchQuery: '',
+    selectedCat: 'all',
+    selectedDate: 'all',
+    freeOnly: false,
+    filteredCount: 0,
+    hasFilterActive: false,
+  });
+
+  // ---- Carte Leaflet ----
   Alpine.data('mapApp', () => ({
     init() {
       const el = this.$el;
-      const events = JSON.parse(el.dataset.events || '[]');
+      const rawEvents = el.dataset.events || '[]';
+      let events = [];
+      try { events = JSON.parse(rawEvents); } catch { events = []; }
+      // Filtrer les coordonnées invalides
+      events = events.filter(e => {
+        const lat = parseFloat(e.lat);
+        const lng = parseFloat(e.lng);
+        return !isNaN(lat) && !isNaN(lng) && lat >= -90 && lat <= 90 && lng >= -180 && lng <= 180;
+      });
       if (events.length === 0) return;
       const loadMap = () => {
         if (typeof L === 'undefined') {
           const link = document.createElement('link'); link.rel = 'stylesheet'; link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css'; document.head.appendChild(link);
-          const s = document.createElement('script'); s.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js'; s.onload = () => initMap(); document.body.appendChild(s);
-        } else { initMap(); }
+          const s = document.createElement('script'); s.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js'; s.onload = () => initMap(events, el); document.body.appendChild(s);
+        } else { initMap(events, el); }
       };
-      const initMap = () => {
-        const lat = events.reduce((s, e) => s + parseFloat(e.lat||0), 0) / events.length;
-        const lng = events.reduce((s, e) => s + parseFloat(e.lng||0), 0) / events.length;
+      const initMap = (events, el) => {
+        const lat = events.reduce((s, e) => s + parseFloat(e.lat), 0) / events.length;
+        const lng = events.reduce((s, e) => s + parseFloat(e.lng), 0) / events.length;
         const map = L.map(el, { center: [lat||46.6, lng||2.5], zoom: 10 });
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; OpenStreetMap', maxZoom: 18 }).addTo(map);
         const markers = [];
         for (const e of events) {
-          if (!e.lat || !e.lng) continue;
-          const m = L.marker([e.lat, e.lng], { title: e.title }).addTo(map);
+          const m = L.marker([parseFloat(e.lat), parseFloat(e.lng)], { title: e.title }).addTo(map);
           m.bindPopup(`<strong>${e.title}</strong><br><a href="/evenement/${e.slug}/">Détails →</a>`);
           markers.push(m);
         }
@@ -377,7 +411,9 @@ document.addEventListener('alpine:init', () => {
       loadMap();
     },
   }));
-  Alpine.data('filterPanel', () => ({ searchQuery: '', selectedCat: 'all', selectedDate: 'all', freeOnly: false, applyFilters() {}, resetFilters() {}, get hasActiveFilters() { return false; } }));
 });
-function formatDate(iso) { if (!iso) return ''; return new Date(iso).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }); }
+window.formatDate = function(iso) {
+  if (!iso) return '';
+  try { return new Date(iso).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }); } catch { return ''; }
+};
 </script>
