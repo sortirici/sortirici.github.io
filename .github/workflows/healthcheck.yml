@@ -1,0 +1,54 @@
+name: Healthcheck Sources
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  healthcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run healthcheck
+        run: |
+          mkdir -p public
+          node scripts/healthcheck.js
+        env:
+          NODE_OPTIONS: --max-old-space-size=2048
+
+      - name: Check for failures
+        id: check
+        run: |
+          FAILURES=$(node -e "
+            const h = require('./public/sources-health.json');
+            const down = h.filter(s => s.status === 'error');
+            process.stdout.write(JSON.stringify(down.map(s => s.source)));
+          ")
+          echo "failures=$FAILURES" >> $GITHUB_OUTPUT
+
+      - name: Alert on failures
+        if: steps.check.outputs.failures != '[]'
+        run: node scripts/alert.js
+        env:
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+
+      - name: Commit healthcheck data
+        run: |
+          git config user.email "sortirici-bot@users.noreply.github.com"
+          git config user.name "SortirIci Bot"
+          git add public/sources-health.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update healthcheck [skip ci]"
+          git push

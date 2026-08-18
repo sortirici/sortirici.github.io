@@ -1,0 +1,69 @@
+name: Daily Build & Deploy
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch sources
+        run: mkdir -p data/raw && node scripts/fetch-sources.js
+        env:
+          NODE_OPTIONS: --max-old-space-size=4096
+
+      - name: Normalize & dedupe & enrich
+        run: node scripts/normalize.js && node scripts/dedupe.js && node scripts/enrich.js
+
+      - name: Build index
+        run: node scripts/build-index.js
+
+      - name: Build Astro site
+        run: npm run build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/
+          retention-days: 1
+
+      - name: Validate build size
+        run: |
+          SIZE=$(du -sb dist/ | cut -f1)
+          echo "Build size: $SIZE bytes"
+          if [ $SIZE -gt 524288000 ]; then echo "ERROR: Build exceeds 500MB limit"; exit 1; fi
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    if: success()
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /departement/
+Allow: /sources/
+Allow: /mentions/
+Disallow: /data/
+Disallow: /api/
+Sitemap: https://sortirici.github.io/sitemap.xml
