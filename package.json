@@ -1,0 +1,26 @@
+{
+  "name": "sortirici",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "fetch": "node scripts/fetch-all.mjs",
+    "normalize": "node scripts/normalize.mjs",
+    "dedupe": "node scripts/dedupe.mjs",
+    "enrich": "node scripts/enrich.mjs",
+    "index": "node scripts/build-index.mjs",
+    "pipeline": "npm run fetch && npm run normalize && npm run dedupe && npm run enrich && npm run index",
+    "healthcheck": "node scripts/healthcheck.mjs",
+    "test": "node --test scripts/**/*.test.mjs"
+  },
+  "dependencies": {
+    "astro": "^4.16.0",
+    "lucide-static": "^0.447.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0"
+  }
+}

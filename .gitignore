@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.astro/
+data/raw/
+data/events-*.json
+*.log
+.DS_Store

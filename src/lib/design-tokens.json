@@ -1,0 +1,94 @@
+{
+  "colors": {
+    "brand": {
+      "blue": { "value": "#1A5FB4", "name": "Confiance institutionnelle" },
+      "orange": { "value": "#E86C00", "name": "Énergie sortie" },
+      "green": { "value": "#2D7D32", "name": "Gratuit / Nature" }
+    },
+    "neutral": {
+      "900": { "value": "#1A1A2E", "name": "Texte principal" },
+      "700": { "value": "#3A3A5A", "name": "Texte secondaire" },
+      "500": { "value": "#6A6A8A", "name": "Texte muet" },
+      "300": { "value": "#CACADD", "name": "Bordures" },
+      "100": { "value": "#F0F0F5", "name": "Fonds secondaires" },
+      "50": { "value": "#FAFAFC", "name": "Fond principal" }
+    },
+    "semantic": {
+      "success": { "value": "{colors.brand.green.value}" },
+      "warning": { "value": "#F59E0B" },
+      "error": { "value": "#DC2626" },
+      "info": { "value": "{colors.brand.blue.value}" }
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "sans": "Inter Variable, system-ui, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "fontSize": {
+      "xs": "0.75rem",
+      "sm": "0.875rem",
+      "base": "1rem",
+      "lg": "1.125rem",
+      "xl": "1.25rem",
+      "2xl": "1.5rem",
+      "3xl": "1.875rem",
+      "4xl": "2.25rem"
+    },
+    "fontWeight": {
+      "normal": "400",
+      "medium": "500",
+      "semibold": "600",
+      "bold": "700"
+    },
+    "lineHeight": {
+      "tight": "1.25",
+      "normal": "1.5",
+      "relaxed": "1.75"
+    }
+  },
+  "spacing": {
+    "0": "0",
+    "1": "0.25rem",
+    "2": "0.5rem",
+    "3": "0.75rem",
+    "4": "1rem",
+    "5": "1.25rem",
+    "6": "1.5rem",
+    "8": "2rem",
+    "10": "2.5rem",
+    "12": "3rem",
+    "16": "4rem"
+  },
+  "borderRadius": {
+    "none": "0",
+    "sm": "0.375rem",
+    "md": "0.5rem",
+    "lg": "0.75rem",
+    "xl": "1rem",
+    "2xl": "1.5rem",
+    "full": "9999px",
+    "DEFAULT": "0.75rem"
+  },
+  "shadows": {
+    "soft": "0 2px 8px rgba(26, 95, 180, 0.08)",
+    "medium": "0 4px 16px rgba(26, 95, 180, 0.12)",
+    "strong": "0 8px 32px rgba(26, 95, 180, 0.16)"
+  },
+  "transitions": {
+    "fast": "100ms ease-out",
+    "DEFAULT": "150ms ease-out",
+    "slow": "250ms ease-out"
+  },
+  "breakpoints": {
+    "sm": "640px",
+    "md": "768px",
+    "lg": "1024px",
+    "xl": "1280px"
+  },
+  "icons": {
+    "set": "lucide-static",
+    "size": "24px",
+    "strokeWidth": "2"
+  }
+}
