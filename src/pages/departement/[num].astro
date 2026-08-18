@@ -4,7 +4,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 export async function getStaticPaths() {
-  let depts: string[] = [];
+  let depts = [];
   try {
     const { readdirSync } = await import('node:fs');
     const { join } = await import('node:path');
@@ -21,10 +21,10 @@ export async function getStaticPaths() {
 const { num } = Astro.params;
 
 // ---- Chargement des données ----
-let events: any[] = [];
+let events = [];
 let deptNom = `Département ${num}`;
 let deptRegion = '';
-let allSources: string[] = [];
+let allSources = [];
 try {
   const { readFileSync } = await import('node:fs');
   const { join } = await import('node:path');
@@ -38,8 +38,8 @@ try {
   allSources = JSON.parse(rawIdx).sources || [];
 } catch {}
 
-const categories = [...new Set(events.map((e: any) => e.categorie).filter(Boolean))] as string[];
-const villes = [...new Set(events.map((e: any) => e.lieuCommune).filter(Boolean))] as string[];
+const categories = [...new Set(events.map(e => e.categorie).filter(Boolean))];
+const villes = [...new Set(events.map(e => e.lieuCommune).filter(Boolean))];
 
 const siteUrl = 'https://sortirici.github.io';
 const pageTitle = `${deptNom} (${num}) — Sortir dans le ${deptNom} — Événements | SortirIci`;
@@ -156,7 +156,7 @@ const itemListLd = {
       <div class="content-layout">
         <div class="content-layout__map">
           <h2 class="map-title">Carte</h2>
-          <div id="dept-map" class="map-container" aria-label="Carte des événements" x-data="mapApp()" data-map-type="department" data-events='{JSON.stringify(events.slice(0, 100).map((e: any) => ({ lat: e.lieuLatitude, lng: e.lieuLongitude, title: e.titre, slug: e.slug || e.uid })))}'>
+          <div id="dept-map" class="map-container" aria-label="Carte des événements" x-data="mapApp()" data-map-type="department" data-events='{JSON.stringify(events.filter(e => e.lieuLatitude && e.lieuLongitude).slice(0, 100).map(e => ({ lat: e.lieuLatitude, lng: e.lieuLongitude, title: e.titre, slug: e.slug || e.uid })))}'>
             <noscript><div class="map-fallback">Carte interactive nécessite JS. <a href="#events-list">Voir la liste</a>.</div></noscript>
           </div>
         </div>
