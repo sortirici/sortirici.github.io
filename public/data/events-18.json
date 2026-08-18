@@ -1,0 +1,38 @@
+[
+  {
+    "uid": "oa-6212883",
+    "source": "openagenda-orleans",
+    "sourceUrl": "https://openagenda.com/orleans-metropole/events/finale-du-championnat-manche-est-ilca-2021",
+    "licence": "lov2",
+    "titre": "Finale du Championnat Manche Est \"ILCA\" 2021",
+    "descriptionCourte": "Comité départemental de Voile du Loiret",
+    "dateDebut": "2021-11-13T13:30:00+00:00",
+    "dateFin": "2021-11-13T16:30:00+00:00",
+    "categorie": "exposition",
+    "motsCles": [
+      "voile",
+      "sport",
+      "régate",
+      "bateau",
+      "asptt",
+      "gratuit",
+      "surprenez-moi"
+    ],
+    "gratuit": true,
+    "prixIndicatif": "Gratuit",
+    "lieuNom": "Etang du Puits",
+    "lieuAdresse": "Etang du Puits",
+    "lieuCodePostal": "18410",
+    "lieuCommune": "Argent-sur-Sauldre",
+    "lieuCodeInsee": "18011",
+    "lieuLatitude": 47.588568,
+    "lieuLongitude": 2.375793,
+    "lieuDepartement": "Cher",
+    "lieuRegion": "Centre-Val de Loire",
+    "dateMaj": "2025-12-03T10:38:30+00:00",
+    "statut": "termine",
+    "modeAcces": "sur_place",
+    "slug": "finale-du-championnat-manche-est-ilca-2021",
+    "departementNumero": "18"
+  }
+]

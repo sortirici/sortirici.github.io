@@ -62,44 +62,75 @@ function getDepartmentFromInsee(insee) {
 }
 
 function normalizeOpenAgenda(item, sourceId) {
-  const titre = item.title?.fr || item.title || '';
-  const description = (item.description?.fr || item.description || '').substring(0, 300);
-  const debut = item.firstDateBegin || item.firstdate_begin || '';
-  const fin = item.lastDateEnd || item.lastdate_end || item.firstDateEnd || item.firstdate_end || debut;
-  const coords = item.locationCoordinates || { lon: 0, lat: 0 };
-  const insee = item.locationInsee || item.location_insee || '';
-  const gratuit = (item.keywords_fr || item.keywords?.fr || []).join(' ').toLowerCase().includes('gratuit') ||
-    item.conditions_fr?.toLowerCase().includes('gratuit');
-  const keywordArray = (item.keywords_fr || item.keywords?.fr || []).join('|').split('|');
+  // Handle multiple API export formats:
+  // Format A: { title: { fr: '...' } } — native OpenAgenda API
+  // Format B: { title_fr: '...' }   — data.gouv.fr export
+  function getLocalized(obj, field) {
+    const val = obj[field];
+    if (typeof val === 'object' && val !== null) return val.fr || val.en || '';
+    if (typeof val === 'string') return val;
+    const frVal = obj[field + '_fr'];
+    if (typeof frVal === 'string') return frVal;
+    return '';
+  }
+
+  function getField(obj, ...fields) {
+    for (const f of fields) {
+      if (obj[f] !== undefined && obj[f] !== null) {
+        return obj[f];
+      }
+    }
+    return '';
+  }
+
+  const titre = getLocalized(item, 'title') || item.title_fr || item.titre || '';
+  if (!titre) return null;
+
+  const desc = getLocalized(item, 'description') || item.description_fr || '';
+  const debut = getField(item, 'firstDateBegin', 'firstdate_begin', 'firstday', 'dateDebut') || '';
+  const fin = getField(item, 'firstDateEnd', 'firstdate_end', 'lastdate_end', 'lastDateEnd', 'lastday', 'dateFin') || debut;
+  const coords = item.locationCoordinates || item.location_coordinates || { lon: 0, lat: 0 };
+  const insee = getField(item, 'locationInsee', 'location_insee', 'codeInsee', 'code_insee', 'insee') || '';
+  const keywordsRaw = item.keywords_fr || (item.keywords ? (typeof item.keywords.fr === 'string' ? item.keywords.fr.split('|') : []) : []);
+  const keywords = Array.isArray(keywordsRaw) ? keywordsRaw : String(keywordsRaw).split(';').map(s => s.trim());
+  const gratuit = keywords.join(' ').toLowerCase().includes('gratuit') ||
+    (item.conditions_fr || '').toLowerCase().includes('gratuit');
+  const prix = '';
+  const nomLieu = getField(item, 'locationName', 'location_name', 'lieuNom') || '';
+  const adresse = getField(item, 'locationAddress', 'location_address', 'lieuAdresse') || '';
+  const cp = getField(item, 'locationPostalCode', 'location_postalcode', 'lieuCodePostal') || '';
+  const commune = getField(item, 'locationCity', 'location_city', 'lieuCommune') || '';
+  const dept = getField(item, 'locationDepartment', 'location_department', 'lieuDepartement') || getDepartmentFromInsee(insee);
+  const region = getField(item, 'locationRegion', 'location_region', 'lieuRegion') || '';
+  const updated = getField(item, 'updatedAt', 'updatedat', 'dateMaj') || new Date().toISOString();
 
   return {
-    uid: `oa-${item.uid || item.uid}`,
+    uid: `oa-${item.uid || Math.random().toString(36).substring(2, 10)}`,
     source: sourceId,
     sourceUrl: item.canonicalUrl || item.canonicalurl || '',
     licence: 'lov2',
     titre,
-    descriptionCourte: description.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim(),
+    descriptionCourte: desc.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim().substring(0, 300),
     dateDebut: debut,
-    dateFin: fin || debut,
-    categorie: classifyCategory(titre, description, keywordArray),
-    motsCles: keywordArray.slice(0, 10),
+    dateFin: fin,
+    categorie: classifyCategory(titre, desc, keywords),
+    motsCles: keywords.slice(0, 10),
     gratuit,
-    prixIndicatif: '',
-    lieuNom: item.locationName || item.location_name || '',
-    lieuAdresse: item.locationAddress || item.location_address || '',
-    lieuCodePostal: item.locationPostalCode || item.location_postalcode || '',
-    lieuCommune: item.locationCity || item.location_city || '',
+    prixIndicatif: prix,
+    lieuNom: nomLieu,
+    lieuAdresse: adresse,
+    lieuCodePostal: cp,
+    lieuCommune: commune,
     lieuCodeInsee: insee,
-    lieuLatitude: coords.lat || 0,
-    lieuLongitude: coords.lon || 0,
-    lieuDepartement: getDepartmentFromInsee(insee),
-    lieuRegion: item.locationRegion || item.location_region || '',
-    dateMaj: item.updatedAt || item.updatedat || new Date().toISOString(),
+    lieuLatitude: typeof coords === 'object' ? (coords.lat || coords.latitude || 0) : 0,
+    lieuLongitude: typeof coords === 'object' ? (coords.lon || coords.longitude || 0) : 0,
+    lieuDepartement: dept,
+    lieuRegion: region,
+    dateMaj: updated,
     statut: 'programme',
     modeAcces: 'sur_place',
-    slug: slugify(`${titre}-${item.uid || item.uid}`),
+    slug: (item.slug || slugify(titre + '-' + (item.uid || ''))).substring(0, 80),
     departementNumero: getDepartmentFromInsee(insee),
-    // PII SUPPRIMÉES: contributorEmail, contributorContactNumber, contributorContactName, contributorContactPosition
   };
 }
 
@@ -177,6 +208,7 @@ function main() {
       const normalized = items
         .filter(Boolean)
         .map(item => parser === 'openagenda' ? normalizeOpenAgenda(item, id) : normalizeCSV(item, id))
+        .filter(Boolean)
         .filter(e => e.titre && e.dateDebut && e.lieuCommune);
 
       const outPath = join(NORM_DIR, `${id}.json`);

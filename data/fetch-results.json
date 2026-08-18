@@ -1,0 +1,86 @@
+[
+  {
+    "source": "openagenda-orleans",
+    "status": "ok",
+    "bytes": 43469192,
+    "latencyMs": 9356
+  },
+  {
+    "source": "openagenda-loiret",
+    "status": "ok",
+    "bytes": 30885632,
+    "latencyMs": 15324
+  },
+  {
+    "source": "clermont-agenda",
+    "status": "ok",
+    "bytes": 1202155,
+    "latencyMs": 576
+  },
+  {
+    "source": "guerande-agenda",
+    "status": "ok",
+    "bytes": 9516066,
+    "latencyMs": 2357
+  },
+  {
+    "source": "meudon-agenda",
+    "status": "ok",
+    "bytes": 16841409,
+    "latencyMs": 9432
+  },
+  {
+    "source": "labaule-agenda",
+    "status": "ok",
+    "bytes": 380673,
+    "latencyMs": 242
+  },
+  {
+    "source": "nantes-culture",
+    "status": "ok",
+    "bytes": 260333,
+    "latencyMs": 248
+  },
+  {
+    "source": "ministere-festivals",
+    "status": "ok",
+    "bytes": 559,
+    "latencyMs": 362
+  },
+  {
+    "source": "bordeaux-agenda",
+    "status": "ok",
+    "bytes": 17080763,
+    "latencyMs": 4921
+  },
+  {
+    "source": "toulouse-spectacles",
+    "status": "ok",
+    "bytes": 40393,
+    "latencyMs": 297
+  },
+  {
+    "source": "vendee-tourinsoft",
+    "status": "error",
+    "error": "HTTP 500: Internal Server Error",
+    "latencyMs": 204
+  },
+  {
+    "source": "martigues-agenda",
+    "status": "ok",
+    "bytes": 10019461,
+    "latencyMs": 21489
+  },
+  {
+    "source": "grenoble-culturel",
+    "status": "error",
+    "error": "HTTP 404: Not Found",
+    "latencyMs": 434
+  },
+  {
+    "source": "loiret-openagenda",
+    "status": "ok",
+    "bytes": 8878324,
+    "latencyMs": 9627
+  }
+]

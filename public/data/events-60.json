@@ -1,0 +1,34 @@
+[
+  {
+    "uid": "oa-74453208",
+    "source": "meudon-agenda",
+    "sourceUrl": "https://openagenda.com/meudon/events/stage-et-atelier-couture-2912037",
+    "licence": "lov2",
+    "titre": "Stage et atelier couture",
+    "descriptionCourte": "Stage et Atelier couture du 28 février au 4 Mars 2022 5 matinées ou 5 après-midis",
+    "dateDebut": "2022-02-28T08:30:00+00:00",
+    "dateFin": "2022-02-28T11:30:00+00:00",
+    "categorie": "atelier",
+    "motsCles": [
+      "couture",
+      "stage",
+      "ateleir"
+    ],
+    "gratuit": false,
+    "prixIndicatif": "",
+    "lieuNom": "Meudon",
+    "lieuAdresse": "avenue du Château",
+    "lieuCodePostal": "60130",
+    "lieuCommune": "Plainval",
+    "lieuCodeInsee": "60495",
+    "lieuLatitude": 49.529759,
+    "lieuLongitude": 2.441161,
+    "lieuDepartement": "Oise",
+    "lieuRegion": "Hauts-de-France",
+    "dateMaj": "2022-01-04T12:36:50+00:00",
+    "statut": "termine",
+    "modeAcces": "sur_place",
+    "slug": "stage-et-atelier-couture-2912037",
+    "departementNumero": "60"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "uid": "oa-55732115",
+    "source": "openagenda-orleans",
+    "sourceUrl": "https://openagenda.com/orleans-metropole/events/conferences-musicales",
+    "licence": "lov2",
+    "titre": "Conférences musicales",
+    "descriptionCourte": "Cours simples et pratiques d'adressant à un public curieux et amateur de bonne humeur.",
+    "dateDebut": "2019-01-12T17:00:00+00:00",
+    "dateFin": "2019-01-12T18:00:00+00:00",
+    "categorie": "concert",
+    "motsCles": [
+      "gratuit"
+    ],
+    "gratuit": true,
+    "prixIndicatif": "Gratuit",
+    "lieuNom": "Chattancourt",
+    "lieuAdresse": "13 Grande rue, 55100 Chattancourt",
+    "lieuCodePostal": "55100",
+    "lieuCommune": "Chattancourt",
+    "lieuCodeInsee": "55106",
+    "lieuLatitude": 49.217937,
+    "lieuLongitude": 5.271002,
+    "lieuDepartement": "Meuse",
+    "lieuRegion": "Grand Est",
+    "dateMaj": "2024-07-08T17:02:19+00:00",
+    "statut": "termine",
+    "modeAcces": "sur_place",
+    "slug": "conferences-musicales",
+    "departementNumero": "55"
+  }
+]

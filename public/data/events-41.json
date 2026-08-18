@@ -1,0 +1,36 @@
+[
+  {
+    "uid": "oa-14469633",
+    "source": "openagenda-orleans",
+    "sourceUrl": "https://openagenda.com/orleans-metropole/events/ah-quel-boulot-pour-trouver-du-boulot-",
+    "licence": "lov2",
+    "titre": "Ah quel boulot pour trouver du boulot !",
+    "descriptionCourte": "Bienvenue au stage de SREPECD : le Stage de Remotivation par l’Exemple des Parcours les plus Edifiants pour les Cas les plus Désespérés.",
+    "dateDebut": "2022-09-24T18:30:00+00:00",
+    "dateFin": "2022-09-24T19:40:00+00:00",
+    "categorie": "concert",
+    "motsCles": [
+      "Musiques",
+      "chansons",
+      "Théâtre",
+      "humour",
+      ""
+    ],
+    "gratuit": false,
+    "prixIndicatif": "",
+    "lieuNom": "Espace culturel Jean Moulin",
+    "lieuAdresse": "22 rue des écoles saint-laurent-nouan",
+    "lieuCodePostal": "41220",
+    "lieuCommune": "Saint-Laurent-Nouan",
+    "lieuCodeInsee": "41220",
+    "lieuLatitude": 47.715641,
+    "lieuLongitude": 1.605711,
+    "lieuDepartement": "Loir-et-Cher",
+    "lieuRegion": "Centre-Val de Loire",
+    "dateMaj": "2022-09-20T08:55:28+00:00",
+    "statut": "termine",
+    "modeAcces": "sur_place",
+    "slug": "ah-quel-boulot-pour-trouver-du-boulot-",
+    "departementNumero": "41"
+  }
+]
