@@ -182,7 +182,6 @@ function main() {
     { id: 'vendee-tourinsoft', file: 'vendee-tourinsoft.json', parser: 'csv' },
     { id: 'martigues-agenda', file: 'martigues-agenda.csv', parser: 'csv' },
     { id: 'grenoble-culturel', file: 'grenoble-culturel.csv', parser: 'csv' },
-    { id: 'loiret-openagenda', file: 'loiret-openagenda.json', parser: 'openagenda' },
   ];
 
   for (const { id, file, parser } of files) {

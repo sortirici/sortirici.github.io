@@ -105,13 +105,6 @@ const SOURCES = [
     format: 'csv',
     licence: 'odc-odbl',
   },
-  {
-    id: 'loiret-openagenda',
-    name: 'OpenAgenda Loiret',
-    url: 'https://openagenda.com/agendas/36668061/events.json?limit=5000',
-    format: 'json',
-    licence: 'fr-lo',
-  },
 ];
 
 async function fetchSource(source) {

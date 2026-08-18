@@ -1,120 +1,114 @@
 {
-  "lastUpdated": "2026-08-18T20:23:19.166Z",
+  "lastUpdated": "2026-08-18T21:23:27.269Z",
   "totalEvents": 20768,
-  "totalDepartements": 19,
+  "totalDepartements": 18,
   "departements": [
     {
       "departement": "10",
-      "nom": "Grand Est",
+      "nom": "Aube",
       "totalEvents": 4,
       "visibleEvents": 4
     },
     {
       "departement": "16",
-      "nom": "Nouvelle-Aquitaine",
+      "nom": "Charente",
       "totalEvents": 1,
       "visibleEvents": 1
     },
     {
       "departement": "18",
-      "nom": "Centre-Val de Loire",
+      "nom": "Cher",
       "totalEvents": 1,
       "visibleEvents": 1
     },
     {
       "departement": "25",
-      "nom": "Bourgogne-Franche-Comté",
+      "nom": "Doubs",
       "totalEvents": 1,
       "visibleEvents": 1
     },
     {
       "departement": "27",
-      "nom": "Centre-Val de Loire",
+      "nom": "Eure",
       "totalEvents": 10,
       "visibleEvents": 10
     },
     {
       "departement": "28",
-      "nom": "Centre-Val de Loire",
+      "nom": "Eure-et-Loir",
       "totalEvents": 1,
       "visibleEvents": 1
     },
     {
       "departement": "33",
-      "nom": "Nouvelle-Aquitaine",
+      "nom": "Gironde",
       "totalEvents": 4746,
       "visibleEvents": 200
     },
     {
       "departement": "40",
-      "nom": "Nouvelle-Aquitaine",
+      "nom": "Landes",
       "totalEvents": 1,
       "visibleEvents": 1
     },
     {
       "departement": "41",
-      "nom": "Centre-Val de Loire",
+      "nom": "Loir-et-Cher",
       "totalEvents": 1,
       "visibleEvents": 1
     },
     {
       "departement": "44",
-      "nom": "Pays de la Loire",
+      "nom": "Loire-Atlantique",
       "totalEvents": 2636,
       "visibleEvents": 200
     },
     {
       "departement": "45",
-      "nom": "Centre-Val de Loire",
+      "nom": "Loiret",
       "totalEvents": 9809,
       "visibleEvents": 200
     },
     {
       "departement": "55",
-      "nom": "Grand Est",
+      "nom": "Meuse",
       "totalEvents": 1,
       "visibleEvents": 1
     },
     {
       "departement": "60",
-      "nom": "Hauts-de-France",
+      "nom": "Oise",
       "totalEvents": 1,
       "visibleEvents": 1
     },
     {
       "departement": "75",
-      "nom": "Île-de-France",
+      "nom": "Paris",
       "totalEvents": 19,
       "visibleEvents": 19
     },
     {
       "departement": "79",
-      "nom": "Nouvelle-Aquitaine",
+      "nom": "Deux-Sèvres",
       "totalEvents": 3,
       "visibleEvents": 3
     },
     {
       "departement": "81",
-      "nom": "Occitanie",
+      "nom": "Tarn",
       "totalEvents": 1,
       "visibleEvents": 1
     },
     {
       "departement": "85",
-      "nom": "Pays de la Loire",
+      "nom": "Vendée",
       "totalEvents": 5,
       "visibleEvents": 5
     },
     {
       "departement": "92",
-      "nom": "Île-de-France",
+      "nom": "Hauts-de-Seine",
       "totalEvents": 3219,
-      "visibleEvents": 200
-    },
-    {
-      "departement": "00",
-      "nom": "",
-      "totalEvents": 308,
       "visibleEvents": 200
     }
   ],

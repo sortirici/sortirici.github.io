@@ -37,7 +37,7 @@ const siteUrl = 'https://sortirici.github.io';
         <h2 style="font-size: 1.25rem; font-weight: 600; color: #1A1A2E; margin-bottom: 0.5rem;">
           Événement en cours de chargement
         </h2>
-        <p style="color: #6A6A8A; max-width: 400px; line-height: 1.5; margin-bottom: 1rem;">
+        <p style="color: var(--color-neutral-500); max-width: 400px; line-height: 1.5; margin-bottom: 1rem;">
           Les fiches détaillées seront disponibles après le prochain cycle de mise à jour.
         </p>
         <a href="/" style="padding: 0.75rem 2rem; background: #1A5FB4; color: white; border-radius: 0.75rem; text-decoration: none; font-weight: 600;">
@@ -46,10 +46,10 @@ const siteUrl = 'https://sortirici.github.io';
       </div>
     ) : (
       <div>
-        <nav aria-label="Fil d'Ariane" style="margin-bottom: 1rem; font-size: 0.875rem; color: #6A6A8A;">
-          <a href="/" style="color: #6A6A8A;">Accueil</a>
+        <nav aria-label="Fil d'Ariane" style="margin-bottom: 1rem; font-size: 0.875rem; color: var(--color-neutral-500);">
+          <a href="/" style="color: var(--color-neutral-500);">Accueil</a>
           <span style="margin: 0 0.5rem;">›</span>
-          <a href={`/departement/${event.departementNumero || ''}/`} style="color: #6A6A8A;">
+          <a href={`/departement/${event.departementNumero || ''}/`} style="color: var(--color-neutral-500);">
             {event.lieuDepartement || 'Département'}
           </a>
           <span style="margin: 0 0.5rem;">›</span>
@@ -76,7 +76,7 @@ const siteUrl = 'https://sortirici.github.io';
               Annulé
             </span>
           )}
-          <span style="background: #F0F0F5; color: #6A6A8A; padding: 0.25rem 0.75rem; border-radius: 0.5rem; font-size: 0.75rem; font-weight: 500;">
+          <span style="background: #F0F0F5; color: var(--color-neutral-500); padding: 0.25rem 0.75rem; border-radius: 0.5rem; font-size: 0.75rem; font-weight: 500;">
             Source : {event.source || 'open data'}
           </span>
         </div>
@@ -85,7 +85,7 @@ const siteUrl = 'https://sortirici.github.io';
           <div style="display: flex; align-items: flex-start; gap: 0.75rem;">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1A5FB4" stroke-width="2" style="flex-shrink: 0; margin-top: 2px;"><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h18"/></svg>
             <div>
-              <div style="font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #6A6A8A;">Date</div>
+              <div style="font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-500);">Date</div>
               <div style="font-size: 1rem; color: #1A1A2E; font-weight: 500;">
                 {new Date(event.dateDebut).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}
                 {event.dateFin && event.dateFin !== event.dateDebut ? ` — ${new Date(event.dateFin).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}` : ''}
@@ -96,10 +96,10 @@ const siteUrl = 'https://sortirici.github.io';
           <div style="display: flex; align-items: flex-start; gap: 0.75rem;">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1A5FB4" stroke-width="2" style="flex-shrink: 0; margin-top: 2px;"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
             <div>
-              <div style="font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #6A6A8A;">Lieu</div>
+              <div style="font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-500);">Lieu</div>
               <div style="font-size: 1rem; color: #1A1A2E; font-weight: 500;">
                 {event.lieuNom || event.lieuCommune}
-                {event.lieuAdresse ? <div style="font-size: 0.875rem; color: #6A6A8A; font-weight: 400;">{event.lieuAdresse}</div> : ''}
+                {event.lieuAdresse ? <div style="font-size: 0.875rem; color: var(--color-neutral-500); font-weight: 400;">{event.lieuAdresse}</div> : ''}
               </div>
             </div>
           </div>
@@ -107,7 +107,7 @@ const siteUrl = 'https://sortirici.github.io';
           <div style="display: flex; align-items: flex-start; gap: 0.75rem;">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1A5FB4" stroke-width="2" style="flex-shrink: 0; margin-top: 2px;"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
             <div>
-              <div style="font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #6A6A8A;">Tarif</div>
+              <div style="font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-500);">Tarif</div>
               <div style="font-size: 1rem; color: #1A1A2E; font-weight: 500;">
                 {event.gratuit ? 'Gratuit' : (event.prixIndicatif || 'Non renseigné')}
               </div>
@@ -117,7 +117,7 @@ const siteUrl = 'https://sortirici.github.io';
           <div style="display: flex; align-items: flex-start; gap: 0.75rem;">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1A5FB4" stroke-width="2" style="flex-shrink: 0; margin-top: 2px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
             <div>
-              <div style="font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #6A6A8A;">Source</div>
+              <div style="font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-500);">Source</div>
               <div style="font-size: 1rem; color: #1A1A2E; font-weight: 500;">
                 Licence : {event.licence || 'Licence ouverte'}
                 {event.sourceUrl ? <a href={event.sourceUrl} target="_blank" rel="noopener" style="display: block; font-size: 0.875rem; color: #1A5FB4; font-weight: 400;">Voir la source originale ↗</a> : ''}

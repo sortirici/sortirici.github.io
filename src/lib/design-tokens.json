@@ -8,8 +8,8 @@
     "neutral": {
       "900": { "value": "#1A1A2E", "name": "Texte principal" },
       "700": { "value": "#3A3A5A", "name": "Texte secondaire" },
-      "500": { "value": "#6A6A8A", "name": "Texte muet" },
-      "300": { "value": "#CACADD", "name": "Bordures" },
+      "500": { "value": "#4A4A6A", "name": "Texte muet" },
+      "300": { "value": "#B0B0C8", "name": "Bordures" },
       "100": { "value": "#F0F0F5", "name": "Fonds secondaires" },
       "50": { "value": "#FAFAFC", "name": "Fond principal" }
     },

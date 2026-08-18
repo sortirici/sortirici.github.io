@@ -3,84 +3,78 @@
     "source": "openagenda-orleans",
     "status": "ok",
     "bytes": 43469192,
-    "latencyMs": 9356
+    "latencyMs": 6295
   },
   {
     "source": "openagenda-loiret",
     "status": "ok",
     "bytes": 30885632,
-    "latencyMs": 15324
+    "latencyMs": 15565
   },
   {
     "source": "clermont-agenda",
     "status": "ok",
     "bytes": 1202155,
-    "latencyMs": 576
+    "latencyMs": 561
   },
   {
     "source": "guerande-agenda",
     "status": "ok",
     "bytes": 9516066,
-    "latencyMs": 2357
+    "latencyMs": 1348
   },
   {
     "source": "meudon-agenda",
     "status": "ok",
     "bytes": 16841409,
-    "latencyMs": 9432
+    "latencyMs": 6756
   },
   {
     "source": "labaule-agenda",
     "status": "ok",
     "bytes": 380673,
-    "latencyMs": 242
+    "latencyMs": 232
   },
   {
     "source": "nantes-culture",
     "status": "ok",
     "bytes": 260333,
-    "latencyMs": 248
+    "latencyMs": 227
   },
   {
     "source": "ministere-festivals",
     "status": "ok",
     "bytes": 559,
-    "latencyMs": 362
+    "latencyMs": 316
   },
   {
     "source": "bordeaux-agenda",
     "status": "ok",
     "bytes": 17080763,
-    "latencyMs": 4921
+    "latencyMs": 3828
   },
   {
     "source": "toulouse-spectacles",
     "status": "ok",
     "bytes": 40393,
-    "latencyMs": 297
+    "latencyMs": 328
   },
   {
     "source": "vendee-tourinsoft",
     "status": "error",
     "error": "HTTP 500: Internal Server Error",
-    "latencyMs": 204
+    "latencyMs": 149
   },
   {
     "source": "martigues-agenda",
     "status": "ok",
     "bytes": 10019461,
-    "latencyMs": 21489
+    "latencyMs": 21028
   },
   {
     "source": "grenoble-culturel",
     "status": "error",
     "error": "HTTP 404: Not Found",
-    "latencyMs": 434
-  },
-  {
-    "source": "loiret-openagenda",
-    "status": "ok",
-    "bytes": 8878324,
-    "latencyMs": 9627
+    "latencyMs": 837
   }
 ]
