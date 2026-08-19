@@ -25,7 +25,7 @@ const orderedDepts = indexData.departements
 
 const allDepts = orderedDepts;
 
-// Seuils de couleur pour la carte choroplèthe
+// Seuils de couleur pour la carte Leaflet (cercles proportionnels)
 function getChoroplethColor(events: number): string {
   if (events > 1000) return '#B84E23';     // brique foncé
   if (events >= 100) return '#D45D2E';     // brique moyen
@@ -34,28 +34,27 @@ function getChoroplethColor(events: number): string {
   return '#EDEBE3';                         // gris clair (0)
 }
 
-// Coordonnées approximatives des départements (x,y) sur une carte SVG 460×420
-const deptCoords: Record<string, {x: number; y: number}> = {
-  '10': {x: 260, y: 100},  // Aube
-  '16': {x: 140, y: 240},  // Charente
-  '18': {x: 210, y: 170},  // Cher
-  '25': {x: 340, y: 160},  // Doubs
-  '27': {x: 170, y: 90},   // Eure
-  '28': {x: 185, y: 100},  // Eure-et-Loir
-  '33': {x: 120, y: 270},  // Gironde
-  '40': {x: 115, y: 300},  // Landes
-  '41': {x: 180, y: 145},  // Loir-et-Cher
-  '44': {x: 110, y: 155},  // Loire-Atlantique
-  '45': {x: 205, y: 130},  // Loiret
-  '55': {x: 300, y: 90},   // Meuse
-  '60': {x: 200, y: 80},   // Oise
-  '75': {x: 200, y: 95},   // Paris
-  '79': {x: 135, y: 200},  // Deux-Sèvres
-  '81': {x: 195, y: 300},  // Tarn
-  '85': {x: 110, y: 195},  // Vendée
-  '92': {x: 198, y: 95},   // Hauts-de-Seine
+// Coordonnées géographiques des départements (lat, lng) pour Leaflet
+const deptGeoCoords: Record<string, [number, number]> = {
+  '10': [48.3, 4.1],    // Aube
+  '16': [45.7, 0.3],    // Charente
+  '18': [47.1, 2.5],    // Cher
+  '25': [47.2, 6.2],    // Doubs
+  '27': [49.1, 1.1],    // Eure
+  '28': [48.5, 1.4],    // Eure-et-Loir
+  '33': [44.8, -0.6],   // Gironde
+  '40': [44.0, -1.0],   // Landes
+  '41': [47.5, 1.5],    // Loir-et-Cher
+  '44': [47.3, -1.8],   // Loire-Atlantique
+  '45': [47.9, 2.3],    // Loiret
+  '55': [49.0, 5.3],    // Meuse
+  '60': [49.4, 2.5],    // Oise
+  '75': [48.8566, 2.3522], // Paris
+  '79': [46.5, -0.3],   // Deux-Sèvres
+  '81': [43.8, 2.2],    // Tarn
+  '85': [46.7, -1.5],   // Vendée
+  '92': [48.9, 2.2],    // Hauts-de-Seine
 };
-const deptSize = 28;
 
 const siteUrl = 'https://sortirici.github.io';
 const pageTitle = "SortirIci — L'agenda local de confiance — 100% open data, 0 cookie";
@@ -165,37 +164,26 @@ const webSiteLd = {
     </div>
   </section>
 
-  <!-- Carte choroplèthe SVG v2 -->
+  <!-- Carte Leaflet — cercles proportionnels par département -->
   <section class="map-section" aria-label="Carte des événements par département">
     <div class="container">
       <h2 class="section-title">Explorez la carte</h2>
       <p class="section-desc">Visualisez les événements référencés partout en France</p>
       
-      <div class="choropleth-wrapper" aria-label="Carte de France des événements par département">
-        <svg viewBox="0 0 460 420" xmlns="http://www.w3.org/2000/svg" class="choropleth-map" role="img" aria-label="Carte choroplèthe de France — chaque département est coloré selon son nombre d'événements">
-          <!-- Contour France simplifié -->
-          <path d="M30,60 L60,20 L100,10 L140,10 L180,20 L220,15 L260,10 L300,15 L340,30 L370,50 L390,70 L400,100 L410,130 L420,160 L430,190 L440,220 L430,250 L420,280 L400,300 L380,320 L360,340 L340,360 L320,370 L300,380 L280,390 L250,400 L220,405 L190,400 L160,390 L130,380 L100,370 L80,350 L60,330 L40,300 L30,270 L20,240 L15,210 L10,180 L10,150 L15,120 L20,90 Z" fill="none" stroke="var(--color-neutral-300)" stroke-width="1.5" opacity="0.5"/>
-          <!-- Corse -->
-          <path d="M410,320 L420,310 L430,320 L435,340 L430,360 L420,370 L410,365 L405,345 Z" fill="none" stroke="var(--color-neutral-300)" stroke-width="1.5" opacity="0.5"/>
-
-          <!-- Départements -->
-          {allDepts.filter(d => deptCoords[d.departement]).map(d => {
-            const c = deptCoords[d.departement];
-            const color = getChoroplethColor(d.totalEvents);
-            return (
-              <a href={`/departement/${d.departement}/`}>
-                <rect x={c.x - deptSize/2} y={c.y - deptSize/2} width={deptSize} height={deptSize} rx="4" fill={color} opacity="0.85" stroke="white" stroke-width="1.5">
-                  <title>{d.nom || `Département ${d.departement}`} — {d.totalEvents} événements</title>
-                </rect>
-                <text x={c.x} y={c.y + 4} text-anchor="middle" fill="white" font-size="10" font-weight="600" font-family="system-ui,sans-serif" pointer-events="none">{d.departement}</text>
-              </a>
-            );
-          })}
-        </svg>
-      </div>
+      <div
+        class="leaflet-container"
+        id="home-map"
+        x-data="mapApp()"
+        data-depts={JSON.stringify(allDepts.map(d => ({
+          code: d.departement,
+          nom: d.nom,
+          events: d.totalEvents,
+        })))}
+        aria-label="Carte Leaflet de France — cercles proportionnels au nombre d'événements par département"
+      ></div>
 
       <!-- Légende -->
-      <div class="choropleth-legend">
+      <div class="map-legend">
         <span class="legend-item"><span class="legend-swatch" style="background:#B84E23"></span> &gt;1000</span>
         <span class="legend-item"><span class="legend-swatch" style="background:#D45D2E"></span> 100–999</span>
         <span class="legend-item"><span class="legend-swatch" style="background:#E8916E"></span> 10–99</span>
@@ -358,7 +346,7 @@ const webSiteLd = {
   .search-bar__result:hover,
   .search-bar__result--active { background: var(--color-neutral-100); color: var(--color-brand-brick); }
 
-  /* ====== CARTE CHOROPLÈTHE SVG ====== */
+  /* ====== CARTE LEAFLET ====== */
   .map-section { padding: var(--space-8) 0 var(--space-6); background: var(--color-neutral-50); }
   .section-title {
     font-family: var(--font-serif);
@@ -374,23 +362,19 @@ const webSiteLd = {
     text-align: center;
     margin-bottom: var(--space-6);
   }
-  .choropleth-wrapper {
-    max-width: 520px;
-    margin: 0 auto;
-    background: white;
-    border-radius: var(--radius-xl);
-    padding: var(--space-4);
-    box-shadow: var(--shadow-soft);
-    border: 1px solid var(--color-neutral-100);
-  }
-  .choropleth-map {
+  .leaflet-container {
     width: 100%;
-    height: auto;
-    display: block;
+    height: 480px;
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--color-neutral-100);
+    box-shadow: var(--shadow-soft);
+    z-index: 1;
   }
-  .choropleth-map rect { transition: opacity var(--transition-fast); cursor: pointer; }
-  .choropleth-map rect:hover { opacity: 1 !important; stroke: var(--color-neutral-900) !important; stroke-width: 2.5 !important; }
-  .choropleth-legend {
+  .leaflet-container .leaflet-popup-content-wrapper {
+    border-radius: var(--radius-lg);
+    font-family: var(--font-sans);
+  }
+  .map-legend {
     display: flex;
     justify-content: center;
     gap: var(--space-4);
@@ -553,6 +537,106 @@ const webSiteLd = {
         }
       },
       close() { this.results = []; this.highlightIndex = -1; },
+    }));
+
+    // ---- Carte Leaflet home — cercles proportionnels par département ----
+    Alpine.data('mapApp', () => ({
+      init() {
+        const el = this.$el;
+        const raw = el.dataset.depts || '[]';
+        let depts = [];
+        try { depts = JSON.parse(raw); } catch { depts = []; }
+
+        // Coordonnées géographiques des départements
+        const geo = {
+          '10': [48.3, 4.1], '16': [45.7, 0.3], '18': [47.1, 2.5],
+          '25': [47.2, 6.2], '27': [49.1, 1.1], '28': [48.5, 1.4],
+          '33': [44.8, -0.6], '40': [44.0, -1.0], '41': [47.5, 1.5],
+          '44': [47.3, -1.8], '45': [47.9, 2.3], '55': [49.0, 5.3],
+          '60': [49.4, 2.5], '75': [48.8566, 2.3522], '79': [46.5, -0.3],
+          '81': [43.8, 2.2], '85': [46.7, -1.5], '92': [48.9, 2.2],
+        };
+
+        // Palette brique
+        const palette = [
+          { max: Infinity, color: '#B84E23', label: '>1000' },
+          { max: 1000, color: '#D45D2E', label: '100–999' },
+          { max: 100, color: '#E8916E', label: '10–99' },
+          { max: 10, color: '#B8B8C8', label: '1–9' },
+          { max: 1, color: '#EDEBE3', label: '0' },
+        ];
+
+        const getColor = (n) => {
+          for (const p of palette) if (n >= p.max) return p.color;
+          return palette[palette.length - 1].color;
+        };
+
+        const loadMap = () => {
+          if (typeof L === 'undefined') {
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+            document.head.appendChild(link);
+            const s = document.createElement('script');
+            s.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+            s.onload = () => initMap();
+            document.body.appendChild(s);
+          } else {
+            initMap();
+          }
+        };
+
+        const initMap = () => {
+          const map = L.map(el, {
+            center: [46.8, 2.5],
+            zoom: 6,
+            zoomControl: true,
+            scrollWheelZoom: true,
+          });
+
+          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a>',
+            maxZoom: 18,
+          }).addTo(map);
+
+          const circles = [];
+          for (const d of depts) {
+            const coord = geo[d.code];
+            if (!coord) continue;
+            const events = d.events || 0;
+            const radius = Math.max(5, Math.log2(events + 1) * 8);
+            const color = getColor(events);
+            const circle = L.circleMarker(coord, {
+              radius,
+              fillColor: color,
+              color: 'white',
+              weight: 1.5,
+              opacity: 0.9,
+              fillOpacity: 0.8,
+            }).addTo(map);
+
+            circle.bindTooltip(`<strong>${d.nom || `Département ${d.code}`}</strong><br>${events.toLocaleString('fr-FR')} événement${events > 1 ? 's' : ''}`, {
+              direction: 'top',
+              offset: [0, -radius],
+            });
+
+            circle.on('click', () => {
+              window.location.href = `/departement/${d.code}/`;
+            });
+
+            circles.push(circle);
+          }
+
+          if (circles.length > 0) {
+            try {
+              const bounds = L.featureGroup(circles).getBounds().pad(0.15);
+              map.fitBounds(bounds);
+            } catch {}
+          }
+        };
+
+        loadMap();
+      },
     }));
   });
 </script>

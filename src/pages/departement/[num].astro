@@ -120,7 +120,7 @@ const itemListLd = {
             <div class="filter-panel__chips">
               <button class="filter-chip" :class="{ 'filter-chip--active': $store.filters.selectedCat === 'all' }" @click="$store.filters.selectedCat = 'all'">Toutes</button>
               {categories.map(cat => (
-                <button class="filter-chip" :class="{ 'filter-chip--active': $store.filters.selectedCat === '{cat}' }" @click="$store.filters.selectedCat = '{cat}'">{cat.charAt(0).toUpperCase() + cat.slice(1)}</button>
+                <button class="filter-chip" :class={`{ 'filter-chip--active': $store.filters.selectedCat === '${cat}' }`} @click={`$store.filters.selectedCat = '${cat}'`}>{cat.charAt(0).toUpperCase() + cat.slice(1)}</button>
               ))}
             </div>
           </fieldset>
@@ -162,12 +162,13 @@ const itemListLd = {
         </div>
         <div class="content-layout__list" id="events-list">
           <div class="events-list" x-data="{
-            events: {JSON.stringify(events.map((e: any) => ({ uid: e.uid, titre: e.titre, slug: e.slug, categorie: e.categorie, dateDebut: e.dateDebut, gratuit: e.gratuit, lieuCommune: e.lieuCommune, lieuNom: e.lieuNom, descriptionCourte: (e.descriptionCourte || '').slice(0, 150) })))},
+            events: [],
             filteredEvents: [], currentPage: 1, perPage: 20,
             init() {
+              const el = this.$el;
+              try { this.events = JSON.parse(el.dataset.events); } catch(e) { this.events = []; }
               this.filteredEvents = this.events;
-              // Watch store changes
-              this.$watch('$store.filters', () => this.applyFilters(), { deep: true });
+              this.$watch('$store.filters', () => this.applyFilters());
             },
             applyFilters() {
               const f = this.$store.filters;
@@ -198,13 +199,13 @@ const itemListLd = {
             get totalPages() { return Math.ceil(this.filteredEvents.length/this.perPage); },
             goToPage(p) { if(p>=1&&p<=this.totalPages){this.currentPage=p;window.scrollTo({top:document.getElementById('events-list')?.offsetTop-100,behavior:'smooth'});} },
             paginationNumbers() { const t=this.totalPages,c=this.currentPage,p=[];let s=Math.max(1,c-2),e=Math.min(t,c+2);if(s>1){p.push(1);if(s>2)p.push('...');}for(let i=s;i<=e;i++)p.push(i);if(e<t){if(e<t-1)p.push('...');p.push(t);}return p;},
-          }">
+          }" data-events={JSON.stringify(events.map((e: any) => ({ uid: e.uid, titre: e.titre, slug: e.slug, categorie: e.categorie, dateDebut: e.dateDebut, gratuit: e.gratuit, lieuCommune: e.lieuCommune, lieuNom: e.lieuNom, descriptionCourte: (e.descriptionCourte || '').slice(0, 150) })))}>
             <template x-if="filteredEvents.length === 0">
               <div class="empty-state" role="status">
                 <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--color-neutral-300)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
                 <h3>Aucun résultat</h3>
                 <p>Essayez de modifier vos filtres.</p>
-                <button class="btn btn--outline" @click="resetFilters()">Réinitialiser</button>
+                <button class="btn btn--outline" @click="resetAllFilters()">Réinitialiser</button>
               </div>
             </template>
             <template x-if="filteredEvents.length > 0">
