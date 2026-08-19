@@ -23,7 +23,7 @@
     "coordinates": "43.519183,5.421662",
     "lieuDepartement": "13",
     "lieuRegion": "Bouches-du-Rhône",
-    "dateMaj": "2026-08-19T13:16:40.039Z",
+    "dateMaj": "2026-08-19T16:07:13.679Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "assassin-aix-en-provence-13-6mic",
@@ -31,7 +31,7 @@
     "image": "https://mobilizon.fr/media/169a37babc2198946588dee4b4aa1840be37414ccf48ff057ced3c1bf8fc7c32.jpg?name=RS_ASSASSIN_6MIC_BANNER.jpg"
   },
   {
-    "uid": "oa-nkqja7l6",
+    "uid": "oa-y5rk78g9",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Les-Nuits-des-Vendanges-35364",
     "licence": "lov2",
@@ -54,7 +54,7 @@
     "coordinates": "43.7399857,4.8054528",
     "lieuDepartement": "13",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.672Z",
+    "dateMaj": "2026-08-19T16:07:06.310Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-nuits-des-vendanges",

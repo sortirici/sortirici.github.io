@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-19T13:16:43.892Z",
-  "totalEvents": 25633,
+  "lastUpdated": "2026-08-19T16:07:17.625Z",
+  "totalEvents": 25654,
   "totalDepartements": 96,
   "departements": [
     {
@@ -24,7 +24,7 @@
     {
       "departement": "13",
       "nom": "Bouches-du-Rhône",
-      "totalEvents": 409,
+      "totalEvents": 414,
       "visibleEvents": 200
     },
     {
@@ -204,7 +204,7 @@
     {
       "departement": "44",
       "nom": "Loire-Atlantique",
-      "totalEvents": 4839,
+      "totalEvents": 4844,
       "visibleEvents": 200
     },
     {
@@ -366,7 +366,7 @@
     {
       "departement": "71",
       "nom": "Saône-et-Loire",
-      "totalEvents": 265,
+      "totalEvents": 276,
       "visibleEvents": 200
     },
     {
@@ -390,7 +390,7 @@
     {
       "departement": "75",
       "nom": "Paris",
-      "totalEvents": 2095,
+      "totalEvents": 2093,
       "visibleEvents": 200
     },
     {
@@ -438,7 +438,7 @@
     {
       "departement": "83",
       "nom": "Var",
-      "totalEvents": 291,
+      "totalEvents": 292,
       "visibleEvents": 200
     },
     {

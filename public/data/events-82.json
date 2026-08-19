@@ -1,6 +1,6 @@
 [
   {
-    "uid": "oa-4rn7tjqc",
+    "uid": "oa-w05w31yo",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/ARTHUR-H",
     "licence": "lov2",
@@ -23,7 +23,7 @@
     "coordinates": "44.0238507,1.3620431",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.654Z",
+    "dateMaj": "2026-08-19T16:07:06.301Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "arthur-h",
@@ -58,7 +58,7 @@
     "coordinates": "44.256949,1.138309",
     "lieuDepartement": "82",
     "lieuRegion": "Tarn-et-Garonne",
-    "dateMaj": "2026-08-19T13:16:40.039Z",
+    "dateMaj": "2026-08-19T16:07:13.679Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "place-aux-fleurs-dimanche-18-avril-2027",
@@ -66,7 +66,7 @@
     "image": "https://mobilizon.fr/media/b15804ef8a39b3223185aedb9ead8f7f31ab9d54500408d661e39be54753d465.jpg?name=Place%20aux%20fleurs%202027.jpg"
   },
   {
-    "uid": "oa-drzn7tdb",
+    "uid": "oa-gurm3oby",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Place-aux-Fleurs-dimanche-18-avril-2027",
     "licence": "lov2",
@@ -89,7 +89,7 @@
     "coordinates": "44.2568475,1.138231",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.670Z",
+    "dateMaj": "2026-08-19T16:07:06.308Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "place-aux-fleurs-dimanche-18-avril-2027",
@@ -97,7 +97,7 @@
     "image": ""
   },
   {
-    "uid": "oa-85zft1l3",
+    "uid": "oa-096wex55",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/SINCLAIR-1ere-partie",
     "licence": "lov2",
@@ -120,7 +120,7 @@
     "coordinates": "44.0238507,1.3620431",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.651Z",
+    "dateMaj": "2026-08-19T16:07:06.298Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "sinclair-1ere-partie",
@@ -128,7 +128,7 @@
     "image": ""
   },
   {
-    "uid": "oa-8kex7pky",
+    "uid": "oa-75fwb5o2",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/GRUPO-COMPAY-SEGUNDO",
     "licence": "lov2",
@@ -151,7 +151,7 @@
     "coordinates": "44.0238507,1.3620431",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.659Z",
+    "dateMaj": "2026-08-19T16:07:06.301Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "grupo-compay-segundo",
@@ -159,7 +159,7 @@
     "image": ""
   },
   {
-    "uid": "oa-pnvfun4w",
+    "uid": "oa-jnwqh3gj",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/MIOSSEC-PRATTSEUL",
     "licence": "lov2",
@@ -182,7 +182,7 @@
     "coordinates": "44.0238507,1.3620431",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.647Z",
+    "dateMaj": "2026-08-19T16:07:06.294Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "miossec-prattseul",
@@ -190,7 +190,7 @@
     "image": ""
   },
   {
-    "uid": "oa-zgrahjvq",
+    "uid": "oa-mru3gfd4",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Noel-dans-la-foret-des-lumieres",
     "licence": "lov2",
@@ -213,7 +213,7 @@
     "coordinates": "44.0270553,1.3258949",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.647Z",
+    "dateMaj": "2026-08-19T16:07:06.294Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "noel-dans-la-foret-des-lumieres",
@@ -221,7 +221,7 @@
     "image": ""
   },
   {
-    "uid": "oa-cfbvdik5",
+    "uid": "oa-2ph6qazh",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Pastiches-et-Parodies-a-gogo",
     "licence": "lov2",
@@ -244,7 +244,7 @@
     "coordinates": "44.0270553,1.3258949",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.665Z",
+    "dateMaj": "2026-08-19T16:07:06.305Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "pastiches-et-parodies-a-gogo",
@@ -252,7 +252,7 @@
     "image": ""
   },
   {
-    "uid": "oa-1ctkbq2b",
+    "uid": "oa-i4tki50c",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Coupable",
     "licence": "lov2",
@@ -275,7 +275,7 @@
     "coordinates": "44.0270553,1.3258949",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.665Z",
+    "dateMaj": "2026-08-19T16:07:06.305Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "coupable",
@@ -283,7 +283,7 @@
     "image": ""
   },
   {
-    "uid": "oa-k76myxpo",
+    "uid": "oa-pnkvkcog",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Haut-les-coeurs",
     "licence": "lov2",
@@ -306,7 +306,7 @@
     "coordinates": "44.0270553,1.3258949",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.665Z",
+    "dateMaj": "2026-08-19T16:07:06.305Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "haut-les-c-urs",
@@ -314,7 +314,7 @@
     "image": ""
   },
   {
-    "uid": "oa-ax06035r",
+    "uid": "oa-9wkp9dkb",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Attention-Zoe-34632",
     "licence": "lov2",
@@ -337,7 +337,7 @@
     "coordinates": "44.0270553,1.3258949",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.647Z",
+    "dateMaj": "2026-08-19T16:07:06.294Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "attention-zoe",
@@ -345,7 +345,7 @@
     "image": ""
   },
   {
-    "uid": "oa-38stcuit",
+    "uid": "oa-bivpen0m",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/BERTRAND-BELIN-31917",
     "licence": "lov2",
@@ -368,7 +368,7 @@
     "coordinates": "44.024029,1.362098",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.671Z",
+    "dateMaj": "2026-08-19T16:07:06.309Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "bertrand-belin",
@@ -376,7 +376,7 @@
     "image": ""
   },
   {
-    "uid": "oa-75km9vf2",
+    "uid": "oa-kul52a05",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/31e-Journee-de-l-Arbre-et-du-Bois-Lauzerte",
     "licence": "lov2",
@@ -399,7 +399,7 @@
     "coordinates": "44.2638850322,1.12741433397",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.671Z",
+    "dateMaj": "2026-08-19T16:07:06.309Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "31e-journee-de-l-8217-arbre-et-du-bois-lauzerte",
@@ -434,7 +434,7 @@
     "coordinates": "44.25357,1.138045",
     "lieuDepartement": "82",
     "lieuRegion": "Tarn-et-Garonne",
-    "dateMaj": "2026-08-19T13:16:40.042Z",
+    "dateMaj": "2026-08-19T16:07:13.682Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "31e-journee-de-l-arbre-et-du-bois",
@@ -442,7 +442,7 @@
     "image": "https://mobilizon.fr/media/b7fd74a78cfde63f48c61ac60276c32616fa09d27644674534f7626983fd385e.jpg?name=Journ%C3%A9e%20de%20l%27arbre%202026%20%28Grand%29.jpg"
   },
   {
-    "uid": "oa-6tt7b9ct",
+    "uid": "oa-zb8a71w1",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/DERIVES-SONORES-BRISA-ROCHE-NICOLAS-LEROUX",
     "licence": "lov2",
@@ -465,7 +465,7 @@
     "coordinates": "44.0156192,1.3473536",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.660Z",
+    "dateMaj": "2026-08-19T16:07:06.302Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "derives-sonores-nbsp-brisa-roche-amp-nicolas-leroux",
@@ -473,7 +473,7 @@
     "image": ""
   },
   {
-    "uid": "oa-e67bdqbt",
+    "uid": "oa-xbuqfjhz",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/RELEASE-PARTY-DE-PRADE",
     "licence": "lov2",
@@ -496,7 +496,7 @@
     "coordinates": "44.0238507,1.3620431",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.651Z",
+    "dateMaj": "2026-08-19T16:07:06.298Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "release-party-de-prade",
@@ -504,7 +504,7 @@
     "image": ""
   },
   {
-    "uid": "oa-0zetfupq",
+    "uid": "oa-xi43mlm1",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/9-peches-capiteux",
     "licence": "lov2",
@@ -527,7 +527,7 @@
     "coordinates": "44.0270553,1.3258949",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.651Z",
+    "dateMaj": "2026-08-19T16:07:06.298Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "9-peches-capiteux",
@@ -535,7 +535,7 @@
     "image": ""
   },
   {
-    "uid": "oa-c3o51nj5",
+    "uid": "oa-z741gw0m",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Silence-on-tourne-35339",
     "licence": "lov2",
@@ -558,7 +558,7 @@
     "coordinates": "43.9954008,1.4709009",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.671Z",
+    "dateMaj": "2026-08-19T16:07:06.309Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "silence-on-tourne-nbsp",
@@ -566,7 +566,7 @@
     "image": ""
   },
   {
-    "uid": "oa-d1uesemv",
+    "uid": "oa-o5b9llgw",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/SALON-ECHOS-DE-L-AU-DELA-PREAMBULE",
     "licence": "lov2",
@@ -589,7 +589,7 @@
     "coordinates": "44.032604,1.37421",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.651Z",
+    "dateMaj": "2026-08-19T16:07:06.298Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "salon-echos-de-l-8217-au-dela-chapitre-1",
@@ -597,7 +597,7 @@
     "image": ""
   },
   {
-    "uid": "oa-rjbpd6hr",
+    "uid": "oa-aaa69fei",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Grand-jeu-de-piste-special-Halloween-le-Chaudron-de-la-sorciere",
     "licence": "lov2",
@@ -620,7 +620,7 @@
     "coordinates": "44.256391,1.137114",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.671Z",
+    "dateMaj": "2026-08-19T16:07:06.309Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "grand-jeu-de-piste-special-halloween-nbsp-le-chaudron-de-la-sorciere",
@@ -628,7 +628,7 @@
     "image": ""
   },
   {
-    "uid": "oa-b7qg506l",
+    "uid": "oa-zd22jfxg",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Libere-tes-emotions-Zoe",
     "licence": "lov2",
@@ -651,7 +651,7 @@
     "coordinates": "44.0270553,1.3258949",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.671Z",
+    "dateMaj": "2026-08-19T16:07:06.309Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "libere-tes-emotions-zoe",
@@ -659,7 +659,7 @@
     "image": ""
   },
   {
-    "uid": "oa-yja1d3vp",
+    "uid": "oa-5btdy5tg",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/EGO-LE-CACHALOT-Concert-Minots",
     "licence": "lov2",
@@ -682,7 +682,7 @@
     "coordinates": "44.0238507,1.3620431",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.666Z",
+    "dateMaj": "2026-08-19T16:07:06.305Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "ego-le-cachalot-concert-minots",
@@ -690,7 +690,7 @@
     "image": ""
   },
   {
-    "uid": "oa-iv9tzb1y",
+    "uid": "oa-fdrzj5fc",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Requiem-pour-les-Tombal-35338",
     "licence": "lov2",
@@ -713,7 +713,7 @@
     "coordinates": "43.9123305,1.270721",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.660Z",
+    "dateMaj": "2026-08-19T16:07:06.302Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "requiem-pour-les-tombal",
@@ -721,7 +721,7 @@
     "image": ""
   },
   {
-    "uid": "oa-6ynq1ogh",
+    "uid": "oa-o0djzm25",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/LES-PETITS-CONCERTS-DE-LA-COULEE-DOUCE-PARENTHESE-Djul-KKC-Orchestra-35099",
     "licence": "lov2",
@@ -744,7 +744,7 @@
     "coordinates": "44.0147426,1.347406",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.666Z",
+    "dateMaj": "2026-08-19T16:07:06.305Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-petits-concerts-de-la-coulee-douce-nbsp-parenthese-djul-kkc-orchestra",
@@ -752,7 +752,7 @@
     "image": ""
   },
   {
-    "uid": "oa-66yytyy8",
+    "uid": "oa-yaqnmyb8",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Blop",
     "licence": "lov2",
@@ -775,7 +775,7 @@
     "coordinates": "44.0270553,1.3258949",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.671Z",
+    "dateMaj": "2026-08-19T16:07:06.309Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "blop",
@@ -783,7 +783,7 @@
     "image": ""
   },
   {
-    "uid": "oa-5eijjm7j",
+    "uid": "oa-2tdsax8z",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Journee-Reboost-Nos-adherents-ont-du-talent",
     "licence": "lov2",
@@ -806,7 +806,7 @@
     "coordinates": "44.0328449,1.3738547",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.660Z",
+    "dateMaj": "2026-08-19T16:07:06.302Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "journee-reboost-nos-adherents-ont-du-talent",
@@ -814,7 +814,7 @@
     "image": ""
   },
   {
-    "uid": "oa-vx1nl8i5",
+    "uid": "oa-71ydp4c3",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/LES-WAMPAS-ROSA-CANINE",
     "licence": "lov2",
@@ -837,7 +837,7 @@
     "coordinates": "44.0246036,1.3574739",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.652Z",
+    "dateMaj": "2026-08-19T16:07:06.299Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-wampas-rosa-canine",
@@ -845,7 +845,7 @@
     "image": ""
   },
   {
-    "uid": "oa-rgirrvws",
+    "uid": "oa-q148gykk",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Requiem-pour-les-Tombal",
     "licence": "lov2",
@@ -868,7 +868,7 @@
     "coordinates": "44.0270553,1.3258949",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.667Z",
+    "dateMaj": "2026-08-19T16:07:06.306Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "requiem-pour-les-tombal",
@@ -876,7 +876,7 @@
     "image": ""
   },
   {
-    "uid": "oa-89yls3os",
+    "uid": "oa-q92tl4hv",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/LA-RUE-KETANOU-HYL",
     "licence": "lov2",
@@ -899,7 +899,7 @@
     "coordinates": "44.0246036,1.3574739",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.648Z",
+    "dateMaj": "2026-08-19T16:07:06.295Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-rue-ketanou-hyl",
@@ -935,7 +935,7 @@
     "coordinates": "44.256949,1.138309",
     "lieuDepartement": "82",
     "lieuRegion": "Tarn-et-Garonne",
-    "dateMaj": "2026-08-19T13:16:40.044Z",
+    "dateMaj": "2026-08-19T16:07:13.685Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "spectacle-ca-pffft-les-resonances-de-septembre-a-lauzerte",
@@ -972,7 +972,7 @@
     "coordinates": "44.256949,1.138309",
     "lieuDepartement": "82",
     "lieuRegion": "Tarn-et-Garonne",
-    "dateMaj": "2026-08-19T13:16:40.044Z",
+    "dateMaj": "2026-08-19T16:07:13.685Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "jeu-de-piste-les-jeux-du-moyen-age",
@@ -980,7 +980,7 @@
     "image": "https://mobilizon.fr/media/3fda8bf82a6a375920ac38e080f4a9be2354023c971ac46a0720af9377eb5356.jpg?name=affiche%20jeu%20de%20piste%20jeu%20moyen%20age.jpg"
   },
   {
-    "uid": "oa-fd7ic6xe",
+    "uid": "oa-oy814fs4",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Spectacle-Ca-Pffft-Les-Resonances-de-Septembre-a-Lauzerte",
     "licence": "lov2",
@@ -1003,7 +1003,7 @@
     "coordinates": "44.2568475,1.138231",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.660Z",
+    "dateMaj": "2026-08-19T16:07:06.302Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "spectacle-171-nbsp-ca-pffft-nbsp-nbsp-187-les-resonances-de-septembre-a-lauzerte",
@@ -1011,7 +1011,7 @@
     "image": ""
   },
   {
-    "uid": "oa-1fpdymz0",
+    "uid": "oa-cb2q8om8",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/After-Marche-Vent-D-est",
     "licence": "lov2",
@@ -1034,7 +1034,7 @@
     "coordinates": "44.0167951,1.3520662",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.661Z",
+    "dateMaj": "2026-08-19T16:07:06.302Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "after-marche-nbsp-vent-d-8217-est",
@@ -1042,7 +1042,7 @@
     "image": ""
   },
   {
-    "uid": "oa-4pukci0e",
+    "uid": "oa-lnzwc0wd",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Jeu-de-piste-les-jeux-du-Moyen-Age",
     "licence": "lov2",
@@ -1065,7 +1065,7 @@
     "coordinates": "44.2568475,1.138231",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.667Z",
+    "dateMaj": "2026-08-19T16:07:06.306Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "jeu-de-piste-nbsp-les-jeux-du-moyen-age",
@@ -1073,7 +1073,7 @@
     "image": ""
   },
   {
-    "uid": "oa-xhfrj01p",
+    "uid": "oa-beqn49og",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/BIM-BRASS",
     "licence": "lov2",
@@ -1096,7 +1096,7 @@
     "coordinates": "44.0329792,1.3428426",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.672Z",
+    "dateMaj": "2026-08-19T16:07:06.310Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "bim-brass",
@@ -1104,7 +1104,7 @@
     "image": ""
   },
   {
-    "uid": "oa-m350xvw0",
+    "uid": "oa-28v1zlum",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Visites-thematiques-dans-le-cadre-des-journees-du-patrimoine",
     "licence": "lov2",
@@ -1127,7 +1127,7 @@
     "coordinates": "44.256811,1.138297",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.649Z",
+    "dateMaj": "2026-08-19T16:07:06.296Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visites-thematiques-dans-le-cadre-des-journees-du-patrimoine",
@@ -1135,7 +1135,7 @@
     "image": ""
   },
   {
-    "uid": "oa-tvow5f6l",
+    "uid": "oa-6zm1siyd",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Conference-Cheminer-vers-Compostelle",
     "licence": "lov2",
@@ -1158,7 +1158,7 @@
     "coordinates": "44.256455,1.13727",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.653Z",
+    "dateMaj": "2026-08-19T16:07:06.300Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "conference-cheminer-vers-compostelle",
@@ -1166,7 +1166,7 @@
     "image": ""
   },
   {
-    "uid": "oa-7mkh0te6",
+    "uid": "oa-f3y8d9g5",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Festival-litteraire-Place-Aux-Nouvelles-35375",
     "licence": "lov2",
@@ -1189,7 +1189,7 @@
     "coordinates": "44.2568475,1.138231",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.662Z",
+    "dateMaj": "2026-08-19T16:07:06.303Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "festival-litteraire-place-aux-nouvelles",
@@ -1197,7 +1197,7 @@
     "image": ""
   },
   {
-    "uid": "oa-h85tbfy9",
+    "uid": "oa-zwvrez49",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Ambiance-assuree-35337",
     "licence": "lov2",
@@ -1220,7 +1220,7 @@
     "coordinates": "44.1776268,1.6167957",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.672Z",
+    "dateMaj": "2026-08-19T16:07:06.310Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "ambiance-assuree",
@@ -1228,7 +1228,7 @@
     "image": ""
   },
   {
-    "uid": "oa-3whowxqb",
+    "uid": "oa-6sm3mfwz",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Festival-Echappee-Musicale",
     "licence": "lov2",
@@ -1251,7 +1251,7 @@
     "coordinates": "43.9108976,1.2704585",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.662Z",
+    "dateMaj": "2026-08-19T16:07:06.303Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "festival-echappee-musicale",
@@ -1259,7 +1259,7 @@
     "image": ""
   },
   {
-    "uid": "oa-3521v7kn",
+    "uid": "oa-7toubpix",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/1er-Grand-Vide-Grenier-Parking-Magasin-Auchan",
     "licence": "lov2",
@@ -1282,7 +1282,7 @@
     "coordinates": "44.0302959,1.3712379",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.662Z",
+    "dateMaj": "2026-08-19T16:07:06.303Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "grand-vide-grenier-parking-magasin-auchan",
@@ -1290,7 +1290,7 @@
     "image": ""
   },
   {
-    "uid": "oa-utid7cp1",
+    "uid": "oa-5dncwaqd",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/After-Marche-Paamath-Davy-Kilembe",
     "licence": "lov2",
@@ -1313,7 +1313,7 @@
     "coordinates": "44.0167951,1.3520662",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.650Z",
+    "dateMaj": "2026-08-19T16:07:06.297Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "after-marche-nbsp-paamath-amp-davy-kilembe",
@@ -1321,7 +1321,7 @@
     "image": ""
   },
   {
-    "uid": "oa-6j3pdijf",
+    "uid": "oa-ezc135bm",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Visite-guidee-ronde-de-nuit-aux-flambeaux",
     "licence": "lov2",
@@ -1344,7 +1344,7 @@
     "coordinates": "44.256391,1.137114",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.663Z",
+    "dateMaj": "2026-08-19T16:07:06.303Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-ronde-de-nuit-aux-flambeaux",
@@ -1380,7 +1380,7 @@
     "coordinates": "44.256949,1.138309",
     "lieuDepartement": "82",
     "lieuRegion": "Tarn-et-Garonne",
-    "dateMaj": "2026-08-19T13:16:40.048Z",
+    "dateMaj": "2026-08-19T16:07:13.689Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "dia-sodade-en-concert-a-lauzerte",
@@ -1411,7 +1411,7 @@
     "coordinates": "44.256704,1.138101",
     "lieuDepartement": "82",
     "lieuRegion": "Tarn-et-Garonne",
-    "dateMaj": "2026-08-19T13:16:40.048Z",
+    "dateMaj": "2026-08-19T16:07:13.689Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "jeudi-gourmand-concert-duo-dia-sodade",
@@ -1419,7 +1419,7 @@
     "image": "https://mobilizon.fr/media/f9f46bab652bdd942f971de5747dc1b9c98057cf874ae87a8d3ec92f93e02641.jpg?name=a51d67fd66f9fee050418b73b49b0943_concert-du.jpg"
   },
   {
-    "uid": "oa-22r76ac1",
+    "uid": "oa-vbi2gfml",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Cluedo-Meurtre-a-Lauzerte-le-Puits-Empoisonne-32225",
     "licence": "lov2",
@@ -1442,7 +1442,7 @@
     "coordinates": "44.256391,1.137114",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.653Z",
+    "dateMaj": "2026-08-19T16:07:06.300Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "cluedo-meurtre-a-lauzerte-nbsp-le-puits-empoisonne",
@@ -1450,7 +1450,7 @@
     "image": ""
   },
   {
-    "uid": "oa-miqi3763",
+    "uid": "oa-tjgd43f3",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Dia-Sodade-en-concert-a-Lauzerte",
     "licence": "lov2",
@@ -1473,7 +1473,7 @@
     "coordinates": "44.2568475,1.138231",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.663Z",
+    "dateMaj": "2026-08-19T16:07:06.303Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "dia-sodade-en-concert-a-lauzerte",
@@ -1481,7 +1481,7 @@
     "image": ""
   },
   {
-    "uid": "oa-n9vddym1",
+    "uid": "oa-kmyn4t7h",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Chasse-au-tresor-le-tresor-de-Hautcastel-32416",
     "licence": "lov2",
@@ -1504,7 +1504,7 @@
     "coordinates": "44.256391,1.137114",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.669Z",
+    "dateMaj": "2026-08-19T16:07:06.307Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "chasse-au-tresor-nbsp-le-tresor-de-hautcastel",
@@ -1512,7 +1512,7 @@
     "image": ""
   },
   {
-    "uid": "oa-a9f282lj",
+    "uid": "oa-53dans10",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Visite-guidee-les-Incontournables-de-la-cite-medievale-32441",
     "licence": "lov2",
@@ -1535,7 +1535,7 @@
     "coordinates": "44.256391,1.137114",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.653Z",
+    "dateMaj": "2026-08-19T16:07:06.300Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-nbsp-les-incontournables-de-la-cite-medievale",
@@ -1543,7 +1543,7 @@
     "image": ""
   },
   {
-    "uid": "oa-oiea5kpq",
+    "uid": "oa-swg4eh2h",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Visite-guidee-ronde-de-nuit-aux-flambeaux-32240",
     "licence": "lov2",
@@ -1566,7 +1566,7 @@
     "coordinates": "44.256391,1.137114",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.664Z",
+    "dateMaj": "2026-08-19T16:07:06.304Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-ronde-de-nuit-aux-flambeaux",
@@ -1597,7 +1597,7 @@
     "coordinates": "44.256949,1.138309",
     "lieuDepartement": "82",
     "lieuRegion": "Tarn-et-Garonne",
-    "dateMaj": "2026-08-19T13:16:40.050Z",
+    "dateMaj": "2026-08-19T16:07:13.695Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "jeudi-gourmand-concert-du-groupe-caledjo",
@@ -1605,7 +1605,7 @@
     "image": "https://mobilizon.fr/media/45569161f88ca6c836c88f2716822d5d32e1a9233ba06769450724af59af918f.jpg?name=5da53c16066d679577b2d9ef1d01e213_concert-du.jpg"
   },
   {
-    "uid": "oa-h0blbrq9",
+    "uid": "oa-ojbt4v3p",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Fete-de-la-Liberation-a-Castelsarrasin",
     "licence": "lov2",
@@ -1628,7 +1628,7 @@
     "coordinates": "44.0383238,1.1046473",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.650Z",
+    "dateMaj": "2026-08-19T16:07:06.297Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "fete-de-la-liberation-a-castelsarrasin",
@@ -1636,7 +1636,7 @@
     "image": ""
   },
   {
-    "uid": "oa-3x7nkqka",
+    "uid": "oa-axr0pj03",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Cluedo-Meurtre-a-Lauzerte-le-Puits-Empoisonne-32224",
     "licence": "lov2",
@@ -1659,7 +1659,7 @@
     "coordinates": "44.256391,1.137114",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.673Z",
+    "dateMaj": "2026-08-19T16:07:06.311Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "cluedo-meurtre-a-lauzerte-nbsp-le-puits-empoisonne",
@@ -1667,7 +1667,7 @@
     "image": ""
   },
   {
-    "uid": "oa-876jwwqk",
+    "uid": "oa-uk502cs6",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Concert-du-groupe-Caledjo-lors-du-Jeudi-Gourmand",
     "licence": "lov2",
@@ -1690,7 +1690,7 @@
     "coordinates": "44.256811,1.138297",
     "lieuDepartement": "82",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.674Z",
+    "dateMaj": "2026-08-19T16:07:06.312Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "concert-du-groupe-caledjo-lors-du-jeudi-gourmand",

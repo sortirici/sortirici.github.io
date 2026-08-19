@@ -26,20 +26,6 @@ const siteUrl = 'https://sortirici.github.io';
 const rawText = (event.descriptionLongue || event.descriptionCourte || '').replace(/<[^>]*>/g, '');
 const resume = rawText.slice(0, 160).trim();
 
-// ---- Formatage : découpage descriptionLongue en paragraphes pour lisibilité ----
-function formatToParagraphs(text: string): string[] {
-  if (!text) return [];
-  const cleaned = text.replace(/<[^>]*>/g, '').trim();
-  const sentences = cleaned.match(/[^.!?]+[.!?]+/g) || [cleaned];
-  const paragraphs: string[] = [];
-  for (let i = 0; i < sentences.length; i += 3) {
-    const chunk = sentences.slice(i, i + 3).join(' ').trim();
-    if (chunk) paragraphs.push(chunk);
-  }
-  return paragraphs.length > 0 ? paragraphs : [cleaned];
-}
-const descriptionParagraphs = formatToParagraphs(event.descriptionLongue);
-
 // ---- SEO Meta ----
 const pageTitle = hasEvent
   ? `${event.titre} — ${event.lieuCommune || ''} (${event.dateDebut ? new Date(event.dateDebut).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) : ''}) | SortirIci`
@@ -290,15 +276,11 @@ const breadcrumbLd = hasEvent ? {
         )}
 
         {event.descriptionLongue && (
-          <div style="font-size: 1rem; line-height: 1.75; color: var(--color-neutral-700); max-width: 72ch; margin-bottom: 2rem; padding: 1.5rem; background: var(--color-neutral-100); border-radius: 0.75rem;">
-            <h2 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 0.75rem; color: var(--color-neutral-900);">
+          <div class="event-description">
+            <h2 class="event-description__title">
               À propos de cet événement
             </h2>
-            <div style="white-space: pre-line;" itemprop="description">
-              {descriptionParagraphs.map(p => (
-                <p style="margin-bottom: 0.75rem;">{p}</p>
-              ))}
-            </div>
+            <div class="event-description__content" itemprop="description" set:html={event.descriptionLongue} />
           </div>
         )}
 
@@ -337,4 +319,19 @@ const breadcrumbLd = hasEvent ? {
 
   .event-image-wrapper { margin-bottom: 1.5rem; border-radius: 0.75rem; overflow: hidden; }
   .event-image { width: 100%; max-width: 800px; height: auto; border-radius: 0.75rem; box-shadow: var(--shadow-medium); }
+
+  .event-description { font-size: 1rem; line-height: 1.75; color: var(--color-neutral-700); max-width: 72ch; margin-bottom: 2rem; padding: 1.5rem; background: var(--color-neutral-100); border-radius: 0.75rem; }
+  .event-description__title { font-size: 1.125rem; font-weight: 600; margin-bottom: 0.75rem; color: var(--color-neutral-900); }
+  .event-description__content p { margin-bottom: 0.75rem; }
+  .event-description__content ul, .event-description__content ol { margin-bottom: 0.75rem; padding-left: 1.5rem; }
+  .event-description__content li { margin-bottom: 0.25rem; }
+  .event-description__content h2, .event-description__content h3, .event-description__content h4 { margin-top: 1.5rem; margin-bottom: 0.5rem; font-weight: 600; color: var(--color-neutral-900); }
+  .event-description__content h2 { font-size: 1.25rem; }
+  .event-description__content h3 { font-size: 1.125rem; }
+  .event-description__content h4 { font-size: 1rem; }
+  .event-description__content table { width: 100%; border-collapse: collapse; margin-bottom: 0.75rem; }
+  .event-description__content th, .event-description__content td { padding: 0.5rem; border: 1px solid var(--color-neutral-300); text-align: left; }
+  .event-description__content th { background: var(--color-neutral-200); font-weight: 600; }
+  .event-description__content a { color: var(--color-brand-brick); text-decoration: underline; }
+  .event-description__content blockquote { margin: 0.75rem 0; padding: 0.5rem 1rem; border-left: 3px solid var(--color-brand-brick); background: var(--color-neutral-200); }
 </style>

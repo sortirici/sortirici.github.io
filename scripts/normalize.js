@@ -146,7 +146,14 @@ function normalizeOpenAgenda(item, sourceId) {
   const rawLongDesc = typeof item.longdescription_fr === 'string' ? item.longdescription_fr
     : (item.longDescription && typeof item.longDescription === 'object'
       ? (item.longDescription.fr || item.longDescription.en || '') : '');
-  const longDesc = sanitizeText(rawLongDesc.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim());
+  // Keep structural HTML tags, remove dangerous ones + sanitize PII
+  let safeLongDesc = rawLongDesc
+    .replace(/<!--[\s\S]*?-->/g, '')                              // Remove HTML comments
+    .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '')           // Remove script + content
+    .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, '')             // Remove style + content
+    .replace(/<\/?(?:iframe|object|embed|form|input)\b[^>]*>/gi, ''); // Remove dangerous tags (keep content)
+  safeLongDesc = safeLongDesc.replace(/\s+/g, ' ').trim();
+  const longDesc = sanitizeText(safeLongDesc);
 
   // Dates : legacy (date_debut, firstdate_begin…) OU API native v2 (firstDate + firstTimeStart, timings[])
   let debut = getField(item, 'date_debut', 'firstDateBegin', 'firstdate_begin', 'firstday', 'dateDebut', 'date') || '';

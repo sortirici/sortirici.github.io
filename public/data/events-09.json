@@ -1,6 +1,6 @@
 [
   {
-    "uid": "oa-1s4l6j9s",
+    "uid": "oa-lg4lcunm",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Les-4-saisons-de-La-Bellongaise-33463",
     "licence": "lov2",
@@ -23,7 +23,7 @@
     "coordinates": "42.9340517,0.9355668",
     "lieuDepartement": "09",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.659Z",
+    "dateMaj": "2026-08-19T16:07:06.301Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-4-saisons-de-la-bellongaise",
@@ -31,7 +31,7 @@
     "image": ""
   },
   {
-    "uid": "oa-ebfn0cgm",
+    "uid": "oa-xt0nqjci",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Winterreise",
     "licence": "lov2",
@@ -54,7 +54,7 @@
     "coordinates": "43.0930296,1.1243944",
     "lieuDepartement": "09",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.648Z",
+    "dateMaj": "2026-08-19T16:07:06.294Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "winterreise",
@@ -62,7 +62,7 @@
     "image": ""
   },
   {
-    "uid": "oa-jsgxukm7",
+    "uid": "oa-6frtrybl",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Les-4-saisons-de-La-Bellongaise-33462",
     "licence": "lov2",
@@ -85,7 +85,7 @@
     "coordinates": "42.944854,1.0269234",
     "lieuDepartement": "09",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.671Z",
+    "dateMaj": "2026-08-19T16:07:06.309Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-4-saisons-de-la-bellongaise",
@@ -93,7 +93,7 @@
     "image": ""
   },
   {
-    "uid": "oa-duc0kx3w",
+    "uid": "oa-gt4hut4k",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Les-4-saisons-de-La-Bellongaise-33461",
     "licence": "lov2",
@@ -116,7 +116,7 @@
     "coordinates": "42.9213374,1.0308513",
     "lieuDepartement": "09",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.649Z",
+    "dateMaj": "2026-08-19T16:07:06.295Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-4-saisons-de-la-bellongaise",
@@ -124,7 +124,7 @@
     "image": ""
   },
   {
-    "uid": "oa-uybr5cah",
+    "uid": "oa-14d5hj82",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/L-Ambigu-ou-la-derniere-nuit-de-Dom-Juan",
     "licence": "lov2",
@@ -147,7 +147,7 @@
     "coordinates": "43.0930296,1.1243944",
     "lieuDepartement": "09",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.672Z",
+    "dateMaj": "2026-08-19T16:07:06.310Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "l-ambigu-ou-la-derniere-nuit-de-dom-juan",
@@ -155,7 +155,7 @@
     "image": ""
   },
   {
-    "uid": "oa-u1o39hqn",
+    "uid": "oa-jlv267y2",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Les-4-saisons-de-La-Bellongaise-33459",
     "licence": "lov2",
@@ -178,7 +178,7 @@
     "coordinates": "42.9418094,0.9630585",
     "lieuDepartement": "09",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.668Z",
+    "dateMaj": "2026-08-19T16:07:06.306Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-4-saisons-de-la-bellongaise",
@@ -186,7 +186,7 @@
     "image": ""
   },
   {
-    "uid": "oa-rw0gw3bf",
+    "uid": "oa-vkbllam6",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/INAUGURATION-DU-BIKE-PARK-DE-SAINT-PAUL-DE-JARRAT",
     "licence": "lov2",
@@ -209,7 +209,7 @@
     "coordinates": "42.9142437,1.6651893",
     "lieuDepartement": "09",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.649Z",
+    "dateMaj": "2026-08-19T16:07:06.296Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "inauguration-du-bike-park-de-saint-paul-de-jarrat",
@@ -217,7 +217,7 @@
     "image": ""
   },
   {
-    "uid": "oa-89h9y10l",
+    "uid": "oa-72et5bct",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/L-Ombre-du-Soufi",
     "licence": "lov2",
@@ -240,7 +240,7 @@
     "coordinates": "43.0930296,1.1243944",
     "lieuDepartement": "09",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.668Z",
+    "dateMaj": "2026-08-19T16:07:06.307Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "l-8217-ombre-du-soufi",
@@ -248,7 +248,7 @@
     "image": ""
   },
   {
-    "uid": "oa-pkjnj4ui",
+    "uid": "oa-xoq40tv1",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Appelez-moi-Cassandre",
     "licence": "lov2",
@@ -271,7 +271,7 @@
     "coordinates": "43.1196770093,1.17148850753",
     "lieuDepartement": "09",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.668Z",
+    "dateMaj": "2026-08-19T16:07:06.307Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "appelez-moi-cassandre",
@@ -279,7 +279,7 @@
     "image": ""
   },
   {
-    "uid": "oa-bsl79wev",
+    "uid": "oa-nnfduv23",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Solidarite-Bellongaise",
     "licence": "lov2",
@@ -302,7 +302,7 @@
     "coordinates": "42.9213374,1.0308513",
     "lieuDepartement": "09",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.673Z",
+    "dateMaj": "2026-08-19T16:07:06.311Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "solidarite-bellongaise",
@@ -310,7 +310,7 @@
     "image": ""
   },
   {
-    "uid": "oa-5lq1fjfp",
+    "uid": "oa-oslzu7yn",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Vivo-per-lei",
     "licence": "lov2",
@@ -333,7 +333,7 @@
     "coordinates": "43.0930296,1.1243944",
     "lieuDepartement": "09",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.673Z",
+    "dateMaj": "2026-08-19T16:07:06.311Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "vivo-per-lei",
@@ -341,7 +341,7 @@
     "image": ""
   },
   {
-    "uid": "oa-hqeosaq8",
+    "uid": "oa-nb3xs3zb",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/La-Methode-Bolino-spectacle-equestre-technique-et-resolument-drole",
     "licence": "lov2",
@@ -364,7 +364,7 @@
     "coordinates": "43.1981195,1.5430722",
     "lieuDepartement": "09",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.650Z",
+    "dateMaj": "2026-08-19T16:07:06.297Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-methode-bolino-nbsp-spectacle-equestre-technique-et-resolument-drole-nbsp",
@@ -372,7 +372,7 @@
     "image": ""
   },
   {
-    "uid": "oa-skw6pf2m",
+    "uid": "oa-cdgj52d4",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/La-Methode-Bolino-spectacle-equestre-technique-et-resolument-drole-34287",
     "licence": "lov2",
@@ -395,7 +395,7 @@
     "coordinates": "43.1981195,1.5430722",
     "lieuDepartement": "09",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.673Z",
+    "dateMaj": "2026-08-19T16:07:06.311Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-methode-bolino-nbsp-spectacle-equestre-technique-et-resolument-drole-nbsp",
@@ -403,7 +403,7 @@
     "image": ""
   },
   {
-    "uid": "oa-2fhl2q3g",
+    "uid": "oa-crb5ng6x",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/La-Grande-Fete-du-Ble",
     "licence": "lov2",
@@ -426,7 +426,7 @@
     "coordinates": "42.9387997,1.6316285",
     "lieuDepartement": "09",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.673Z",
+    "dateMaj": "2026-08-19T16:07:06.311Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-grande-fete-du-ble",
@@ -434,7 +434,7 @@
     "image": ""
   },
   {
-    "uid": "oa-rutmxcdf",
+    "uid": "oa-km80itdl",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Des-Chats-exposition-artistique",
     "licence": "lov2",
@@ -457,7 +457,7 @@
     "coordinates": "42.9650327,1.6061116",
     "lieuDepartement": "09",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.651Z",
+    "dateMaj": "2026-08-19T16:07:06.297Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "des-chats-nbsp-exposition-artistique",

@@ -9864,7 +9864,7 @@
     "licence": "lov2",
     "titre": "Ouverture de l'église Saint-Martin du Tiercent",
     "descriptionCourte": "Ouverture de l'église en présence d'élus qui vous présenteront l'église, son architecture et sa restauration.",
-    "descriptionLongue": "Ouverture de l'église en présence d'élus qui vous présenteront l'église, son architecture et sa restauration. Cette église, restaurée en 2014, était à l’origine l’ancienne chapelle romane du château. Pavée de plusieurs pierres tombales, elle renferme de belles statues de bois. Quatre tombeaux très anciens, probablement carolingiens, taillés à même le granit témoignent de la spiritualité précoce du lieu.",
+    "descriptionLongue": "Ouverture de l'église en présence d'élus qui vous présenteront l'église, son architecture et sa restauration. Cette église, restaurée en 2014, était à l’origine l’ancienne chapelle romane du château. Pavée de plusieurs pierres tombales, elle renferme de belles statues de bois. Quatre tombeaux très anciens, probablement carolingiens, taillés à même le granit témoignent de la spiritualité précoce du lieu. Une **visite guidée gratuite** de l'église sera proposée par le père Roger Blot, spécialiste des églises du diocèse de Rennes, le **samedi à 14h**.",
     "dateDebut": "2026-09-19T14:00",
     "dateFin": "2026-09-20T18:00",
     "categorie": "exposition",
@@ -9881,12 +9881,12 @@
     "coordinates": "48.34992,-1.40767",
     "lieuDepartement": "Ille-et-Vilaine",
     "lieuRegion": "Bretagne",
-    "dateMaj": "2026-06-22T08:13:52.000Z",
+    "dateMaj": "2026-08-19T14:01:41.000Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "ouverture-de-leglise-saint-martin-du-tiercent-4191505",
     "departementNumero": "35",
-    "image": "https://storage.openagenda.com/main/249ea6291df64976a8d16ffc793e4cec.base.image.jpg"
+    "image": "https://img.openagenda.com/main/249ea6291df64976a8d16ffc793e4cec.base.image.jpg"
   },
   {
     "uid": "oa-48386189",

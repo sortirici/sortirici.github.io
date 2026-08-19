@@ -1,6 +1,6 @@
 [
   {
-    "uid": "oa-xcg02xr0",
+    "uid": "oa-ncc845hf",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/18e-Festival-Vues-du-Quebec",
     "licence": "lov2",
@@ -23,7 +23,7 @@
     "coordinates": "44.3254624,3.5942643",
     "lieuDepartement": "48",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.665Z",
+    "dateMaj": "2026-08-19T16:07:06.304Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "18e-festival-vues-du-quebec",
@@ -31,7 +31,7 @@
     "image": ""
   },
   {
-    "uid": "oa-9ajoez7s",
+    "uid": "oa-8ry5jt46",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Permanence-et-atelier-d-orientation-35091",
     "licence": "lov2",
@@ -54,7 +54,7 @@
     "coordinates": "44.5193566,3.4966784",
     "lieuDepartement": "48",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.651Z",
+    "dateMaj": "2026-08-19T16:07:06.298Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "permanence-et-atelier-d-8217-orientation",
@@ -62,7 +62,7 @@
     "image": ""
   },
   {
-    "uid": "oa-9fzvlemv",
+    "uid": "oa-xzrlpc6p",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Concert-sous-roche-Here-and-Now-Walid-Ben-Selim-Marie-Marguerite-Cano-a-la-grotte",
     "licence": "lov2",
@@ -85,7 +85,7 @@
     "coordinates": "44.2208849,3.3570454",
     "lieuDepartement": "48",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.672Z",
+    "dateMaj": "2026-08-19T16:07:06.310Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "concert-sous-roche-here-and-now-walid-ben-selim-amp-marie-marguerite-cano-a-la-g",
@@ -93,7 +93,7 @@
     "image": ""
   },
   {
-    "uid": "oa-pw1lf4ve",
+    "uid": "oa-aixl6xi1",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Decouverte-des-metiers-du-Transport",
     "licence": "lov2",
@@ -116,7 +116,7 @@
     "coordinates": "44.5193566,3.4966784",
     "lieuDepartement": "48",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.672Z",
+    "dateMaj": "2026-08-19T16:07:06.310Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "decouverte-des-metiers-du-transport",
@@ -124,7 +124,7 @@
     "image": ""
   },
   {
-    "uid": "oa-7vquy7l6",
+    "uid": "oa-ws2njmsw",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Permanence-et-atelier-d-orientation-35089",
     "licence": "lov2",
@@ -147,7 +147,7 @@
     "coordinates": "44.5193566,3.4966784",
     "lieuDepartement": "48",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.662Z",
+    "dateMaj": "2026-08-19T16:07:06.303Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "permanence-et-atelier-d-8217-orientation",
@@ -155,7 +155,7 @@
     "image": ""
   },
   {
-    "uid": "oa-dvxxcm07",
+    "uid": "oa-pe37fngm",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Forum-des-associations-35068",
     "licence": "lov2",
@@ -178,7 +178,7 @@
     "coordinates": "44.5292415966,3.4812200992",
     "lieuDepartement": "48",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.653Z",
+    "dateMaj": "2026-08-19T16:07:06.300Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "forum-des-associations",

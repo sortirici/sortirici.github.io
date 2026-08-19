@@ -23,7 +23,7 @@
     "coordinates": "43.606307,3.881387",
     "lieuDepartement": "34",
     "lieuRegion": "Hérault",
-    "dateMaj": "2026-08-19T13:16:40.039Z",
+    "dateMaj": "2026-08-19T16:07:13.679Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "assassin-montpellier-34-rockstore",
@@ -31,7 +31,7 @@
     "image": "https://mobilizon.fr/media/b97c9a9a69189f3466e33751791b463cd9826dc5ebb53a1162d9bd06909af7c7.jpg?name=Assassin1.jpg"
   },
   {
-    "uid": "oa-9zwup2kh",
+    "uid": "oa-xx9hjabt",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/1er-concours-international-C2LADANSE-Montpellier-Occitanie",
     "licence": "lov2",
@@ -54,7 +54,7 @@
     "coordinates": "43.6324388,3.8991648",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.665Z",
+    "dateMaj": "2026-08-19T16:07:06.305Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "concours-international-c2ladanse-montpellier-occitanie",
@@ -62,7 +62,7 @@
     "image": ""
   },
   {
-    "uid": "oa-j0fmcp1k",
+    "uid": "oa-gm6oz7rt",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/La-Femme-du-boulanger-La-Femna-del-Fornier",
     "licence": "lov2",
@@ -85,7 +85,7 @@
     "coordinates": "43.6510702,3.150812",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.659Z",
+    "dateMaj": "2026-08-19T16:07:06.301Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-femme-du-boulanger-la-femna-del-fornier",
@@ -93,7 +93,7 @@
     "image": ""
   },
   {
-    "uid": "oa-m9fhql69",
+    "uid": "oa-uvyfzwsi",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Afterwork-Pitch-Elevator-Club-LR-10-decembre-2026",
     "licence": "lov2",
@@ -116,7 +116,7 @@
     "coordinates": "43.573241,3.861394",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.665Z",
+    "dateMaj": "2026-08-19T16:07:06.305Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "afterwork-pitch-elevator-club-lr-10-decembre-2026",
@@ -124,7 +124,7 @@
     "image": ""
   },
   {
-    "uid": "oa-0pnc1t2d",
+    "uid": "oa-8sd6ugbz",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Salon-gourmand-du-gras",
     "licence": "lov2",
@@ -147,7 +147,7 @@
     "coordinates": "43.697441,3.899372",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.647Z",
+    "dateMaj": "2026-08-19T16:07:06.294Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "salon-gourmand-du-gras",
@@ -155,7 +155,7 @@
     "image": ""
   },
   {
-    "uid": "oa-0iumdcss",
+    "uid": "oa-1bb2stqr",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/1000-ans-Joanda-en-concert-34918",
     "licence": "lov2",
@@ -178,7 +178,7 @@
     "coordinates": "43.4577101,3.2373151",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.665Z",
+    "dateMaj": "2026-08-19T16:07:06.305Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "1000-ans-joanda-en-concert",
@@ -186,7 +186,7 @@
     "image": ""
   },
   {
-    "uid": "oa-tb5u60l8",
+    "uid": "oa-j2zerzt6",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Foulees-Solidaires",
     "licence": "lov2",
@@ -209,7 +209,7 @@
     "coordinates": "43.6114679,3.8700779",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.647Z",
+    "dateMaj": "2026-08-19T16:07:06.294Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "foulees-solidaires",
@@ -217,7 +217,7 @@
     "image": ""
   },
   {
-    "uid": "oa-nml29xh5",
+    "uid": "oa-wv16ujhq",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Afterwork-Pitch-Elevator-Club-LR-12-novembre-2026",
     "licence": "lov2",
@@ -240,7 +240,7 @@
     "coordinates": "43.573241,3.861394",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.666Z",
+    "dateMaj": "2026-08-19T16:07:06.305Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "afterwork-pitch-elevator-club-lr-12-novembre-2026",
@@ -248,7 +248,7 @@
     "image": ""
   },
   {
-    "uid": "oa-0v5fngsw",
+    "uid": "oa-36w4ph9h",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Stage-creation-vitrail-Tiffany-Approfondissement",
     "licence": "lov2",
@@ -271,7 +271,7 @@
     "coordinates": "43.6214927,3.4728506",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.651Z",
+    "dateMaj": "2026-08-19T16:07:06.298Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "stage-creation-vitrail-tiffany-approfondissement",
@@ -279,7 +279,7 @@
     "image": ""
   },
   {
-    "uid": "oa-4hhnp810",
+    "uid": "oa-61xp5e7t",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Stage-soudure-et-metallerie",
     "licence": "lov2",
@@ -302,7 +302,7 @@
     "coordinates": "43.6214927,3.4728506",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.671Z",
+    "dateMaj": "2026-08-19T16:07:06.309Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "stage-soudure-et-metallerie",
@@ -310,7 +310,7 @@
     "image": ""
   },
   {
-    "uid": "oa-zjuplclf",
+    "uid": "oa-wqb2twqt",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Stage-d-initiation-au-vitrail-Tiffany",
     "licence": "lov2",
@@ -333,7 +333,7 @@
     "coordinates": "43.6214927,3.4728506",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.660Z",
+    "dateMaj": "2026-08-19T16:07:06.302Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "stage-d-8217-initiation-au-vitrail-tiffany",
@@ -341,7 +341,7 @@
     "image": ""
   },
   {
-    "uid": "oa-t5m9gjfl",
+    "uid": "oa-sqkuujuy",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Stage-soudure-a-l-arc-35342",
     "licence": "lov2",
@@ -364,7 +364,7 @@
     "coordinates": "43.6214927,3.4728506",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.660Z",
+    "dateMaj": "2026-08-19T16:07:06.302Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "stage-soudure-a-l-8217-arc",
@@ -372,7 +372,7 @@
     "image": ""
   },
   {
-    "uid": "oa-z2233m62",
+    "uid": "oa-n214t5cr",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Salon-Europeen-des-Tendances-Touristiques-SETT",
     "licence": "lov2",
@@ -395,7 +395,7 @@
     "coordinates": "43.5720383,3.9516455",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.666Z",
+    "dateMaj": "2026-08-19T16:07:06.305Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "salon-europeen-des-tendances-touristiques-sett",
@@ -403,7 +403,7 @@
     "image": ""
   },
   {
-    "uid": "oa-gt7a4mzf",
+    "uid": "oa-23l4abn0",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Stage-sportif-cerf-volant-et-boomerang-avec-Volensud",
     "licence": "lov2",
@@ -426,7 +426,7 @@
     "coordinates": "43.634307,3.829191",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.666Z",
+    "dateMaj": "2026-08-19T16:07:06.305Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "stage-sportif-cerf-volant-et-boomerang-avec-volensud",
@@ -465,7 +465,7 @@
     "image": "https://img.openagenda.com/main/936e363f99434f17ab97786b93cf4295.base.image.jpg"
   },
   {
-    "uid": "oa-do48i4ix",
+    "uid": "oa-oy0ph571",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Salon-de-Modelisme-de-Bedarieux",
     "licence": "lov2",
@@ -488,7 +488,7 @@
     "coordinates": "43.6178025,3.1597327",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.666Z",
+    "dateMaj": "2026-08-19T16:07:06.305Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "salon-de-modelisme-de-bedarieux",
@@ -496,7 +496,7 @@
     "image": ""
   },
   {
-    "uid": "oa-qh1wja5f",
+    "uid": "oa-4q8oe34a",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/IMMERSION-AU-CHATEAU-LANCYRE",
     "licence": "lov2",
@@ -519,7 +519,7 @@
     "coordinates": "43.8109082,3.8911381",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.671Z",
+    "dateMaj": "2026-08-19T16:07:06.309Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "immersion-au-chateau-lancyre",
@@ -527,7 +527,7 @@
     "image": ""
   },
   {
-    "uid": "oa-ugjuchbp",
+    "uid": "oa-1hevy0i7",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Les-incontournables-de-la-creation-d-entreprise-35349",
     "licence": "lov2",
@@ -550,7 +550,7 @@
     "coordinates": "43.6073449,3.8881926",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.648Z",
+    "dateMaj": "2026-08-19T16:07:06.295Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-incontournables-de-la-creation-d-8217-entreprise",
@@ -558,7 +558,7 @@
     "image": ""
   },
   {
-    "uid": "oa-x6vxrzg4",
+    "uid": "oa-pkz2d1lr",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Les-metiers-de-la-Justice-Pourquoi-pas-vous",
     "licence": "lov2",
@@ -581,7 +581,7 @@
     "coordinates": "43.6073449,3.8881926",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.671Z",
+    "dateMaj": "2026-08-19T16:07:06.309Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-metiers-de-la-justice-hellip-pourquoi-pas-vous-nbsp",
@@ -589,7 +589,7 @@
     "image": ""
   },
   {
-    "uid": "oa-ny5lmm4d",
+    "uid": "oa-yi4rxxnq",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/BIBLIOTHEQUES-VIVANTES-Lecture-bilingue-En-desequilibre-%D9%81%D9%8A-%D8%A7%D8%AE%D8%AA%D9%84%D8%A7%D9%84",
     "licence": "lov2",
@@ -612,7 +612,7 @@
     "coordinates": "43.6062805,3.8694643",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.671Z",
+    "dateMaj": "2026-08-19T16:07:06.309Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "bibliotheques-vivantes-nbsp-lecture-bilingue-en-desequilibre",
@@ -620,7 +620,7 @@
     "image": ""
   },
   {
-    "uid": "oa-cwmpy30p",
+    "uid": "oa-divtehka",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Formation-mode-d-emploi-35218",
     "licence": "lov2",
@@ -643,7 +643,7 @@
     "coordinates": "43.6073449,3.8881926",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.648Z",
+    "dateMaj": "2026-08-19T16:07:06.295Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "formation-mode-d-8217-emploi",
@@ -651,7 +651,7 @@
     "image": ""
   },
   {
-    "uid": "oa-aux303sl",
+    "uid": "oa-iyock1rm",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Salon-du-Chocolat-et-des-Specialites-Regionales-29967",
     "licence": "lov2",
@@ -674,7 +674,7 @@
     "coordinates": "43.530717,3.928689",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.672Z",
+    "dateMaj": "2026-08-19T16:07:06.310Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "salon-du-chocolat-et-des-specialites-regionales",
@@ -682,7 +682,7 @@
     "image": ""
   },
   {
-    "uid": "oa-evk686u8",
+    "uid": "oa-wpk7plat",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Afterwork-Pitch-Elevator-Club-LR-08-octobre-2026",
     "licence": "lov2",
@@ -705,7 +705,7 @@
     "coordinates": "43.573241,3.861394",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.648Z",
+    "dateMaj": "2026-08-19T16:07:06.295Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "afterwork-pitch-elevator-club-lr-08-octobre-2026",
@@ -713,7 +713,7 @@
     "image": ""
   },
   {
-    "uid": "oa-ude02gm7",
+    "uid": "oa-yvaxnxg7",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/5eme-edition-Forum-des-Metiers",
     "licence": "lov2",
@@ -736,7 +736,7 @@
     "coordinates": "43.5437372,3.8498862",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.652Z",
+    "dateMaj": "2026-08-19T16:07:06.299Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "5eme-edition-forum-des-metiers",
@@ -744,7 +744,7 @@
     "image": ""
   },
   {
-    "uid": "oa-dc1t5hy8",
+    "uid": "oa-n0zgk4us",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/FORUM-NEURODIV",
     "licence": "lov2",
@@ -767,7 +767,7 @@
     "coordinates": "43.574082,3.948938",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.648Z",
+    "dateMaj": "2026-08-19T16:07:06.295Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "forum-neurodiv",
@@ -775,7 +775,7 @@
     "image": ""
   },
   {
-    "uid": "oa-zs6xzmac",
+    "uid": "oa-jtqlr3ow",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/JUST-N-FEST-2026",
     "licence": "lov2",
@@ -798,7 +798,7 @@
     "coordinates": "43.6579903,4.1153719",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.667Z",
+    "dateMaj": "2026-08-19T16:07:06.306Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "just-n-fest-2026",
@@ -806,7 +806,7 @@
     "image": ""
   },
   {
-    "uid": "oa-0f1fmtoh",
+    "uid": "oa-dgcwa731",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Forum-Neurodiv-Evenement-dedie-aux-troubles-du-neurodeveloppement-TSA-TDA-H-Troubles",
     "licence": "lov2",
@@ -829,7 +829,7 @@
     "coordinates": "43.5732968,3.9517165",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.667Z",
+    "dateMaj": "2026-08-19T16:07:06.306Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "forum-neurodiv-evenement-dedie-aux-troubles-du-neurodeveloppement-tsa-tda-h-trou",
@@ -837,7 +837,7 @@
     "image": ""
   },
   {
-    "uid": "oa-7x5avi35",
+    "uid": "oa-ziejw43y",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Portes-ouvertes-du-tiers-lieu-La-Conciergerie-d-Eurek-ACT",
     "licence": "lov2",
@@ -860,7 +860,7 @@
     "coordinates": "43.6196344,3.9166859",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.652Z",
+    "dateMaj": "2026-08-19T16:07:06.299Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "portes-ouvertes-du-tiers-lieu-la-conciergerie-d-8217-eurek-8217-act",
@@ -868,7 +868,7 @@
     "image": ""
   },
   {
-    "uid": "oa-bzha0iwp",
+    "uid": "oa-1x2wte13",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Ici-et-ailleurs",
     "licence": "lov2",
@@ -891,7 +891,7 @@
     "coordinates": "43.4268691,3.6071245",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.649Z",
+    "dateMaj": "2026-08-19T16:07:06.295Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "ici-et-ailleurs",
@@ -899,7 +899,7 @@
     "image": ""
   },
   {
-    "uid": "oa-ydjgnzqo",
+    "uid": "oa-ukn21fdt",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Salon-Studyrama-des-Parents-1eres-Terminales-de-Montpellier-35224",
     "licence": "lov2",
@@ -922,7 +922,7 @@
     "coordinates": "43.5732968,3.9517165",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.649Z",
+    "dateMaj": "2026-08-19T16:07:06.295Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "salon-studyrama-des-parents-1eres-amp-terminales-de-montpellier",
@@ -930,7 +930,7 @@
     "image": ""
   },
   {
-    "uid": "oa-9uevxhbb",
+    "uid": "oa-98d18fr8",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Festival-Japan-Matsuri",
     "licence": "lov2",
@@ -953,7 +953,7 @@
     "coordinates": "43.5732968,3.9517165",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.652Z",
+    "dateMaj": "2026-08-19T16:07:06.299Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "festival-japan-matsuri",
@@ -961,7 +961,7 @@
     "image": ""
   },
   {
-    "uid": "oa-ezk3wcrl",
+    "uid": "oa-5ucfqlcy",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/En-desequilibre-%D9%81%D9%8A-%D8%A7%D8%AE%D8%AA%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B2%D9%86",
     "licence": "lov2",
@@ -984,7 +984,7 @@
     "coordinates": "43.6062805,3.8694643",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.649Z",
+    "dateMaj": "2026-08-19T16:07:06.296Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "en-desequilibre",
@@ -992,7 +992,7 @@
     "image": ""
   },
   {
-    "uid": "oa-ftw0q0b2",
+    "uid": "oa-bcdblfvf",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/LANGUEDEROCK-2026",
     "licence": "lov2",
@@ -1015,7 +1015,7 @@
     "coordinates": "43.329208,3.183043",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.652Z",
+    "dateMaj": "2026-08-19T16:07:06.299Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "languederock-2026",
@@ -1023,7 +1023,7 @@
     "image": ""
   },
   {
-    "uid": "oa-y5dpc56o",
+    "uid": "oa-4ktykek0",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/LES-CAUDALIES-32937",
     "licence": "lov2",
@@ -1046,7 +1046,7 @@
     "coordinates": "43.641047,4.017743",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.672Z",
+    "dateMaj": "2026-08-19T16:07:06.310Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-caudalies",
@@ -1054,7 +1054,7 @@
     "image": ""
   },
   {
-    "uid": "oa-atgg0tcy",
+    "uid": "oa-1f5lwuoa",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Poulinade-4-jours-autour-de-l-anniversaire-des-800-ans-du-Poulain-de-Pezenas",
     "licence": "lov2",
@@ -1077,7 +1077,7 @@
     "coordinates": "43.4599765,3.4210379",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.652Z",
+    "dateMaj": "2026-08-19T16:07:06.299Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "poulinade-4-jours-autour-de-l-8217-anniversaire-des-800-ans-du-poulain-de-pezena",
@@ -1085,7 +1085,7 @@
     "image": ""
   },
   {
-    "uid": "oa-f2igl9on",
+    "uid": "oa-p4mdaq6g",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Speed-meeting-professionnel-dedie-aux-personnes-refugiees",
     "licence": "lov2",
@@ -1108,7 +1108,7 @@
     "coordinates": "43.6073449,3.8881926",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.661Z",
+    "dateMaj": "2026-08-19T16:07:06.302Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "speed-meeting-professionnel-dedie-aux-personnes-refugiees",
@@ -1116,7 +1116,7 @@
     "image": ""
   },
   {
-    "uid": "oa-zq3kg9mn",
+    "uid": "oa-tnk1pzhs",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Osez-un-nouveau-depart-Derniere-session-de-l-annee",
     "licence": "lov2",
@@ -1139,7 +1139,7 @@
     "coordinates": "43.6073449,3.8881926",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.661Z",
+    "dateMaj": "2026-08-19T16:07:06.302Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "osez-un-nouveau-depart-nbsp-derniere-session-de-l-8217-annee-nbsp",
@@ -1147,7 +1147,7 @@
     "image": ""
   },
   {
-    "uid": "oa-t8uccgq2",
+    "uid": "oa-u25ieiy6",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Les-incontournables-de-la-creation-d-entreprise-34957",
     "licence": "lov2",
@@ -1170,7 +1170,7 @@
     "coordinates": "43.6073449,3.8881926",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.672Z",
+    "dateMaj": "2026-08-19T16:07:06.310Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-incontournables-de-la-creation-d-8217-entreprise",
@@ -1178,7 +1178,7 @@
     "image": ""
   },
   {
-    "uid": "oa-ahprfdym",
+    "uid": "oa-n7av96w9",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Visite-de-l-usine-Ametyst-Decouvrez-les-coulisses-du-traitement",
     "licence": "lov2",
@@ -1201,7 +1201,7 @@
     "coordinates": "43.5759579,3.8651162",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.652Z",
+    "dateMaj": "2026-08-19T16:07:06.299Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-de-l-usine-ametyst-decouvrez-les-coulisses-du-traitement",
@@ -1209,7 +1209,7 @@
     "image": ""
   },
   {
-    "uid": "oa-1gsym723",
+    "uid": "oa-ninunlhz",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Les-metiers-du-transport-sanitaire-34930",
     "licence": "lov2",
@@ -1232,7 +1232,7 @@
     "coordinates": "43.6073449,3.8881926",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.667Z",
+    "dateMaj": "2026-08-19T16:07:06.306Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-metiers-du-transport-sanitaire",
@@ -1240,7 +1240,7 @@
     "image": ""
   },
   {
-    "uid": "oa-1pmblyob",
+    "uid": "oa-h1zw24oa",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Devenez-hotes-ouvrez-vos-bureaux",
     "licence": "lov2",
@@ -1263,7 +1263,7 @@
     "coordinates": "43.6196344,3.9166859",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.661Z",
+    "dateMaj": "2026-08-19T16:07:06.303Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "devenez-hotes-nbsp-ouvrez-vos-bureaux-nbsp",
@@ -1271,7 +1271,7 @@
     "image": ""
   },
   {
-    "uid": "oa-e11e3kon",
+    "uid": "oa-l7zof5zq",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Stage-soudure-et-metallerie-35343",
     "licence": "lov2",
@@ -1294,7 +1294,7 @@
     "coordinates": "43.6214927,3.4728506",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.661Z",
+    "dateMaj": "2026-08-19T16:07:06.303Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "stage-soudure-et-metallerie",
@@ -1302,7 +1302,7 @@
     "image": ""
   },
   {
-    "uid": "oa-47hi24z6",
+    "uid": "oa-u0adl6sp",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/L-ART-EN-HERITAGE",
     "licence": "lov2",
@@ -1325,7 +1325,7 @@
     "coordinates": "43.4467352,3.4149591",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.667Z",
+    "dateMaj": "2026-08-19T16:07:06.306Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "l-8217-art-en-heritage",
@@ -1333,7 +1333,7 @@
     "image": ""
   },
   {
-    "uid": "oa-06utv4kj",
+    "uid": "oa-nst7utcn",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Stage-creation-vitrail-Tiffany-Approfondissement-35347",
     "licence": "lov2",
@@ -1356,7 +1356,7 @@
     "coordinates": "43.6214927,3.4728506",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.668Z",
+    "dateMaj": "2026-08-19T16:07:06.306Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "stage-creation-vitrail-tiffany-approfondissement",
@@ -1364,7 +1364,7 @@
     "image": ""
   },
   {
-    "uid": "oa-50s9kb77",
+    "uid": "oa-275cnpjd",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/31e-edition-des-Internationales-de-la-Guitare-en-Occitanie",
     "licence": "lov2",
@@ -1387,7 +1387,7 @@
     "coordinates": "43.609374,3.8757054",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.668Z",
+    "dateMaj": "2026-08-19T16:07:06.306Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "31e-edition-des-internationales-de-la-guitare-en-occitanie",
@@ -1418,7 +1418,7 @@
     "coordinates": "43.581395,3.559309",
     "lieuDepartement": "34",
     "lieuRegion": "Hérault",
-    "dateMaj": "2026-08-19T13:16:40.045Z",
+    "dateMaj": "2026-08-19T16:07:13.686Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-biere-du-docteur-fete-ses-10-ans-avec-vous",
@@ -1426,7 +1426,7 @@
     "image": "https://mobilizon.fr/media/8ab9a8a3c0d44a096b9ecd0c24e1d3c69ace9a480b0f889eab1f0acea0584d25.jpg?name=10ans%20sept.jpg"
   },
   {
-    "uid": "oa-x9js4y5v",
+    "uid": "oa-10iclwyo",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Polin-Nostre",
     "licence": "lov2",
@@ -1449,7 +1449,7 @@
     "coordinates": "43.4599765,3.4210379",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.653Z",
+    "dateMaj": "2026-08-19T16:07:06.300Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "polin-nostre",
@@ -1457,7 +1457,7 @@
     "image": ""
   },
   {
-    "uid": "oa-4ig65cq4",
+    "uid": "oa-r5u3kte4",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Stage-d-initiation-au-vitrail-Tiffany-35345",
     "licence": "lov2",
@@ -1480,7 +1480,7 @@
     "coordinates": "43.6214927,3.4728506",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.662Z",
+    "dateMaj": "2026-08-19T16:07:06.303Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "stage-d-8217-initiation-au-vitrail-tiffany",
@@ -1488,7 +1488,7 @@
     "image": ""
   },
   {
-    "uid": "oa-326qx39y",
+    "uid": "oa-mgmpycb3",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Stage-soudure-a-l-arc-35341",
     "licence": "lov2",
@@ -1511,7 +1511,7 @@
     "coordinates": "43.6214927,3.4728506",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.668Z",
+    "dateMaj": "2026-08-19T16:07:06.306Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "stage-soudure-a-l-8217-arc",
@@ -1519,7 +1519,7 @@
     "image": ""
   },
   {
-    "uid": "oa-xy6wbbuv",
+    "uid": "oa-bwe12fss",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/IMMERSION-AU-CHATEAU-LANCYRE-34884",
     "licence": "lov2",
@@ -1542,7 +1542,7 @@
     "coordinates": "43.8109082,3.8911381",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.668Z",
+    "dateMaj": "2026-08-19T16:07:06.307Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "immersion-au-chateau-lancyre",
@@ -1550,7 +1550,7 @@
     "image": ""
   },
   {
-    "uid": "oa-jxc1612h",
+    "uid": "oa-wfidu97n",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/ENJOOY-Festival-2026",
     "licence": "lov2",
@@ -1573,7 +1573,7 @@
     "coordinates": "43.5666154,3.8797933",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.672Z",
+    "dateMaj": "2026-08-19T16:07:06.311Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "enjooy-festival-2026",
@@ -1581,7 +1581,7 @@
     "image": ""
   },
   {
-    "uid": "oa-hkxodu6j",
+    "uid": "oa-ony2n05e",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/B-O-M-par-la-Cie-Le-Piston-Errant",
     "licence": "lov2",
@@ -1604,7 +1604,7 @@
     "coordinates": "43.4268691,3.6071245",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.662Z",
+    "dateMaj": "2026-08-19T16:07:06.303Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "b-o-m-nbsp-par-la-cie-le-piston-errant",
@@ -1612,7 +1612,7 @@
     "image": ""
   },
   {
-    "uid": "oa-z29k44et",
+    "uid": "oa-wqndbxfj",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/L-Occitanie-Qu-es-aquo-34796",
     "licence": "lov2",
@@ -1635,7 +1635,7 @@
     "coordinates": "43.4580635,3.2343539",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.668Z",
+    "dateMaj": "2026-08-19T16:07:06.307Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "l-8217-occitanie-qu-8217-es-aquo-nbsp",
@@ -1643,7 +1643,7 @@
     "image": ""
   },
   {
-    "uid": "oa-lz5o0z8b",
+    "uid": "oa-8mt2sk5y",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Sante-et-Handicap-en-Orientation-34927",
     "licence": "lov2",
@@ -1666,7 +1666,7 @@
     "coordinates": "43.6073449,3.8881926",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.649Z",
+    "dateMaj": "2026-08-19T16:07:06.296Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "sante-et-handicap-en-orientation",
@@ -1674,7 +1674,7 @@
     "image": ""
   },
   {
-    "uid": "oa-yss0gjmh",
+    "uid": "oa-k91pzk2p",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/ATELIER-ASSEMBLAGE-CREATION-DE-VOTRE-CUVEE",
     "licence": "lov2",
@@ -1697,7 +1697,7 @@
     "coordinates": "43.8109082,3.8911381",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.673Z",
+    "dateMaj": "2026-08-19T16:07:06.311Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-assemblage-nbsp-creation-de-votre-cuvee",
@@ -1705,7 +1705,7 @@
     "image": ""
   },
   {
-    "uid": "oa-cjxwz4wo",
+    "uid": "oa-dwc06wnn",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Ramassage-de-dechets-a-Eureka",
     "licence": "lov2",
@@ -1728,7 +1728,7 @@
     "coordinates": "43.6196344,3.9166859",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.649Z",
+    "dateMaj": "2026-08-19T16:07:06.296Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "ramassage-de-dechets-a-eureka",
@@ -1736,7 +1736,7 @@
     "image": ""
   },
   {
-    "uid": "oa-7yl4knho",
+    "uid": "oa-dl7kloyf",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/ISO-Photo-Festival-8",
     "licence": "lov2",
@@ -1759,7 +1759,7 @@
     "coordinates": "43.5811,3.56167",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.668Z",
+    "dateMaj": "2026-08-19T16:07:06.307Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "iso-photo-festival-8",
@@ -1767,7 +1767,7 @@
     "image": ""
   },
   {
-    "uid": "oa-d329635o",
+    "uid": "oa-rn2qrqg0",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/17eme-Congres-de-la-Societe-Francaise-d-Audiologie",
     "licence": "lov2",
@@ -1790,7 +1790,7 @@
     "coordinates": "43.6121371,3.8813146",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.653Z",
+    "dateMaj": "2026-08-19T16:07:06.300Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "17eme-congres-de-la-societe-francaise-d-8217-audiologie",
@@ -1798,7 +1798,7 @@
     "image": ""
   },
   {
-    "uid": "oa-ajonr7tw",
+    "uid": "oa-sfiybijm",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Job-dating-de-l-alternance-metiers-du-commerce-du-digital-de-l-evenementiel-et-de-l",
     "licence": "lov2",
@@ -1821,7 +1821,7 @@
     "coordinates": "43.5998403,3.8462449",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.650Z",
+    "dateMaj": "2026-08-19T16:07:06.296Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "job-dating-nbsp-trouve-ton-alternance-en-commerce-communication-evenementiel",
@@ -1829,7 +1829,7 @@
     "image": ""
   },
   {
-    "uid": "oa-ctb2zyjr",
+    "uid": "oa-6b4d82fc",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Afterwork-Pitch-Elevator-Club-LR-10-septembre-2026",
     "licence": "lov2",
@@ -1852,7 +1852,7 @@
     "coordinates": "43.573241,3.861394",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.650Z",
+    "dateMaj": "2026-08-19T16:07:06.296Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "afterwork-pitch-elevator-club-lr-10-septembre-2026",
@@ -1860,7 +1860,7 @@
     "image": ""
   },
   {
-    "uid": "oa-za5yrawk",
+    "uid": "oa-p9lkr0pw",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Sabine-Vandermomuten-expose-al-Hotel-des-Barons-de-Lacoste-a-Pezenas",
     "licence": "lov2",
@@ -1883,7 +1883,7 @@
     "coordinates": "43.4610197,3.4237515",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.662Z",
+    "dateMaj": "2026-08-19T16:07:06.303Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "sabine-vandermomuten-expose-al-8217-hotel-des-barons-de-lacoste-a-pezenas",
@@ -1891,7 +1891,7 @@
     "image": ""
   },
   {
-    "uid": "oa-ny5jz11a",
+    "uid": "oa-5d1tn30c",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/FLAUGERGUES-IN-FEST",
     "licence": "lov2",
@@ -1914,7 +1914,7 @@
     "coordinates": "43.6103303,3.9200507",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.650Z",
+    "dateMaj": "2026-08-19T16:07:06.297Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "flaugergues-in-fest-8217",
@@ -1922,7 +1922,7 @@
     "image": ""
   },
   {
-    "uid": "oa-cz6cyesp",
+    "uid": "oa-p9u9oiyp",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Atelier-Cric-Crac-pour-les-enfants-de-7-a-12-ans-34146",
     "licence": "lov2",
@@ -1945,7 +1945,7 @@
     "coordinates": "43.3917528603,3.64528103444",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.650Z",
+    "dateMaj": "2026-08-19T16:07:06.297Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-cric-crac-pour-les-enfants-de-7-a-12-ans",
@@ -1953,7 +1953,7 @@
     "image": ""
   },
   {
-    "uid": "oa-mpcodslw",
+    "uid": "oa-bynoambq",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/1000-ans-Joanda-en-concert-34910",
     "licence": "lov2",
@@ -1976,7 +1976,7 @@
     "coordinates": "43.3941832,3.6733648",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.653Z",
+    "dateMaj": "2026-08-19T16:07:06.300Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "1000-ans-joanda-en-concert",
@@ -1984,7 +1984,7 @@
     "image": ""
   },
   {
-    "uid": "oa-tauzoddl",
+    "uid": "oa-7fhefi7e",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Festival-Mama-Stock",
     "licence": "lov2",
@@ -2007,7 +2007,7 @@
     "coordinates": "43.6133538787,3.86926442936",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.669Z",
+    "dateMaj": "2026-08-19T16:07:06.307Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "festival-mama-stock",
@@ -2015,7 +2015,7 @@
     "image": ""
   },
   {
-    "uid": "oa-kkk14337",
+    "uid": "oa-pwvjjber",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Mama-Stock",
     "licence": "lov2",
@@ -2038,7 +2038,7 @@
     "coordinates": "43.5989323,3.861427",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.669Z",
+    "dateMaj": "2026-08-19T16:07:06.307Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "mama-stock",
@@ -2046,7 +2046,7 @@
     "image": ""
   },
   {
-    "uid": "oa-qg743zyh",
+    "uid": "oa-32ui0nk0",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Decouverte-en-famille-dans-l-exposition-Plastic-Newspaper-de-Lucy-McKenzie-34650",
     "licence": "lov2",
@@ -2069,7 +2069,7 @@
     "coordinates": "43.3917528603,3.64528103444",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.663Z",
+    "dateMaj": "2026-08-19T16:07:06.304Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "decouverte-en-famille-dans-l-8217-exposition-plastic-newspaper-de-lucy-mckenzie",
@@ -2077,7 +2077,7 @@
     "image": ""
   },
   {
-    "uid": "oa-97pesplh",
+    "uid": "oa-1u58aa57",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Sport-Tambourin-Rencontres-Internationales-France-Italie-Jeunes",
     "licence": "lov2",
@@ -2100,7 +2100,7 @@
     "coordinates": "43.5587065,3.7244581",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.650Z",
+    "dateMaj": "2026-08-19T16:07:06.297Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "sport-tambourin-rencontres-internationales-france-italie-jeunes",
@@ -2108,7 +2108,7 @@
     "image": ""
   },
   {
-    "uid": "oa-kmc6r4av",
+    "uid": "oa-uoxj0drk",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Nuit-des-etoiles-35225",
     "licence": "lov2",
@@ -2131,7 +2131,7 @@
     "coordinates": "43.565,3.190884",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.650Z",
+    "dateMaj": "2026-08-19T16:07:06.297Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "nuit-des-etoiles",
@@ -2139,7 +2139,7 @@
     "image": ""
   },
   {
-    "uid": "oa-sm8fqtv4",
+    "uid": "oa-igvptthj",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/SOIREE-Cote-de-Boeuf-Brasero-avec-la-Bouch-rit-22-aout",
     "licence": "lov2",
@@ -2162,7 +2162,7 @@
     "coordinates": "43.8109082,3.8911381",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.669Z",
+    "dateMaj": "2026-08-19T16:07:06.308Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "soiree-cote-de-b-uf-amp-brasero-avec-la-bouch-8217-rit-nbsp-22-aout",
@@ -2170,7 +2170,7 @@
     "image": ""
   },
   {
-    "uid": "oa-yap68qan",
+    "uid": "oa-rdc15ml6",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Atelier-Cric-Crac-pour-les-enfants-de-7-a-12-ans-34144",
     "licence": "lov2",
@@ -2193,7 +2193,7 @@
     "coordinates": "43.3917528603,3.64528103444",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.669Z",
+    "dateMaj": "2026-08-19T16:07:06.308Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-cric-crac-pour-les-enfants-de-7-a-12-ans",
@@ -2201,7 +2201,7 @@
     "image": ""
   },
   {
-    "uid": "oa-oo7qx1zv",
+    "uid": "oa-gxyhabya",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Exposition-AU-DELA-DE-L-APPARAT-par-Morgan-MIROCOLO",
     "licence": "lov2",
@@ -2224,7 +2224,7 @@
     "coordinates": "43.3474670762,3.23085933634",
     "lieuDepartement": "34",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T13:16:32.654Z",
+    "dateMaj": "2026-08-19T16:07:06.300Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "exposition-au-dela-de-l-8217-apparat-par-morgan-mirocolo",
