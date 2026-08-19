@@ -1,0 +1,221 @@
+---
+// src/pages/recherche/index.astro — Page de recherche indexable
+// Recherche full-text côté client via Alpine.js + events-index.json
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+let totalEvents = 0;
+let totalDepartements = 0;
+try {
+  const { readFileSync } = await import('node:fs');
+  const { join } = await import('node:path');
+  const raw = readFileSync(join(process.cwd(), 'public', 'data', 'events-index.json'), 'utf-8');
+  const idx = JSON.parse(raw);
+  totalEvents = idx.totalEvents || 0;
+  totalDepartements = idx.totalDepartements || 0;
+} catch {}
+
+const siteUrl = 'https://sortirici.github.io';
+const pageTitle = 'Recherche d\'événements culturels — SortirIci';
+const pageDesc = `Recherchez parmi ${totalEvents.toLocaleString('fr-FR')} événements culturels dans ${totalDepartements} départements français. Concerts, festivals, expositions, théâtre, ateliers — trouvez votre sortie.`;
+
+// JSON-LD
+const breadcrumbLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "@id": `${siteUrl}/recherche/#breadcrumb`,
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": `${siteUrl}/` },
+    { "@type": "ListItem", "position": 2, "name": "Recherche", "item": `${siteUrl}/recherche/` },
+  ],
+};
+---
+
+<BaseLayout title={pageTitle} description={pageDesc} canonical="/recherche/" jsonLd={[breadcrumbLd]}>
+  <nav class="breadcrumb" aria-label="Fil d'Ariane">
+    <div class="container">
+      <ol class="breadcrumb__list">
+        <li class="breadcrumb__item"><a href="/" class="breadcrumb__link">Accueil</a><svg class="breadcrumb__sep" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></li>
+        <li class="breadcrumb__item breadcrumb__item--current" aria-current="page"><span>Recherche</span></li>
+      </ol>
+    </div>
+  </nav>
+
+  <section class="recherche-section" aria-label="Recherche d'événements">
+    <div class="container">
+      <header class="recherche-header">
+        <h1 class="recherche-title">Rechercher un événement</h1>
+        <p class="recherche-desc">
+          Parcourez <strong>{totalEvents.toLocaleString('fr-FR')} événements</strong> dans <strong>{totalDepartements} départements</strong>
+        </p>
+      </header>
+
+      <div class="recherche-app" x-data="searchApp()" role="search" aria-label="Rechercher">
+        <div class="recherche-form">
+          <div class="recherche-input-wrapper">
+            <svg class="recherche-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            <input
+              type="search"
+              class="recherche-input"
+              placeholder="Rechercher un événement, une ville, un département…"
+              aria-label="Rechercher"
+              x-model="query"
+              @input.debounce.300ms="search()"
+              @keydown.escape.prevent="close()"
+              autofocus
+            />
+            <button class="recherche-submit" @click="search()" aria-label="Lancer la recherche">
+              Rechercher
+            </button>
+          </div>
+        </div>
+
+        <!-- Résultats de recherche -->
+        <div class="recherche-results" x-show="results.length > 0 || (query.length >= 2 && searched)" x-cloak>
+          <p class="recherche-count" x-text="`${results.length} résultat${results.length > 1 ? 's' : ''}`" x-show="results.length > 0"></p>
+          <p class="recherche-count" x-show="results.length === 0 && query.length >= 2 && searched">Aucun résultat trouvé pour votre recherche.</p>
+          <div class="recherche-grid">
+            <template x-for="r in results" :key="r.url">
+              <a :href="r.url" class="recherche-card">
+                <span class="recherche-card__icon" x-text="r.icon || '📌'"></span>
+                <div class="recherche-card__body">
+                  <span class="recherche-card__label" x-text="r.label"></span>
+                  <span class="recherche-card__type" x-text="r.type || ''"></span>
+                </div>
+                <svg class="recherche-card__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+              </a>
+            </template>
+          </div>
+        </div>
+
+        <!-- Suggestions par défaut -->
+        <div class="recherche-suggestions" x-show="results.length === 0 && query.length < 2" role="navigation" aria-label="Suggestions de navigation">
+          <h2 class="recherche-suggestions__title">Explorer par département</h2>
+          <div class="recherche-suggestions__grid">
+            <a href="/departement/75/" class="recherche-suggestion">Paris (75)</a>
+            <a href="/departement/44/" class="recherche-suggestion">Loire-Atlantique (44)</a>
+            <a href="/departement/45/" class="recherche-suggestion">Loiret (45)</a>
+            <a href="/departement/33/" class="recherche-suggestion">Gironde (33)</a>
+            <a href="/departement/76/" class="recherche-suggestion">Seine-Maritime (76)</a>
+            <a href="/departement/" class="recherche-suggestion recherche-suggestion--all">Tous les départements →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEO Content -->
+  <section class="recherche-seo" aria-label="En savoir plus sur la recherche">
+    <div class="container">
+      <div class="recherche-seo__content">
+        <h2>Comment trouver des événements culturels près de chez vous</h2>
+        <p>
+          Utilisez notre moteur de recherche pour trouver des <strong>concerts</strong>, <strong>festivals</strong>, 
+          <strong>expositions</strong>, <strong>spectacles</strong>, <strong>ateliers</strong> et toutes les sorties 
+          culturelles dans votre département. Nos données sont 100% open data, mises à jour chaque semaine, 
+          sans cookie ni tracking.
+        </p>
+        <p>
+          Vous pouvez chercher par <strong>ville</strong> (ex: Nantes, Paris, Bordeaux, Orléans), 
+          par <strong>département</strong> (ex: Loire-Atlantique, Loiret, Gironde) ou par 
+          <strong>type d'événement</strong> (ex: concert, théâtre, exposition).
+        </p>
+        <nav class="recherche-seo__links">
+          <a href="/departement/" class="recherche-seo__link">Parcourir les départements</a>
+          <a href="/" class="recherche-seo__link">Retour à l'accueil</a>
+        </nav>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style is:global>
+  .breadcrumb { background: white; border-bottom: 1px solid var(--color-neutral-100); }
+  .breadcrumb__list { display: flex; align-items: center; gap: var(--space-2); list-style: none; padding: var(--space-3) 0; font-size: var(--text-sm); flex-wrap: wrap; }
+  .breadcrumb__item { display: flex; align-items: center; gap: var(--space-1); }
+  .breadcrumb__link { color: var(--color-neutral-500); text-decoration: none; }
+  .breadcrumb__link:hover { color: var(--color-brand-brick); }
+  .breadcrumb__item--current span { color: var(--color-neutral-900); font-weight: var(--font-semibold); }
+  .breadcrumb__sep { color: var(--color-neutral-300); flex-shrink: 0; }
+
+  .recherche-section { padding: var(--space-8) 0 var(--space-6); background: var(--color-neutral-50); }
+  .recherche-header { text-align: center; margin-bottom: var(--space-6); }
+  .recherche-title { font-size: var(--text-3xl); font-family: var(--font-serif); font-weight: var(--font-normal); color: var(--color-neutral-900); }
+  .recherche-desc { font-size: var(--text-base); color: var(--color-neutral-500); margin-top: var(--space-2); }
+  .recherche-desc strong { color: var(--color-brand-brick); }
+
+  .recherche-form { max-width: 640px; margin: 0 auto; }
+  .recherche-input-wrapper { display: flex; align-items: center; background: white; border: 1.5px solid var(--color-neutral-300); border-radius: var(--radius-full); padding: var(--space-2) var(--space-4); box-shadow: var(--shadow-soft); transition: all var(--transition-default); }
+  .recherche-input-wrapper:focus-within { border-color: var(--color-brand-brick); box-shadow: var(--shadow-medium), 0 0 0 3px rgba(212,93,46,0.1); }
+  .recherche-icon { flex-shrink: 0; color: var(--color-neutral-400); margin-right: var(--space-2); }
+  .recherche-input { flex: 1; border: none; background: transparent; font-size: var(--text-base); padding: var(--space-2) 0; color: var(--color-neutral-900); outline: none; font-family: var(--font-sans); }
+  .recherche-input::placeholder { color: var(--color-neutral-400); }
+  .recherche-submit { flex-shrink: 0; background: var(--color-brand-brick); color: white; border: none; border-radius: var(--radius-full); padding: var(--space-2) var(--space-5); cursor: pointer; transition: background var(--transition-fast); font-size: var(--text-sm); font-weight: var(--font-semibold); font-family: var(--font-sans); margin-left: var(--space-2); }
+  .recherche-submit:hover { background: #B84E23; }
+
+  .recherche-results { max-width: 640px; margin: var(--space-4) auto 0; }
+  .recherche-count { font-size: var(--text-sm); color: var(--color-neutral-500); margin-bottom: var(--space-3); }
+  .recherche-grid { display: flex; flex-direction: column; gap: var(--space-2); }
+  .recherche-card { display: flex; align-items: center; gap: var(--space-3); padding: var(--space-4) var(--space-4); background: white; border-radius: var(--radius-lg); box-shadow: var(--shadow-soft); text-decoration: none; transition: all var(--transition-default); border: 1.5px solid transparent; }
+  .recherche-card:hover { transform: translateY(-1px); box-shadow: var(--shadow-medium); border-color: var(--color-brand-brick); }
+  .recherche-card__icon { font-size: 1.25rem; flex-shrink: 0; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; }
+  .recherche-card__body { flex: 1; min-width: 0; }
+  .recherche-card__label { display: block; font-size: var(--text-sm); font-weight: var(--font-semibold); color: var(--color-neutral-900); }
+  .recherche-card__type { display: block; font-size: var(--text-xs); color: var(--color-neutral-500); margin-top: 2px; }
+  .recherche-card__arrow { flex-shrink: 0; color: var(--color-neutral-300); transition: transform var(--transition-fast); }
+  .recherche-card:hover .recherche-card__arrow { transform: translateX(3px); color: var(--color-brand-brick); }
+
+  .recherche-suggestions { max-width: 640px; margin: var(--space-6) auto 0; }
+  .recherche-suggestions__title { font-size: var(--text-base); font-weight: var(--font-semibold); color: var(--color-neutral-900); margin-bottom: var(--space-3); }
+  .recherche-suggestions__grid { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+  .recherche-suggestion { display: inline-flex; padding: var(--space-2) var(--space-4); background: white; border-radius: var(--radius-full); font-size: var(--text-sm); color: var(--color-neutral-700); text-decoration: none; border: 1.5px solid var(--color-neutral-200); transition: all var(--transition-default); }
+  .recherche-suggestion:hover { border-color: var(--color-brand-brick); color: var(--color-brand-brick); background: var(--color-neutral-50); }
+  .recherche-suggestion--all { background: var(--color-brand-brick); color: white; border-color: var(--color-brand-brick); }
+  .recherche-suggestion--all:hover { background: #B84E23; color: white; }
+
+  .recherche-seo { padding: var(--space-10) 0; background: white; border-top: 1px solid var(--color-neutral-100); }
+  .recherche-seo__content { max-width: 640px; margin: 0 auto; }
+  .recherche-seo__content h2 { font-size: var(--text-2xl); font-family: var(--font-serif); font-weight: var(--font-normal); margin-bottom: var(--space-4); color: var(--color-neutral-900); }
+  .recherche-seo__content p { font-size: var(--text-base); line-height: var(--leading-relaxed); color: var(--color-neutral-700); margin-bottom: var(--space-3); }
+  .recherche-seo__content strong { color: var(--color-brand-brick); }
+  .recherche-seo__links { display: flex; gap: var(--space-3); margin-top: var(--space-4); flex-wrap: wrap; }
+  .recherche-seo__link { font-size: var(--text-sm); font-weight: var(--font-medium); color: var(--color-brand-brick); text-decoration: none; padding: var(--space-1) var(--space-3); border-radius: var(--radius-md); background: var(--color-neutral-50); }
+  .recherche-seo__link:hover { background: var(--color-brand-brick); color: white; }
+
+  [x-cloak] { display: none !important; }
+  @media (prefers-reduced-motion: reduce) { *,*::before,*::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; } }
+</style>
+
+<script>
+  document.addEventListener('alpine:init', () => {
+    Alpine.data('searchApp', () => ({
+      query: '',
+      results: [],
+      searched: false,
+      async search() {
+        if (this.query.length < 2) { this.results = []; this.searched = false; return; }
+        this.searched = true;
+        const q = this.query.toLowerCase();
+        const res = [];
+        try {
+          const r = await fetch('/data/events-index.json');
+          const idx = await r.json();
+          // Chercher dans les départements
+          for (const d of idx.departements || []) {
+            const label = `${d.nom || `Département ${d.departement}`} (${d.departement})`;
+            const searchText = `${label} ${d.departement}`.toLowerCase();
+            if (searchText.includes(q)) {
+              res.push({
+                label,
+                url: `/departement/${d.departement}/`,
+                type: `${d.totalEvents.toLocaleString('fr-FR')} événement${d.totalEvents > 1 ? 's' : ''}`,
+                icon: '📍',
+              });
+            }
+          }
+        } catch {}
+        this.results = res.slice(0, 20);
+      },
+      close() { this.results = []; this.searched = false; },
+    }));
+  });
+</script>

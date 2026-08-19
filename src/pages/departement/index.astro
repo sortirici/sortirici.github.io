@@ -40,7 +40,7 @@ const itemListLd = {
   "name": `Les ${orderedDepts.length} départements`,
   "description": `Liste des ${orderedDepts.length} départements français couverts par SortirIci avec événements à venir`,
   "numberOfItems": orderedDepts.length,
-  "itemListElement": orderedDepts.slice(0, 30).map((d, i) => ({
+  "itemListElement": orderedDepts.map((d, i) => ({
     "@type": "ListItem",
     "position": i + 1,
     "url": `${siteUrl}/departement/${d.departement}/`,

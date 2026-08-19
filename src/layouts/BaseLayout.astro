@@ -14,7 +14,7 @@ const {
   title,
   description,
   canonical,
-  ogImage = '/og-default.svg',
+  ogImage = '/og-default.png',
   jsonLd,
   noIndex = false,
   ogType = 'website',
@@ -24,7 +24,7 @@ const siteUrl = 'https://sortirici.github.io';
 const fullCanonical = canonical ? `${siteUrl}${canonical}` : siteUrl;
 const fullOgImage = ogImage?.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`;
 
-// JSON-LD de base : Organization + LocalBusiness + WebSite (SearchAction) — présents sur TOUTES les pages
+// JSON-LD de base : Organization + WebSite (SearchAction) — présents sur TOUTES les pages
 const baseJsonLd = [
   {
     "@context": "https://schema.org",
@@ -63,26 +63,6 @@ const baseJsonLd = [
       },
       "query-input": "required name=search_term_string",
     },
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "@id": `${siteUrl}/#localbusiness`,
-    "name": "SortirIci",
-    "url": siteUrl,
-    "description": "L'agenda local de confiance — 100% open data, 0 cookie, 0 tracking",
-    "image": `${siteUrl}/logo.svg`,
-    "areaServed": {
-      "@type": "Country",
-      "name": "FR",
-    },
-    "sameAs": [
-      "https://github.com/Cypriendj4/sortirici",
-    ],
-    "priceRange": "€",
-    "telephone": "",
-    "knowsAbout": ["Événements culturels", "Open Data", "Agenda local", "Sorties France"],
-    "parentOrganization": { "@id": `${siteUrl}/#organization` },
   },
 ];
 ---

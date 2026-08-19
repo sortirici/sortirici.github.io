@@ -51,7 +51,7 @@ const pageDesc = hasEvent
 
 const eventSlug = hasEvent ? (event.slug || String(event.uid)) : '';
 const canonicalUrl = hasEvent ? `/evenement/${eventSlug}/` : '/';
-const ogImage = hasEvent && event.image ? event.image : '/og-default.svg';
+const ogImage = hasEvent && event.image ? event.image : '/og-default.png';
 const formattedDate = hasEvent && event.dateDebut
   ? new Date(event.dateDebut).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })
   : '';

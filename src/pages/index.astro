@@ -79,7 +79,7 @@ const itemListLd = {
   "name": "Départements couverts par SortirIci",
   "description": `Liste des ${allDepts.length} départements avec événements référencés — ${totalEvts} événements culturels`,
   "numberOfItems": allDepts.length,
-  "itemListElement": allDepts.slice(0, 20).map((d, i) => ({
+  "itemListElement": allDepts.map((d, i) => ({
     "@type": "ListItem",
     "position": i + 1,
     "name": `Département ${d.departement} — ${d.nom || ''}`,
