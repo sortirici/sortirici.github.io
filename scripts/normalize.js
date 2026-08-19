@@ -87,6 +87,8 @@ function normalizeOpenAgenda(item, sourceId) {
   if (!titre) return null;
 
   const desc = getLocalized(item, 'description') || item.description_fr || '';
+  const rawLongDesc = typeof item.longdescription_fr === 'string' ? item.longdescription_fr : '';
+  const longDesc = rawLongDesc.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
   const debut = getField(item, 'firstDateBegin', 'firstdate_begin', 'firstday', 'dateDebut') || '';
   const fin = getField(item, 'firstDateEnd', 'firstdate_end', 'lastdate_end', 'lastDateEnd', 'lastday', 'dateFin') || debut;
   const coords = item.locationCoordinates || item.location_coordinates || { lon: 0, lat: 0 };
@@ -111,6 +113,7 @@ function normalizeOpenAgenda(item, sourceId) {
     licence: 'lov2',
     titre,
     descriptionCourte: desc.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim().substring(0, 300),
+    descriptionLongue: longDesc.substring(0, 2000),
     dateDebut: debut,
     dateFin: fin,
     categorie: classifyCategory(titre, desc, keywords),
@@ -143,6 +146,7 @@ function normalizeCSV(item, sourceId) {
     licence: 'lov2',
     titre: item.titre || item.title || item.nom || '',
     descriptionCourte: (item.description || '').substring(0, 300),
+    descriptionLongue: (item.descriptionLongue || '').substring(0, 2000),
     dateDebut: item.dateDebut || item.date_debut || item.startDate || '',
     dateFin: item.dateFin || item.date_fin || item.endDate || '',
     categorie: classifyCategory(item.titre || '', item.description || '', []),

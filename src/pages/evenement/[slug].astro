@@ -132,6 +132,17 @@ const siteUrl = 'https://sortirici.github.io';
           </div>
         )}
 
+        {event.descriptionLongue && (
+          <div style="font-size: 1rem; line-height: 1.75; color: var(--color-neutral-700); max-width: 72ch; margin-bottom: 2rem; padding: 1.5rem; background: var(--color-neutral-100); border-radius: 0.75rem;">
+            <h2 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 0.75rem; color: var(--color-neutral-900);">
+              À propos de cet événement
+            </h2>
+            <div style="white-space: pre-line;">
+              {event.descriptionLongue}
+            </div>
+          </div>
+        )}
+
         <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
           <a href={`/departement/${event.departementNumero || ''}/`} style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--color-neutral-100); color: var(--color-brand-brick); border-radius: 0.75rem; text-decoration: none; font-size: 0.875rem; font-weight: 500;">
             ← Tous les événements dans le {event.lieuDepartement || `département ${event.departementNumero}`}
