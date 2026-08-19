@@ -1,121 +1,30 @@
 {
-  "lastUpdated": "2026-08-19T08:47:46.107Z",
-  "totalEvents": 20768,
-  "totalDepartements": 18,
+  "lastUpdated": "2026-08-19T09:42:38.317Z",
+  "totalEvents": 266,
+  "totalDepartements": 3,
   "departements": [
-    {
-      "departement": "10",
-      "nom": "Aube",
-      "totalEvents": 4,
-      "visibleEvents": 4
-    },
-    {
-      "departement": "16",
-      "nom": "Charente",
-      "totalEvents": 1,
-      "visibleEvents": 1
-    },
-    {
-      "departement": "18",
-      "nom": "Cher",
-      "totalEvents": 1,
-      "visibleEvents": 1
-    },
-    {
-      "departement": "25",
-      "nom": "Doubs",
-      "totalEvents": 1,
-      "visibleEvents": 1
-    },
-    {
-      "departement": "27",
-      "nom": "Eure",
-      "totalEvents": 10,
-      "visibleEvents": 10
-    },
-    {
-      "departement": "28",
-      "nom": "Eure-et-Loir",
-      "totalEvents": 1,
-      "visibleEvents": 1
-    },
     {
       "departement": "33",
       "nom": "Gironde",
-      "totalEvents": 4746,
-      "visibleEvents": 200
-    },
-    {
-      "departement": "40",
-      "nom": "Landes",
-      "totalEvents": 1,
-      "visibleEvents": 1
-    },
-    {
-      "departement": "41",
-      "nom": "Loir-et-Cher",
-      "totalEvents": 1,
-      "visibleEvents": 1
+      "totalEvents": 53,
+      "visibleEvents": 53
     },
     {
       "departement": "44",
       "nom": "Loire-Atlantique",
-      "totalEvents": 2636,
-      "visibleEvents": 200
+      "totalEvents": 99,
+      "visibleEvents": 99
     },
     {
       "departement": "45",
       "nom": "Loiret",
-      "totalEvents": 9809,
-      "visibleEvents": 200
-    },
-    {
-      "departement": "55",
-      "nom": "Meuse",
-      "totalEvents": 1,
-      "visibleEvents": 1
-    },
-    {
-      "departement": "60",
-      "nom": "Oise",
-      "totalEvents": 1,
-      "visibleEvents": 1
-    },
-    {
-      "departement": "75",
-      "nom": "Paris",
-      "totalEvents": 19,
-      "visibleEvents": 19
-    },
-    {
-      "departement": "79",
-      "nom": "Deux-Sèvres",
-      "totalEvents": 3,
-      "visibleEvents": 3
-    },
-    {
-      "departement": "81",
-      "nom": "Tarn",
-      "totalEvents": 1,
-      "visibleEvents": 1
-    },
-    {
-      "departement": "85",
-      "nom": "Vendée",
-      "totalEvents": 5,
-      "visibleEvents": 5
-    },
-    {
-      "departement": "92",
-      "nom": "Hauts-de-Seine",
-      "totalEvents": 3219,
-      "visibleEvents": 200
+      "totalEvents": 113,
+      "visibleEvents": 113
     }
   ],
   "sources": [
     "openagenda-orleans",
     "guerande-agenda",
-    "meudon-agenda",
     "labaule-agenda",
     "bordeaux-agenda"
   ]

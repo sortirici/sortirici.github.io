@@ -61,6 +61,18 @@ function getDepartmentFromInsee(insee) {
   return insee.substring(0, 2);
 }
 
+// Filet de sécurité : un événement dont la date de début est passée de plus de 30 jours
+// est considéré comme périmé et n'est pas capturé (les APIs renvoient tout l'historique).
+const MAX_PAST_DAYS = 30;
+
+function isTooOld(dateStr) {
+  const d = new Date(dateStr);
+  if (isNaN(d.getTime())) return false; // date illisible → on garde par précaution
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - MAX_PAST_DAYS);
+  return d < cutoff;
+}
+
 function normalizeOpenAgenda(item, sourceId) {
   // Handle multiple API export formats:
   // Format A: { title: { fr: '...' } } — native OpenAgenda API
@@ -212,7 +224,11 @@ function main() {
         .filter(Boolean)
         .map(item => parser === 'openagenda' ? normalizeOpenAgenda(item, id) : normalizeCSV(item, id))
         .filter(Boolean)
-        .filter(e => e.titre && e.dateDebut && e.lieuCommune);
+        // Validation : titre + date + lieu obligatoires
+        .filter(e => e.titre && e.dateDebut && (e.lieuNom || e.lieuCommune))
+        // Filet de sécurité : exclure les événements dont la date de début
+        // est déjà passée de plus de 30 jours
+        .filter(e => !isTooOld(e.dateDebut));
 
       const outPath = join(NORM_DIR, `${id}.json`);
       writeFileSync(outPath, JSON.stringify(normalized, null, 2), 'utf-8');
