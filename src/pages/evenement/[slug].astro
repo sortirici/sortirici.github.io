@@ -43,11 +43,11 @@ const descriptionParagraphs = formatToParagraphs(event.descriptionLongue);
 // ---- SEO Meta ----
 const pageTitle = hasEvent
   ? `${event.titre} — ${event.lieuCommune || ''} (${event.dateDebut ? new Date(event.dateDebut).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) : ''}) | SortirIci`
-  : 'Événement — SortirIci';
+  : 'Événement culturel — SortirIci';
 
 const pageDesc = hasEvent
-  ? (resume || event.descriptionCourte || '').slice(0, 160) || `Retrouvez tous les détails de l'événement ${event.titre} dans le ${event.lieuDepartement || ''} : dates, lieu, tarifs, programme.`
-  : 'Détails de l\'événement';
+  ? (resume || event.descriptionCourte || '').slice(0, 160) || `Découvrez ${event.titre} dans le ${event.lieuDepartement || ''} : dates, lieu, tarifs, programme. Agenda culturel local gratuit, 100% open data.`
+  : 'Détails de l\'événement culturel';
 
 const eventSlug = hasEvent ? (event.slug || String(event.uid)) : '';
 const canonicalUrl = hasEvent ? `/evenement/${eventSlug}/` : '/';

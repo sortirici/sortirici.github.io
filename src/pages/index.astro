@@ -59,10 +59,11 @@ const deptGeoCoords: Record<string, [number, number]> = {
 const siteUrl = 'https://sortirici.github.io';
 const deptCount = allDepts.length;
 const totalEvts = indexData.totalEvents;
-const pageTitle = `SortirIci — L'agenda culturel local 100% open data — ${totalEvts} événements dans ${deptCount} départements`;
-const pageDesc = `Découvrez ${totalEvts} événements près de chez vous dans ${deptCount} départements : concerts, festivals, expositions, théâtre, ateliers. Agenda local gratuit, 100% open data, zéro cookie, zéro tracking.`;
+const totalSources = indexData.sources?.length || 0;
+const pageTitle = `SortirIci — ${totalEvts} événements culturels dans ${deptCount} départements | Agenda local France`;
+const pageDesc = `Découvrez ${totalEvts} événements près de chez vous dans ${deptCount} départements : concerts, festivals, expositions, théâtre, ateliers. Agenda culturel local gratuit, 100% open data, zéro cookie, zéro tracking.`;
 
-// ---- JSON-LD (page-specific ; Organization + WebSite déjà dans BaseLayout) ----
+// ---- JSON-LD (page-specific) ----
 const breadcrumbLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -76,14 +77,71 @@ const itemListLd = {
   "@type": "ItemList",
   "@id": `${siteUrl}/#departements`,
   "name": "Départements couverts par SortirIci",
-  "description": `Liste des ${allDepts.length} départements avec événements référencés`,
+  "description": `Liste des ${allDepts.length} départements avec événements référencés — ${totalEvts} événements culturels`,
   "numberOfItems": allDepts.length,
   "itemListElement": allDepts.slice(0, 20).map((d, i) => ({
     "@type": "ListItem",
     "position": i + 1,
-    "name": `Département ${d.departement}`,
+    "name": `Département ${d.departement} — ${d.nom || ''}`,
     "url": `${siteUrl}/departement/${d.departement}/`,
   })),
+};
+
+// ---- FAQPage JSON-LD ----
+const faqLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": `${siteUrl}/#faq`,
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Qu'est-ce que SortirIci ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SortirIci est un agenda culturel local gratuit qui référence des événements (concerts, festivals, expositions, théâtre, ateliers) dans toute la France à partir de données open data publiques. 0 cookie, 0 tracking, 100% gratuit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "D'où viennent les données des événements ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Les événements proviennent exclusivement de sources open data publiques : portails open data des collectivités, OpenAgenda, Ministère de la Culture, et autres plateformes de données ouvertes. Chaque événement affiche sa source et sa licence."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "SortirIci est-il gratuit ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, SortirIci est 100% gratuit, sans publicité, sans abonnement et sans collecte de données personnelles. Le code source est open source sous licence MIT."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien d'événements sont référencés ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `Actuellement, SortirIci référence ${totalEvts} événements dans ${deptCount} départements français, provenant de ${totalSources} sources open data différentes.`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment trouver des événements près de chez moi ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Utilisez la barre de recherche pour trouver un département ou une ville, explorez la carte interactive, ou parcourez la liste des départements. Chaque page départementale permet de filtrer par catégorie, date, et gratuité."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quels types d'événements puis-je trouver ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tous types d'événements culturels : concerts, festivals, expositions, théâtre, ateliers, conférences, cinéma, danse, cirque, spectacles pour enfants, foires et marchés."
+      }
+    }
+  ]
 };
 ---
 
@@ -91,8 +149,19 @@ const itemListLd = {
   title={pageTitle}
   description={pageDesc}
   canonical="/"
-  jsonLd={[breadcrumbLd, itemListLd]}
+  jsonLd={[breadcrumbLd, itemListLd, faqLd]}
 >
+  <!-- Breadcrumb visible -->
+  <nav class="breadcrumb" aria-label="Fil d'Ariane">
+    <div class="container">
+      <ol class="breadcrumb__list">
+        <li class="breadcrumb__item breadcrumb__item--current" aria-current="page">
+          <span>Accueil</span>
+        </li>
+      </ol>
+    </div>
+  </nav>
+
   <!-- Hero Minimal v2 -->
   <section class="hero" aria-label="Présentation de SortirIci">
     <div class="container">
@@ -143,7 +212,87 @@ const itemListLd = {
     </div>
   </section>
 
-  <!-- Carte Leaflet — cercles proportionnels par département -->
+  <!-- SEO Content Section -->
+  <section class="seo-content" id="seo-content" aria-label="En savoir plus sur SortirIci">
+    <div class="container">
+      <div class="seo-content__grid">
+        <div class="seo-content__text">
+          <h2 class="seo-content__title">L'agenda culturel local 100% open data</h2>
+          <p class="seo-content__para">
+            <strong>SortirIci</strong> est un agenda culturel local gratuit qui référence <strong>{totalEvts} événements</strong> 
+            dans <strong>{deptCount} départements</strong> français. Concerts, festivals, expositions, théâtre, ateliers, conférences — 
+            toutes les sorties culturelles près de chez vous, réunies en un seul endroit.
+          </p>
+          <p class="seo-content__para">
+            Notre particularité ? <strong>100% open data</strong>. Chaque événement provient de sources publiques ouvertes 
+            (collectivités, ministères, plateformes collaboratives) et affiche clairement sa source et sa licence. 
+            <strong>Zéro cookie, zéro tracking</strong> : votre vie privée est notre priorité.
+          </p>
+          <p class="seo-content__para">
+            Que vous cherchiez un concert rock à Nantes, une exposition photo à Paris, un festival en Loire-Atlantique 
+            ou un atelier pour enfants dans le Loiret, SortirIci vous aide à trouver la sortie culturelle idéale.
+          </p>
+        </div>
+        <div class="seo-content__lists">
+          <div class="seo-content__list-block">
+            <h3 class="seo-content__list-title">Catégories d'événements</h3>
+            <ul class="seo-content__list">
+              <li>🎵 Concerts et spectacles</li>
+              <li>🎪 Festivals et foires</li>
+              <li>🖼️ Expositions et musées</li>
+              <li>🎭 Théâtre et danse</li>
+              <li>👶 Ateliers et activités enfants</li>
+              <li>📚 Conférences et rencontres</li>
+              <li>🎬 Cinéma et projections</li>
+              <li>🎪 Cirque et arts de rue</li>
+            </ul>
+          </div>
+          <div class="seo-content__list-block">
+            <h3 class="seo-content__list-title">Sources open data</h3>
+            <ul class="seo-content__list">
+              <li>OpenAgenda — plateforme collaborative</li>
+              <li>Ministère de la Culture — festivals labellisés</li>
+              <li>Portails open data territoriaux</li>
+              <li>Orléans Métropole, Clermont-Ferrand</li>
+              <li>Nantes, Paris, Bordeaux, Toulouse</li>
+              <li>Et {totalSources} sources partenaires</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tableau comparatif des départements -->
+      <div class="seo-table-wrap">
+        <h3 class="seo-content__list-title">Top 5 départements les plus actifs</h3>
+        <table class="seo-table">
+          <thead>
+            <tr>
+              <th>Département</th>
+              <th>Code</th>
+              <th>Événements</th>
+              <th>Part du total</th>
+            </tr>
+          </thead>
+          <tbody>
+            {allDepts.slice(0, 5).map(d => {
+              const pct = ((d.totalEvents / totalEvts) * 100).toFixed(1);
+              return (
+                <tr>
+                  <td><a href={`/departement/${d.departement}/`} class="seo-table__link">{d.nom || `Département ${d.departement}`}</a></td>
+                  <td>{d.departement}</td>
+                  <td>{d.totalEvents.toLocaleString('fr-FR')}</td>
+                  <td>{pct}%</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+        <p class="seo-table__note">Parcourez <a href="/departement/">les {deptCount} départements</a> pour découvrir tous les événements près de chez vous.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Carte Leaflet -- cercles proportionnels par département -->
   <section class="map-section" aria-label="Carte des événements par département">
     <div class="container">
       <h2 class="section-title">Explorez la carte</h2>
@@ -168,6 +317,46 @@ const itemListLd = {
         <span class="legend-item"><span class="legend-swatch" style="background:#E8916E"></span> 10–99</span>
         <span class="legend-item"><span class="legend-swatch" style="background:#B8B8C8"></span> 1–9</span>
         <span class="legend-item"><span class="legend-swatch" style="background:#EDEBE3"></span> 0</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section" id="faq" aria-label="Questions fréquentes">
+    <div class="container">
+      <h2 class="section-title">Questions fréquentes</h2>
+      <p class="section-desc">Tout ce que vous devez savoir sur SortirIci</p>
+      <div class="faq-grid" itemscope itemtype="https://schema.org/FAQPage">
+        <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary class="faq-item__question" itemprop="name">Qu'est-ce que SortirIci ?</summary>
+          <div class="faq-item__answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <div itemprop="text">SortirIci est un agenda culturel local gratuit qui référence des événements (concerts, festivals, expositions, théâtre, ateliers) dans toute la France à partir de données open data publiques. 0 cookie, 0 tracking, 100% gratuit.</div>
+          </div>
+        </details>
+        <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary class="faq-item__question" itemprop="name">D'où viennent les données des événements ?</summary>
+          <div class="faq-item__answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <div itemprop="text">Les événements proviennent exclusivement de sources open data publiques : portails open data des collectivités, OpenAgenda, Ministère de la Culture, et autres plateformes de données ouvertes. Chaque événement affiche sa source et sa licence.</div>
+          </div>
+        </details>
+        <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary class="faq-item__question" itemprop="name">SortirIci est-il gratuit ?</summary>
+          <div class="faq-item__answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <div itemprop="text">Oui, SortirIci est 100% gratuit, sans publicité, sans abonnement et sans collecte de données personnelles. Le code source est open source sous licence MIT.</div>
+          </div>
+        </details>
+        <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary class="faq-item__question" itemprop="name">Comment trouver des événements près de chez moi ?</summary>
+          <div class="faq-item__answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <div itemprop="text">Utilisez la barre de recherche pour trouver un département ou une ville, explorez la carte interactive, ou parcourez la liste des départements. Chaque page départementale permet de filtrer par catégorie, date, et gratuité.</div>
+          </div>
+        </details>
+        <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary class="faq-item__question" itemprop="name">Quels types d'événements puis-je trouver ?</summary>
+          <div class="faq-item__answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <div itemprop="text">Tous types d'événements culturels : concerts, festivals, expositions, théâtre, ateliers, conférences, cinéma, danse, cirque, spectacles pour enfants, foires et marchés.</div>
+          </div>
+        </details>
       </div>
     </div>
   </section>
@@ -476,6 +665,47 @@ const itemListLd = {
     *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
   }
   [x-cloak] { display: none !important; }
+
+  /* ====== BREADCRUMB ====== */
+  .breadcrumb { background: white; border-bottom: 1px solid var(--color-neutral-100); }
+  .breadcrumb__list { display: flex; align-items: center; gap: var(--space-2); list-style: none; padding: var(--space-3) 0; font-size: var(--text-sm); flex-wrap: wrap; }
+  .breadcrumb__item { display: flex; align-items: center; gap: var(--space-1); }
+  .breadcrumb__item--current span { color: var(--color-neutral-900); font-weight: var(--font-semibold); }
+
+  /* ====== SEO CONTENT ====== */
+  .seo-content { padding: var(--space-10) 0; background: white; border-top: 1px solid var(--color-neutral-100); }
+  .seo-content__grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: var(--space-8); margin-bottom: var(--space-8); }
+  @media (max-width: 768px) { .seo-content__grid { grid-template-columns: 1fr; } }
+  .seo-content__title { font-size: var(--text-2xl); font-family: var(--font-serif); font-weight: var(--font-normal); margin-bottom: var(--space-4); color: var(--color-neutral-900); }
+  .seo-content__para { font-size: var(--text-base); line-height: var(--leading-relaxed); color: var(--color-neutral-700); margin-bottom: var(--space-3); max-width: 72ch; }
+  .seo-content__para strong { color: var(--color-brand-brick); }
+  .seo-content__lists { display: flex; flex-direction: column; gap: var(--space-6); }
+  .seo-content__list-block { background: var(--color-neutral-50); padding: var(--space-5); border-radius: var(--radius-xl); border: 1px solid var(--color-neutral-100); }
+  .seo-content__list-title { font-size: var(--text-base); font-weight: var(--font-semibold); margin-bottom: var(--space-3); color: var(--color-neutral-900); }
+  .seo-content__list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: var(--space-2); }
+  .seo-content__list li { font-size: var(--text-sm); color: var(--color-neutral-700); line-height: var(--leading-relaxed); }
+
+  /* ====== SEO TABLE ====== */
+  .seo-table-wrap { background: var(--color-neutral-50); padding: var(--space-5); border-radius: var(--radius-xl); border: 1px solid var(--color-neutral-100); }
+  .seo-table { width: 100%; border-collapse: collapse; font-size: var(--text-sm); margin-top: var(--space-3); }
+  .seo-table th, .seo-table td { padding: var(--space-2) var(--space-3); border: 1px solid var(--color-neutral-200); text-align: left; }
+  .seo-table th { background: var(--color-neutral-100); font-weight: var(--font-semibold); color: var(--color-neutral-700); }
+  .seo-table td { color: var(--color-neutral-600); }
+  .seo-table__link { color: var(--color-brand-brick); font-weight: var(--font-medium); text-decoration: none; }
+  .seo-table__link:hover { text-decoration: underline; }
+  .seo-table__note { font-size: var(--text-sm); color: var(--color-neutral-500); margin-top: var(--space-3); }
+  .seo-table__note a { color: var(--color-brand-brick); font-weight: var(--font-medium); }
+
+  /* ====== FAQ SECTION ====== */
+  .faq-section { padding: var(--space-10) 0; background: white; border-top: 1px solid var(--color-neutral-100); }
+  .faq-grid { max-width: 720px; margin: 0 auto; display: flex; flex-direction: column; gap: var(--space-3); }
+  .faq-item { background: var(--color-neutral-50); border-radius: var(--radius-lg); border: 1px solid var(--color-neutral-100); overflow: hidden; transition: all var(--transition-default); }
+  .faq-item:hover { border-color: var(--color-brand-brick); }
+  .faq-item__question { padding: var(--space-4) var(--space-5); font-weight: var(--font-semibold); font-size: var(--text-base); color: var(--color-neutral-900); cursor: pointer; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); }
+  .faq-item__question::-webkit-details-marker { display: none; }
+  .faq-item__question::after { content: '+'; font-size: var(--text-lg); color: var(--color-brand-brick); font-weight: var(--font-bold); transition: transform var(--transition-default); flex-shrink: 0; }
+  .faq-item[open] .faq-item__question::after { transform: rotate(45deg); }
+  .faq-item__answer { padding: 0 var(--space-5) var(--space-4); font-size: var(--text-sm); line-height: var(--leading-relaxed); color: var(--color-neutral-600); }
 </style>
 
 <script>

@@ -1,5 +1,7 @@
 # SortirIci — Conformité Juridique & Licences
 
+> **Document d'audit complet :** Voir `audit-conformite.md` pour l'audit détaillé (40 sources, Mobilizon, OpenAgenda API, RGPD, droit sui generis).
+
 ## Sources de données & licences
 
 Toutes les sources utilisées sont des API officielles de portails open data
@@ -29,7 +31,11 @@ français, avec des licences ouvertes autorisant la réutilisation, y compris
 | Vendée Expansion (Tourinsoft) | lov2 | Flux XML | ✅ Vérifié |
 | Martigues | lov2 | API OpenAgenda | ✅ Vérifié |
 | Grenoble Culturel | odc-odbl | CSV | ✅ Vérifié |
-| OpenAgenda Loiret (bis) | fr-lo | API JSON | ✅ Vérifié |
+| Nice Côte d'Azur | lov2 | API JSON | ✅ Vérifié |
+| Paris (Que Faire à Paris) | odc-odbl | API JSON | ✅ Vérifié |
+| Calvados | lov2 | API OpenAgenda | ✅ Vérifié |
+| Rouen Métropole | lov2 | API OpenAgenda | ✅ Vérifié |
+| ... (39 sources au total, voir audit-conformite.md) | | | ✅ |
 
 ## Procédure d'anonymisation (appliquée dans normalize.js)
 
@@ -46,6 +52,8 @@ Les champs suivants sont SUPPRIMÉS du pipeline :
 | `emailOrganisateur` | Portails locaux | Donnée personnelle | Supprimé |
 | `telephoneOrganisateur` | Portails locaux | Donnée personnelle | Supprimé |
 | `organisateur` (nom personne) | Portails locaux | Donnée personnelle | Anonymisé |
+| `contact_phone` | Paris (ODbL) | Donnée personnelle | Exclu du schéma |
+| `contact_mail` | Paris (ODbL) | Donnée personnelle | Exclu du schéma |
 
 ## Conformité RGPD
 
@@ -60,6 +68,17 @@ Les champs suivants sont SUPPRIMÉS du pipeline :
 | Mentions légales | ✅ Prévues | Page /mentions/ |
 | Anonymisation | ✅ Implémentée | Dans normalize.js |
 | Sécurité données | ✅ Intégrée | Site statique, pas de formulaire, pas de collecte |
+
+## Droit des bases de données (sui generis)
+
+Le droit sui generis (Directive 96/9/CE, art. L.341-1 CPI) protège les investissements
+substantiels dans la constitution d'une base de données. Il n'est pas un obstacle pour
+SortirIci car :
+
+- La **Licence Ouverte 2.0/1.0** autorise explicitement l'extraction et la réutilisation
+- L'**ODbL** couvre explicitement l'extraction substantielle
+- Les données sont extraites partiellement par source (aucune copie substantielle d'une base unique)
+- Les données agrégées (39 sources) constituent une compilation hétérogène
 
 ## Mentions légales obligatoires (page /mentions/)
 

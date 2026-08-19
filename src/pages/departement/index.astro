@@ -20,8 +20,8 @@ const orderedDepts = indexData.departements
   .sort((a, b) => b.totalEvents - a.totalEvents);
 
 const siteUrl = 'https://sortirici.github.io';
-const pageTitle = 'Tous les départements — Événements près de chez vous | SortirIci';
-const pageDesc = `Explorez les ${indexData.totalDepartements} départements couverts par SortirIci et découvrez les événements près de chez vous.`;
+const pageTitle = 'Tous les départements — Événements culturels par département | SortirIci';
+const pageDesc = `Explorez les ${indexData.totalDepartements} départements couverts par SortirIci et découvrez ${indexData.totalEvents.toLocaleString('fr-FR')} événements culturels près de chez vous : concerts, festivals, expositions, théâtre, ateliers.`;
 
 // JSON-LD
 const breadcrumbLd = {
@@ -69,8 +69,21 @@ function getSize(events: number): number {
         <p class="depts-page__desc">{orderedDepts.length > 0 ? `${orderedDepts.length} départements · ${indexData.totalEvents.toLocaleString('fr-FR')} événements` : 'Les données arrivent bientôt'}</p>
       </header>
 
+      <!-- SEO Intro -->
+      <section class="depts-seo" id="seo-intro" aria-label="Présentation des départements">
+        <p class="depts-seo__text">
+          <strong>SortirIci</strong> référence <strong>{indexData.totalEvents.toLocaleString('fr-FR')} événements culturels</strong> dans <strong>{orderedDepts.length} départements</strong> français. 
+          Concerts, festivals, expositions, théâtre, ateliers, conférences — cliquez sur un département pour découvrir toutes les sorties près de chez vous.
+          Les données sont 100% open data, mises à jour chaque semaine, zéro cookie, zéro tracking.
+        </p>
+        <nav class="depts-anchors" aria-label="Navigation rapide">
+          <a href="#depts-grid" class="depts-anchors__link">Voir la liste des départements</a>
+          <a href="/sources/" class="depts-anchors__link">Sources open data</a>
+        </nav>
+      </section>
+
       {orderedDepts.length > 0 ? (
-        <div class="depts-grid">
+        <div class="depts-grid" id="depts-grid">
           {orderedDepts.map(d => (
             <a href={`/departement/${d.departement}/`} class="departement-card" aria-label={`Département ${d.nom || d.departement} — ${d.totalEvents} événements`}>
               <span class="departement-card__numero" style={`font-size: clamp(1.2rem, ${getSize(d.totalEvents) * 0.8 + 0.8}rem, 2.2rem)`}>{d.departement}</span>
@@ -124,4 +137,12 @@ function getSize(events: number): number {
   .depts-nav { display: flex; justify-content: center; gap: var(--space-4); margin-top: var(--space-8); padding-top: var(--space-6); border-top: 1px solid var(--color-neutral-100); }
   .depts-nav__link { font-size: var(--text-sm); font-weight: var(--font-medium); color: var(--color-brand-brick); text-decoration: none; }
   .depts-nav__link:hover { color: #B84E23; text-decoration: underline; }
+
+  /* SEO Intro */
+  .depts-seo { margin-bottom: var(--space-6); padding: var(--space-4) var(--space-5); background: white; border-radius: var(--radius-xl); border: 1px solid var(--color-neutral-100); box-shadow: var(--shadow-soft); }
+  .depts-seo__text { font-size: var(--text-sm); line-height: var(--leading-relaxed); color: var(--color-neutral-600); max-width: 72ch; }
+  .depts-seo__text strong { color: var(--color-neutral-900); }
+  .depts-anchors { display: flex; gap: var(--space-3); margin-top: var(--space-3); flex-wrap: wrap; }
+  .depts-anchors__link { font-size: var(--text-sm); font-weight: var(--font-medium); color: var(--color-brand-brick); text-decoration: none; padding: var(--space-1) var(--space-3); border-radius: var(--radius-md); background: var(--color-neutral-50); }
+  .depts-anchors__link:hover { background: var(--color-brand-brick); color: white; }
 </style>

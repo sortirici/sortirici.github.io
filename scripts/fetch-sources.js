@@ -4,7 +4,7 @@
  * Toutes les sources ont des licences ouvertes vérifiées (lov2, fr-lo, odc-odbl, agpl-3.0)
  *
  * Script auto-généré à partir des fichiers présents dans data/raw/
- * 40 sources : 38 OpenAgenda (via agendas ID ou OpenDataSoft), 1 Mobilizon, 1 CSV
+ * 39 sources : 37 OpenAgenda (via agendas ID ou OpenDataSoft), 1 Mobilizon, 1 CSV
  */
 
 import { writeFileSync, mkdirSync } from 'fs';
@@ -93,7 +93,7 @@ const SOURCES = [
   {
     id: 'nice-evenements',
     name: "Événements Nice Côte d'Azur",
-    url: 'http://opendata.nicecotedazur.org/data/storage/f/2026-05-09T06:06:01.384Z/events-public.json',
+    url: 'https://opendata.nicecotedazur.org/data/storage/f/2026-05-09T06:06:01.384Z/events-public.json',
     format: 'json',
     licence: 'lov2',
   },
@@ -153,13 +153,6 @@ const SOURCES = [
   {
     id: 'openagenda-loiret',
     name: "OpenAgenda Loiret — L'Agenda du Loiret",
-    url: 'https://openagenda.com/agendas/36668061/events.json?page=1&oaq%5Bpassed%5D=1&limit=5000',
-    format: 'json',
-    licence: 'fr-lo',
-  },
-  {
-    id: 'loiret-openagenda',
-    name: "OpenAgenda Loiret (slug-based export)",
     url: 'https://openagenda.com/agendas/36668061/events.json?page=1&oaq%5Bpassed%5D=1&limit=5000',
     format: 'json',
     licence: 'fr-lo',

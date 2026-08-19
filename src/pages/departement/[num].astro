@@ -42,8 +42,8 @@ const categories = [...new Set(events.map(e => e.categorie).filter(Boolean))];
 const villes = [...new Set(events.map(e => e.lieuCommune).filter(Boolean))];
 
 const siteUrl = 'https://sortirici.github.io';
-const pageTitle = `${deptNom} (${num}) — Sortir dans le ${deptNom} — Événements | SortirIci`;
-const pageDesc = `Découvrez tous les événements dans le ${deptNom}${deptRegion ? ` (${deptRegion})` : ''} : concerts, festivals, expositions, théâtre, ateliers. ${events.length} événements référencés.`;
+const pageTitle = `${deptNom} (${num}) — ${events.length} événements culturels | SortirIci`;
+const pageDesc = `Découvrez les ${events.length} événements dans le ${deptNom}${deptRegion ? ` (${deptRegion})` : ''} : ${categories.slice(0, 5).join(', ')}. Agenda culturel local gratuit, 100% open data.`;
 
 // ---- JSON-LD (page-specific ; Organization + WebSite déjà dans BaseLayout) ----
 const breadcrumbLd = {
@@ -118,7 +118,7 @@ const featuredEvents = events.slice(0, 3).map((e: any) => ({
   </nav>
 
   <!-- En-tête -->
-  <section class="dept-header" aria-label="Présentation du département">
+  <section class="dept-header" id="dept-header" aria-label="Présentation du département">
     <div class="container">
       <div class="dept-header__content">
         <div class="dept-header__info">
@@ -127,6 +127,10 @@ const featuredEvents = events.slice(0, 3).map((e: any) => ({
             <h1 class="dept-header__title">Le {deptNom}</h1>
             {deptRegion && <p class="dept-header__region">{deptRegion}</p>}
             <p class="dept-header__stats"><strong>{events.length}</strong> événement{events.length !== 1 ? 's' : ''} · <a href="/sources/" class="dept-header__link">{allSources.length} sources</a> · <a href="/" class="dept-header__link">← Accueil</a></p>
+            <nav class="dept-header__anchors" aria-label="Navigation rapide">
+              <a href="#events-list" class="dept-header__anchor">Voir les événements</a>
+              <a href="#dept-cross-links" class="dept-header__anchor">Explorer par catégorie</a>
+            </nav>
           </div>
         </div>
         <div class="dept-header__cats">
@@ -283,7 +287,7 @@ const featuredEvents = events.slice(0, 3).map((e: any) => ({
   </section>
 
   <!-- Maillage -->
-  <section class="cross-links" aria-label="Explorer">
+  <section class="cross-links" id="dept-cross-links" aria-label="Explorer">
     <div class="container">
       <div class="cross-links__grid">
         <div class="cross-links__block">
@@ -330,6 +334,9 @@ const featuredEvents = events.slice(0, 3).map((e: any) => ({
   .dept-header__region { font-size: var(--text-base); color: var(--color-neutral-500); margin-top: var(--space-1); }
   .dept-header__stats { font-size: var(--text-sm); color: var(--color-neutral-500); margin-top: var(--space-2); }
   .dept-header__link { color: var(--color-brand-brick); font-weight: var(--font-medium); }
+  .dept-header__anchors { display: flex; gap: var(--space-2); margin-top: var(--space-3); flex-wrap: wrap; }
+  .dept-header__anchor { font-size: var(--text-sm); font-weight: var(--font-medium); color: var(--color-brand-brick); text-decoration: none; padding: var(--space-1) var(--space-3); border-radius: var(--radius-md); background: #E8F0FA; }
+  .dept-header__anchor:hover { background: var(--color-brand-brick); color: white; }
   .dept-header__cats { display: flex; flex-wrap: wrap; gap: var(--space-2); }
   .category-chip { display: inline-flex; align-items: center; padding: var(--space-1) var(--space-3); border-radius: var(--radius-full); font-size: var(--text-xs); font-weight: var(--font-medium); background: #E8F0FA; color: var(--color-brand-brick); text-decoration: none; transition: all var(--transition-fast); }
   .category-chip:hover { background: var(--color-brand-brick); color: white; }
