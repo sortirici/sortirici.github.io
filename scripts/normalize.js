@@ -425,12 +425,120 @@ function normalizeTours(item, sourceId) {
   };
 }
 
+/**
+ * Parser Mobilizon — API GraphQL publique (mobilizon.fr)
+ * title→titre, beginsOn→dateDebut, endsOn→dateFin,
+ * physicalAddress{locality,postalCode,region,country,geom}→lieu,
+ * tags[].title→motsCles, category→categorie, picture.url→image
+ * Seuls les événements en France sont conservés (physicalAddress.country === 'France')
+ */
+const DEPT_NAME_TO_CODE = {
+  'ain': '01', 'aisne': '02', 'allier': '03', 'alpes-de-haute-provence': '04', 'hautes-alpes': '05',
+  'alpes-maritimes': '06', 'ardèche': '07', 'ardeche': '07', 'ardennes': '08', 'ariège': '09', 'ariege': '09',
+  'aube': '10', 'aude': '11', 'aveyron': '12', 'bouches-du-rhône': '13', 'bouches-du-rhone': '13',
+  'calvados': '14', 'cantal': '15', 'charente': '16', 'charente-maritime': '17', 'cher': '18',
+  'corrèze': '19', 'correze': '19', 'corse-du-sud': '2a', 'haute-corse': '2b', 'côte-d\'or': '21',
+  'cote-d\'or': '21', 'côtes-d\'armor': '22', 'cotes-d\'armor': '22', 'creuse': '23', 'dordogne': '24',
+  'doubs': '25', 'drôme': '26', 'drome': '26', 'eure': '27', 'eure-et-loir': '28', 'finistère': '29',
+  'finistere': '29', 'gard': '30', 'haute-garonne': '31', 'gers': '32', 'gironde': '33', 'hérault': '34',
+  'herault': '34', 'ille-et-vilaine': '35', 'indre': '36', 'indre-et-loire': '37', 'isère': '38',
+  'isere': '38', 'jura': '39', 'landes': '40', 'loir-et-cher': '41', 'loire': '42', 'haute-loire': '43',
+  'loire-atlantique': '44', 'loiret': '45', 'lot': '46', 'lot-et-garonne': '47', 'lozère': '48',
+  'lozere': '48', 'maine-et-loire': '49', 'manche': '50', 'marne': '51', 'haute-marne': '52',
+  'mayenne': '53', 'meurthe-et-moselle': '54', 'meuse': '55', 'morbihan': '56', 'moselle': '57',
+  'nièvre': '58', 'nievre': '58', 'nord': '59', 'oise': '60', 'orne': '61', 'pas-de-calais': '62',
+  'puy-de-dôme': '63', 'puy-de-dome': '63', 'pyrénées-atlantiques': '64', 'pyrenees-atlantiques': '64',
+  'hautes-pyrénées': '65', 'hautes-pyrenees': '65', 'pyrénées-orientales': '66', 'pyrenees-orientales': '66',
+  'bas-rhin': '67', 'haut-rhin': '68', 'rhône': '69', 'rhone': '69', 'haute-saône': '70',
+  'haute-saone': '70', 'saône-et-loire': '71', 'saone-et-loire': '71', 'sarthe': '72', 'savoie': '73',
+  'haute-savoie': '74', 'paris': '75', 'seine-maritime': '76', 'seine-et-marne': '77', 'yvelines': '78',
+  'deux-sèvres': '79', 'deux-sevres': '79', 'somme': '80', 'tarn': '81', 'tarn-et-garonne': '82',
+  'var': '83', 'vaucluse': '84', 'vendée': '85', 'vendee': '85', 'vienne': '86', 'haute-vienne': '87',
+  'vosges': '88', 'yonne': '89', 'territoire de belfort': '90', 'essonne': '91', 'hauts-de-seine': '92',
+  'seine-saint-denis': '93', 'val-de-marne': '94', 'val-d\'oise': '95',
+};
+
+function getDeptCodeFromName(name) {
+  if (!name) return '';
+  let n = String(name).toLowerCase().trim();
+  // Gère les préfixes "Département de/du/des"
+  n = n.replace(/^d[ée]partement (de la |du |des |de )?/, '').trim();
+  // Gère "Métropole de Lyon" → 69
+  if (n === 'métropole de lyon' || n === 'metropole de lyon') return '69';
+  // Gère "Collectivité européenne d'Alsace" → 67 (Bas-Rhin, siège Strasbourg)
+  if (n.includes('alsace')) return '67';
+  return DEPT_NAME_TO_CODE[n] || '';
+}
+
+function normalizeMobilizon(item, sourceId) {
+  const titre = item.title || '';
+  if (!titre) return null;
+  const addr = item.physicalAddress || {};
+  // On ne garde que les événements géolocalisés en France
+  const country = (addr.country || '').toLowerCase();
+  if (country && country !== 'france') return null;
+  if (!country && !addr.locality && !addr.region) return null;
+
+  const desc = sanitizeText(cleanHtml(item.description || ''));
+  // geom Mobilizon : "lon;lat"
+  let lat = 0, lon = 0;
+  if (typeof addr.geom === 'string' && addr.geom.includes(';')) {
+    const [gLon, gLat] = addr.geom.split(';').map(v => parseFloat(v.trim()));
+    lon = gLon || 0;
+    lat = gLat || 0;
+  }
+  const deptCode = getDeptCodeFromName(addr.region || addr.locality || '');
+  const keywords = Array.isArray(item.tags) ? item.tags.map(t => t.title).filter(Boolean) : [];
+  const gratuit = /gratuit|libre|gratis/i.test(desc + ' ' + keywords.join(' '));
+  const categoryMap = {
+    MUSIC: 'concert', THEATRE: 'theatre', PERFORMING_VISUAL_ARTS: 'exposition',
+    SPORTS: 'sport', OUTDOORS_ADVENTURE: 'marche', FAMILY_EDUCATION: 'enfants',
+    FOOD_DRINK: 'foire', BOOK_CLUBS: 'lecture', LEARNING: 'atelier',
+    SCIENCE_TECH: 'conference', COMMUNITY: 'spectacle', PARTY: 'spectacle',
+    MEETING: 'conference', CRAFTS: 'atelier', PHOTOGRAPHY: 'exposition',
+  };
+  const categorie = categoryMap[item.category] || classifyCategory(titre, desc, keywords);
+
+  return {
+    uid: `mob-${item.uuid || item.id || Math.random().toString(36).substring(2, 10)}`,
+    source: sourceId,
+    sourceUrl: item.url || '',
+    licence: 'agpl-3.0',
+    titre,
+    descriptionCourte: desc.substring(0, 300),
+    descriptionLongue: desc.substring(0, 2000),
+    dateDebut: item.beginsOn || '',
+    dateFin: item.endsOn || item.beginsOn || '',
+    categorie,
+    motsCles: keywords.slice(0, 10),
+    gratuit,
+    prixIndicatif: '',
+    lieuNom: addr.description || addr.locality || '',
+    lieuAdresse: '',
+    lieuCodePostal: String(addr.postalCode || ''),
+    lieuCommune: addr.locality || '',
+    lieuCodeInsee: '',
+    lieuLatitude: lat,
+    lieuLongitude: lon,
+    coordinates: lat ? `${lat},${lon}` : '',
+    lieuDepartement: deptCode,
+    lieuRegion: addr.region || '',
+    dateMaj: item.updatedAt || new Date().toISOString(),
+    statut: 'programme',
+    modeAcces: 'sur_place',
+    slug: slugify(`${titre}-${item.id || ''}`).substring(0, 80),
+    departementNumero: deptCode,
+    image: item.picture?.url || '',
+  };
+}
+
 const PARSERS = {
   openagenda: normalizeOpenAgenda,
   csv: normalizeCSV,
   paris: normalizeParis,
   nantes: normalizeNantes,
   tours: normalizeTours,
+  mobilizon: normalizeMobilizon,
 };
 
 function main() {
@@ -459,6 +567,26 @@ function main() {
     { id: 'paris-evenements', file: 'paris-evenements.json', parser: 'paris' },
     { id: 'haute-garonne-grand-ouest', file: 'haute-garonne-grand-ouest.json', parser: 'openagenda' },
     { id: 'chenonceaux-agenda', file: 'chenonceaux-agenda.json', parser: 'openagenda' },
+    // === NOUVELLES SOURCES OpenAgenda (extension départementale) ===
+    { id: 'jep-centre-val-de-loire', file: 'jep-centre-val-de-loire.json', parser: 'openagenda' },
+    { id: 'jnarchi-bourgogne-franche-comte', file: 'jnarchi-bourgogne-franche-comte.json', parser: 'openagenda' },
+    { id: 'jardins-ouverts-2026', file: 'jardins-ouverts-2026.json', parser: 'openagenda' },
+    { id: 'criquiers-evenements', file: 'criquiers-evenements.json', parser: 'openagenda' },
+    { id: 'jep-bretagne', file: 'jep-bretagne.json', parser: 'openagenda' },
+    { id: 'jep-normandie', file: 'jep-normandie.json', parser: 'openagenda' },
+    { id: 'jep-hauts-de-france', file: 'jep-hauts-de-france.json', parser: 'openagenda' },
+    { id: 'jep-corse', file: 'jep-corse.json', parser: 'openagenda' },
+    { id: 'jep-grand-est', file: 'jep-grand-est.json', parser: 'openagenda' },
+    { id: 'jep-bourgogne-franche-comte', file: 'jep-bourgogne-franche-comte.json', parser: 'openagenda' },
+    { id: 'jep-pays-de-la-loire', file: 'jep-pays-de-la-loire.json', parser: 'openagenda' },
+    { id: 'jep-auvergne-rhone-alpes', file: 'jep-auvergne-rhone-alpes.json', parser: 'openagenda' },
+    { id: 'jep-paca', file: 'jep-paca.json', parser: 'openagenda' },
+    { id: 'jep-nouvelle-aquitaine', file: 'jep-nouvelle-aquitaine.json', parser: 'openagenda' },
+    { id: 'rouen-metropole-evenements', file: 'rouen-metropole-evenements.json', parser: 'openagenda' },
+    { id: 'draguignan-evenements', file: 'draguignan-evenements.json', parser: 'openagenda' },
+    { id: 'villeurbanne-agenda-culturel', file: 'villeurbanne-agenda-culturel.json', parser: 'openagenda' },
+    // === MOBILIZON ===
+    { id: 'mobilizon-france', file: 'mobilizon-france.json', parser: 'mobilizon' },
   ];
 
   for (const { id, file, parser } of files) {

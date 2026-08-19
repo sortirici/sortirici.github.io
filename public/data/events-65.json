@@ -1,6 +1,6 @@
 [
   {
-    "uid": "oa-i8u1s4q6",
+    "uid": "oa-1954ghqy",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Salon-Litteraire-Pyrelivres-33157",
     "licence": "lov2",
@@ -23,7 +23,7 @@
     "coordinates": "43.1240758,0.1142567",
     "lieuDepartement": "65",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.098Z",
+    "dateMaj": "2026-08-19T12:54:23.292Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "salon-litteraire-pyrelivres",
@@ -31,7 +31,7 @@
     "image": ""
   },
   {
-    "uid": "oa-zyqlc5yr",
+    "uid": "oa-s1jpbnvk",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Big-Bag-Festival-13",
     "licence": "lov2",
@@ -54,7 +54,7 @@
     "coordinates": "43.0673629,0.1551731",
     "lieuDepartement": "65",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.099Z",
+    "dateMaj": "2026-08-19T12:54:23.293Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "big-bag-festival-13",
@@ -62,7 +62,7 @@
     "image": ""
   },
   {
-    "uid": "oa-ilxbvauo",
+    "uid": "oa-89y52xcm",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Trad-Azun-35353",
     "licence": "lov2",
@@ -85,7 +85,7 @@
     "coordinates": "42.9540925,-0.2145655",
     "lieuDepartement": "65",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.103Z",
+    "dateMaj": "2026-08-19T12:54:23.298Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "trad-8217-azun",

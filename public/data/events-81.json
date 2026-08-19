@@ -1,6 +1,6 @@
 [
   {
-    "uid": "oa-qa98tf21",
+    "uid": "oa-7o9su0nq",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/GOLDMEN-Concert-100-Goldman",
     "licence": "lov2",
@@ -23,7 +23,7 @@
     "coordinates": "43.916988,2.089624",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.105Z",
+    "dateMaj": "2026-08-19T12:54:23.300Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "goldmen-concert-100-goldman",
@@ -31,7 +31,7 @@
     "image": ""
   },
   {
-    "uid": "oa-rqrpkdcp",
+    "uid": "oa-w5xolwgi",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Visite-a-la-lampe-torche-Quand-brillent-les-fantomes",
     "licence": "lov2",
@@ -54,7 +54,7 @@
     "coordinates": "43.9258393,2.1385124",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.094Z",
+    "dateMaj": "2026-08-19T12:54:23.289Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-a-la-lampe-torche-nbsp-quand-brillent-les-fantomes",
@@ -62,7 +62,7 @@
     "image": ""
   },
   {
-    "uid": "oa-emj7je7m",
+    "uid": "oa-t2e6g03a",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Atelier-Apparitions",
     "licence": "lov2",
@@ -85,7 +85,7 @@
     "coordinates": "43.9258393,2.1385124",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.101Z",
+    "dateMaj": "2026-08-19T12:54:23.296Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-171-nbsp-apparitions-nbsp-187",
@@ -93,7 +93,7 @@
     "image": ""
   },
   {
-    "uid": "oa-qrv2as7m",
+    "uid": "oa-rr2mkkw3",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Atelier-Fais-sauter-la-pellicule",
     "licence": "lov2",
@@ -116,7 +116,7 @@
     "coordinates": "43.9258393,2.1385124",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.098Z",
+    "dateMaj": "2026-08-19T12:54:23.292Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-171-nbsp-fais-sauter-la-pellicule-nbsp-nbsp-187",
@@ -124,7 +124,7 @@
     "image": ""
   },
   {
-    "uid": "oa-7lidrtfz",
+    "uid": "oa-4f84yqv7",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Soiree-de-projection-de-films-experimentaux",
     "licence": "lov2",
@@ -147,7 +147,7 @@
     "coordinates": "43.9258393,2.1385124",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.106Z",
+    "dateMaj": "2026-08-19T12:54:23.301Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "soiree-de-projection-de-films-experimentaux",
@@ -155,7 +155,7 @@
     "image": ""
   },
   {
-    "uid": "oa-5gduseyw",
+    "uid": "oa-njenjk60",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/L-Occitanie-Qu-es-aquo-33879",
     "licence": "lov2",
@@ -178,7 +178,7 @@
     "coordinates": "43.4766996,2.6360297",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.095Z",
+    "dateMaj": "2026-08-19T12:54:23.289Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "l-8217-occitanie-qu-8217-es-aquo-nbsp",
@@ -186,7 +186,7 @@
     "image": ""
   },
   {
-    "uid": "oa-a8aeo5o4",
+    "uid": "oa-gh636x54",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Le-Duo-d-Aqui-34799",
     "licence": "lov2",
@@ -209,7 +209,7 @@
     "coordinates": "43.4538426,2.0668495",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.102Z",
+    "dateMaj": "2026-08-19T12:54:23.297Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "le-duo-d-aqui",
@@ -217,7 +217,7 @@
     "image": ""
   },
   {
-    "uid": "oa-cxfl1y7n",
+    "uid": "oa-gwr57iyv",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Le-Duo-d-Aqui-34666",
     "licence": "lov2",
@@ -240,7 +240,7 @@
     "coordinates": "43.5059114,2.3989357",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.102Z",
+    "dateMaj": "2026-08-19T12:54:23.297Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "le-duo-d-aqui",
@@ -248,7 +248,7 @@
     "image": ""
   },
   {
-    "uid": "oa-mvqh167a",
+    "uid": "oa-u82avt34",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Le-Duo-d-Aqui-34990",
     "licence": "lov2",
@@ -271,7 +271,7 @@
     "coordinates": "43.5398166,2.2632203",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.098Z",
+    "dateMaj": "2026-08-19T12:54:23.292Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "le-duo-d-aqui",
@@ -279,7 +279,7 @@
     "image": ""
   },
   {
-    "uid": "oa-pnpnvzkf",
+    "uid": "oa-7t40x0mb",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Festival-riverrun-10",
     "licence": "lov2",
@@ -302,7 +302,7 @@
     "coordinates": "43.9292616,2.1457935",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.098Z",
+    "dateMaj": "2026-08-19T12:54:23.292Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "festival-riverrun-10",
@@ -310,7 +310,7 @@
     "image": ""
   },
   {
-    "uid": "oa-betkz8zf",
+    "uid": "oa-v2y6qh5t",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Visite-du-dimanche-Exposition-Repliques-fragments-plongees-34864",
     "licence": "lov2",
@@ -333,7 +333,7 @@
     "coordinates": "43.9258393,2.1385124",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.091Z",
+    "dateMaj": "2026-08-19T12:54:23.285Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-du-dimanche-exposition-171-nbsp-repliques-fragments-plongees-nbsp-187",
@@ -341,7 +341,7 @@
     "image": ""
   },
   {
-    "uid": "oa-6ghu648t",
+    "uid": "oa-tibqj290",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Babel-Jam-Festival",
     "licence": "lov2",
@@ -364,7 +364,7 @@
     "coordinates": "43.942763,2.1613411",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.098Z",
+    "dateMaj": "2026-08-19T12:54:23.293Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "babel-jam-festival",
@@ -372,7 +372,7 @@
     "image": ""
   },
   {
-    "uid": "oa-svcl9uc8",
+    "uid": "oa-dd36nrgg",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Journees-du-Patrimoine-Visite-a-deux-voix",
     "licence": "lov2",
@@ -395,7 +395,7 @@
     "coordinates": "43.9258393,2.1385124",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.092Z",
+    "dateMaj": "2026-08-19T12:54:23.286Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "journees-du-patrimoine-visite-a-deux-voix",
@@ -403,7 +403,7 @@
     "image": ""
   },
   {
-    "uid": "oa-xdlcaqzl",
+    "uid": "oa-wdkcsaqs",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Rentree-ateliers-theatre-enfants-ados-adultes-Albi",
     "licence": "lov2",
@@ -426,7 +426,7 @@
     "coordinates": "43.920556,2.146901",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.098Z",
+    "dateMaj": "2026-08-19T12:54:23.293Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "inscriptions-ateliers-theatre-texte-enfants-ados-adultes-albi",
@@ -434,7 +434,7 @@
     "image": ""
   },
   {
-    "uid": "oa-jufkv7t4",
+    "uid": "oa-y0u38z8c",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Journees-du-Patrimoine-CIRCULEZ-Y-A-RIEN-A-VOIR-De-l-oeuvre-invisible-l-oeuvre",
     "licence": "lov2",
@@ -457,7 +457,7 @@
     "coordinates": "43.9258393,2.1385124",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.103Z",
+    "dateMaj": "2026-08-19T12:54:23.298Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "journees-du-patrimoine-171-nbsp-circulez-y-a-rien-a-voir-nbsp-nbsp-de-l-uvre-inv",
@@ -465,7 +465,38 @@
     "image": ""
   },
   {
-    "uid": "oa-p5ish92r",
+    "uid": "oa-18952383",
+    "source": "jep-nouvelle-aquitaine",
+    "sourceUrl": "https://openagenda.com/jep-2026-nouvelle-aquitaine/events/18952383_ceci-nest-pas-une-archive",
+    "licence": "lov2",
+    "titre": "Ceci n'est pas une archive - Médiathèque de Villeréal",
+    "descriptionCourte": "Rencontrez Louise Fages, qui présentera son travail mené autour des archives photographiques de Villeréal avec les élèves des écoles et du CFA de Villeréal.",
+    "descriptionLongue": "Rencontrez Louise Fages, qui présentera son travail mené autour des archives photographiques de Villeréal avec les élèves des écoles et du CFA de Villeréal. Les archives réalisées dans le cadre de ce projet seront exposées à la bibliothèque de Villeréal pendant tout le mois de septembre. _Plus d'infos :_ [_https://reseauthequedesbastides.org/general/ceci-nest-pas-une-archive_](https://reseauthequedesbastides.org/general/ceci-nest-pas-une-archive)",
+    "dateDebut": "2026-09-18T19:00",
+    "dateFin": "2026-09-18T20:00",
+    "categorie": "exposition",
+    "motsCles": [],
+    "gratuit": true,
+    "prixIndicatif": "Gratuit",
+    "lieuNom": "Villeréal",
+    "lieuAdresse": "3, Avenue Bernard Palissy 81500 Giroussens",
+    "lieuCodePostal": "81500",
+    "lieuCommune": "Giroussens",
+    "lieuCodeInsee": "81104",
+    "lieuLatitude": 43.760774,
+    "lieuLongitude": 1.777664,
+    "coordinates": "43.760774,1.777664",
+    "lieuDepartement": "Tarn",
+    "lieuRegion": "Occitanie",
+    "dateMaj": "2026-07-29T14:39:31.000Z",
+    "statut": "programme",
+    "modeAcces": "sur_place",
+    "slug": "ceci-nest-pas-une-archive",
+    "departementNumero": "81",
+    "image": "https://img.openagenda.com/main/41ff3348ced649129c529fe6df993b46.base.image.jpg"
+  },
+  {
+    "uid": "oa-4dbi6771",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Lancement-de-la-saison-Culturelle-Spectacle-GRATUIT-en-plein-air-Clan-Cabane",
     "licence": "lov2",
@@ -488,7 +519,7 @@
     "coordinates": "43.9001255,1.8979033",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.092Z",
+    "dateMaj": "2026-08-19T12:54:23.286Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "lancement-de-la-saison-culturelle-spectacle-gratuit-en-plein-air-nbsp-clan-caban",
@@ -496,7 +527,7 @@
     "image": ""
   },
   {
-    "uid": "oa-3xpvjkrg",
+    "uid": "oa-m1rudcap",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Concert-Voix-et-percussions-corporelles-ANTROPUS-Cie-Les-Humanophones",
     "licence": "lov2",
@@ -519,7 +550,7 @@
     "coordinates": "43.9015752,1.8928078",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.095Z",
+    "dateMaj": "2026-08-19T12:54:23.290Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "concert-voix-et-percussions-corporelles-nbsp-antropus-cie-les-humanophones",
@@ -527,7 +558,7 @@
     "image": ""
   },
   {
-    "uid": "oa-u838ny4s",
+    "uid": "oa-msgt4vln",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Cine-debat-Pompei-Sotto-le-Nuvole",
     "licence": "lov2",
@@ -550,7 +581,7 @@
     "coordinates": "43.9240856,2.1448678",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.103Z",
+    "dateMaj": "2026-08-19T12:54:23.298Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "cine-debat-171-nbsp-pompei-sotto-le-nuvole-nbsp-187",
@@ -558,7 +589,7 @@
     "image": ""
   },
   {
-    "uid": "oa-y46v1hb8",
+    "uid": "oa-208tksnf",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Le-Duo-d-Aqui-33876",
     "licence": "lov2",
@@ -581,7 +612,7 @@
     "coordinates": "43.4758064,2.6411203",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.092Z",
+    "dateMaj": "2026-08-19T12:54:23.287Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "le-duo-d-8217-aqui",
@@ -589,7 +620,7 @@
     "image": ""
   },
   {
-    "uid": "oa-qvupsnk8",
+    "uid": "oa-fwvf82oa",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Visite-du-dimanche-Exposition-Repliques-fragments-plongees",
     "licence": "lov2",
@@ -612,7 +643,7 @@
     "coordinates": "43.9258393,2.1385124",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.103Z",
+    "dateMaj": "2026-08-19T12:54:23.298Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-du-dimanche-exposition-171-nbsp-repliques-fragments-plongees-nbsp-187",
@@ -620,7 +651,7 @@
     "image": ""
   },
   {
-    "uid": "oa-vgh84czw",
+    "uid": "oa-4bbjgbir",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/EXPO-ART-SORORE-A-LESCURE-D-ALBIGEOIS",
     "licence": "lov2",
@@ -643,7 +674,7 @@
     "coordinates": "43.9498095,2.1705274",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.092Z",
+    "dateMaj": "2026-08-19T12:54:23.287Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "expo-art-sorore-a-lescure-d-8217-albigeois",
@@ -651,7 +682,7 @@
     "image": ""
   },
   {
-    "uid": "oa-wlqxljhn",
+    "uid": "oa-34vjukw7",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/11e-SALON-MINERAUX-FOSSILES-BIJOUX-d-ALBI-Tarn",
     "licence": "lov2",
@@ -674,7 +705,7 @@
     "coordinates": "43.9342855,2.1393762",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.108Z",
+    "dateMaj": "2026-08-19T12:54:23.304Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "11e-salon-mineraux-fossiles-bijoux-d-8217-albi-tarn",
@@ -682,7 +713,7 @@
     "image": ""
   },
   {
-    "uid": "oa-s62qeeol",
+    "uid": "oa-0irfnm5r",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Visite-du-Parc-eolien-d-Assac-35069",
     "licence": "lov2",
@@ -705,7 +736,7 @@
     "coordinates": "43.9784840595,2.43420575918",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.093Z",
+    "dateMaj": "2026-08-19T12:54:23.287Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-du-parc-eolien-d-assac",
@@ -713,7 +744,7 @@
     "image": ""
   },
   {
-    "uid": "oa-1l8od3tx",
+    "uid": "oa-geg7x7v7",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Visite-decouverte-Exposition-Repliques-fragments-plongees-34720",
     "licence": "lov2",
@@ -736,7 +767,7 @@
     "coordinates": "43.9258393,2.1385124",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.099Z",
+    "dateMaj": "2026-08-19T12:54:23.294Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-decouverte-exposition-171-nbsp-repliques-fragments-plongees-nbsp-187",
@@ -744,7 +775,7 @@
     "image": ""
   },
   {
-    "uid": "oa-mrcfytps",
+    "uid": "oa-o2mnqxnm",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Atelier-de-pratique-artistique-Anthotype-fantome",
     "licence": "lov2",
@@ -767,7 +798,7 @@
     "coordinates": "43.9258393,2.1385124",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.104Z",
+    "dateMaj": "2026-08-19T12:54:23.299Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-de-pratique-artistique-anthotype-fantome",
@@ -775,7 +806,7 @@
     "image": ""
   },
   {
-    "uid": "oa-1wm6b7l6",
+    "uid": "oa-31bnuqes",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/TIf-Taf-Festival",
     "licence": "lov2",
@@ -798,7 +829,7 @@
     "coordinates": "44.0599208,1.9651493",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.093Z",
+    "dateMaj": "2026-08-19T12:54:23.288Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "tif-taf-festival",
@@ -806,7 +837,7 @@
     "image": ""
   },
   {
-    "uid": "oa-17enezat",
+    "uid": "oa-vgyppimx",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Visite-decouverte-Exposition-Repliques-fragments-plongees-34684",
     "licence": "lov2",
@@ -829,7 +860,7 @@
     "coordinates": "43.9258393,2.1385124",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.093Z",
+    "dateMaj": "2026-08-19T12:54:23.288Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-decouverte-exposition-171-nbsp-repliques-fragments-plongees-nbsp-187",
@@ -837,7 +868,7 @@
     "image": ""
   },
   {
-    "uid": "oa-xpyydrr3",
+    "uid": "oa-djhiboe5",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/BAIGNADE-SAUVAGE-Festival-de-musiques-inclassables-Ambialet-alentours-81",
     "licence": "lov2",
@@ -860,7 +891,7 @@
     "coordinates": "43.9479045,2.3789352",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.099Z",
+    "dateMaj": "2026-08-19T12:54:23.294Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "baignade-sauvage-festival-de-musiques-inclassables-ambialet-amp-alentours-81",
@@ -868,7 +899,7 @@
     "image": ""
   },
   {
-    "uid": "oa-jimfe315",
+    "uid": "oa-q59roent",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Vibrations-Arnaud-Grillet",
     "licence": "lov2",
@@ -891,7 +922,7 @@
     "coordinates": "43.9467606,2.3792333",
     "lieuDepartement": "81",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.108Z",
+    "dateMaj": "2026-08-19T12:54:23.304Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "171-nbsp-vibrations-nbsp-187-arnaud-grillet",

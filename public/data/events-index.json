@@ -1,8 +1,14 @@
 {
-  "lastUpdated": "2026-08-19T12:23:22.069Z",
-  "totalEvents": 9321,
-  "totalDepartements": 31,
+  "lastUpdated": "2026-08-19T12:54:34.520Z",
+  "totalEvents": 25606,
+  "totalDepartements": 96,
   "departements": [
+    {
+      "departement": "10",
+      "nom": "Aube",
+      "totalEvents": 244,
+      "visibleEvents": 200
+    },
     {
       "departement": "11",
       "nom": "Aude",
@@ -18,14 +24,98 @@
     {
       "departement": "13",
       "nom": "Bouches-du-Rhône",
-      "totalEvents": 2,
-      "visibleEvents": 2
+      "totalEvents": 409,
+      "visibleEvents": 200
     },
     {
       "departement": "14",
       "nom": "Calvados",
-      "totalEvents": 228,
+      "totalEvents": 680,
       "visibleEvents": 200
+    },
+    {
+      "departement": "15",
+      "nom": "Cantal",
+      "totalEvents": 30,
+      "visibleEvents": 30
+    },
+    {
+      "departement": "16",
+      "nom": "Charente",
+      "totalEvents": 164,
+      "visibleEvents": 164
+    },
+    {
+      "departement": "17",
+      "nom": "Charente-Maritime",
+      "totalEvents": 333,
+      "visibleEvents": 200
+    },
+    {
+      "departement": "18",
+      "nom": "Cher",
+      "totalEvents": 133,
+      "visibleEvents": 133
+    },
+    {
+      "departement": "19",
+      "nom": "Corrèze",
+      "totalEvents": 128,
+      "visibleEvents": 128
+    },
+    {
+      "departement": "21",
+      "nom": "Côte-d'Or",
+      "totalEvents": 249,
+      "visibleEvents": 200
+    },
+    {
+      "departement": "22",
+      "nom": "Côtes-d'Armor",
+      "totalEvents": 106,
+      "visibleEvents": 106
+    },
+    {
+      "departement": "23",
+      "nom": "Creuse",
+      "totalEvents": 85,
+      "visibleEvents": 85
+    },
+    {
+      "departement": "24",
+      "nom": "Dordogne",
+      "totalEvents": 191,
+      "visibleEvents": 191
+    },
+    {
+      "departement": "25",
+      "nom": "Doubs",
+      "totalEvents": 117,
+      "visibleEvents": 117
+    },
+    {
+      "departement": "26",
+      "nom": "Drôme",
+      "totalEvents": 137,
+      "visibleEvents": 137
+    },
+    {
+      "departement": "27",
+      "nom": "Eure",
+      "totalEvents": 344,
+      "visibleEvents": 200
+    },
+    {
+      "departement": "28",
+      "nom": "Eure-et-Loir",
+      "totalEvents": 164,
+      "visibleEvents": 164
+    },
+    {
+      "departement": "29",
+      "nom": "Finistère",
+      "totalEvents": 145,
+      "visibleEvents": 145
     },
     {
       "departement": "30",
@@ -36,8 +126,8 @@
     {
       "departement": "31",
       "nom": "Haute-Garonne",
-      "totalEvents": 159,
-      "visibleEvents": 159
+      "totalEvents": 162,
+      "visibleEvents": 162
     },
     {
       "departement": "32",
@@ -48,38 +138,92 @@
     {
       "departement": "33",
       "nom": "Gironde",
-      "totalEvents": 53,
-      "visibleEvents": 53
+      "totalEvents": 503,
+      "visibleEvents": 200
     },
     {
       "departement": "34",
       "nom": "Hérault",
-      "totalEvents": 69,
-      "visibleEvents": 69
+      "totalEvents": 72,
+      "visibleEvents": 72
+    },
+    {
+      "departement": "35",
+      "nom": "Ille-et-Vilaine",
+      "totalEvents": 143,
+      "visibleEvents": 143
+    },
+    {
+      "departement": "36",
+      "nom": "Indre",
+      "totalEvents": 110,
+      "visibleEvents": 110
     },
     {
       "departement": "37",
       "nom": "Indre-et-Loire",
-      "totalEvents": 354,
+      "totalEvents": 682,
       "visibleEvents": 200
+    },
+    {
+      "departement": "38",
+      "nom": "Isère",
+      "totalEvents": 233,
+      "visibleEvents": 200
+    },
+    {
+      "departement": "39",
+      "nom": "Jura",
+      "totalEvents": 106,
+      "visibleEvents": 106
+    },
+    {
+      "departement": "40",
+      "nom": "Landes",
+      "totalEvents": 123,
+      "visibleEvents": 123
+    },
+    {
+      "departement": "41",
+      "nom": "Loir-et-Cher",
+      "totalEvents": 189,
+      "visibleEvents": 189
+    },
+    {
+      "departement": "42",
+      "nom": "Loire",
+      "totalEvents": 218,
+      "visibleEvents": 200
+    },
+    {
+      "departement": "43",
+      "nom": "Haute-Loire",
+      "totalEvents": 36,
+      "visibleEvents": 36
     },
     {
       "departement": "44",
       "nom": "Loire-Atlantique",
-      "totalEvents": 4352,
+      "totalEvents": 4836,
       "visibleEvents": 200
     },
     {
       "departement": "45",
       "nom": "Loiret",
-      "totalEvents": 530,
+      "totalEvents": 791,
       "visibleEvents": 200
     },
     {
       "departement": "46",
       "nom": "Lot",
-      "totalEvents": 14,
-      "visibleEvents": 14
+      "totalEvents": 16,
+      "visibleEvents": 16
+    },
+    {
+      "departement": "47",
+      "nom": "Lot-et-Garonne",
+      "totalEvents": 142,
+      "visibleEvents": 142
     },
     {
       "departement": "48",
@@ -88,10 +232,100 @@
       "visibleEvents": 6
     },
     {
+      "departement": "49",
+      "nom": "Maine-et-Loire",
+      "totalEvents": 286,
+      "visibleEvents": 200
+    },
+    {
+      "departement": "50",
+      "nom": "Manche",
+      "totalEvents": 243,
+      "visibleEvents": 200
+    },
+    {
+      "departement": "51",
+      "nom": "Marne",
+      "totalEvents": 306,
+      "visibleEvents": 200
+    },
+    {
+      "departement": "52",
+      "nom": "Haute-Marne",
+      "totalEvents": 153,
+      "visibleEvents": 153
+    },
+    {
+      "departement": "53",
+      "nom": "Mayenne",
+      "totalEvents": 119,
+      "visibleEvents": 119
+    },
+    {
+      "departement": "54",
+      "nom": "Meurthe-et-Moselle",
+      "totalEvents": 191,
+      "visibleEvents": 191
+    },
+    {
+      "departement": "55",
+      "nom": "Meuse",
+      "totalEvents": 84,
+      "visibleEvents": 84
+    },
+    {
+      "departement": "56",
+      "nom": "Morbihan",
+      "totalEvents": 155,
+      "visibleEvents": 155
+    },
+    {
+      "departement": "57",
+      "nom": "Moselle",
+      "totalEvents": 134,
+      "visibleEvents": 134
+    },
+    {
+      "departement": "58",
+      "nom": "Nièvre",
+      "totalEvents": 100,
+      "visibleEvents": 100
+    },
+    {
+      "departement": "59",
+      "nom": "Nord",
+      "totalEvents": 475,
+      "visibleEvents": 200
+    },
+    {
+      "departement": "60",
+      "nom": "Oise",
+      "totalEvents": 85,
+      "visibleEvents": 85
+    },
+    {
+      "departement": "61",
+      "nom": "Orne",
+      "totalEvents": 241,
+      "visibleEvents": 200
+    },
+    {
+      "departement": "62",
+      "nom": "Pas-de-Calais",
+      "totalEvents": 316,
+      "visibleEvents": 200
+    },
+    {
+      "departement": "63",
+      "nom": "Puy-de-Dôme",
+      "totalEvents": 179,
+      "visibleEvents": 179
+    },
+    {
       "departement": "64",
       "nom": "Pyrénées-Atlantiques",
-      "totalEvents": 1,
-      "visibleEvents": 1
+      "totalEvents": 253,
+      "visibleEvents": 200
     },
     {
       "departement": "65",
@@ -106,64 +340,178 @@
       "visibleEvents": 15
     },
     {
+      "departement": "67",
+      "nom": "Bas-Rhin",
+      "totalEvents": 396,
+      "visibleEvents": 200
+    },
+    {
+      "departement": "68",
+      "nom": "Haut-Rhin",
+      "totalEvents": 148,
+      "visibleEvents": 148
+    },
+    {
+      "departement": "69",
+      "nom": "Rhône",
+      "totalEvents": 647,
+      "visibleEvents": 200
+    },
+    {
+      "departement": "70",
+      "nom": "Haute-Saône",
+      "totalEvents": 57,
+      "visibleEvents": 57
+    },
+    {
+      "departement": "71",
+      "nom": "Saône-et-Loire",
+      "totalEvents": 260,
+      "visibleEvents": 200
+    },
+    {
+      "departement": "72",
+      "nom": "Sarthe",
+      "totalEvents": 157,
+      "visibleEvents": 157
+    },
+    {
+      "departement": "73",
+      "nom": "Savoie",
+      "totalEvents": 245,
+      "visibleEvents": 200
+    },
+    {
+      "departement": "74",
+      "nom": "Haute-Savoie",
+      "totalEvents": 240,
+      "visibleEvents": 200
+    },
+    {
       "departement": "75",
       "nom": "Paris",
-      "totalEvents": 2071,
+      "totalEvents": 2093,
+      "visibleEvents": 200
+    },
+    {
+      "departement": "76",
+      "nom": "Seine-Maritime",
+      "totalEvents": 1581,
       "visibleEvents": 200
     },
     {
       "departement": "77",
       "nom": "Seine-et-Marne",
-      "totalEvents": 29,
-      "visibleEvents": 29
+      "totalEvents": 42,
+      "visibleEvents": 42
     },
     {
       "departement": "78",
       "nom": "Yvelines",
-      "totalEvents": 23,
-      "visibleEvents": 23
+      "totalEvents": 40,
+      "visibleEvents": 40
+    },
+    {
+      "departement": "79",
+      "nom": "Deux-Sèvres",
+      "totalEvents": 167,
+      "visibleEvents": 167
+    },
+    {
+      "departement": "80",
+      "nom": "Somme",
+      "totalEvents": 137,
+      "visibleEvents": 137
     },
     {
       "departement": "81",
       "nom": "Tarn",
-      "totalEvents": 29,
-      "visibleEvents": 29
+      "totalEvents": 30,
+      "visibleEvents": 30
     },
     {
       "departement": "82",
       "nom": "Tarn-et-Garonne",
-      "totalEvents": 47,
-      "visibleEvents": 47
+      "totalEvents": 54,
+      "visibleEvents": 54
+    },
+    {
+      "departement": "83",
+      "nom": "Var",
+      "totalEvents": 291,
+      "visibleEvents": 200
+    },
+    {
+      "departement": "84",
+      "nom": "Vaucluse",
+      "totalEvents": 137,
+      "visibleEvents": 137
+    },
+    {
+      "departement": "85",
+      "nom": "Vendée",
+      "totalEvents": 126,
+      "visibleEvents": 126
+    },
+    {
+      "departement": "86",
+      "nom": "Vienne",
+      "totalEvents": 242,
+      "visibleEvents": 200
+    },
+    {
+      "departement": "87",
+      "nom": "Haute-Vienne",
+      "totalEvents": 165,
+      "visibleEvents": 165
+    },
+    {
+      "departement": "88",
+      "nom": "Vosges",
+      "totalEvents": 162,
+      "visibleEvents": 162
+    },
+    {
+      "departement": "89",
+      "nom": "Yonne",
+      "totalEvents": 201,
+      "visibleEvents": 200
+    },
+    {
+      "departement": "90",
+      "nom": "Territoire de Belfort",
+      "totalEvents": 39,
+      "visibleEvents": 39
     },
     {
       "departement": "91",
       "nom": "Essonne",
-      "totalEvents": 13,
-      "visibleEvents": 13
+      "totalEvents": 21,
+      "visibleEvents": 21
     },
     {
       "departement": "92",
       "nom": "Hauts-de-Seine",
-      "totalEvents": 92,
-      "visibleEvents": 92
+      "totalEvents": 101,
+      "visibleEvents": 101
     },
     {
       "departement": "93",
       "nom": "Seine-Saint-Denis",
-      "totalEvents": 115,
-      "visibleEvents": 115
+      "totalEvents": 146,
+      "visibleEvents": 146
     },
     {
       "departement": "94",
       "nom": "Val-de-Marne",
-      "totalEvents": 12,
-      "visibleEvents": 12
+      "totalEvents": 15,
+      "visibleEvents": 15
     },
     {
       "departement": "95",
       "nom": "Val-d'Oise",
-      "totalEvents": 17,
-      "visibleEvents": 17
+      "totalEvents": 35,
+      "visibleEvents": 35
     },
     {
       "departement": "09",
@@ -174,20 +522,62 @@
     {
       "departement": "04",
       "nom": "Alpes-de-Haute-Provence",
-      "totalEvents": 1,
-      "visibleEvents": 1
+      "totalEvents": 76,
+      "visibleEvents": 76
     },
     {
       "departement": "07",
       "nom": "Ardèche",
-      "totalEvents": 1,
-      "visibleEvents": 1
+      "totalEvents": 107,
+      "visibleEvents": 107
     },
     {
       "departement": "01",
       "nom": "Ain",
-      "totalEvents": 5,
-      "visibleEvents": 5
+      "totalEvents": 196,
+      "visibleEvents": 196
+    },
+    {
+      "departement": "02",
+      "nom": "Aisne",
+      "totalEvents": 221,
+      "visibleEvents": 200
+    },
+    {
+      "departement": "2B",
+      "nom": "Haute-Corse",
+      "totalEvents": 26,
+      "visibleEvents": 26
+    },
+    {
+      "departement": "2A",
+      "nom": "Corse-du-Sud",
+      "totalEvents": 6,
+      "visibleEvents": 6
+    },
+    {
+      "departement": "08",
+      "nom": "Ardennes",
+      "totalEvents": 65,
+      "visibleEvents": 65
+    },
+    {
+      "departement": "03",
+      "nom": "Allier",
+      "totalEvents": 117,
+      "visibleEvents": 117
+    },
+    {
+      "departement": "06",
+      "nom": "Alpes-Maritimes",
+      "totalEvents": 248,
+      "visibleEvents": 200
+    },
+    {
+      "departement": "05",
+      "nom": "Hautes-Alpes",
+      "totalEvents": 20,
+      "visibleEvents": 20
     }
   ],
   "sources": [
@@ -204,6 +594,24 @@
     "gpso-evenements",
     "nantes-metropole-evenements",
     "paris-evenements",
-    "haute-garonne-grand-ouest"
+    "haute-garonne-grand-ouest",
+    "jep-centre-val-de-loire",
+    "jnarchi-bourgogne-franche-comte",
+    "jardins-ouverts-2026",
+    "criquiers-evenements",
+    "jep-bretagne",
+    "jep-normandie",
+    "jep-hauts-de-france",
+    "jep-corse",
+    "jep-grand-est",
+    "jep-bourgogne-franche-comte",
+    "jep-pays-de-la-loire",
+    "jep-auvergne-rhone-alpes",
+    "jep-paca",
+    "jep-nouvelle-aquitaine",
+    "rouen-metropole-evenements",
+    "draguignan-evenements",
+    "villeurbanne-agenda-culturel",
+    "mobilizon-france"
   ]
 }

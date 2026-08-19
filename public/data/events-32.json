@@ -1,6 +1,6 @@
 [
   {
-    "uid": "oa-f9kkmq5e",
+    "uid": "oa-qtv05m16",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Recital-de-piano-Andrei-Leshkin",
     "licence": "lov2",
@@ -23,7 +23,7 @@
     "coordinates": "43.414089,0.746463",
     "lieuDepartement": "32",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.106Z",
+    "dateMaj": "2026-08-19T12:54:23.301Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "recital-de-piano-nbsp-andrei-leshkin",
@@ -31,7 +31,7 @@
     "image": ""
   },
   {
-    "uid": "oa-3vvby8tk",
+    "uid": "oa-h91xckpu",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/24eme-Journee-des-Plantes-Rares",
     "licence": "lov2",
@@ -54,7 +54,7 @@
     "coordinates": "43.6837665384,0.477120394926",
     "lieuDepartement": "32",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.095Z",
+    "dateMaj": "2026-08-19T12:54:23.289Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "24eme-journee-des-plantes-rares",
@@ -62,7 +62,7 @@
     "image": ""
   },
   {
-    "uid": "oa-o7hsfk56",
+    "uid": "oa-1c9m4vco",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Duo-Accordeon-violoncelle",
     "licence": "lov2",
@@ -85,7 +85,7 @@
     "coordinates": "43.4936111,0.7744444",
     "lieuDepartement": "32",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.098Z",
+    "dateMaj": "2026-08-19T12:54:23.292Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "duo-e-s-accordeon-violoncelle",
@@ -93,7 +93,7 @@
     "image": ""
   },
   {
-    "uid": "oa-l8r8pnna",
+    "uid": "oa-5mas9x0u",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Festival-de-cinema-Cine32-Independance-s-et-creation-29eme-edition",
     "licence": "lov2",
@@ -116,7 +116,7 @@
     "coordinates": "43.6515626,0.5936988",
     "lieuDepartement": "32",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.091Z",
+    "dateMaj": "2026-08-19T12:54:23.286Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "festival-de-cinema-cine32-171-nbsp-independance-s-et-creation-nbsp-187-29eme-edi",
@@ -124,7 +124,7 @@
     "image": ""
   },
   {
-    "uid": "oa-y7z7yiqz",
+    "uid": "oa-tudq1w4j",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Automnale-de-Monfort-2026",
     "licence": "lov2",
@@ -147,7 +147,7 @@
     "coordinates": "43.794495,0.82423",
     "lieuDepartement": "32",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.095Z",
+    "dateMaj": "2026-08-19T12:54:23.289Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "automnale-de-monfort-2026",
@@ -155,7 +155,7 @@
     "image": ""
   },
   {
-    "uid": "oa-arh4yjxr",
+    "uid": "oa-10uogwvx",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Ensemble-La-sportelle-Hymne-a-la-Vierge-direction-Owain-Park",
     "licence": "lov2",
@@ -178,7 +178,7 @@
     "coordinates": "43.542699,0.776307",
     "lieuDepartement": "32",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.107Z",
+    "dateMaj": "2026-08-19T12:54:23.302Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "ensemble-la-sportelle-nbsp-hymne-a-la-vierge-direction-owain-park",
@@ -186,7 +186,7 @@
     "image": ""
   },
   {
-    "uid": "oa-dcnrpbkb",
+    "uid": "oa-u8jh19zb",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Journee-Artisanat-transhumance",
     "licence": "lov2",
@@ -209,7 +209,7 @@
     "coordinates": "43.8312075,-0.1602426",
     "lieuDepartement": "32",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.103Z",
+    "dateMaj": "2026-08-19T12:54:23.298Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "journee-artisanat-amp-transhumance",
@@ -217,7 +217,7 @@
     "image": ""
   },
   {
-    "uid": "oa-qkt06jpt",
+    "uid": "oa-qjdm5b4q",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/MATINALE-DU-RECRUTEMENT",
     "licence": "lov2",
@@ -240,7 +240,7 @@
     "coordinates": "43.6293159,0.8706583",
     "lieuDepartement": "32",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.092Z",
+    "dateMaj": "2026-08-19T12:54:23.287Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "matinale-du-recrutement",
@@ -248,7 +248,7 @@
     "image": ""
   },
   {
-    "uid": "oa-jafjpjic",
+    "uid": "oa-emwmhn4j",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Trio-Ventus-Altanus",
     "licence": "lov2",
@@ -271,7 +271,7 @@
     "coordinates": "43.584224,0.729496",
     "lieuDepartement": "32",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.108Z",
+    "dateMaj": "2026-08-19T12:54:23.303Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "trio-ventus-altanus",
@@ -279,7 +279,7 @@
     "image": ""
   },
   {
-    "uid": "oa-vcywlftv",
+    "uid": "oa-u60mn2g9",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/1000-ans-Joanda-en-concert-34917",
     "licence": "lov2",
@@ -302,7 +302,7 @@
     "coordinates": "43.7573855,0.4590145",
     "lieuDepartement": "32",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:23:17.104Z",
+    "dateMaj": "2026-08-19T12:54:23.299Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "1000-ans-joanda-en-concert",
