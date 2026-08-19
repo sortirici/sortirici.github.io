@@ -143,6 +143,65 @@ function sanitizeText(text) {
 }
 
 /**
+ * deduplicateDescription — Supprime le contenu dupliqué des plateformes sources
+ * dans les descriptions d'événements :
+ *  - URLs pointant vers openagenda.com, mobilizon.fr, et les domaines sources
+ *  - Mentions "BILLETTERIE", "Réservez vos billets", "Retrouvez cet événement sur"
+ *    et autres appels à l'action des plateformes (billetterie, réservation)
+ *  - Copyrights (©, (c)) et marques déposées (®, ™)
+ */
+function deduplicateDescription(text, sourceId) {
+  if (!text) return '';
+  let t = String(text);
+
+  // 1. Supprimer les markdown links pointant vers les plateformes sources
+  //    [text](https://openagenda. com/...) — supprime tout le lien (texte + URL)
+  t = t.replace(/\[([^\]]*)\]\((https?:\/\/[^)]*?(?:openagenda|mobilizon)[^)]*)\)/gi, '');
+  //    URLs nues avec espace avant le point (ex: "https://openagenda. com/fr/...")
+  t = t.replace(/https?:\/\/\S*?openagenda\s*\.?\s*com\S*/gi, '');
+  t = t.replace(/https?:\/\/\S*?mobilizon\.fr\S*/gi, '');
+  //    Références nues aux domaines (ex: "openagenda. com/fr/...")
+  t = t.replace(/openagenda\s*\.\s*com\S*/gi, '');
+  t = t.replace(/mobilizon\.fr\S*/gi, '');
+  //    Nettoyer les parenthèses vides et crochets vides laissés par les suppressions
+  t = t.replace(/\(\)/g, '');
+  t = t.replace(/\[\]/g, '');
+  t = t.replace(/\(\s*\)/g, '');
+
+  // 2. Supprimer les appels à l'action des plateformes
+  t = t.replace(/\[{1,3}\**\s*BILLETTERIE\s*\**\]{1,3}\([^)]*\)/gi, '');
+  t = t.replace(/\*{0,3}BILLETTERIE\*{0,3}/gi, '');
+  t = t.replace(/R[ée]servez\s+(vos|votre)\s+(billets?|place|entr[ée]e|pass)\s*/gi, '');
+  t = t.replace(/Retrouvez\s+(cet\s+)?(l['\u2019])?[ée]v[ée]nements?\s+sur\s+/gi, '');
+  t = t.replace(/Pour\s+plus\s+d['\u2019]informations\s*:?\s*https?:\/\/[^\s)]+/gi, '');
+  t = t.replace(/En\s+savoir\s+plus\s*:?\s*https?:\/\/[^\s)]+/gi, '');
+  t = t.replace(/https?:\/\/[^\s)]+[^.]*?Cliquez\s+ici/gi, '');
+  t = t.replace(/Cliquez\s+ici[^.]*?https?:\/\/[^\s)]+/gi, '');
+
+  // 3. Supprimer les copyrights et marques déposées
+  t = t.replace(/\([cC]\)\s*/g, '');
+  t = t.replace(/\s*©\s*[A-Za-z\u00C0-\u024F]+(?:\s+[A-Za-z\u00C0-\u024F]+){0,1}/g, '');
+  t = t.replace(/\s*©/g, '');
+  t = t.replace(/Cr[ée]dit\s+(photo|illustration)\s*/gi, '');
+  t = t.replace(/®/g, '');
+  t = t.replace(/™/g, '');
+
+  // 4. Nettoyer les séparateurs, balises ###, espaces et résidus
+  t = t.replace(/\s+/g, ' ').trim();
+  t = t.replace(/\s*###\s*/g, ' ');
+  t = t.replace(/_{3,}/g, '');
+  t = t.replace(/---+/g, '');
+  // Nettoyer les espaces avant la ponctuation
+  t = t.replace(/\s+,/g, ',');
+  t = t.replace(/\s+\./g, '.');
+  t = t.replace(/\s+;/g, ';');
+  t = t.replace(/\s+:/g, ':');
+  t = t.replace(/\s+/g, ' ').trim();
+
+  return t;
+}
+
+/**
  * Parse une valeur de coordonnées vers { lat, lon }.
  * Accepte : {lat, lon} | {latitude, longitude} | "lat,lon" | [lon, lat] (convention OpenDataSoft)
  */
@@ -679,7 +738,20 @@ function main() {
         .filter(e => e.titre && e.dateDebut && (e.lieuNom || e.lieuCommune))
         // Filet de sécurité : exclure les événements dont la date de début
         // est déjà passée de plus de 30 jours
-        .filter(e => !isTooOld(e.dateDebut));
+        .filter(e => !isTooOld(e.dateDebut))
+        // Déduplication des descriptions : supprimer les contenus
+        // dupliqués des plateformes (URLs, CTAs, copyrights)
+        .map(e => {
+          const cleanedCourte = deduplicateDescription(e.descriptionCourte, id);
+          const cleanedLongue = deduplicateDescription(e.descriptionLongue, id);
+          // Si la description longue devient trop courte (< 50 caractères)
+          // après nettoyage, on la remplace par la description courte
+          e.descriptionLongue = cleanedLongue.length < 50 && cleanedCourte.length > 0
+            ? cleanedCourte
+            : cleanedLongue;
+          e.descriptionCourte = cleanedCourte;
+          return e;
+        });
 
       const outPath = join(NORM_DIR, `${id}.json`);
       writeFileSync(outPath, JSON.stringify(normalized, null, 2), 'utf-8');

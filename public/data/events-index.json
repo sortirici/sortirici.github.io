@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-19T18:00:27.276Z",
-  "totalEvents": 25654,
+  "lastUpdated": "2026-08-19T21:02:50.207Z",
+  "totalEvents": 25652,
   "totalDepartements": 96,
   "departements": [
     {
@@ -390,7 +390,7 @@
     {
       "departement": "75",
       "nom": "Paris",
-      "totalEvents": 2093,
+      "totalEvents": 2092,
       "visibleEvents": 200
     },
     {
