@@ -202,7 +202,7 @@ const datasetLd = activeSources.map((s, i) => ({
           <article class="source-card" id={`source-${src.id}`} itemscope itemtype="https://schema.org/Dataset">
             <div class="source-card__header">
               <div class="source-card__icon" aria-hidden="true">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand-blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19a9 3 0 0 0 18 0V5"/></svg>
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand-brick)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19a9 3 0 0 0 18 0V5"/></svg>
               </div>
               <div>
                 <h2 class="source-card__title" itemprop="name">{src.name}</h2>
@@ -343,7 +343,7 @@ const datasetLd = activeSources.map((s, i) => ({
   .breadcrumb__list { display: flex; align-items: center; gap: var(--space-2); list-style: none; padding: var(--space-3) 0; font-size: var(--text-sm); flex-wrap: wrap; }
   .breadcrumb__item { display: flex; align-items: center; gap: var(--space-1); }
   .breadcrumb__link { color: var(--color-neutral-500); text-decoration: none; }
-  .breadcrumb__link:hover { color: var(--color-brand-blue); }
+  .breadcrumb__link:hover { color: var(--color-brand-brick); }
   .breadcrumb__item--current span { color: var(--color-neutral-900); font-weight: var(--font-semibold); }
   .breadcrumb__sep { color: var(--color-neutral-300); flex-shrink: 0; }
 
@@ -354,7 +354,7 @@ const datasetLd = activeSources.map((s, i) => ({
   .page-header__desc strong { color: var(--color-brand-green); }
   .page-header__stats { display: flex; justify-content: center; gap: var(--space-8); flex-wrap: wrap; }
   .page-header__stat { text-align: center; }
-  .page-header__stat-value { display: block; font-size: var(--text-2xl); font-weight: var(--font-bold); color: var(--color-brand-blue); }
+  .page-header__stat-value { display: block; font-size: var(--text-2xl); font-weight: var(--font-bold); color: var(--color-brand-brick); }
   .page-header__stat-label { font-size: var(--text-sm); color: var(--color-neutral-500); }
 
   /* Sources Grid */
@@ -395,10 +395,10 @@ const datasetLd = activeSources.map((s, i) => ({
     display: inline-flex;
     align-items: center;
     gap: var(--space-1);
-    color: var(--color-brand-blue);
+    color: var(--color-brand-brick);
     text-decoration: none;
   }
-  .source-card__licence:hover, .source-card__link:hover { color: var(--color-brand-orange); text-decoration: underline; }
+  .source-card__licence:hover, .source-card__link:hover { color: var(--color-brand-brick); text-decoration: underline; }
 
   .source-card__ethical {
     padding: var(--space-3);
@@ -416,10 +416,10 @@ const datasetLd = activeSources.map((s, i) => ({
     gap: var(--space-1);
     font-size: var(--text-sm);
     font-weight: var(--font-semibold);
-    color: var(--color-brand-blue);
+    color: var(--color-brand-brick);
     text-decoration: none;
   }
-  .source-card__cta:hover { color: var(--color-brand-orange); text-decoration: underline; }
+  .source-card__cta:hover { color: var(--color-brand-brick); text-decoration: underline; }
 
   /* Licences Section */
   .licences-section { padding: var(--space-10) 0; background: var(--color-neutral-50); border-top: 1px solid var(--color-neutral-200); }
@@ -435,8 +435,8 @@ const datasetLd = activeSources.map((s, i) => ({
   }
   .licence-card__title { font-size: var(--text-base); font-weight: var(--font-semibold); color: var(--color-neutral-900); margin-bottom: var(--space-2); }
   .licence-card__desc { font-size: var(--text-sm); color: var(--color-neutral-600); line-height: var(--leading-relaxed); margin-bottom: var(--space-3); }
-  .licence-card__link { font-size: var(--text-sm); font-weight: var(--font-medium); color: var(--color-brand-blue); text-decoration: none; }
-  .licence-card__link:hover { color: var(--color-brand-orange); text-decoration: underline; }
+  .licence-card__link { font-size: var(--text-sm); font-weight: var(--font-medium); color: var(--color-brand-brick); text-decoration: none; }
+  .licence-card__link:hover { color: var(--color-brand-brick); text-decoration: underline; }
 
   /* Engagement */
   .engagement-section { padding: var(--space-10) 0; background: linear-gradient(180deg, var(--color-neutral-50) 0%, white 100%); }
@@ -444,7 +444,7 @@ const datasetLd = activeSources.map((s, i) => ({
   .engagement-list { display: flex; flex-direction: column; gap: var(--space-4); padding: 0; list-style: none; margin-top: var(--space-6); }
   .engagement-item { display: flex; align-items: flex-start; gap: var(--space-3); font-size: var(--text-base); color: var(--color-neutral-700); line-height: var(--leading-relaxed); }
   .engagement-item svg { flex-shrink: 0; margin-top: 2px; }
-  .engagement-item a { color: var(--color-brand-blue); font-weight: var(--font-medium); }
+  .engagement-item a { color: var(--color-brand-brick); font-weight: var(--font-medium); }
 
   /* Removal */
   .removal-section { padding: var(--space-10) 0; background: linear-gradient(180deg, white 0%, var(--color-neutral-50) 100%); }
@@ -463,7 +463,7 @@ const datasetLd = activeSources.map((s, i) => ({
     align-items: center;
     gap: var(--space-2);
     padding: var(--space-2) var(--space-5);
-    background: var(--color-brand-blue);
+    background: var(--color-brand-brick);
     color: white;
     border-radius: var(--radius-lg);
     font-size: var(--text-sm);
@@ -476,8 +476,8 @@ const datasetLd = activeSources.map((s, i) => ({
   /* Sources Nav */
   .sources-nav { padding: var(--space-6) 0; border-top: 1px solid var(--color-neutral-200); background: linear-gradient(180deg, var(--color-neutral-50) 0%, #F4F6FC 100%); }
   .sources-nav__links { display: flex; flex-wrap: wrap; gap: var(--space-4); justify-content: center; }
-  .sources-nav__item { font-size: var(--text-sm); font-weight: var(--font-medium); color: var(--color-brand-blue); text-decoration: none; }
-  .sources-nav__item:hover { color: var(--color-brand-orange); text-decoration: underline; }
+  .sources-nav__item { font-size: var(--text-sm); font-weight: var(--font-medium); color: var(--color-brand-brick); text-decoration: none; }
+  .sources-nav__item:hover { color: var(--color-brand-brick); text-decoration: underline; }
 
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }

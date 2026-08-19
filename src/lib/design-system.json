@@ -19,34 +19,34 @@
       "html": "<button class=\"btn btn--{variant} btn--{size}\"><!-- icon:optional --><span><!-- label --></span></button>",
       "variants": {
         "primary": {
-          "description": "CTA principal, lien bleu institutionnel",
-          "css": "background: var(--color-brand-blue); color: white; border: none; font-weight: var(--font-semibold);",
-          "hover": "background: #164E94; box-shadow: var(--shadow-soft);",
-          "focus": "outline: 2px solid var(--color-brand-orange); outline-offset: 2px;",
-          "active": "background: #0F3D6E; transform: scale(0.98);",
+          "description": "CTA principal, accent terre cuite",
+          "css": "background: var(--color-brand-brick); color: white; border: none; font-weight: var(--font-semibold);",
+          "hover": "background: #B84E23; box-shadow: var(--shadow-soft);",
+          "focus": "outline: 2px solid var(--color-brand-brick); outline-offset: 2px;",
+          "active": "background: #A0421E; transform: scale(0.98);",
           "disabled": "opacity: 0.5; cursor: not-allowed; pointer-events: none;"
         },
         "secondary": {
-          "description": "CTA secondaire, accent orange énergie",
-          "css": "background: var(--color-brand-orange); color: white; border: none; font-weight: var(--font-semibold);",
-          "hover": "background: #C45A00; box-shadow: var(--shadow-soft);",
-          "focus": "outline: 2px solid var(--color-brand-blue); outline-offset: 2px;",
-          "active": "background: #A04800; transform: scale(0.98);",
+          "description": "CTA secondaire, vert confiance",
+          "css": "background: var(--color-brand-brick); color: white; border: none; font-weight: var(--font-semibold);",
+          "hover": "background: #B84E23; box-shadow: var(--shadow-soft);",
+          "focus": "outline: 2px solid var(--color-brand-brick); outline-offset: 2px;",
+          "active": "background: #A0421E; transform: scale(0.98);",
           "disabled": "opacity: 0.5; cursor: not-allowed; pointer-events: none;"
         },
         "outline": {
           "description": "Action secondaire, bordure seulement",
-          "css": "background: transparent; color: var(--color-brand-blue); border: 1.5px solid var(--color-brand-blue); font-weight: var(--font-medium);",
-          "hover": "background: var(--color-neutral-100); border-color: #164E94; color: #164E94;",
-          "focus": "outline: 2px solid var(--color-brand-orange); outline-offset: 2px;",
+          "css": "background: transparent; color: var(--color-brand-brick); border: 1.5px solid var(--color-brand-brick); font-weight: var(--font-medium);",
+          "hover": "background: var(--color-neutral-100); border-color: #B84E23; color: #B84E23;",
+          "focus": "outline: 2px solid var(--color-brand-brick); outline-offset: 2px;",
           "active": "background: #E8F0FA;",
           "disabled": "opacity: 0.4; cursor: not-allowed;"
         },
         "ghost": {
           "description": "Action minimale, sans fond ni bordure",
           "css": "background: transparent; color: var(--color-neutral-700); border: none; font-weight: var(--font-medium);",
-          "hover": "background: var(--color-neutral-100); color: var(--color-brand-blue);",
-          "focus": "outline: 2px solid var(--color-brand-orange); outline-offset: 2px;",
+          "hover": "background: var(--color-neutral-100); color: var(--color-brand-brick);",
+          "focus": "outline: 2px solid var(--color-brand-brick); outline-offset: 2px;",
           "active": "background: var(--color-neutral-200);",
           "disabled": "opacity: 0.4; cursor: not-allowed;"
         },
@@ -54,7 +54,7 @@
           "description": "Confirmation, validation, événement gratuit",
           "css": "background: var(--color-brand-green); color: white; border: none; font-weight: var(--font-semibold);",
           "hover": "background: #25632A;",
-          "focus": "outline: 2px solid var(--color-brand-orange); outline-offset: 2px;",
+          "focus": "outline: 2px solid var(--color-brand-brick); outline-offset: 2px;",
           "disabled": "opacity: 0.5; cursor: not-allowed;"
         }
       },
@@ -80,16 +80,16 @@
           "description": "Version hero de la page d'accueil — centrée, large, ombre marquée",
           "css": "max-width: 640px; margin: 0 auto;",
           "input": "padding: var(--space-4) var(--space-6); font-size: var(--text-lg); border-radius: var(--radius-xl); border: 2px solid var(--color-neutral-200); background: white; width: 100%; box-shadow: var(--shadow-medium); transition: all var(--transition-default);",
-          "inputHover": "border-color: var(--color-brand-blue); box-shadow: var(--shadow-strong);",
-          "inputFocus": "border-color: var(--color-brand-blue); box-shadow: var(--shadow-strong), var(--shadow-focus); outline: none;",
-          "submitButton": "position: absolute; right: var(--space-3); top: 50%; transform: translateY(-50%); background: var(--color-brand-blue); color: white; border-radius: var(--radius-lg); padding: var(--space-2);"
+          "inputHover": "border-color: var(--color-brand-brick); box-shadow: var(--shadow-strong);",
+          "inputFocus": "border-color: var(--color-brand-brick); box-shadow: var(--shadow-strong), var(--shadow-focus); outline: none;",
+          "submitButton": "position: absolute; right: var(--space-3); top: 50%; transform: translateY(-50%); background: var(--color-brand-brick); color: white; border-radius: var(--radius-lg); padding: var(--space-2);"
         },
         "compact": {
           "description": "Version compacte pour header mobile ou filtres",
           "css": "max-width: 100%;",
           "input": "padding: var(--space-2) var(--space-4); font-size: var(--text-sm); border-radius: var(--radius-lg); border: 1.5px solid var(--color-neutral-200); background: var(--color-neutral-50); width: 100%;",
           "inputHover": "border-color: var(--color-neutral-300);",
-          "inputFocus": "border-color: var(--color-brand-blue); box-shadow: 0 0 0 3px rgba(26, 95, 180, 0.15); outline: none;"
+          "inputFocus": "border-color: var(--color-brand-brick); box-shadow: 0 0 0 3px rgba(212, 93, 46, 0.15); outline: none;"
         }
       },
       "autocomplete": {
@@ -123,7 +123,7 @@
           "body": "padding: var(--space-4); display: flex; flex-direction: column; gap: var(--space-2); flex: 1;",
           "title": "font-size: var(--text-lg); font-weight: var(--font-semibold); color: var(--color-neutral-900); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;",
           "meta": "display: flex; flex-wrap: wrap; gap: var(--space-2); font-size: var(--text-sm); color: var(--color-neutral-500);",
-          "dateBadge": "background: var(--color-brand-blue); color: white; padding: var(--space-1) var(--space-2); border-radius: var(--radius-md); font-size: var(--text-xs); font-weight: var(--font-semibold); display: inline-flex; align-items: center; gap: var(--space-1);"
+          "dateBadge": "background: var(--color-brand-brick); color: white; padding: var(--space-1) var(--space-2); border-radius: var(--radius-md); font-size: var(--text-xs); font-weight: var(--font-semibold); display: inline-flex; align-items: center; gap: var(--space-1);"
         },
         "horizontal": {
           "description": "Carte horizontale pour listes denses, sidebars, résultats",
@@ -151,7 +151,7 @@
           "label": "Gratuit"
         },
         "nouveau": {
-          "css": "background: var(--color-brand-orange); color: white; font-size: var(--text-xs); font-weight: var(--font-semibold); padding: 2px var(--space-2); border-radius: var(--radius-full);",
+          "css": "background: var(--color-brand-brick); color: white; font-size: var(--text-xs); font-weight: var(--font-semibold); padding: 2px var(--space-2); border-radius: var(--radius-full);",
           "icon": "Lucide:Sparkles",
           "label": "Nouveau",
           "duration": "Publié depuis moins de 48h"
@@ -169,13 +169,13 @@
       },
       "categoryChip": {
         "description": "Puce de catégorie colorée (15 catégories fixes)",
-        "css": "display: inline-flex; align-items: center; gap: var(--space-1); padding: 2px var(--space-2); border-radius: var(--radius-full); font-size: var(--text-xs); font-weight: var(--font-medium); background: var(--color-primary-light); color: var(--color-brand-blue);",
+        "css": "display: inline-flex; align-items: center; gap: var(--space-1); padding: 2px var(--space-2); border-radius: var(--radius-full); font-size: var(--text-xs); font-weight: var(--font-medium); background: var(--color-primary-light); color: var(--color-brand-brick);",
         "colors": {
-          "concert": "background: #E8F0FA; color: #1A5FB4;",
+          "concert": "background: #E8F0FA; color: #D45D2E;",
           "theatre": "background: #F3E8FF; color: #7C3AED;",
-          "exposition": "background: #FFF3E0; color: #E86C00;",
+          "exposition": "background: #FFF3E0; color: #D45D2E;",
           "spectacle": "background: #FCE4EC; color: #D81B60;",
-          "festival": "background: #E8F5E9; color: #2D7D32;",
+          "festival": "background: #E8F5E9; color: var(--color-brand-green);",
           "cinema": "background: #FFF8E1; color: #F59E0B;",
           "danse": "background: #F3E5F5; color: #8E24AA;",
           "cirque": "background: #FFEBEE; color: #C62828;",
@@ -203,17 +203,17 @@
       "html": "<span class=\"source-badge\" title=\"Source : {sourceName}\"><!-- icon --><span>{sourceLabel}</span></span>",
       "variants": {
         "openagenda": {
-          "css": "background: #E8F0FA; color: #1A5FB4; border: 1px solid #C8E0F8;",
+          "css": "background: #E8F0FA; color: #D45D2E; border: 1px solid #C8E0F8;",
           "icon": "Lucide:Database",
           "label": "OpenAgenda"
         },
         "ministere-culture": {
-          "css": "background: #FFF3E0; color: #E86C00; border: 1px solid #FFE0B2;",
+          "css": "background: #FFF3E0; color: #D45D2E; border: 1px solid #FFE0B2;",
           "icon": "Lucide:Landmark",
           "label": "Ministère Culture"
         },
         "mairie": {
-          "css": "background: #E8F5E9; color: #2D7D32; border: 1px solid #C8E6C9;",
+          "css": "background: #E8F5E9; color: var(--color-brand-green); border: 1px solid #C8E6C9;",
           "icon": "Lucide:Building2",
           "label": "Mairie"
         },
@@ -240,8 +240,8 @@
           "type": "checkbox-group",
           "layout": "wrap flex gap-2",
           "itemCSS": "padding: var(--space-1) var(--space-3); border-radius: var(--radius-full); border: 1.5px solid var(--color-neutral-200); font-size: var(--text-sm); cursor: pointer; transition: all var(--transition-fast); background: white;",
-          "itemActive": "background: var(--color-brand-blue); color: white; border-color: var(--color-brand-blue);",
-          "itemHover": "border-color: var(--color-brand-blue);",
+          "itemActive": "background: var(--color-brand-brick); color: white; border-color: var(--color-brand-brick);",
+          "itemHover": "border-color: var(--color-brand-brick);",
           "showCount": true,
           "collapsible": true,
           "maxVisible": 8,
@@ -260,7 +260,7 @@
           ],
           "layout": "flex-wrap gap-2",
           "itemCSS": "padding: var(--space-1) var(--space-3); border-radius: var(--radius-full); border: 1.5px solid var(--color-neutral-200); font-size: var(--text-sm); cursor: pointer; background: white;",
-          "itemActive": "background: var(--color-brand-orange); color: white; border-color: var(--color-brand-orange);"
+          "itemActive": "background: var(--color-brand-brick); color: white; border-color: var(--color-brand-brick);"
         },
         "gratuit": {
           "description": "Filtre toggle gratuit/payant",
@@ -275,7 +275,7 @@
           "description": "Recherche textuelle dans les événements du département",
           "type": "search",
           "css": "padding: var(--space-2) var(--space-4); border-radius: var(--radius-lg); border: 1.5px solid var(--color-neutral-200); width: 100%; font-size: var(--text-sm);",
-          "focus": "border-color: var(--color-brand-blue); outline: none; box-shadow: 0 0 0 3px rgba(26, 95, 180, 0.15);"
+          "focus": "border-color: var(--color-brand-brick); outline: none; box-shadow: 0 0 0 3px rgba(212, 93, 46, 0.15);"
         }
       },
       "actions": {
@@ -386,8 +386,8 @@
         "default": {
           "css": "display: flex; justify-content: center; align-items: center; gap: var(--space-2); padding: var(--space-6) 0;",
           "itemCSS": "display: inline-flex; align-items: center; justify-content: center; min-width: 40px; height: 40px; padding: var(--space-2); border-radius: var(--radius-lg); font-size: var(--text-sm); font-weight: var(--font-medium); border: 1.5px solid var(--color-neutral-200); background: white; color: var(--color-neutral-700); cursor: pointer; transition: all var(--transition-fast);",
-          "itemHover": "border-color: var(--color-brand-blue); color: var(--color-brand-blue);",
-          "itemActive": "background: var(--color-brand-blue); color: white; border-color: var(--color-brand-blue);",
+          "itemHover": "border-color: var(--color-brand-brick); color: var(--color-brand-brick);",
+          "itemActive": "background: var(--color-brand-brick); color: white; border-color: var(--color-brand-brick);",
           "itemDisabled": "opacity: 0.4; cursor: not-allowed;",
           "ellipsis": "padding: var(--space-2); color: var(--color-neutral-400);"
         },
@@ -395,7 +395,7 @@
           "description": "Alternative pour mobile : chargement infini avec bouton 'Voir plus'",
           "css": "display: flex; justify-content: center; padding: var(--space-6) 0;",
           "buttonCSS": "padding: var(--space-3) var(--space-8); border-radius: var(--radius-full); background: var(--color-neutral-100); color: var(--color-neutral-700); font-weight: var(--font-medium); border: 1.5px solid var(--color-neutral-200); cursor: pointer; transition: all var(--transition-default);",
-          "buttonHover": "background: var(--color-brand-blue); color: white; border-color: var(--color-brand-blue);"
+          "buttonHover": "background: var(--color-brand-brick); color: white; border-color: var(--color-brand-brick);"
         }
       },
       "states": ["default", "hover", "active", "disabled"],
@@ -459,7 +459,7 @@
             }
           ],
           "itemCSS": "display: flex; align-items: flex-start; gap: var(--space-3);",
-          "iconCSS": "flex-shrink: 0; width: 20px; height: 20px; color: var(--color-brand-blue); margin-top: 2px;",
+          "iconCSS": "flex-shrink: 0; width: 20px; height: 20px; color: var(--color-brand-brick); margin-top: 2px;",
           "labelCSS": "font-size: var(--text-xs); font-weight: var(--font-semibold); text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-400);",
           "valueCSS": "font-size: var(--text-base); color: var(--color-neutral-900); font-weight: var(--font-medium);"
         },
@@ -493,7 +493,7 @@
       "html": "<nav class=\"breadcrumb\" aria-label=\"Fil d'Ariane\"><ol><!-- items --></ol></nav>",
       "css": "display: flex; align-items: center; gap: var(--space-2); font-size: var(--text-sm); color: var(--color-neutral-400); padding: var(--space-3) 0;",
       "separator": "color: var(--color-neutral-300); margin: 0 var(--space-1);",
-      "linkCSS": "color: var(--color-neutral-500); hover: var(--color-brand-blue);",
+      "linkCSS": "color: var(--color-neutral-500); hover: var(--color-brand-brick);",
       "currentCSS": "color: var(--color-neutral-900); font-weight: var(--font-semibold);",
       "states": ["default", "hover"],
       "accessibility": {
@@ -526,7 +526,7 @@
       "description": "Alerte/notification — information, succès, erreur, avertissement.",
       "html": "<div class=\"alert alert--{type}\" role=\"alert\"><!-- icon --><span><!-- message --></span><button class=\"alert__close\" aria-label=\"Fermer\">×</button></div>",
       "variants": {
-        "info": "background: var(--color-primary-light); color: var(--color-brand-blue); border: 1px solid #C8E0F8;",
+        "info": "background: var(--color-primary-light); color: var(--color-brand-brick); border: 1px solid #C8E0F8;",
         "success": "background: var(--color-success-light); color: var(--color-brand-green); border: 1px solid #C8E6C9;",
         "warning": "background: var(--color-warning-light); color: #92400E; border: 1px solid #FDE68A;",
         "error": "background: var(--color-error-light); color: var(--color-error); border: 1px solid #FECACA;"
@@ -544,8 +544,8 @@
       "description": "Carte de département — grille sur la page d'accueil ou /departements/.",
       "html": "<a class=\"departement-card\" href=\"/departement/{numero}/\" aria-label=\"Département {nom} — {count} événements\"><!-- numero, nom, count --></a>",
       "css": "display: flex; flex-direction: column; align-items: center; justify-content: center; gap: var(--space-2); padding: var(--space-6); background: white; border-radius: var(--radius-xl); box-shadow: var(--shadow-soft); transition: all var(--transition-default); text-decoration: none;",
-      "hover": "transform: translateY(-3px); box-shadow: var(--shadow-medium); border-color: var(--color-brand-blue);",
-      "numero": "font-size: var(--text-3xl); font-weight: var(--font-bold); color: var(--color-brand-blue);",
+      "hover": "transform: translateY(-3px); box-shadow: var(--shadow-medium); border-color: var(--color-brand-brick);",
+      "numero": "font-size: var(--text-3xl); font-weight: var(--font-bold); color: var(--color-brand-brick);",
       "nom": "font-size: var(--text-base); font-weight: var(--font-semibold); color: var(--color-neutral-900); text-align: center;",
       "count": "font-size: var(--text-sm); color: var(--color-neutral-500);",
       "states": ["default", "hover", "focus"],
@@ -598,8 +598,8 @@
       "nav": {
         "css": "display: flex; gap: var(--space-6);",
         "linkCSS": "font-weight: var(--font-medium); color: var(--color-neutral-700); font-size: var(--text-sm); padding: var(--space-2) 0; border-bottom: 2px solid transparent; transition: all var(--transition-fast);",
-        "linkActive": "color: var(--color-brand-blue); border-bottom-color: var(--color-brand-blue);",
-        "linkHover": "color: var(--color-brand-blue);"
+        "linkActive": "color: var(--color-brand-brick); border-bottom-color: var(--color-brand-brick);",
+        "linkHover": "color: var(--color-brand-brick);"
       },
       "mobileMenu": {
         "breakpoint": "md (768px)",

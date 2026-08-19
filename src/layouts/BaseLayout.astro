@@ -1,5 +1,5 @@
 ---
-// BaseLayout.astro - Layout principal avec SEO, JSON-LD, design tokens
+// BaseLayout.astro - Layout principal avec SEO, JSON-LD, design tokens (v2)
 interface Props {
   title: string;
   description: string;
@@ -18,7 +18,7 @@ const {
   noIndex = false,
 } = Astro.props;
 
-const siteUrl = 'https://cypriendj4.github.io/sortirici';
+const siteUrl = 'https://sortirici.github.io';
 const fullCanonical = canonical ? `${siteUrl}${canonical}` : siteUrl;
 const fullOgImage = `${siteUrl}${ogImage}`;
 ---
@@ -36,7 +36,7 @@ const fullOgImage = `${siteUrl}${ogImage}`;
     <!-- Primary Meta -->
     <title>{title}</title>
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#1A5FB4" />
+    <meta name="theme-color" content="#D45D2E" />
     
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
@@ -58,7 +58,7 @@ const fullOgImage = `${siteUrl}${ogImage}`;
       <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
     )}
     
-    <!-- Organisation JSON-LD (toujours présent) -->
+    <!-- Organisation JSON-LD -->
     <script type="application/ld+json" set:html={JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Organization",
@@ -74,31 +74,33 @@ const fullOgImage = `${siteUrl}${ogImage}`;
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/manifest.webmanifest" />
     
-    <!-- Preconnect pour performance -->
+    <!-- Preconnect -->
     <link rel="preconnect" href="https://img.openagenda.com" crossorigin />
     <link rel="preconnect" href="https://data.orleans-metropole.fr" crossorigin />
     
-    <!-- Polices auto-hébergées (Inter Variable) -->
+    <!-- Polices auto-hébergées -->
     <link rel="preload" as="font" type="font/woff2" href="/fonts/InterVariable.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/DMSerifDisplay-Regular.woff2" crossorigin />
     
-    <!-- CSS Global + Design Tokens -->
+    <!-- CSS Global + Design Tokens v2 -->
     <style is:global>
       :root {
-        /* Couleurs */
-        --color-brand-blue: #1A5FB4;
-        --color-brand-orange: #E86C00;
-        --color-brand-green: #2D7D32;
+        /* Couleurs v2 — palette terre cuite */
+        --color-brand-brick: #D45D2E;
+        --color-brand-green: #2B7A4B;
+        --color-brand-muted: #8A8A9E;
         --color-neutral-900: #1A1A2E;
         --color-neutral-700: #3A3A5A;
-        --color-neutral-500: #4A4A6A;
-        --color-neutral-300: #B0B0C8;
-        --color-neutral-100: #F0F0F5;
-        --color-neutral-50: #FAFAFC;
-        --color-success: #2D7D32;
+        --color-neutral-500: #6B6B7D;
+        --color-neutral-300: #B8B8C8;
+        --color-neutral-100: #EDEBE3;
+        --color-neutral-50: #F7F5F0;
+        --color-success: #2B7A4B;
         --color-warning: #F59E0B;
         --color-error: #DC2626;
         
         /* Typographie */
+        --font-serif: 'DM Serif Display', Georgia, serif;
         --font-sans: 'Inter Variable', system-ui, sans-serif;
         --font-mono: 'JetBrains Mono', monospace;
         --text-xs: 0.75rem;
@@ -140,25 +142,14 @@ const fullOgImage = `${siteUrl}${ogImage}`;
         --radius-default: 0.75rem;
         
         /* Ombres */
-        --shadow-soft: 0 2px 8px rgba(26, 95, 180, 0.08);
-        --shadow-medium: 0 4px 16px rgba(26, 95, 180, 0.12);
-        --shadow-strong: 0 8px 32px rgba(26, 95, 180, 0.16);
+        --shadow-soft: 0 2px 8px rgba(212, 93, 46, 0.08);
+        --shadow-medium: 0 4px 16px rgba(212, 93, 46, 0.12);
+        --shadow-strong: 0 8px 32px rgba(212, 93, 46, 0.16);
         
         /* Transitions */
         --transition-fast: 100ms ease-out;
         --transition-default: 150ms ease-out;
         --transition-slow: 250ms ease-out;
-      }
-      
-      @media (prefers-color-scheme: dark) {
-        :root {
-          --color-neutral-900: #F0F0F5;
-          --color-neutral-700: #CACADD;
-          --color-neutral-500: #9A9ABC;
-          --color-neutral-300: #4A4A6A;
-          --color-neutral-100: #2A2A4A;
-          --color-neutral-50: #1A1A2E;
-        }
       }
       
       * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -181,13 +172,15 @@ const fullOgImage = `${siteUrl}${ogImage}`;
         flex-direction: column;
       }
       
-      a { color: var(--color-brand-blue); text-decoration: none; transition: color var(--transition-fast); }
-      a:hover { color: var(--color-brand-orange); }
-      a:focus-visible { outline: 2px solid var(--color-brand-orange); outline-offset: 2px; border-radius: 2px; }
+      a { color: #B84E23; text-decoration: none; transition: color var(--transition-fast); }
+      a:hover { color: #8A3B1A; }
+      a:focus-visible { outline: 2px solid #B84E23; outline-offset: 2px; border-radius: 2px; }
       
       img { max-width: 100%; height: auto; display: block; }
       
-      h1, h2, h3, h4 { font-weight: var(--font-semibold); line-height: var(--leading-tight); color: var(--color-neutral-900); }
+      /* DM Serif Display pour H1/H2 uniquement */
+      h1, h2 { font-family: var(--font-serif); font-weight: var(--font-normal); line-height: var(--leading-tight); color: var(--color-neutral-900); letter-spacing: -0.01em; }
+      h3, h4 { font-weight: var(--font-semibold); line-height: var(--leading-tight); color: var(--color-neutral-900); font-family: var(--font-sans); }
       h1 { font-size: var(--text-4xl); }
       h2 { font-size: var(--text-3xl); }
       h3 { font-size: var(--text-2xl); }
@@ -196,29 +189,29 @@ const fullOgImage = `${siteUrl}${ogImage}`;
       .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
       
       .container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 var(--space-4); }
-      .skip-link { position: absolute; top: -100%; left: 50%; transform: translateX(-50%); background: var(--color-brand-blue); color: white; padding: var(--space-2) var(--space-4); border-radius: var(--radius-md); z-index: 10000; }
+      .skip-link { position: absolute; top: -100%; left: 50%; transform: translateX(-50%); background: var(--color-brand-brick); color: white; padding: var(--space-2) var(--space-4); border-radius: var(--radius-md); z-index: 10000; }
       .skip-link:focus { top: var(--space-4); }
     </style>
   </head>
   <body>
     <a href="#main-content" class="skip-link">Aller au contenu principal</a>
     
-    <header class="site-header" role="banner" style="background: linear-gradient(180deg, var(--color-neutral-50) 0%, white 100%); border-bottom: 1px solid var(--color-neutral-200);">
+    <header class="site-header" role="banner" style="background: var(--color-neutral-50); border-bottom: 1px solid var(--color-neutral-100);">
       <div class="container">
-        <div class="header-content" style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-4) 0; gap: var(--space-4); flex-wrap: wrap;">
+        <div class="header-content" style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-3) 0; gap: var(--space-4); flex-wrap: wrap;">
           <a href="/" class="site-logo" aria-label="SortirIci - Accueil" style="display: flex; align-items: center; gap: var(--space-2); text-decoration: none; color: var(--color-neutral-900);">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="flex-shrink: 0;">
-              <circle cx="16" cy="16" r="14" stroke="var(--color-brand-blue)" stroke-width="2"/>
-              <path d="M16 8V16L21 20" stroke="var(--color-brand-blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              <circle cx="16" cy="16" r="3" fill="var(--color-brand-orange)"/>
+            <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="flex-shrink: 0;">
+              <circle cx="16" cy="16" r="14" stroke="var(--color-brand-brick)" stroke-width="2"/>
+              <path d="M16 8V16L21 20" stroke="var(--color-brand-brick)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="16" cy="16" r="3" fill="var(--color-brand-green)"/>
             </svg>
-            <span style="font-weight: var(--font-bold); font-size: var(--text-xl);">SortirIci</span>
+            <span style="font-weight: var(--font-bold); font-size: var(--text-lg);">SortirIci</span>
           </a>
           
-          <nav class="main-nav" aria-label="Navigation principale" style="display: flex; gap: var(--space-6); flex-wrap: wrap;">
-            <a href="/departement/" class="nav-link" style="font-weight: var(--font-medium); color: var(--color-neutral-700);">Départements</a>
-            <a href="/sources/" class="nav-link" style="font-weight: var(--font-medium); color: var(--color-neutral-700);">Sources</a>
-            <a href="/mentions/" class="nav-link" style="font-weight: var(--font-medium); color: var(--color-neutral-500); font-size: var(--text-sm);">Mentions</a>
+          <nav class="main-nav" aria-label="Navigation principale" style="display: flex; gap: var(--space-5); flex-wrap: wrap;">
+            <a href="/departement/" class="nav-link" style="font-weight: var(--font-medium); font-size: var(--text-sm); color: var(--color-neutral-700);">Départements</a>
+            <a href="/sources/" class="nav-link" style="font-weight: var(--font-medium); font-size: var(--text-sm); color: var(--color-neutral-700);">Sources</a>
+            <a href="/mentions/" class="nav-link" style="font-weight: var(--font-medium); font-size: var(--text-sm); color: var(--color-neutral-500);">Mentions</a>
           </nav>
         </div>
       </div>
@@ -228,58 +221,32 @@ const fullOgImage = `${siteUrl}${ogImage}`;
       <slot />
     </main>
     
-    <footer class="site-footer" role="contentinfo" style="background: linear-gradient(135deg, var(--color-neutral-900) 0%, #2A2A4A 100%); color: var(--color-neutral-100); padding: var(--space-12) 0 var(--space-6); margin-top: auto;">
+    <!-- Footer réduit v2 -->
+    <footer class="site-footer" role="contentinfo" style="background: var(--color-neutral-900); color: var(--color-neutral-100); padding: var(--space-8) 0 var(--space-4); margin-top: auto;">
       <div class="container">
-        <div class="footer-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--space-8); margin-bottom: var(--space-8);">
-          <div>
-            <a href="/" class="site-logo" aria-label="SortirIci - Accueil" style="display: flex; align-items: center; gap: var(--space-2); text-decoration: none; color: white; margin-bottom: var(--space-3);">
-              <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <circle cx="16" cy="16" r="14" stroke="white" stroke-width="2"/>
-                <path d="M16 8V16L21 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <circle cx="16" cy="16" r="3" fill="var(--color-brand-orange)"/>
-              </svg>
-              <span style="font-weight: var(--font-bold); font-size: var(--text-lg);">SortirIci</span>
-            </a>
-            <p style="font-size: var(--text-sm); color: var(--color-neutral-300); max-width: 300px;">L'agenda local de confiance. 100% open data, 0 cookie, 0 tracking.</p>
-          </div>
+        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: var(--space-4);">
+          <a href="/" aria-label="SortirIci - Accueil" style="display: flex; align-items: center; gap: var(--space-2); text-decoration: none; color: white;">
+            <svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="16" cy="16" r="14" stroke="var(--color-brand-brick)" stroke-width="2"/>
+              <path d="M16 8V16L21 20" stroke="var(--color-brand-brick)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="16" cy="16" r="3" fill="var(--color-brand-green)"/>
+            </svg>
+            <span style="font-weight: var(--font-bold); font-size: var(--text-base);">SortirIci</span>
+          </a>
           
-          <nav aria-label="Liens utiles">
-            <h3 style="font-size: var(--text-sm); font-weight: var(--font-semibold); margin-bottom: var(--space-3); text-transform: uppercase; letter-spacing: 0.05em;">Navigation</h3>
-            <ul style="list-style: none; display: flex; flex-direction: column; gap: var(--space-2);">
-              <li><a href="/departement/" style="color: var(--color-neutral-300); font-size: var(--text-sm);">Tous les départements</a></li>
-              <li><a href="/sources/" style="color: var(--color-neutral-300); font-size: var(--text-sm);">Nos sources open data</a></li>
-              <li><a href="/mentions/" style="color: var(--color-neutral-300); font-size: var(--text-sm);">Mentions légales</a></li>
-            </ul>
+          <nav aria-label="Liens utiles" style="display: flex; gap: var(--space-4); flex-wrap: wrap;">
+            <a href="/departement/" style="font-size: var(--text-sm); color: var(--color-neutral-300); text-decoration: none;">Départements</a>
+            <a href="/sources/" style="font-size: var(--text-sm); color: var(--color-neutral-300); text-decoration: none;">Sources</a>
+            <a href="/mentions/" style="font-size: var(--text-sm); color: var(--color-neutral-300); text-decoration: none;">Mentions</a>
           </nav>
-          
-          <div>
-            <h3 style="font-size: var(--text-sm); font-weight: var(--font-semibold); margin-bottom: var(--space-3); text-transform: uppercase; letter-spacing: 0.05em;">Éthique</h3>
-            <ul style="list-style: none; display: flex; flex-direction: column; gap: var(--space-2); font-size: var(--text-sm); color: var(--color-neutral-500);">
-              <li>✓ 0 cookie, 0 tracking</li>
-              <li>✓ Données open data seulement</li>
-              <li>✓ Sources citées, licences vérifiées</li>
-              <li>✓ Anonymisation totale (RGPD)</li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 style="font-size: var(--text-sm); font-weight: var(--font-semibold); margin-bottom: var(--space-3); text-transform: uppercase; letter-spacing: 0.05em;">Contact</h3>
-            <ul style="list-style: none; display: flex; flex-direction: column; gap: var(--space-2); font-size: var(--text-sm); color: var(--color-neutral-300);">
-              <li><a href="https://github.com/Cypriendj4/sortirici" target="_blank" rel="noopener" style="color: var(--color-neutral-300);">GitHub (code source)</a></li>
-              <li><a href="https://github.com/Cypriendj4/sortirici/issues" target="_blank" rel="noopener" style="color: var(--color-neutral-300);">Signaler un problème</a></li>
-              <li><a href="/sources/" style="color: var(--color-neutral-300);">Demander retrait source</a></li>
-            </ul>
-          </div>
         </div>
-        
-        <div class="footer-bottom" style="border-top: 1px solid var(--color-neutral-300); padding-top: var(--space-6); display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: var(--space-4); font-size: var(--text-xs); color: var(--color-neutral-500);">
-          <p>© 2024 SortirIci - Projet open source, licence MIT</p>
-          <p>Données issues de sources publiques sous licences ouvertes (Etalab, ODbL, ODc-ODbL)</p>
+        <div style="border-top: 1px solid rgba(255,255,255,0.08); margin-top: var(--space-4); padding-top: var(--space-3); text-align: center; font-size: var(--text-xs); color: var(--color-brand-muted);">
+          100% open data · 0 cookie · Sources citées · Code MIT
         </div>
       </div>
     </footer>
     
-    <!-- Scripts minimaux (Alpine.js pour interactions) -->
+    <!-- Alpine.js -->
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js"></script>
   </body>
 </html>

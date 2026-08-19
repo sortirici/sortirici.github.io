@@ -1,27 +1,28 @@
 {
   "colors": {
     "brand": {
-      "blue": { "value": "#1A5FB4", "name": "Confiance institutionnelle" },
-      "orange": { "value": "#E86C00", "name": "Énergie sortie" },
-      "green": { "value": "#2D7D32", "name": "Gratuit / Nature" }
+      "brick": { "value": "#D45D2E", "name": "Accent principal (terre cuite)" },
+      "green": { "value": "#2B7A4B", "name": "Nature / Gratuit / Confiance" },
+      "muted": { "value": "#8A8A9E", "name": "Gris muet" }
     },
     "neutral": {
       "900": { "value": "#1A1A2E", "name": "Texte principal" },
       "700": { "value": "#3A3A5A", "name": "Texte secondaire" },
-      "500": { "value": "#4A4A6A", "name": "Texte muet" },
-      "300": { "value": "#B0B0C8", "name": "Bordures" },
-      "100": { "value": "#F0F0F5", "name": "Fonds secondaires" },
-      "50": { "value": "#FAFAFC", "name": "Fond principal" }
+      "500": { "value": "#6B6B7D", "name": "Texte muet" },
+      "300": { "value": "#B8B8C8", "name": "Bordures" },
+      "100": { "value": "#EDEBE3", "name": "Fonds secondaires" },
+      "50": { "value": "#F7F5F0", "name": "Fond principal (céruse)" }
     },
     "semantic": {
       "success": { "value": "{colors.brand.green.value}" },
       "warning": { "value": "#F59E0B" },
       "error": { "value": "#DC2626" },
-      "info": { "value": "{colors.brand.blue.value}" }
+      "info": { "value": "{colors.brand.brick.value}" }
     }
   },
   "typography": {
     "fontFamily": {
+      "serif": "DM Serif Display, Georgia, serif",
       "sans": "Inter Variable, system-ui, sans-serif",
       "mono": "JetBrains Mono, monospace"
     },
@@ -71,9 +72,9 @@
     "DEFAULT": "0.75rem"
   },
   "shadows": {
-    "soft": "0 2px 8px rgba(26, 95, 180, 0.08)",
-    "medium": "0 4px 16px rgba(26, 95, 180, 0.12)",
-    "strong": "0 8px 32px rgba(26, 95, 180, 0.16)"
+    "soft": "0 2px 8px rgba(212, 93, 46, 0.08)",
+    "medium": "0 4px 16px rgba(212, 93, 46, 0.12)",
+    "strong": "0 8px 32px rgba(212, 93, 46, 0.16)"
   },
   "transitions": {
     "fast": "100ms ease-out",
