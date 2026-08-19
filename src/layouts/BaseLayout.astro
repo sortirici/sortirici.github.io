@@ -22,7 +22,7 @@ const {
 
 const siteUrl = 'https://sortirici.github.io';
 const fullCanonical = canonical ? `${siteUrl}${canonical}` : siteUrl;
-const fullOgImage = `${siteUrl}${ogImage}`;
+const fullOgImage = ogImage?.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`;
 
 // JSON-LD de base : Organization + LocalBusiness + WebSite (SearchAction) — présents sur TOUTES les pages
 const baseJsonLd = [
