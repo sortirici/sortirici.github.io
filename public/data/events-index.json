@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-19T10:36:24.051Z",
-  "totalEvents": 879,
-  "totalDepartements": 27,
+  "lastUpdated": "2026-08-19T12:23:22.069Z",
+  "totalEvents": 9321,
+  "totalDepartements": 31,
   "departements": [
     {
       "departement": "11",
@@ -18,8 +18,14 @@
     {
       "departement": "13",
       "nom": "Bouches-du-Rhône",
-      "totalEvents": 1,
-      "visibleEvents": 1
+      "totalEvents": 2,
+      "visibleEvents": 2
+    },
+    {
+      "departement": "14",
+      "nom": "Calvados",
+      "totalEvents": 228,
+      "visibleEvents": 200
     },
     {
       "departement": "30",
@@ -30,8 +36,8 @@
     {
       "departement": "31",
       "nom": "Haute-Garonne",
-      "totalEvents": 156,
-      "visibleEvents": 156
+      "totalEvents": 159,
+      "visibleEvents": 159
     },
     {
       "departement": "32",
@@ -52,16 +58,22 @@
       "visibleEvents": 69
     },
     {
+      "departement": "37",
+      "nom": "Indre-et-Loire",
+      "totalEvents": 354,
+      "visibleEvents": 200
+    },
+    {
       "departement": "44",
       "nom": "Loire-Atlantique",
-      "totalEvents": 99,
-      "visibleEvents": 99
+      "totalEvents": 4352,
+      "visibleEvents": 200
     },
     {
       "departement": "45",
       "nom": "Loiret",
-      "totalEvents": 113,
-      "visibleEvents": 113
+      "totalEvents": 530,
+      "visibleEvents": 200
     },
     {
       "departement": "46",
@@ -96,20 +108,20 @@
     {
       "departement": "75",
       "nom": "Paris",
-      "totalEvents": 46,
-      "visibleEvents": 46
+      "totalEvents": 2071,
+      "visibleEvents": 200
     },
     {
       "departement": "77",
       "nom": "Seine-et-Marne",
-      "totalEvents": 27,
-      "visibleEvents": 27
+      "totalEvents": 29,
+      "visibleEvents": 29
     },
     {
       "departement": "78",
       "nom": "Yvelines",
-      "totalEvents": 21,
-      "visibleEvents": 21
+      "totalEvents": 23,
+      "visibleEvents": 23
     },
     {
       "departement": "81",
@@ -126,20 +138,20 @@
     {
       "departement": "91",
       "nom": "Essonne",
-      "totalEvents": 12,
-      "visibleEvents": 12
+      "totalEvents": 13,
+      "visibleEvents": 13
     },
     {
       "departement": "92",
       "nom": "Hauts-de-Seine",
-      "totalEvents": 27,
-      "visibleEvents": 27
+      "totalEvents": 92,
+      "visibleEvents": 92
     },
     {
       "departement": "93",
       "nom": "Seine-Saint-Denis",
-      "totalEvents": 18,
-      "visibleEvents": 18
+      "totalEvents": 115,
+      "visibleEvents": 115
     },
     {
       "departement": "94",
@@ -164,14 +176,34 @@
       "nom": "Alpes-de-Haute-Provence",
       "totalEvents": 1,
       "visibleEvents": 1
+    },
+    {
+      "departement": "07",
+      "nom": "Ardèche",
+      "totalEvents": 1,
+      "visibleEvents": 1
+    },
+    {
+      "departement": "01",
+      "nom": "Ain",
+      "totalEvents": 5,
+      "visibleEvents": 5
     }
   ],
   "sources": [
     "openagenda-orleans",
+    "openagenda-loiret",
     "guerande-agenda",
     "labaule-agenda",
+    "nantes-culture",
     "bordeaux-agenda",
     "occitanie-sorties",
-    "idf-evenements-publics"
+    "idf-evenements-publics",
+    "tours-metropole",
+    "calvados-evenements",
+    "gpso-evenements",
+    "nantes-metropole-evenements",
+    "paris-evenements",
+    "haute-garonne-grand-ouest"
   ]
 }

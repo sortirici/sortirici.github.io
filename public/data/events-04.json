@@ -1,6 +1,6 @@
 [
   {
-    "uid": "oa-eslyxspu",
+    "uid": "oa-is5b2ajg",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Rendez-vous-nature-A-la-decouverte-des-chauves-souris-35232",
     "licence": "lov2",
@@ -14,18 +14,20 @@
     "gratuit": false,
     "prixIndicatif": "",
     "lieuNom": "",
-    "lieuAdresse": "",
+    "lieuAdresse": "Salle des fêtes, 31440 Fos - Haute-Garonne",
     "lieuCodePostal": "",
     "lieuCommune": "Brunet",
     "lieuCodeInsee": "04035",
     "lieuLatitude": 43.8935409,
     "lieuLongitude": 6.0269991,
+    "coordinates": "43.8935409,6.0269991",
     "lieuDepartement": "04",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T10:36:22.323Z",
+    "dateMaj": "2026-08-19T12:23:17.093Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "rendez-vous-nature-nbsp-a-la-decouverte-des-chauves-souris",
-    "departementNumero": "04"
+    "departementNumero": "04",
+    "image": ""
   }
 ]

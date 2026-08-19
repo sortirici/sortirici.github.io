@@ -27,13 +27,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "le-pere-3985800",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/9fcf7f48d9c741bd807aa8920a8d167a.base.image.jpg"
   },
   {
     "uid": "oa-37506363",
@@ -42,7 +44,7 @@
     "licence": "lov2",
     "titre": "Origines - Geoffrey Secco - concert sous hypnose",
     "descriptionCourte": "Geoffrey SECCO présente : Origines - Concert sous hypnose Geoffrey Secco vous propose son nouveau concert sous hypnose “ORIGINES”, une invitation à remonter le fil du temps et à découvrir votre propr…",
-    "descriptionLongue": "Geoffrey SECCO présente :Origines - Concert sous hypnose Geoffrey Secco vous propose son nouveau concert sous hypnose “ORIGINES”, une invitation à remonter le fil du temps et à découvrir votre propre légende trans-personnelle. Que vous ont transmis vos lignées ? Comment les vies antérieures façonnent-elles votre histoire ? Que pourrait vous apporter l’exploration de telles mémoires ? Avec ses concerts d'un nouveau genre, Geoffrey Secco transcende les frontières entre musique et conscience, où chaque note devient une porte vers l’inexploré. Conseillé à partir de 13 ans Tarif : Unique : 40€ Vous êtes en situation de handicap ? Contactez la billetterie au 02 40 11 51 51 ou à l'adresse billetterie@labaule-evenements.com",
+    "descriptionLongue": "Geoffrey SECCO présente :Origines - Concert sous hypnose Geoffrey Secco vous propose son nouveau concert sous hypnose “ORIGINES”, une invitation à remonter le fil du temps et à découvrir votre propre légende trans-personnelle. Que vous ont transmis vos lignées ? Comment les vies antérieures façonnent-elles votre histoire ? Que pourrait vous apporter l’exploration de telles mémoires ? Avec ses concerts d'un nouveau genre, Geoffrey Secco transcende les frontières entre musique et conscience, où chaque note devient une porte vers l’inexploré. Conseillé à partir de 13 ans Tarif : Unique : 40€ Vous êtes en situation de handicap ? Contactez la billetterie au [téléphone supprimé] ou à l'adresse [email supprimé]",
     "dateDebut": "2026-11-07T19:30:00+00:00",
     "dateFin": "2026-11-07T21:00:00+00:00",
     "categorie": "concert",
@@ -61,13 +63,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "origines-geoffrey-secco-concert-sous-hypnose-6004865",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/59690aa8868a461ab9c9defda18d1c76.base.image.jpg"
   },
   {
     "uid": "oa-55778126",
@@ -93,13 +97,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-troupe-du-jamel-comedy-club-8506421",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/2f82362acace4e799e7c9b24ca21e8e9.base.image.jpg"
   },
   {
     "uid": "oa-46011352",
@@ -125,13 +131,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:24:03+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-hommes-viennent-de-mars-et-les-femmes-de-venus-2962057",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/8376c227c5694dd49c10540788a2d689.base.image.jpg"
   },
   {
     "uid": "oa-17243631",
@@ -159,13 +167,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:24:06+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "michele-torr-un-dernier-soir-1394371",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/9f454d2583b3438ba5d915ba305c42ed.base.image.jpg"
   },
   {
     "uid": "oa-83637177",
@@ -185,7 +195,7 @@
       "Spectacles et temps forts",
       "Spectacle"
     ],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Bois des aulnes",
     "lieuAdresse": "Bois des aulnes, 44500 La Baule-Escoublac",
@@ -194,13 +204,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28307,
     "lieuLongitude": -2.39397,
+    "coordinates": "47.28307,-2.39397",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-12T00:50:43+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-ptits-theatres-du-mardi-3101624",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/b85e831709554f4bb92565f10d8e2e34.base.image.jpg"
   },
   {
     "uid": "oa-53755226",
@@ -228,13 +240,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28677,
     "lieuLongitude": -2.39115,
+    "coordinates": "47.28677,-2.39115",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-18T00:48:58.015000+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-quartier-du-centre-ville-villas-et-architecture-1557483",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/4e1fe76d30224d079478a8aba1a78fbf.base.image.jpg"
   },
   {
     "uid": "oa-3896920",
@@ -243,7 +257,7 @@
     "licence": "lov2",
     "titre": "Les chansonniers Manu Tchao !",
     "descriptionCourte": "JM PRODUCTIONS PRESENTE : MANU TCHAO MANU TCHAO ! C’est reparti comme en 2007…2012…2017…2022.",
-    "descriptionLongue": "JM PRODUCTIONS PRESENTE :MANU TCHAO MANU TCHAO&nbsp;! C’est reparti comme en 2007…2012…2017…2022. Les chansonniers de l’emblématique Théâtre des Deux Ânes reprennent la route à l’occasion de la prochaine élection présidentielle. Du haut de plus de cinquante années d’observation politique, Jacques Mailhot, qui a vu défiler les plus et les moins de la Cinquième République, a peaufiné un spectacle à la fois incisif et désopilant de nos institutions. Avec la brillante complicité de ses compagnons de toujours, Michel Guidoni, Florence Brunold et Gilles Détroit, il nous propose de regarder une fois encore la politique au fond des yeux. Loin de la vulgarité ambiante et du tintamarre assourdissant de l’information permanente, ces mousquetaires de l’humour mettent joyeusement le doigt là où ça fait rire…Et souvent réfléchir. Avec plus que jamais l’irremplaçable acuité des Chansonniers et le charme de textes ciselés et bien écrits. Ça s’appelle «&nbsp;MANU TCHAO&nbsp;!&nbsp;»… …En attendant le prochain … Tarifs : Catégorie 1 : 48€ Catégorie 2 : 39€ Jeunes -25 ans : 24€ Vous êtes en situation de handicap ? Contactez la billetterie au 02 40 11 51 51 ou à l'adresse billetterie@labaule-evenements.com",
+    "descriptionLongue": "JM PRODUCTIONS PRESENTE :MANU TCHAO MANU TCHAO&nbsp;! C’est reparti comme en 2007…2012…2017…2022. Les chansonniers de l’emblématique Théâtre des Deux Ânes reprennent la route à l’occasion de la prochaine élection présidentielle. Du haut de plus de cinquante années d’observation politique, Jacques Mailhot, qui a vu défiler les plus et les moins de la Cinquième République, a peaufiné un spectacle à la fois incisif et désopilant de nos institutions. Avec la brillante complicité de ses compagnons de toujours, Michel Guidoni, Florence Brunold et Gilles Détroit, il nous propose de regarder une fois encore la politique au fond des yeux. Loin de la vulgarité ambiante et du tintamarre assourdissant de l’information permanente, ces mousquetaires de l’humour mettent joyeusement le doigt là où ça fait rire…Et souvent réfléchir. Avec plus que jamais l’irremplaçable acuité des Chansonniers et le charme de textes ciselés et bien écrits. Ça s’appelle «&nbsp;MANU TCHAO&nbsp;!&nbsp;»… …En attendant le prochain … Tarifs : Catégorie 1 : 48€ Catégorie 2 : 39€ Jeunes -25 ans : 24€ Vous êtes en situation de handicap ? Contactez la billetterie au [téléphone supprimé] ou à l'adresse [email supprimé]",
     "dateDebut": "2027-04-03T18:00:00+00:00",
     "dateFin": "2027-04-03T20:00:00+00:00",
     "categorie": "concert",
@@ -262,13 +276,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-chansonniers-manu-tchao-3059906",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/4cbd2175c344418b8c2106a1b11a6d7b.base.image.jpg"
   },
   {
     "uid": "oa-10335701",
@@ -277,7 +293,7 @@
     "licence": "lov2",
     "titre": "La belle au bois dormant",
     "descriptionCourte": "NP Spectacles Productions présente : La Belle au bois dormant « Le ballet des ballets » : ainsi le qualifiait Rudolf Noureev.",
-    "descriptionLongue": "NP Spectacles Productions présente :La Belle au bois dormant «&nbsp;Le ballet des ballets&nbsp;»&nbsp;: ainsi le qualifiait Rudolf Noureev. En effet, La Belle au bois dormant de Tchaïkovski, chorégraphié par Marius Petipa d'après le conte de Perrault et des frères Grimm, fait partie des ballets classiques les plus populaires. Combinant magie de l'argument et virtuosité des rôles, il est repris aujourd'hui dans la plupart des grandes compagnies classiques. La Belle au bois dormant, c’est l’histoire de la princesse Aurore, douée de toutes les qualités du monde grâce à la bienveillance de ses marraines, de gentilles fées, mais que la méchante fée Carabosse condamnera à un sommeil éternel pour le jour de ses seize ans. TARIFS Individuel : 44€ Jeune -18 ans /étudiants -25ans/ demandeur d'emploi (sur justificatif): 24€ Vous êtes en situation de handicap ? Contactez la billetterie au 02 40 11 51 51 ou à l'adresse billetterie@labaule-evenements.com",
+    "descriptionLongue": "NP Spectacles Productions présente :La Belle au bois dormant «&nbsp;Le ballet des ballets&nbsp;»&nbsp;: ainsi le qualifiait Rudolf Noureev. En effet, La Belle au bois dormant de Tchaïkovski, chorégraphié par Marius Petipa d'après le conte de Perrault et des frères Grimm, fait partie des ballets classiques les plus populaires. Combinant magie de l'argument et virtuosité des rôles, il est repris aujourd'hui dans la plupart des grandes compagnies classiques. La Belle au bois dormant, c’est l’histoire de la princesse Aurore, douée de toutes les qualités du monde grâce à la bienveillance de ses marraines, de gentilles fées, mais que la méchante fée Carabosse condamnera à un sommeil éternel pour le jour de ses seize ans. TARIFS Individuel : 44€ Jeune -18 ans /étudiants -25ans/ demandeur d'emploi (sur justificatif): 24€ Vous êtes en situation de handicap ? Contactez la billetterie au [téléphone supprimé] ou à l'adresse [email supprimé]",
     "dateDebut": "2027-01-24T16:00:00+00:00",
     "dateFin": "2027-01-24T17:30:00+00:00",
     "categorie": "spectacle",
@@ -296,13 +312,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-belle-au-bois-dormant-6866413",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/a987b0ebcca945e9b005ed849224ca4a.base.image.jpg"
   },
   {
     "uid": "oa-12690587",
@@ -332,13 +350,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "le-cercle-des-poetes-disparus-6588362",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/11f71db628554773979042f4c076a8ea.base.image.jpg"
   },
   {
     "uid": "oa-44355870",
@@ -366,13 +386,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28054,
     "lieuLongitude": -2.40554,
+    "coordinates": "47.28054,-2.40554",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-07T08:18:43+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-baule-classic-2eme-edition-8723346",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/cb5689bd7d894ed3a41a3d88bfbfa551.base.image.jpg"
   },
   {
     "uid": "oa-40950651",
@@ -399,13 +421,15 @@
     "lieuCodeInsee": "44135",
     "lieuLatitude": 47.26571,
     "lieuLongitude": -2.42141,
+    "coordinates": "47.26571,-2.42141",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-17T00:48:59+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "exposition-collection-cousin-le-tissage-dune-passion-3977178",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/4ed3b257745a43b28a5aefd6f9e337b4.base.image.jpg"
   },
   {
     "uid": "oa-57201338",
@@ -432,13 +456,15 @@
     "lieuCodeInsee": "",
     "lieuLatitude": 47.288518,
     "lieuLongitude": -2.389109,
+    "coordinates": "47.288518,-2.389109",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-18T00:49:04+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "exposition-fragiles-colosses-de-michel-bassompierre-1921310",
-    "departementNumero": "00"
+    "departementNumero": "00",
+    "image": "https://img.openagenda.com/main/61f5a25b62be4b76ad97fa640e74f32b.base.image.jpg"
   },
   {
     "uid": "oa-19366268",
@@ -466,13 +492,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-06-19T19:54:35+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "haroun-bonjour-quand-meme-4218334",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/4a681c3ede8b4cd196bad9663a4ac751.base.image.jpg"
   },
   {
     "uid": "oa-7316354",
@@ -481,7 +509,7 @@
     "licence": "lov2",
     "titre": "Aladin circus show",
     "descriptionCourte": "NP Spectacles Productions présente : Aladin Circus Show \"Les mille et une nuits\" « Aladdin », ce conte traditionnel mondialement connu, issu du recueil « Les Mille et Une Nuits » est interprété ici p…",
-    "descriptionLongue": "NP Spectacles Productions présente :Aladin Circus Show \"Les mille et une nuits\" «&nbsp;Aladdin&nbsp;», ce conte traditionnel mondialement connu, issu du recueil «&nbsp;Les Mille et Une Nuits&nbsp;» est interprété ici par la danse et le cirque. Le public est plongé dans ce conte oriental magique avec les personnages familiers d'Aladdin, de la princesse Jasmine, du sage Génie de la Lampe Magique et du méchant sorcier Jafar. Sur scène, des acrobates, des gymnastes, des jongleurs, des équilibristes, des danseurs, nous émerveillent avec des numéros de cirque aériens, des danses élégantes et des comédies. Des maîtres de l'acrobatie et des lauréats de compétitions internationales participent au spectacle. Le spectacle est accompagné sur une musique d'auteurs mêlant des motifs orientaux et modernes. Les costumes luxueux apportent les couleurs vives et créent une atmosphère magique. Le spectacle est sans dialogues&nbsp;: le langage universel du cirque, de la danse et de la musique est accessible à tous, quels que soient l’âge. TARIFS Individuel : 44€ Jeune -18 ans /étudiants -25ans/ demandeur d'emploi (sur justificatif): 24€ Vous êtes en situation de handicap ? Contactez la billetterie au 02 40 11 51 51 ou à l'adresse billetterie@labaule-evenements.com",
+    "descriptionLongue": "NP Spectacles Productions présente :Aladin Circus Show \"Les mille et une nuits\" «&nbsp;Aladdin&nbsp;», ce conte traditionnel mondialement connu, issu du recueil «&nbsp;Les Mille et Une Nuits&nbsp;» est interprété ici par la danse et le cirque. Le public est plongé dans ce conte oriental magique avec les personnages familiers d'Aladdin, de la princesse Jasmine, du sage Génie de la Lampe Magique et du méchant sorcier Jafar. Sur scène, des acrobates, des gymnastes, des jongleurs, des équilibristes, des danseurs, nous émerveillent avec des numéros de cirque aériens, des danses élégantes et des comédies. Des maîtres de l'acrobatie et des lauréats de compétitions internationales participent au spectacle. Le spectacle est accompagné sur une musique d'auteurs mêlant des motifs orientaux et modernes. Les costumes luxueux apportent les couleurs vives et créent une atmosphère magique. Le spectacle est sans dialogues&nbsp;: le langage universel du cirque, de la danse et de la musique est accessible à tous, quels que soient l’âge. TARIFS Individuel : 44€ Jeune -18 ans /étudiants -25ans/ demandeur d'emploi (sur justificatif): 24€ Vous êtes en situation de handicap ? Contactez la billetterie au [téléphone supprimé] ou à l'adresse [email supprimé]",
     "dateDebut": "2026-12-20T16:00:00+00:00",
     "dateFin": "2026-12-20T18:00:00+00:00",
     "categorie": "concert",
@@ -500,13 +528,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "aladin-circus-show-5464428",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/805faef14d1d4d9d8ddb938da0e3ad3c.base.image.jpg"
   },
   {
     "uid": "oa-16987543",
@@ -534,13 +564,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "guihome-vous-detend-9901262",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/44702f196a8d440a93bf5e7b13a396ac.base.image.jpg"
   },
   {
     "uid": "oa-63161506",
@@ -566,13 +598,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "offenbach-en-folie-5149413",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/7735ef8f10394346a8ebee52dd44fae7.base.image.jpg"
   },
   {
     "uid": "oa-87763021",
@@ -581,7 +615,7 @@
     "licence": "lov2",
     "titre": "Hervé Vilard Nous Reviens",
     "descriptionCourte": "Avec sa voix puissante, et sa sincérité à fleur de peau, Hervé Vilard mêle la poésie de la grande variété française à des mélodies populaires devenues intemporelles.",
-    "descriptionLongue": "Avec sa voix puissante, et sa sincérité à fleur de peau, Hervé Vilard mêle la poésie de la grande variété française à des mélodies populaires devenues intemporelles. Propulsé au rang de légende planétaire dès l’adolescence avec « Capri c’est fini », Hervé s’impose immédiatement comme une idole, porté par des titres cultes comme « Nous », «&nbsp;Venise pour l’éternité&nbsp;», « Reviens » ou « Méditerranéenne ». Depuis, il traverse les décennies et les frontières, enchaînant les succès et faisant vibrer les salles du monde entier, de l’Amérique Latine à l’Asie. Entre ballades déchirantes et hymnes solaires, Hervé Vilard incarne une chanson libre, généreuse, attachante. Sur scène, il ne triche jamais : il invite le public à un partage intense, un voyage émouvant où chaque spectateur se retrouve, prouvant que les vraies chansons d’amour n’ont pas d’âge. Tarifs : Carré Or : 59€ Carré Or Strapontin : 56€ PMR et accompagnant : 39€ Catégorie 1 : 49€ Catégorie 1 Strapontin : 46€ Catégorie 2 : 39€ Vous êtes en situation de handicap ? Contactez la billetterie au 02 40 11 51 51 ou à l'adresse billetterie@labaule-evenements.com",
+    "descriptionLongue": "Avec sa voix puissante, et sa sincérité à fleur de peau, Hervé Vilard mêle la poésie de la grande variété française à des mélodies populaires devenues intemporelles. Propulsé au rang de légende planétaire dès l’adolescence avec « Capri c’est fini », Hervé s’impose immédiatement comme une idole, porté par des titres cultes comme « Nous », «&nbsp;Venise pour l’éternité&nbsp;», « Reviens » ou « Méditerranéenne ». Depuis, il traverse les décennies et les frontières, enchaînant les succès et faisant vibrer les salles du monde entier, de l’Amérique Latine à l’Asie. Entre ballades déchirantes et hymnes solaires, Hervé Vilard incarne une chanson libre, généreuse, attachante. Sur scène, il ne triche jamais : il invite le public à un partage intense, un voyage émouvant où chaque spectateur se retrouve, prouvant que les vraies chansons d’amour n’ont pas d’âge. Tarifs : Carré Or : 59€ Carré Or Strapontin : 56€ PMR et accompagnant : 39€ Catégorie 1 : 49€ Catégorie 1 Strapontin : 46€ Catégorie 2 : 39€ Vous êtes en situation de handicap ? Contactez la billetterie au [téléphone supprimé] ou à l'adresse [email supprimé]",
     "dateDebut": "2027-01-30T19:00:00+00:00",
     "dateFin": "2027-01-30T21:00:00+00:00",
     "categorie": "concert",
@@ -600,13 +634,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "herve-vilard-nous-reviens-40128",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/2f353e87794c43e18d2a3c7771089915.base.image.jpg"
   },
   {
     "uid": "oa-99557405",
@@ -615,7 +651,7 @@
     "licence": "lov2",
     "titre": "Edgar Yves Jr vigilance",
     "descriptionCourte": "PIRATES NATION ET BORDELINE PRODUCTIONS PLATESV-R-2020-011800 présentent : Edgar Yves Jr \"Vigilance\" Les amis, Après deux ans de tournée avec Solide et des vidéos sur les réseaux de moi qui parle ave…",
-    "descriptionLongue": "PIRATES NATION ET BORDELINE PRODUCTIONS PLATESV-R-2020-011800 présentent : Edgar Yves Jr \"Vigilance\" Les amis, Après deux ans de tournée avec Solide et des vidéos sur les réseaux de moi qui parle avec du violon derrière, je reprends la route ! Pour quelle raison ? L’amour de la scène ? Du public ? Le frisson du challenge ? Oui, oui, bien sûr, mais soyons honnêtes : il me faut du cash aussi ! En échange de bonnes blagues, je compte sur vous pour me donner de quoi faire kiffer Francis. ChatGPT m’a conseillé, pour ce nouvel opus, d’être inclusif, mesuré, de prendre en compte les émotions de chacun et de ne surtout pas être offensant. Je me suis désabonné !!! Je préfère le style humain, incorrect &amp; précis, maladroit &amp; attendrissant… bref, tout ce qui fait le sel d’une bonne blague : le manque de “Vigilance”. Tarifs : Catégorie 1 : 42€ Catégorie 1 strapontin : 39€ Strapontin : 37€ Catégorie 2 : 37€ Vous êtes en situation de handicap&nbsp;? Contactez la billetterie au 02 40 11 51 51 ou à l’adresse billetterie@labaule-evenements.com",
+    "descriptionLongue": "PIRATES NATION ET BORDELINE PRODUCTIONS PLATESV-R-2020-011800 présentent : Edgar Yves Jr \"Vigilance\" Les amis, Après deux ans de tournée avec Solide et des vidéos sur les réseaux de moi qui parle avec du violon derrière, je reprends la route ! Pour quelle raison ? L’amour de la scène ? Du public ? Le frisson du challenge ? Oui, oui, bien sûr, mais soyons honnêtes : il me faut du cash aussi ! En échange de bonnes blagues, je compte sur vous pour me donner de quoi faire kiffer Francis. ChatGPT m’a conseillé, pour ce nouvel opus, d’être inclusif, mesuré, de prendre en compte les émotions de chacun et de ne surtout pas être offensant. Je me suis désabonné !!! Je préfère le style humain, incorrect &amp; précis, maladroit &amp; attendrissant… bref, tout ce qui fait le sel d’une bonne blague : le manque de “Vigilance”. Tarifs : Catégorie 1 : 42€ Catégorie 1 strapontin : 39€ Strapontin : 37€ Catégorie 2 : 37€ Vous êtes en situation de handicap&nbsp;? Contactez la billetterie au [téléphone supprimé] ou à l’adresse [email supprimé]",
     "dateDebut": "2027-04-09T18:00:00+00:00",
     "dateFin": "2027-04-09T20:00:00+00:00",
     "categorie": "spectacle",
@@ -634,13 +670,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "edgar-yves-jr-vigilance-5356790",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/24b6e6fb8d2d432facfd51a4e7ae9ffe.base.image.jpg"
   },
   {
     "uid": "oa-68145647",
@@ -670,13 +708,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.29026,
     "lieuLongitude": -2.39658,
+    "coordinates": "47.29026,-2.39658",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:24:17+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "festival-music-all-fest-9814915",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/484a2bf1931243c593028c14767c8e76.base.image.jpg"
   },
   {
     "uid": "oa-42439792",
@@ -705,13 +745,15 @@
     "lieuCodeInsee": "",
     "lieuLatitude": 47.282709,
     "lieuLongitude": -2.394722,
+    "coordinates": "47.282709,-2.394722",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-14T18:45:13+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-instants-lajarrige",
-    "departementNumero": "00"
+    "departementNumero": "00",
+    "image": "https://img.openagenda.com/main/f4d6810a6e544494b7f0805efb2cd3e5.base.image.jpg"
   },
   {
     "uid": "oa-29240359",
@@ -735,7 +777,7 @@
       "Spectacle",
       "Musique"
     ],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "La Baule-Escoublac",
     "lieuAdresse": "44500 La Baule-Escoublac",
@@ -744,13 +786,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.290826,
     "lieuLongitude": -2.353548,
+    "coordinates": "47.290826,-2.353548",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-17T12:45:18+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "79eme-pardon-de-la-baule-6905152",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/8e0b2141a1a34133a600bbafa38191ee.base.image.jpg"
   },
   {
     "uid": "oa-17323401",
@@ -775,13 +819,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "7eme-edition-tdex-fantaisies-884484",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/3ccb8a8b253e4a8cb25e5439449ca1b2.base.image.jpg"
   },
   {
     "uid": "oa-43016020",
@@ -790,7 +836,7 @@
     "licence": "lov2",
     "titre": "Giselle",
     "descriptionCourte": "NP Spectacles Productions présente : Giselle « Giselle » représente l’apothéose du ballet romantique, considéré comme l'un des plus beaux joyaux du répertoire. Créé en 1841, son succès fut immédiat.",
-    "descriptionLongue": "NP Spectacles Productions présente :Giselle «&nbsp;Giselle&nbsp;» représente l’apothéose du ballet romantique, considéré comme l'un des plus beaux joyaux du répertoire. Créé en 1841, son succès fut immédiat. «&nbsp;Giselle&nbsp;» aborde tous les thèmes du romantisme&nbsp;: couleur locale et pastorale amoureuse qui s’achève en tragédie, irruption d’un monde fantastique et rédemption par la force de l’amour. Le rôle-titre de «&nbsp;Giselle&nbsp;» est l'un des plus difficiles du répertoire, exigeant de l'interprète, outre une maîtrise technique irréprochable, des qualités d'expression dramatique passant de la joie de vivre au désespoir, puis à la folie et à la passion. Chorégraphie tout à fait surprenante pour l'époque, elle frappe le public par la solidité de sa structure aussi bien dans les grands tableaux du corps de ballet que dans les soli. Ce chef d’œuvre du ballet classique est un régal pour tous les admirateurs de la danse grâce à la performance des artistes du Grand Ballet de Kiev. C'est un spectacle pour toute la famille, pour les petits et pour les grands, une symphonie de la danse, touchante et merveilleuse TARIFS Individuel : 44€ Jeune -18 ans /étudiants -25ans/ demandeur d'emploi (sur justificatif): 24€ Vous êtes en situation de handicap ? Contactez la billetterie au 02 40 11 51 51 ou à l'adresse billetterie@labaule-evenements.com",
+    "descriptionLongue": "NP Spectacles Productions présente :Giselle «&nbsp;Giselle&nbsp;» représente l’apothéose du ballet romantique, considéré comme l'un des plus beaux joyaux du répertoire. Créé en 1841, son succès fut immédiat. «&nbsp;Giselle&nbsp;» aborde tous les thèmes du romantisme&nbsp;: couleur locale et pastorale amoureuse qui s’achève en tragédie, irruption d’un monde fantastique et rédemption par la force de l’amour. Le rôle-titre de «&nbsp;Giselle&nbsp;» est l'un des plus difficiles du répertoire, exigeant de l'interprète, outre une maîtrise technique irréprochable, des qualités d'expression dramatique passant de la joie de vivre au désespoir, puis à la folie et à la passion. Chorégraphie tout à fait surprenante pour l'époque, elle frappe le public par la solidité de sa structure aussi bien dans les grands tableaux du corps de ballet que dans les soli. Ce chef d’œuvre du ballet classique est un régal pour tous les admirateurs de la danse grâce à la performance des artistes du Grand Ballet de Kiev. C'est un spectacle pour toute la famille, pour les petits et pour les grands, une symphonie de la danse, touchante et merveilleuse TARIFS Individuel : 44€ Jeune -18 ans /étudiants -25ans/ demandeur d'emploi (sur justificatif): 24€ Vous êtes en situation de handicap ? Contactez la billetterie au [téléphone supprimé] ou à l'adresse [email supprimé]",
     "dateDebut": "2027-02-21T16:00:00+00:00",
     "dateFin": "2027-02-21T17:30:00+00:00",
     "categorie": "spectacle",
@@ -809,13 +855,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "giselle-8928002",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/3ac8b4350a764602b048390b9bc8ec73.base.image.jpg"
   },
   {
     "uid": "oa-48345489",
@@ -843,13 +891,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "le-seigneur-des-anneaux-and-le-hobbit-8470742",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/17a6e516c5f74238bdc3a92e19fb10ed.base.image.jpg"
   },
   {
     "uid": "oa-77607178",
@@ -858,7 +908,7 @@
     "licence": "lov2",
     "titre": "Goldman, 200 voix pour une légende",
     "descriptionCourte": "VOICES PRODUCTION présente : Goldman - 200 voix pour une légende Fermez les yeux et laissez-vous emporter par la voix sincère et bouleversante de Flo Gallo.",
-    "descriptionLongue": "VOICES PRODUCTION présente : Goldman - 200 voix pour une légende Fermez les yeux et laissez-vous emporter par la voix sincère et bouleversante de Flo Gallo. Une voix si proche de celle de Goldman qu’elle en devient troublante d’émotion.Entouré de 200 choristes, replongez dans les plus belles chansons de Jean-Jacques Goldman, celles gravées à jamais dans nos coeurs : Envole-moi, Encore un matin, Je te donne, Quand la musique est bonne… Autant de titres intemporels qui réveillent les souvenirs et rassemblent toutes les générations. Musicien passionné, comme son idole, Flo vous embarque dans une parenthèse musicale intense, chaleureuse et inoubliable… qui ne laissera personne indifférent. Tarifs : Catégorie 1 : 48€ Catégorie 2 : 38€ Vous êtes en situation de handicap ? Contactez la billetterie au 02 40 11 51 51 ou à l'adresse billetterie@labaule-evenements.com &nbsp; Redécouvrez les plus belles chansons de Jean-Jacques Goldman comme vous ne les avez jamais entendues.",
+    "descriptionLongue": "VOICES PRODUCTION présente : Goldman - 200 voix pour une légende Fermez les yeux et laissez-vous emporter par la voix sincère et bouleversante de Flo Gallo. Une voix si proche de celle de Goldman qu’elle en devient troublante d’émotion.Entouré de 200 choristes, replongez dans les plus belles chansons de Jean-Jacques Goldman, celles gravées à jamais dans nos coeurs : Envole-moi, Encore un matin, Je te donne, Quand la musique est bonne… Autant de titres intemporels qui réveillent les souvenirs et rassemblent toutes les générations. Musicien passionné, comme son idole, Flo vous embarque dans une parenthèse musicale intense, chaleureuse et inoubliable… qui ne laissera personne indifférent. Tarifs : Catégorie 1 : 48€ Catégorie 2 : 38€ Vous êtes en situation de handicap ? Contactez la billetterie au [téléphone supprimé] ou à l'adresse [email supprimé] &nbsp; Redécouvrez les plus belles chansons de Jean-Jacques Goldman comme vous ne les avez jamais entendues.",
     "dateDebut": "2027-06-12T18:00:00+00:00",
     "dateFin": "2027-06-12T20:00:00+00:00",
     "categorie": "concert",
@@ -879,13 +929,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:24:05+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "goldman-200-voix-pour-une-legende-4779850",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/e784e931f82b48a8b1ebd36e4f6ec8e4.base.image.jpg"
   },
   {
     "uid": "oa-7345877",
@@ -915,13 +967,15 @@
     "lieuCodeInsee": "",
     "lieuLatitude": 47.283298,
     "lieuLongitude": -2.409837,
+    "coordinates": "47.283298,-2.409837",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-18T00:49:07+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "festival-international-de-bridge-2026",
-    "departementNumero": "00"
+    "departementNumero": "00",
+    "image": "https://img.openagenda.com/main/65c376b725d04a41907c66410ce3737f.base.image.jpg"
   },
   {
     "uid": "oa-92170286",
@@ -950,13 +1004,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28677,
     "lieuLongitude": -2.39115,
+    "coordinates": "47.28677,-2.39115",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:56+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-camille-et-la-villa-mystere-8598756",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/d02fde4928364c8bbdb58c25fbc67847.base.image.jpg"
   },
   {
     "uid": "oa-3507543",
@@ -986,13 +1042,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "funky-soul-family-9923555",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/09c123e9da104effa926a226378dc0d0.base.image.jpg"
   },
   {
     "uid": "oa-9901579",
@@ -1020,13 +1078,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "fabrice-eboue-solitudes-4113796",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/7b26b666f08b48baae6da7daa7218cae.base.image.jpg"
   },
   {
     "uid": "oa-36228629",
@@ -1056,13 +1116,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-grands-enfants-1797211",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/560a5273dbbe435994a06e7598d131d6.base.image.jpg"
   },
   {
     "uid": "oa-84019910",
@@ -1092,13 +1154,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "un-week-end-charge-3525029",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/f7eb4a786be441689985fb1202fd0e53.base.image.jpg"
   },
   {
     "uid": "oa-91117903",
@@ -1126,13 +1190,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "don-quichotte-8440891",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/941674fba83e4174a7ff6605842d70c2.base.image.jpg"
   },
   {
     "uid": "oa-35801208",
@@ -1160,13 +1226,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:24:02+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "madagascar-4484566",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/4a6d4fa2979447919f76feeabf23279e.base.image.jpg"
   },
   {
     "uid": "oa-14823227",
@@ -1193,13 +1261,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.27751,
     "lieuLongitude": -2.4172,
+    "coordinates": "47.27751,-2.4172",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-26T16:45:24+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "5eme-edition-du-challenge-de-longe-cote-8852671",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/c30bbd483a1a4bf2826e873bdc6508da.base.image.jpg"
   },
   {
     "uid": "oa-84117385",
@@ -1226,13 +1296,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.2809,
     "lieuLongitude": -2.38405,
+    "coordinates": "47.2809,-2.38405",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-03T10:45:26+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "39eme-triathlon-audencia-la-baule-3065302",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/65b7483e392d4b14aa381241b3895799.base.image.jpg"
   },
   {
     "uid": "oa-14303891",
@@ -1258,13 +1330,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.290826,
     "lieuLongitude": -2.353548,
+    "coordinates": "47.290826,-2.353548",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-17T00:49:13+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-journees-commerciales-en-aout-1557688",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/ee90948de96e48e7bb6a15f75ce78928.base.image.jpg"
   },
   {
     "uid": "oa-141678",
@@ -1273,7 +1347,7 @@
     "licence": "lov2",
     "titre": "Chimène Badi",
     "descriptionCourte": "ALEXANDRE SORIN PRODUCTIONS PRESENTE : CHIMENE BADI - ORIGINE(S) TOUR 25 ans de carrière, une voix unique, une émotion intacte.",
-    "descriptionLongue": "ALEXANDRE SORIN PRODUCTIONS PRESENTE :CHIMENE BADI - ORIGINE(S) TOUR 25 ans de carrière, une voix unique, une émotion intacte. À partir de l’automne 2027, Chimène Badi vous donne rendez-vous avec « Origine(s) Tour », un spectacle événement retraçant son incroyable parcours. De ses plus grands succès aux chansons qui ont marqué sa vie, Chimène partage avec le public l’histoire d’une artiste authentique à la voix hors du commun. Un voyage musical intense, entre souvenirs, émotions et reprises emblématiques. Tarifs : Carré Or : 59€ Catégorie 1 : 49€ Catégorie 2 : 44€ Strapontin : 39€ Vous êtes en situation de handicap ? Contactez le service billetterie au 02 40 25 09 55 ou par mail : billetterie@kproduction.fr",
+    "descriptionLongue": "ALEXANDRE SORIN PRODUCTIONS PRESENTE :CHIMENE BADI - ORIGINE(S) TOUR 25 ans de carrière, une voix unique, une émotion intacte. À partir de l’automne 2027, Chimène Badi vous donne rendez-vous avec « Origine(s) Tour », un spectacle événement retraçant son incroyable parcours. De ses plus grands succès aux chansons qui ont marqué sa vie, Chimène partage avec le public l’histoire d’une artiste authentique à la voix hors du commun. Un voyage musical intense, entre souvenirs, émotions et reprises emblématiques. Tarifs : Carré Or : 59€ Catégorie 1 : 49€ Catégorie 2 : 44€ Strapontin : 39€ Vous êtes en situation de handicap ? Contactez le service billetterie au [téléphone supprimé] ou par mail : [email supprimé]",
     "dateDebut": "2028-02-26T19:00:00+00:00",
     "dateFin": "2028-02-26T21:00:00+00:00",
     "categorie": "concert",
@@ -1294,13 +1368,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "chimene-badi-6822288",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/10c37d1b2dd54d3e810cc62b2c6b2b27.base.image.jpg"
   },
   {
     "uid": "oa-52845099",
@@ -1328,13 +1404,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "verino-rodeo-7484926",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/37679b79c6be48f7a366c35837cf0963.base.image.jpg"
   },
   {
     "uid": "oa-83682995",
@@ -1364,13 +1442,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:59+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "hommage-a-france-gall-and-michel-berger-2738446",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/7dbedea7b2974183a345c47423f48e28.base.image.jpg"
   },
   {
     "uid": "oa-50831541",
@@ -1387,7 +1467,7 @@
       "Loisirs",
       "Vide-grenier / Brocante"
     ],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Place de la Victoire",
     "lieuAdresse": "Place de la Victoire, 44500 La Baule",
@@ -1396,13 +1476,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28655,
     "lieuLongitude": -2.39061,
+    "coordinates": "47.28655,-2.39061",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-17T00:48:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "brocante-professionnelle-4429000",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/e1728dfb0a224dd9b255ea75380ed479.base.image.jpg"
   },
   {
     "uid": "oa-41696322",
@@ -1428,13 +1510,15 @@
     "lieuCodeInsee": "44135",
     "lieuLatitude": 47.2656,
     "lieuLongitude": -2.42151,
+    "coordinates": "47.2656,-2.42151",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-17T00:49:06.184000+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "exposition-lingjun-yue-artiste-en-residence-2597738",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/0d6f17e4ffd343eb96ed05c99bed1015.base.image.jpg"
   },
   {
     "uid": "oa-40834109",
@@ -1464,13 +1548,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-06-19T19:54:45+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "brel-le-spectacle-7828614",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/904527a399f64ecb8758cff26d04aea9.base.image.jpg"
   },
   {
     "uid": "oa-88633568",
@@ -1496,13 +1582,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "bernard-werber-vie-5260827",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/33dbcc2b34e4487997aedc3beaa442c3.base.image.jpg"
   },
   {
     "uid": "oa-95047795",
@@ -1532,13 +1620,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "cochons-dinde-4612251",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/05719141b2864038b814e2a60630c34a.base.image.jpg"
   },
   {
     "uid": "oa-39894444",
@@ -1564,13 +1654,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:24:07+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "rendez-vous-de-la-baule-avec-alexandra-puppinck-bortoli-1899870",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/d51e0333c86048aa8756c23ed62ad620.base.image.jpg"
   },
   {
     "uid": "oa-81326161",
@@ -1603,13 +1695,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28675,
     "lieuLongitude": -2.3914,
+    "coordinates": "47.28675,-2.3914",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-12T00:50:34+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-balade-a-velo-entre-villas-et-ocean-7802682",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/be820420eaf94b7f826de0293214f95a.base.image.jpg"
   },
   {
     "uid": "oa-81336636",
@@ -1627,7 +1721,7 @@
       "Exposition",
       "Arts"
     ],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Place du Maréchal Leclerc",
     "lieuAdresse": "Espace Culturel Chapelle Sainte-Anne, 44500 La Baule",
@@ -1636,13 +1730,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28266,
     "lieuLongitude": -2.39213,
+    "coordinates": "47.28266,-2.39213",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-17T00:49:09+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "exposition-bernard-boesch-3791255",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/158dc3daadad4bdb84aeaa0fa2aef42f.base.image.jpg"
   },
   {
     "uid": "oa-90587318",
@@ -1651,7 +1747,7 @@
     "licence": "lov2",
     "titre": "Journées Européennes du Patrimoine 2026",
     "descriptionCourte": "Découvrez le programme complet des Journées Européennes du Patrimoine 2026 : Hôtel de Ville Explorez les coulisses de l’Hôtel de Ville : bureau du Maire, salle du Conseil, salle des mariages.",
-    "descriptionLongue": "Découvrez le programme complet des Journées Européennes du Patrimoine 2026 : Hôtel de Ville Explorez les coulisses de l’Hôtel de Ville : bureau du Maire, salle du Conseil, salle des mariages. Plongez dans l’histoire de la cité balnéaire et dans l’architecture du bâtiment à travers des archives municipales conservées sur place.&nbsp; Les visites guidées se feront le samedi 19 septembre de 10h à 12h et de 14h et 17h et le dimanche 20 septembre de 11h et 13h et 14h et 17h. Sans inscription. Musée Boesch Découvrez l’histoire du musée Boesch, cette villa, léguée à La Baule par le couple Boesch, ainsi que leur parcours personnel et artistique. Les visites guidées des expositions en cours seront ponctuées par deux interventions de la conteuse Françoise Damour, à 15h et à 17h pour des séances de 30 minutes.&nbsp; Les visites guidées se feront le samedi 19 septembre et le dimanche 20 septembre de 14h30 à 18h30. Sans inscription. **Chapelle Sainte-Anne&nbsp;** Découvrez l’histoire et l’architecture de la Chapelle Saint-Anne, qui accueillera une exposition dédiée à l'histoire et à l'architecture de la chapelle. Chaque jour à 16h, à travers un temps d'animation, un maitre vitrailliste vous fera découvrir l'art du vitrail. Les visites guidées se feront le samedi 19 septembre et dimanche 20 septembre de 14h30 à 18h30. Sans inscription. Bibliothèque Henri Queffélec La bibliothèque Henri Queffélec vous propose des visites guidées accompagnée d’une animation reliure le samedi 19. Le dimanche 20, une conférence suivie d’un temps d’échange avec Lois Sellin sur l’histoire de La Baule-Escoublac viendra compléter ce programme. Les visites guidées se feront le samedi 19 septembre à 10h et 16h sur inscription par téléphone ou à accueil.bibliotheque@mairie-labaule.fr.&nbsp; Forêt d’Escoublac La forêt d’Escoublac vous propose une escapade rafraîchissante, alliant détente et découverte historique. Deux visites guidées le** **samedi 19 septembre, de 10h à 12h et de 15h à 17h au départ du parki",
+    "descriptionLongue": "Découvrez le programme complet des Journées Européennes du Patrimoine 2026 : Hôtel de Ville Explorez les coulisses de l’Hôtel de Ville : bureau du Maire, salle du Conseil, salle des mariages. Plongez dans l’histoire de la cité balnéaire et dans l’architecture du bâtiment à travers des archives municipales conservées sur place.&nbsp; Les visites guidées se feront le samedi 19 septembre de 10h à 12h et de 14h et 17h et le dimanche 20 septembre de 11h et 13h et 14h et 17h. Sans inscription. Musée Boesch Découvrez l’histoire du musée Boesch, cette villa, léguée à La Baule par le couple Boesch, ainsi que leur parcours personnel et artistique. Les visites guidées des expositions en cours seront ponctuées par deux interventions de la conteuse Françoise Damour, à 15h et à 17h pour des séances de 30 minutes.&nbsp; Les visites guidées se feront le samedi 19 septembre et le dimanche 20 septembre de 14h30 à 18h30. Sans inscription. **Chapelle Sainte-Anne&nbsp;** Découvrez l’histoire et l’architecture de la Chapelle Saint-Anne, qui accueillera une exposition dédiée à l'histoire et à l'architecture de la chapelle. Chaque jour à 16h, à travers un temps d'animation, un maitre vitrailliste vous fera découvrir l'art du vitrail. Les visites guidées se feront le samedi 19 septembre et dimanche 20 septembre de 14h30 à 18h30. Sans inscription. Bibliothèque Henri Queffélec La bibliothèque Henri Queffélec vous propose des visites guidées accompagnée d’une animation reliure le samedi 19. Le dimanche 20, une conférence suivie d’un temps d’échange avec Lois Sellin sur l’histoire de La Baule-Escoublac viendra compléter ce programme. Les visites guidées se feront le samedi 19 septembre à 10h et 16h sur inscription par téléphone ou à [email supprimé]&nbsp; Forêt d’Escoublac La forêt d’Escoublac vous propose une escapade rafraîchissante, alliant détente et découverte historique. Deux visites guidées le** **samedi 19 septembre, de 10h à 12h et de 15h à 17h au départ du parking de l'EPHAD de la for",
     "dateDebut": "2026-09-18T22:00:00+00:00",
     "dateFin": "2026-09-19T21:59:00+00:00",
     "categorie": "exposition",
@@ -1663,7 +1759,7 @@
       "Visite guidée",
       "Arts"
     ],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "La Baule",
     "lieuAdresse": "44500 La Baule",
@@ -1672,13 +1768,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.290826,
     "lieuLongitude": -2.353548,
+    "coordinates": "47.290826,-2.353548",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-17T00:49:11+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "journees-europeennes-du-patrimoine-2026-727187",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/fc09d0e6bd3b4c159ce8aaf222764f1f.base.image.jpg"
   },
   {
     "uid": "oa-60964977",
@@ -1696,7 +1794,7 @@
       "Manifestation sportive",
       "Equestre"
     ],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Stade Francois André",
     "lieuAdresse": "44500 La Baule",
@@ -1705,13 +1803,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.2829,
     "lieuLongitude": -2.41563,
+    "coordinates": "47.2829,-2.41563",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:21+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atlantique-summer-tour-2026-8500307",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/0a9d586c1afc4c0ea5e9dd52d72a6221.base.image.jpg"
   },
   {
     "uid": "oa-25893108",
@@ -1720,7 +1820,7 @@
     "licence": "lov2",
     "titre": "Edouard Deloignon \"Grandira plus tard\"",
     "descriptionCourte": "DAN BOLENDER PRODUCTIONS PRESENTE : EDOUARD DELOIGNON \"GRANDIRA PLUS TARD\" \"J’ai toujours eu cette sensation d’être un peu décalé par rapport aux autres, plus j’avance dans la vie et plus ça se vérif…",
-    "descriptionLongue": "DAN BOLENDER PRODUCTIONS PRESENTE :EDOUARD DELOIGNON \"GRANDIRA PLUS TARD\" \"J’ai toujours eu cette sensation d’être un peu décalé par rapport aux autres, plus j’avance dans la vie et plus ça se vérifie. Vous savez quoi? J’ai décidé que c’était ok. Et si on ne prenait pas les choses au sérieux ?\" Avec son énergie, son talent et sa répartie, Edouard vous propose une expérience unique. 1h30 de lâcher prise, pour rire… ensemble ! Edouard Deloignon est LA nouvelle star de l’humour et cumule plus de 150 millions de vues avec ses vidéos. Spectacle conseillé à partir de 16 ans Tarif : Unique : 39€ Vous êtes en situation de handicap ? Contactez la billetterie au 02 40 11 51 51 ou à l'adresse billetterie@labaule-evenements.com",
+    "descriptionLongue": "DAN BOLENDER PRODUCTIONS PRESENTE :EDOUARD DELOIGNON \"GRANDIRA PLUS TARD\" \"J’ai toujours eu cette sensation d’être un peu décalé par rapport aux autres, plus j’avance dans la vie et plus ça se vérifie. Vous savez quoi? J’ai décidé que c’était ok. Et si on ne prenait pas les choses au sérieux ?\" Avec son énergie, son talent et sa répartie, Edouard vous propose une expérience unique. 1h30 de lâcher prise, pour rire… ensemble ! Edouard Deloignon est LA nouvelle star de l’humour et cumule plus de 150 millions de vues avec ses vidéos. Spectacle conseillé à partir de 16 ans Tarif : Unique : 39€ Vous êtes en situation de handicap ? Contactez la billetterie au [téléphone supprimé] ou à l'adresse [email supprimé]",
     "dateDebut": "2027-11-27T19:00:00+00:00",
     "dateFin": "2027-11-27T21:00:00+00:00",
     "categorie": "spectacle",
@@ -1739,13 +1839,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "edouard-deloignon-grandira-plus-tard-2033006",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/1b34e331e37b43e18127d3ced2af157b.base.image.jpg"
   },
   {
     "uid": "oa-27274492",
@@ -1773,13 +1875,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "sellig-episode-6-7958090",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/df9c3d8add854542a48acf7f26ab2394.base.image.jpg"
   },
   {
     "uid": "oa-45800960",
@@ -1788,7 +1892,7 @@
     "licence": "lov2",
     "titre": "Gilbert Montagné l'amour dans ses mains",
     "descriptionCourte": "DAMIEN NOUGAREDE & BACKSTAGE EVENT présentent : Gilbert Montagné \"L'amour dans ses mains\" Figure incontournable de la chanson française, avec plus de 10 millions de disques vendus, l'artiste vous don…",
-    "descriptionLongue": "DAMIEN NOUGAREDE &amp; BACKSTAGE EVENT présentent :Gilbert Montagné \"L'amour dans ses mains\" Figure incontournable de la chanson française, avec plus de 10 millions de disques vendus, l'artiste vous donne rendez-vous pour un concert exceptionnel. Pilier de la scène musicale française dont le groove est le véritable leitmotiv, Gilbert Montagné revient avec un nouvel opus à l'ADN pronfondément \"Montagné\", mêlant subtilement incursions pop et touches mélancoliques. Jamais très éloigné de son amour pour la musique, il nous offre un nouvel album studio éclectique où des grooves entêtants se mêlent avec finesse à des ballades profondes et lumineuses. Près de 20 ans après Get Ready et presque 10 ans après La Niña, Gilbert dévoile une nouvelle fesque musicale résolument \"montagnesque\" avec l'Amour dans ses mains. Pour fêter ça, l'artiste nous promet sur scène une soirée pleine d'émotion, de partage et d'énergie, portée par ses plus grands tubes devenus légendaires et incontournables : \"The Fool\", \"On va s'aimer\", \"Les Sunlights des Tropiques\", \"Liberté\", \"Le blues de toi\", \"Musicienne'... Un concert festif et chaleureux, pour célébrer la musique, la joie et l'amour ! Tarifs : Catégorie Or : 69€ Catégorie 1 : 57€ Catégorie 2 : 45€ Catégorie 3 : 37€ Strapontin Or : 65€ Strapontin Catégorie 1 : 53€ Vous êtes en situation de handicap ? Contactez la billetterie au 02 40 11 51 51 ou à l'adresse billetterie@labaule-evenements.com",
+    "descriptionLongue": "DAMIEN NOUGAREDE &amp; BACKSTAGE EVENT présentent :Gilbert Montagné \"L'amour dans ses mains\" Figure incontournable de la chanson française, avec plus de 10 millions de disques vendus, l'artiste vous donne rendez-vous pour un concert exceptionnel. Pilier de la scène musicale française dont le groove est le véritable leitmotiv, Gilbert Montagné revient avec un nouvel opus à l'ADN pronfondément \"Montagné\", mêlant subtilement incursions pop et touches mélancoliques. Jamais très éloigné de son amour pour la musique, il nous offre un nouvel album studio éclectique où des grooves entêtants se mêlent avec finesse à des ballades profondes et lumineuses. Près de 20 ans après Get Ready et presque 10 ans après La Niña, Gilbert dévoile une nouvelle fesque musicale résolument \"montagnesque\" avec l'Amour dans ses mains. Pour fêter ça, l'artiste nous promet sur scène une soirée pleine d'émotion, de partage et d'énergie, portée par ses plus grands tubes devenus légendaires et incontournables : \"The Fool\", \"On va s'aimer\", \"Les Sunlights des Tropiques\", \"Liberté\", \"Le blues de toi\", \"Musicienne'... Un concert festif et chaleureux, pour célébrer la musique, la joie et l'amour ! Tarifs : Catégorie Or : 69€ Catégorie 1 : 57€ Catégorie 2 : 45€ Catégorie 3 : 37€ Strapontin Or : 65€ Strapontin Catégorie 1 : 53€ Vous êtes en situation de handicap ? Contactez la billetterie au [téléphone supprimé] ou à l'adresse [email supprimé]",
     "dateDebut": "2027-05-09T18:00:00+00:00",
     "dateFin": "2027-05-09T20:00:00+00:00",
     "categorie": "concert",
@@ -1809,13 +1913,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28328,
     "lieuLongitude": -2.41006,
+    "coordinates": "47.28328,-2.41006",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-17T10:23:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "gilbert-montagne-lamour-dans-ses-mains-38182",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/e1be544273c649288306ff28e279b8ab.base.image.jpg"
   },
   {
     "uid": "oa-93820027",
@@ -1842,12 +1948,14 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.28071,
     "lieuLongitude": -2.40647,
+    "coordinates": "47.28071,-2.40647",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-15T00:53:02+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-quartier-du-casino-ses-hotels-et-ses-villas-2175887",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/794805d3523144879000f9727af6b842.base.image.jpg"
   }
 ]

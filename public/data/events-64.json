@@ -1,6 +1,6 @@
 [
   {
-    "uid": "oa-432hsz7f",
+    "uid": "oa-bwf3rgxj",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Hendaia-Film-Festival",
     "licence": "lov2",
@@ -14,18 +14,20 @@
     "gratuit": false,
     "prixIndicatif": "",
     "lieuNom": "",
-    "lieuAdresse": "",
+    "lieuAdresse": "10 Rue du Théatre, 64700 Hendaye, Cinéma les varietés Hendaye, 64700 Hendaye - Pyrénées-Atlantiques",
     "lieuCodePostal": "",
     "lieuCommune": "Hendaye",
     "lieuCodeInsee": "64260",
     "lieuLatitude": 43.3553944,
     "lieuLongitude": -1.7735696,
+    "coordinates": "43.3553944,-1.7735696",
     "lieuDepartement": "64",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T10:36:22.321Z",
+    "dateMaj": "2026-08-19T12:23:17.091Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "hendaia-film-festival",
-    "departementNumero": "64"
+    "departementNumero": "64",
+    "image": ""
   }
 ]

@@ -6,7 +6,7 @@
     "licence": "lov2",
     "titre": "Permanence Bus \"Le Lien, accès aux droits et au numérique\"",
     "descriptionCourte": "Un lieu d'information, d'écoute et d'orientation pour répondre à toutes vos questions en lien avec la vie quotidienne.",
-    "descriptionLongue": "L'UDAF Loire-Atlantique met à disposition un bus accessible PMR avec à son bord, un conseiller numérique et un chargé d’information qui vont à votre rencontre afin de vous apporter une aide dans toute démarche d’accès aux droits et vous proposer un accompagnement à l’usage du numérique.Exemples de questions : Ai-je le droit à des aides financières pour mes projets ? Comment envoyer un e-mail ? Ai-je le droit à l’aide au logement ? Comment aller sur internet en sécurité ? Où trouver mon attestation d’assurance maladie ? Comment remplir ma déclaration d’impôts ? Comment scanner un document à l’aide de mon smartphone Rendez-vous le mardi 1er décembre de 10h à 12h30 sur le Parking de la Place Jean IV (devant l'église) à Saillé.Plus d'informations au 02 51 80 30 46.",
+    "descriptionLongue": "L'UDAF Loire-Atlantique met à disposition un bus accessible PMR avec à son bord, un conseiller numérique et un chargé d’information qui vont à votre rencontre afin de vous apporter une aide dans toute démarche d’accès aux droits et vous proposer un accompagnement à l’usage du numérique.Exemples de questions : Ai-je le droit à des aides financières pour mes projets ? Comment envoyer un e-mail ? Ai-je le droit à l’aide au logement ? Comment aller sur internet en sécurité ? Où trouver mon attestation d’assurance maladie ? Comment remplir ma déclaration d’impôts ? Comment scanner un document à l’aide de mon smartphone Rendez-vous le mardi 1er décembre de 10h à 12h30 sur le Parking de la Place Jean IV (devant l'église) à Saillé.Plus d'informations au [téléphone supprimé].",
     "dateDebut": "2026-12-01T09:00:00+00:00",
     "dateFin": "2026-12-01T11:30:00+00:00",
     "categorie": "spectacle",
@@ -20,13 +20,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.294674,
     "lieuLongitude": -2.431277,
+    "coordinates": "47.294674,-2.431277",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-01-07T10:00:08+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "permanence-bus-le-lien-acces-aux-droits-et-au-numerique-4956290",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/dec4493ffbbe446481e838594c72b09d.base.image.jpg"
   },
   {
     "uid": "oa-1770690",
@@ -35,12 +37,12 @@
     "licence": "lov2",
     "titre": "Café Les petits Papot'âges",
     "descriptionCourte": "Vous êtes Guérandais, vous avez 60 ans et plus, vous avez envie de faire des rencontres et de papoter ? Une animatrice du CCAS vous propose un moment d'échange autour d'un thé ou d'un café.",
-    "descriptionLongue": "Vous avez des questions ou vous avez envie de rompre l’isolement ? Venez partager un temps d’échange autour d’un café ou d’un thé.Si besoin d’être véhiculé, un accompagnement peut être mis en place.Plus d'infos par téléphone au 02 40 24 99 57 et/ou par mail accueil.ccas@ville-guerande.fr",
+    "descriptionLongue": "Vous avez des questions ou vous avez envie de rompre l’isolement ? Venez partager un temps d’échange autour d’un café ou d’un thé.Si besoin d’être véhiculé, un accompagnement peut être mis en place.Plus d'infos par téléphone au [téléphone supprimé] et/ou par mail [email supprimé]",
     "dateDebut": "2026-12-01T09:00:00+00:00",
     "dateFin": "2026-12-01T11:30:00+00:00",
     "categorie": "festival",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Accueil Périscolaire de Saillé",
     "lieuAdresse": "5, rue François Thuard",
@@ -49,13 +51,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.294832,
     "lieuLongitude": -2.430489,
+    "coordinates": "47.294832,-2.430489",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-01-08T10:12:12+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "cafe-les-petits-papotages-5160008",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/b73de53debd44f04a07e7057d36c1622.base.image.jpg"
   },
   {
     "uid": "oa-64409113",
@@ -86,13 +90,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.325719,
     "lieuLongitude": -2.416839,
+    "coordinates": "47.325719,-2.416839",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-02-18T08:10:20+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-gratuit-creer-sa-micro-entreprise-1321242",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/6a3982294fcb4510a0de66e262c9b686.base.image.jpg"
   },
   {
     "uid": "oa-64595260",
@@ -106,7 +112,7 @@
     "dateFin": "2026-09-09T14:00:00+00:00",
     "categorie": "exposition",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Salle des Perrières",
     "lieuAdresse": "Chemin des Perrières, Clis, 44350 Guérande",
@@ -115,13 +121,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.33614,
     "lieuLongitude": -2.463576,
+    "coordinates": "47.33614,-2.463576",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-04-13T07:33:38+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-apiculture-extraction-du-miel",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/f0196aa0fc8d498abc4bc7bf45f829f4.base.image.jpg"
   },
   {
     "uid": "oa-91981870",
@@ -144,13 +152,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.328058,
     "lieuLongitude": -2.428778,
+    "coordinates": "47.328058,-2.428778",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-06-10T08:34:38+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "concert-la-voix-des-orgues-1158048",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/59868c06dca5490cbcd204e8898eb88a.base.image.jpg"
   },
   {
     "uid": "oa-71292728",
@@ -173,13 +183,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.331275,
     "lieuLongitude": -2.427442,
+    "coordinates": "47.331275,-2.427442",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-06-23T10:44:53+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "a-la-decouverte-du-jeu-video-moss-30173",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/f35e371a4e034869916a5486f4abe79e.base.image.jpg"
   },
   {
     "uid": "oa-47595577",
@@ -204,13 +216,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.331309,
     "lieuLongitude": -2.427584,
+    "coordinates": "47.331309,-2.427584",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-06-27T10:09:36+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "jeux-video-8081439",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/d61f64d6de93464987e893cfebee58c7.base.image.jpg"
   },
   {
     "uid": "oa-69699990",
@@ -219,7 +233,7 @@
     "licence": "lov2",
     "titre": "L'association Couleurs Coteau organise son vide-grenier dimanche 30 août à Queniquen",
     "descriptionCourte": "L'association Couleurs Coteau organise son vide-grenier dimanche 30 août à Queniquen",
-    "descriptionLongue": "Voilà un texte, mais peut-être est-il un peu trop long ? Quand tu me dis qu'on peut aller jusqu'à 10 000 caractères, ça me paraît énorme. Es-tu sûre que tu ne voulais pas dire 1000 caractères ? Celui-ci fait à peu près 1500. 🌿 Le vide-grenier de Queniquen revient… et c'est seulement tous les deux ans ! 🌿 Notez bien la date : dimanche 30 août, de 9h à 18h, l'association Couleurs Coteau vous donne rendez-vous dans le magnifique village de Queniquen, aux portes de Guérande, pour une journée placée sous le signe de la convivialité et des bonnes affaires. Flânez entre les stands installés dans ce charmant village de paludiers, profitez de l'ambiance chaleureuse, et faites une pause au bar et à l'espace restauration tenus par les bénévoles de l'association. Une belle occasion de passer une journée en famille ou entre amis dans un cadre authentique et plein de charme. 💚 Et si vous faisiez partie de l'aventure ? Pour que cette journée reste un succès, nous recherchons quelques bénévoles pour nous donner un coup de main : 🔹 la veille, pour monter le barnum du bar,🔹 le dimanche, pour assurer quelques créneaux au bar,🔹 et en fin de journée, pour le démontage. Pas besoin d'être un expert ! Chez Couleurs Coteau, on vient avant tout pour partager un bon moment. Être bénévole, c'est rendre service dans la bonne humeur, rencontrer de nouvelles personnes, rire, échanger, se sentir utile… et repartir avec de beaux souvenirs. Si vous avez un peu de temps à offrir, même quelques heures, vous serez les bienvenus ! 📩 N'hésitez pas à nous contacter par mail sur couleurs.coteau@gmail.com si vous souhaitez nous rejoindre. Nous avons hâte de vous retrouver nombreux pour faire vivre ensemble cette belle journée !",
+    "descriptionLongue": "Voilà un texte, mais peut-être est-il un peu trop long ? Quand tu me dis qu'on peut aller jusqu'à 10 000 caractères, ça me paraît énorme. Es-tu sûre que tu ne voulais pas dire 1000 caractères ? Celui-ci fait à peu près 1500. 🌿 Le vide-grenier de Queniquen revient… et c'est seulement tous les deux ans ! 🌿 Notez bien la date : dimanche 30 août, de 9h à 18h, l'association Couleurs Coteau vous donne rendez-vous dans le magnifique village de Queniquen, aux portes de Guérande, pour une journée placée sous le signe de la convivialité et des bonnes affaires. Flânez entre les stands installés dans ce charmant village de paludiers, profitez de l'ambiance chaleureuse, et faites une pause au bar et à l'espace restauration tenus par les bénévoles de l'association. Une belle occasion de passer une journée en famille ou entre amis dans un cadre authentique et plein de charme. 💚 Et si vous faisiez partie de l'aventure ? Pour que cette journée reste un succès, nous recherchons quelques bénévoles pour nous donner un coup de main : 🔹 la veille, pour monter le barnum du bar,🔹 le dimanche, pour assurer quelques créneaux au bar,🔹 et en fin de journée, pour le démontage. Pas besoin d'être un expert ! Chez Couleurs Coteau, on vient avant tout pour partager un bon moment. Être bénévole, c'est rendre service dans la bonne humeur, rencontrer de nouvelles personnes, rire, échanger, se sentir utile… et repartir avec de beaux souvenirs. Si vous avez un peu de temps à offrir, même quelques heures, vous serez les bienvenus ! 📩 N'hésitez pas à nous contacter par mail sur [email supprimé] si vous souhaitez nous rejoindre. Nous avons hâte de vous retrouver nombreux pour faire vivre ensemble cette belle journée !",
     "dateDebut": "2026-08-30T07:00:00+00:00",
     "dateFin": "2026-08-30T16:00:00+00:00",
     "categorie": "marche",
@@ -230,7 +244,7 @@
       "queniquen",
       "aout"
     ],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "place de la croix, Queniquen",
     "lieuAdresse": "place de la croix, Queniquen",
@@ -239,13 +253,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.323986,
     "lieuLongitude": -2.455647,
+    "coordinates": "47.323986,-2.455647",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-08T09:02:09+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "lassociation-couleurs-coteau-organise-son-vide-grenier-dimanche-30-aout-a-queniq",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/37c11359f8ef4611a0061ce286425265.base.image.jpg"
   },
   {
     "uid": "oa-82848089",
@@ -268,13 +284,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327296,
     "lieuLongitude": -2.416456,
+    "coordinates": "47.327296,-2.416456",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-13T09:08:10+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "conference-lhistoire-de-la-palestine-depuis-lempire-ottoman-a-aujourdhui-par-san",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/2c13626fcae74a26b68544f359142242.base.image.jpg"
   },
   {
     "uid": "oa-90917965",
@@ -297,13 +315,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327296,
     "lieuLongitude": -2.416456,
+    "coordinates": "47.327296,-2.416456",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-13T09:09:56+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "conference-levolution-du-cerveau-par-roger-robert",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/f0fd4a6ac13c4d37bc6edd350b0606d1.base.image.jpg"
   },
   {
     "uid": "oa-28892153",
@@ -326,13 +346,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327296,
     "lieuLongitude": -2.416456,
+    "coordinates": "47.327296,-2.416456",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-13T09:10:24.250000+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "conference-la-bande-dessinee-franco-belge-un-catholicisme-conservateur-nationali",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/c53223c77eb64ae7a5bca75dc056d111.base.image.jpg"
   },
   {
     "uid": "oa-85897339",
@@ -355,13 +377,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327775,
     "lieuLongitude": -2.426294,
+    "coordinates": "47.327775,-2.426294",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-21T09:34:34+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "mardis-sportifs-danse-en-ligne-6102158",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/aa94e0728b734ab3aed1975804139271.base.image.jpg"
   },
   {
     "uid": "oa-23010752",
@@ -386,13 +410,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.329478,
     "lieuLongitude": -2.426444,
+    "coordinates": "47.329478,-2.426444",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-29T07:10:30+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "ceremonie-de-commemoration-de-larmistice-de-1918-643437",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/fa84071c752247a29cedc01e6b39f9bd.base.image.jpg"
   },
   {
     "uid": "oa-94358915",
@@ -409,7 +435,7 @@
       "forum",
       "associations"
     ],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Salle des sports de Kerbiniou",
     "lieuAdresse": "Avenue Gustave Flaubert 44350",
@@ -418,13 +444,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.330239,
     "lieuLongitude": -2.419489,
+    "coordinates": "47.330239,-2.419489",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-06T12:10:11+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "forum-des-associations-2026-5014523",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/de43ce9afa8b4aa58667a05a6c39f1f0.base.image.jpg"
   },
   {
     "uid": "oa-84939375",
@@ -447,13 +475,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.328058,
     "lieuLongitude": -2.428778,
+    "coordinates": "47.328058,-2.428778",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-13T07:38:30+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-lumiere-sur-les-vitraux",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/d1aa51c6064142eba4a0d01ebad7d28d.base.image.jpg"
   },
   {
     "uid": "oa-58062738",
@@ -476,13 +506,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327978,
     "lieuLongitude": -2.426784,
+    "coordinates": "47.327978,-2.426784",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-13T07:44:28+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-les-secrets-de-guerande",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/5e6afb3784c042df91daa1f0e6cfaa21.base.image.jpg"
   },
   {
     "uid": "oa-74646772",
@@ -513,13 +545,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.328213,
     "lieuLongitude": -2.429801,
+    "coordinates": "47.328213,-2.429801",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-05-28T12:52:34+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "lecture-au-festival-openair-au-parc-de-la-coulee-verte-7494977",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/736b01c9e2cf4165b34676742f1caba7.base.image.jpg"
   },
   {
     "uid": "oa-81771882",
@@ -542,13 +576,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.329598,
     "lieuLongitude": -2.427877,
+    "coordinates": "47.329598,-2.427877",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-06-10T06:36:40+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "festival-les-celtiques-de-guerande-6249594",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/5400a6685aa2498281ea35533eb2e75c.base.image.jpg"
   },
   {
     "uid": "oa-42993174",
@@ -571,13 +607,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.331275,
     "lieuLongitude": -2.427442,
+    "coordinates": "47.331275,-2.427442",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-06-23T10:44:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "a-la-decouverte-du-jeu-video-moss-455410",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/0196796b03904655bba45214b21ca149.base.image.jpg"
   },
   {
     "uid": "oa-65097184",
@@ -600,13 +638,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.331275,
     "lieuLongitude": -2.427442,
+    "coordinates": "47.331275,-2.427442",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-06-23T10:45:04+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "a-la-decouverte-du-jeu-video-moss-8354935",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/0a60b7b12648459d939fb3be7648d53f.base.image.jpg"
   },
   {
     "uid": "oa-85714135",
@@ -629,13 +669,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327775,
     "lieuLongitude": -2.426294,
+    "coordinates": "47.327775,-2.426294",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-06-26T13:00:28+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "mardis-sportifs-petanque-et-football-gaelique",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/e027e052fd7642139755184e721dfb7c.base.image.jpg"
   },
   {
     "uid": "oa-24131157",
@@ -658,13 +700,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327296,
     "lieuLongitude": -2.416456,
+    "coordinates": "47.327296,-2.416456",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-13T09:07:09+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "conference-la-philosophie-une-experience-de-pensee-a-tous-les-ages-de-vie-par-ed",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/a4d599686ead4bc09b037f6f08f21397.base.image.jpg"
   },
   {
     "uid": "oa-63574699",
@@ -687,13 +731,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327775,
     "lieuLongitude": -2.426294,
+    "coordinates": "47.327775,-2.426294",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-20T06:21:18.273000+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "mardis-sportifs-danse-en-ligne",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/f6874e01f25244fe9b917ca0dcbfaf78.base.image.jpg"
   },
   {
     "uid": "oa-61831701",
@@ -723,13 +769,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.328687,
     "lieuLongitude": -2.429535,
+    "coordinates": "47.328687,-2.429535",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-20T07:05:06+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "lecture-dans-le-jardin-de-la-librairie-4046178",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/4da57bbacec5493ab4b28dae8f4c8724.base.image.jpg"
   },
   {
     "uid": "oa-16175865",
@@ -743,7 +791,7 @@
     "dateFin": "2026-09-12T17:00:00+00:00",
     "categorie": "spectacle",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Ferme Lait Prés Verts",
     "lieuAdresse": "Canevé",
@@ -752,13 +800,15 @@
     "lieuCodeInsee": "44055",
     "lieuLatitude": 47.316192,
     "lieuLongitude": -2.375526,
+    "coordinates": "47.316192,-2.375526",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-24T12:40:11+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "samedis-fermiers-a-la-ferme-lait-pres-verts",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/11e26d0c959e422bac293d9922ecc687.base.image.jpg"
   },
   {
     "uid": "oa-83372245",
@@ -772,7 +822,7 @@
     "dateFin": "2026-07-24T10:00:00+00:00",
     "categorie": "exposition",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Centre culturel Athanor",
     "lieuAdresse": "2 avenue Anne de Bretagne",
@@ -781,13 +831,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.331348,
     "lieuLongitude": -2.427549,
+    "coordinates": "47.331348,-2.427549",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-13T06:52:17+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "exposition-du-grag-3751797",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/7e1fc13b92af47059878280a59ebfd4a.base.image.jpg"
   },
   {
     "uid": "oa-60046312",
@@ -810,13 +862,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327836,
     "lieuLongitude": -2.429264,
+    "coordinates": "47.327836,-2.429264",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-13T07:40:32+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "quel-chantier-jeu-autour-de-la-collegiale-saint-aubin",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/5bda08079fef4b9e989729877257f02f.base.image.jpg"
   },
   {
     "uid": "oa-18417771",
@@ -844,13 +898,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.32777,
     "lieuLongitude": -2.42672,
+    "coordinates": "47.32777,-2.42672",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-18T00:47:05+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-la-cite-bretonne-9777028",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/012852978a894b08b3fc217188ee8e71.base.image.jpg"
   },
   {
     "uid": "oa-48508592",
@@ -881,13 +937,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.325719,
     "lieuLongitude": -2.416839,
+    "coordinates": "47.325719,-2.416839",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-02-18T08:09:00+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-gratuit-creer-sa-micro-entreprise-4028749",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/9bc947574b04455082dee5298c34bd05.base.image.jpg"
   },
   {
     "uid": "oa-15834158",
@@ -910,13 +968,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.331275,
     "lieuLongitude": -2.427442,
+    "coordinates": "47.331275,-2.427442",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-06-23T10:44:59+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "a-la-decouverte-du-jeu-video-moss-7039139",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/ce6ca3852ffd47458c6a5281836b9112.base.image.jpg"
   },
   {
     "uid": "oa-48773141",
@@ -939,13 +999,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.331275,
     "lieuLongitude": -2.427442,
+    "coordinates": "47.331275,-2.427442",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-04T09:38:58+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "quiz-des-creatures-fantastiques",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/df8ec415f35d4034b6b4e8c3d1665191.base.image.jpg"
   },
   {
     "uid": "oa-82365904",
@@ -968,13 +1030,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327296,
     "lieuLongitude": -2.416456,
+    "coordinates": "47.327296,-2.416456",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-13T09:08:27.423000+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "conference-intelligence-artificielle-les-enjeux-pour-leducation-par-colin-de-la-",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/71169dbb8c8748ccaf9bc201c511bd02.base.image.jpg"
   },
   {
     "uid": "oa-57654465",
@@ -997,13 +1061,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.331775,
     "lieuLongitude": -2.427564,
+    "coordinates": "47.331775,-2.427564",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-20T12:21:25+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "conference-restaurer-les-forets-sous-marines-une-premiere-en-france-par-la-socie",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/64760972e739474fadd239a80124af99.base.image.jpg"
   },
   {
     "uid": "oa-97741581",
@@ -1026,13 +1092,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.326379,
     "lieuLongitude": -2.43666,
+    "coordinates": "47.326379,-2.43666",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-22T06:07:09+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "46-salon-des-antiquaires-de-guerande",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/badeff680eee4fbfb07684fb325c56be.base.image.jpg"
   },
   {
     "uid": "oa-75186091",
@@ -1055,13 +1123,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327563,
     "lieuLongitude": -2.426888,
+    "coordinates": "47.327563,-2.426888",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-29T06:52:49+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "conseil-municipal-826330",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/26e27a8f2c2e4a38a6faca9d767c25bd.base.image.jpg"
   },
   {
     "uid": "oa-24971612",
@@ -1075,7 +1145,7 @@
     "dateFin": "2026-08-22T21:00:00+00:00",
     "categorie": "concert",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "La Coulée Verte",
     "lieuAdresse": "Guérande",
@@ -1084,13 +1154,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.328213,
     "lieuLongitude": -2.429801,
+    "coordinates": "47.328213,-2.429801",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-05T07:21:03+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "festival-openair-1165206",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/e32ea3166c6647fab235d76ad040dd70.base.image.jpg"
   },
   {
     "uid": "oa-84663752",
@@ -1099,12 +1171,12 @@
     "licence": "lov2",
     "titre": "Café Les petits Papot'âges",
     "descriptionCourte": "Vous êtes Guérandais, vous avez 60 ans et plus, vous avez envie de faire des rencontres et de papoter ? Une animatrice du CCAS vous propose un moment d'échange autour d'un thé ou d'un café.",
-    "descriptionLongue": "Vous avez des questions ou vous avez envie de rompre l’isolement ? Venez partager un temps d’échange autour d’un café ou d’un thé.Si besoin d’être véhiculé, un accompagnement peut être mis en place.Plus d'infos par téléphone au 02 40 24 99 57 et/ou par mail accueil.ccas@ville-guerande.fr",
+    "descriptionLongue": "Vous avez des questions ou vous avez envie de rompre l’isolement ? Venez partager un temps d’échange autour d’un café ou d’un thé.Si besoin d’être véhiculé, un accompagnement peut être mis en place.Plus d'infos par téléphone au [téléphone supprimé] et/ou par mail [email supprimé]",
     "dateDebut": "2026-10-06T08:00:00+00:00",
     "dateFin": "2026-10-06T10:30:00+00:00",
     "categorie": "festival",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Accueil Périscolaire de Saillé",
     "lieuAdresse": "5, rue François Thuard",
@@ -1113,13 +1185,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.294832,
     "lieuLongitude": -2.430489,
+    "coordinates": "47.294832,-2.430489",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-01-08T10:12:14+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "cafe-les-petits-papotages-9316878",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/fd3c10c2fdbf4f1f80a896060864935a.base.image.jpg"
   },
   {
     "uid": "oa-31582043",
@@ -1128,12 +1202,12 @@
     "licence": "lov2",
     "titre": "Café Les petits Papot'âges",
     "descriptionCourte": "Vous êtes Guérandais, vous avez 60 ans et plus, vous avez envie de faire des rencontres et de papoter ? Une animatrice du CCAS vous propose un moment d'échange autour d'un thé ou d'un café.",
-    "descriptionLongue": "Vous avez des questions ou vous avez envie de rompre l’isolement ? Venez partager un temps d’échange autour d’un café ou d’un thé.Si besoin d’être véhiculé, un accompagnement peut être mis en place.Plus d'infos par téléphone au 02 40 24 99 57 et/ou par mail accueil.ccas@ville-guerande.fr",
+    "descriptionLongue": "Vous avez des questions ou vous avez envie de rompre l’isolement ? Venez partager un temps d’échange autour d’un café ou d’un thé.Si besoin d’être véhiculé, un accompagnement peut être mis en place.Plus d'infos par téléphone au [téléphone supprimé] et/ou par mail [email supprimé]",
     "dateDebut": "2026-09-08T08:00:00+00:00",
     "dateFin": "2026-09-08T10:30:00+00:00",
     "categorie": "festival",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Mairie annexe de la Madeleine",
     "lieuAdresse": "Place de l'abbé Loiseau Guérande",
@@ -1142,13 +1216,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.356461,
     "lieuLongitude": -2.369829,
+    "coordinates": "47.356461,-2.369829",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-01-08T10:12:43+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "cafe-les-petits-papotages-6164056",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/8d70c4d86b4d473cb32c8d7099e9fe05.base.image.jpg"
   },
   {
     "uid": "oa-71653127",
@@ -1157,12 +1233,12 @@
     "licence": "lov2",
     "titre": "Café Les petits Papot'âges",
     "descriptionCourte": "Vous êtes Guérandais, vous avez 60 ans et plus, vous avez envie de faire des rencontres et de papoter ? Une animatrice du CCAS vous propose un moment d'échange autour d'un thé ou d'un café.",
-    "descriptionLongue": "Vous avez des questions ou vous avez envie de rompre l’isolement ? Venez partager un temps d’échange autour d’un café ou d’un thé.Si besoin d’être véhiculé, un accompagnement peut être mis en place.Plus d'infos par téléphone au 02 40 24 99 57 et/ou par mail accueil.ccas@ville-guerande.fr",
+    "descriptionLongue": "Vous avez des questions ou vous avez envie de rompre l’isolement ? Venez partager un temps d’échange autour d’un café ou d’un thé.Si besoin d’être véhiculé, un accompagnement peut être mis en place.Plus d'infos par téléphone au [téléphone supprimé] et/ou par mail [email supprimé]",
     "dateDebut": "2026-11-03T09:00:00+00:00",
     "dateFin": "2026-11-03T11:30:00+00:00",
     "categorie": "festival",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Mairie annexe de la Madeleine",
     "lieuAdresse": "Place de l'abbé Loiseau Guérande",
@@ -1171,13 +1247,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.356461,
     "lieuLongitude": -2.369829,
+    "coordinates": "47.356461,-2.369829",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-01-08T10:13:00+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "cafe-les-petits-papotages-4339140",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/334a75f608344999a943ea12139939c8.base.image.jpg"
   },
   {
     "uid": "oa-48616569",
@@ -1200,13 +1278,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.331275,
     "lieuLongitude": -2.427442,
+    "coordinates": "47.331275,-2.427442",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-06-23T10:45:01+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "a-la-decouverte-du-jeu-video-moss-3109587",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/1ce3989f16ef4ff0a94f2a7094119479.base.image.jpg"
   },
   {
     "uid": "oa-5167195",
@@ -1229,13 +1309,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327296,
     "lieuLongitude": -2.416456,
+    "coordinates": "47.327296,-2.416456",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-13T09:07:51.244000+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "conference-commerce-colonial-et-traite-negriere-a-nantes-au-xviiie-siecle-par-je",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/fc9c50fa35bd45b095dcc21347b6c8d4.base.image.jpg"
   },
   {
     "uid": "oa-90433394",
@@ -1258,13 +1340,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.339223,
     "lieuLongitude": -2.426348,
+    "coordinates": "47.339223,-2.426348",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-20T07:14:00+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "collecte-don-du-sang-1458858",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/c1e86beb8aaf42c9b2e4ddce1d4631b2.base.image.jpg"
   },
   {
     "uid": "oa-79846579",
@@ -1287,13 +1371,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327836,
     "lieuLongitude": -2.429264,
+    "coordinates": "47.327836,-2.429264",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-21T09:40:33+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "cine-remparts-projection-du-film-peter-et-elliott-le-dragon",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/3782f57652e448009a4967fe280fba5d.base.image.jpg"
   },
   {
     "uid": "oa-1137272",
@@ -1316,13 +1402,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.331275,
     "lieuLongitude": -2.427442,
+    "coordinates": "47.331275,-2.427442",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-23T13:03:51+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "a-la-decouverte-du-jeu-video-moss-6568782",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/270c46d5cf34416cbdf9e97d0cef1e9b.base.image.jpg"
   },
   {
     "uid": "oa-27167327",
@@ -1336,7 +1424,7 @@
     "dateFin": "2026-09-19T16:00:00+00:00",
     "categorie": "exposition",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Château de Villeneuve",
     "lieuAdresse": "Château de Villeneuve 44350 Guérande",
@@ -1345,13 +1433,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.320031,
     "lieuLongitude": -2.411933,
+    "coordinates": "47.320031,-2.411933",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-28T12:36:53+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "salon-des-arts-au-chateau-de-villeneuve",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/f6c7340a1eb1476da036ddea5e3e5651.base.image.jpg"
   },
   {
     "uid": "oa-7958175",
@@ -1367,7 +1457,7 @@
     "motsCles": [
       "lectures"
     ],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Parc de la Coulée verte",
     "lieuAdresse": "guerande",
@@ -1376,13 +1466,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.332671,
     "lieuLongitude": -2.424921,
+    "coordinates": "47.332671,-2.424921",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-13T06:50:46+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "lectures-sur-lherbe-590228",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/2921501ac27a47eaadedb16f1e30e624.base.image.jpg"
   },
   {
     "uid": "oa-98233800",
@@ -1405,13 +1497,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.328058,
     "lieuLongitude": -2.428778,
+    "coordinates": "47.328058,-2.428778",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-13T07:25:55+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-la-collegiale-dhier-a-aujourdhui",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/53e58480917d42c5979ffa407194d8af.base.image.jpg"
   },
   {
     "uid": "oa-44493322",
@@ -1434,13 +1528,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.328058,
     "lieuLongitude": -2.428778,
+    "coordinates": "47.328058,-2.428778",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-13T07:29:38+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-famille-sacree-architecture-a-la-collegiale-saint-aubin",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/90d7f00b7e004b59a3a2a83056f07735.base.image.jpg"
   },
   {
     "uid": "oa-46553226",
@@ -1463,13 +1559,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327978,
     "lieuLongitude": -2.426784,
+    "coordinates": "47.327978,-2.426784",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-13T07:50:33+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-famille-le-tresor-de-guerande-7786811",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/261a1a824e874525885ed2412dbaf97d.base.image.jpg"
   },
   {
     "uid": "oa-76618933",
@@ -1492,13 +1590,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327978,
     "lieuLongitude": -2.426784,
+    "coordinates": "47.327978,-2.426784",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-13T07:52:42+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-famille-la-chasse-au-dragon",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/956ef2b689084035a79c0302a8088cad.base.image.jpg"
   },
   {
     "uid": "oa-50877400",
@@ -1507,7 +1607,7 @@
     "licence": "lov2",
     "titre": "Permanence Bus \"Le Lien, accès aux droits et au numérique\"",
     "descriptionCourte": "Un lieu d'information, d'écoute et d'orientation pour répondre à toutes vos questions en lien avec la vie quotidienne.",
-    "descriptionLongue": "L'UDAF Loire-Atlantique met à disposition un bus accessible PMR avec à son bord, un conseiller numérique et un chargé d’information qui vont à votre rencontre afin de vous apporter une aide dans toute démarche d’accès aux droits et vous proposer un accompagnement à l’usage du numérique.Exemples de questions : Ai-je le droit à des aides financières pour mes projets ? Comment envoyer un e-mail ? Ai-je le droit à l’aide au logement ? Comment aller sur internet en sécurité ? Où trouver mon attestation d’assurance maladie ? Comment remplir ma déclaration d’impôts ? Comment scanner un document à l’aide de mon smartphone Rendez-vous le mardi 8 septembre de 10h à 12h30 sur la Place de l'Eglise à la Madeleine.Plus d'informations au 02 51 80 30 46.",
+    "descriptionLongue": "L'UDAF Loire-Atlantique met à disposition un bus accessible PMR avec à son bord, un conseiller numérique et un chargé d’information qui vont à votre rencontre afin de vous apporter une aide dans toute démarche d’accès aux droits et vous proposer un accompagnement à l’usage du numérique.Exemples de questions : Ai-je le droit à des aides financières pour mes projets ? Comment envoyer un e-mail ? Ai-je le droit à l’aide au logement ? Comment aller sur internet en sécurité ? Où trouver mon attestation d’assurance maladie ? Comment remplir ma déclaration d’impôts ? Comment scanner un document à l’aide de mon smartphone Rendez-vous le mardi 8 septembre de 10h à 12h30 sur la Place de l'Eglise à la Madeleine.Plus d'informations au [téléphone supprimé].",
     "dateDebut": "2026-09-08T08:00:00+00:00",
     "dateFin": "2026-09-08T10:30:00+00:00",
     "categorie": "spectacle",
@@ -1521,13 +1621,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.356549,
     "lieuLongitude": -2.369528,
+    "coordinates": "47.356549,-2.369528",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-01-07T09:50:28+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "permanence-bus-le-lien-acces-aux-droits-et-au-numerique-5109944",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/c660f1c8ceec4131a0a1f0bcdc2868b7.base.image.jpg"
   },
   {
     "uid": "oa-73418925",
@@ -1536,7 +1638,7 @@
     "licence": "lov2",
     "titre": "Permanence Bus \"Le Lien, accès aux droits et au numérique\"",
     "descriptionCourte": "Un lieu d'information, d'écoute et d'orientation pour répondre à toutes vos questions en lien avec la vie quotidienne.",
-    "descriptionLongue": "L'UDAF Loire-Atlantique met à disposition un bus accessible PMR avec à son bord, un conseiller numérique et un chargé d’information qui vont à votre rencontre afin de vous apporter une aide dans toute démarche d’accès aux droits et vous proposer un accompagnement à l’usage du numérique.Exemples de questions : Ai-je le droit à des aides financières pour mes projets ? Comment envoyer un e-mail ? Ai-je le droit à l’aide au logement ? Comment aller sur internet en sécurité ? Où trouver mon attestation d’assurance maladie ? Comment remplir ma déclaration d’impôts ? Comment scanner un document à l’aide de mon smartphone Rendez-vous le mardi 3 novembre de 10h à 12h30 sur la Place de l'Eglise à la Madeleine.Plus d'informations au 02 51 80 30 46.",
+    "descriptionLongue": "L'UDAF Loire-Atlantique met à disposition un bus accessible PMR avec à son bord, un conseiller numérique et un chargé d’information qui vont à votre rencontre afin de vous apporter une aide dans toute démarche d’accès aux droits et vous proposer un accompagnement à l’usage du numérique.Exemples de questions : Ai-je le droit à des aides financières pour mes projets ? Comment envoyer un e-mail ? Ai-je le droit à l’aide au logement ? Comment aller sur internet en sécurité ? Où trouver mon attestation d’assurance maladie ? Comment remplir ma déclaration d’impôts ? Comment scanner un document à l’aide de mon smartphone Rendez-vous le mardi 3 novembre de 10h à 12h30 sur la Place de l'Eglise à la Madeleine.Plus d'informations au [téléphone supprimé].",
     "dateDebut": "2026-11-03T09:00:00+00:00",
     "dateFin": "2026-11-03T11:30:00+00:00",
     "categorie": "spectacle",
@@ -1550,13 +1652,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.356549,
     "lieuLongitude": -2.369528,
+    "coordinates": "47.356549,-2.369528",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-01-07T09:51:17+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "permanence-bus-le-lien-acces-aux-droits-et-au-numerique-119137",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/cd059de0fcce451da87a01bbd26db41c.base.image.jpg"
   },
   {
     "uid": "oa-54548295",
@@ -1586,13 +1690,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.328213,
     "lieuLongitude": -2.429801,
+    "coordinates": "47.328213,-2.429801",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-05-28T12:52:36+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "lecture-au-parc-de-la-coulee-verte-2575166",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/f8137027d40046a7a95c42a5e02dae05.base.image.jpg"
   },
   {
     "uid": "oa-84730378",
@@ -1622,13 +1728,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.328213,
     "lieuLongitude": -2.429801,
+    "coordinates": "47.328213,-2.429801",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-05-28T12:52:38+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "lecture-au-parc-de-la-coulee-verte-9869596",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/f37302945fa548a59a650e151426da4a.base.image.jpg"
   },
   {
     "uid": "oa-52430700",
@@ -1658,13 +1766,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.328213,
     "lieuLongitude": -2.429801,
+    "coordinates": "47.328213,-2.429801",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-05-28T12:52:40+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "lecture-au-parc-de-la-coulee-verte-5797779",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/6380970989c04f47a21e05fea1ea2754.base.image.jpg"
   },
   {
     "uid": "oa-83138927",
@@ -1687,13 +1797,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327296,
     "lieuLongitude": -2.416456,
+    "coordinates": "47.327296,-2.416456",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-13T09:10:38+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "conference-crise-ou-mutation-de-la-democratie-par-arnauld-leclerc",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/f6cdcd2362da4fc0b547dcb80382351a.base.image.jpg"
   },
   {
     "uid": "oa-67480222",
@@ -1707,7 +1819,7 @@
     "dateFin": "2026-08-01T20:00:00+00:00",
     "categorie": "danse",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Place du marché au bois",
     "lieuAdresse": "Place du marché au bois, Guérande",
@@ -1716,13 +1828,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327775,
     "lieuLongitude": -2.426294,
+    "coordinates": "47.327775,-2.426294",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-16T08:47:13+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "soiree-dansante-salsa-bachata-kizomba-organisee-par-les-jeunes-du-spot-1525-ans",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/641c57ed53264ab8ac85ee3ed7e344cb.base.image.jpg"
   },
   {
     "uid": "oa-57566277",
@@ -1748,13 +1862,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.331308,
     "lieuLongitude": -2.426562,
+    "coordinates": "47.331308,-2.426562",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-11T06:51:37+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "tour-de-france-anticor-2026",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/93991b57ab9d4ebe89584b1cb4d0a43a.base.image.jpg"
   },
   {
     "uid": "oa-58906524",
@@ -1777,13 +1893,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.32784,
     "lieuLongitude": -2.417514,
+    "coordinates": "47.32784,-2.417514",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-18T12:31:49+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "operation-quartier-propre-a-kerbiniou",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/355ee5d9a26a4143a54c98d5bc7f187a.base.image.jpg"
   },
   {
     "uid": "oa-83497292",
@@ -1806,13 +1924,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.328213,
     "lieuLongitude": -2.429801,
+    "coordinates": "47.328213,-2.429801",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-18T12:42:13+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "marathon-international-de-la-cote-damour-amarris",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/6355dd2f2f98440cb5e74e05405de75a.base.image.jpg"
   },
   {
     "uid": "oa-59050952",
@@ -1837,13 +1957,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.331275,
     "lieuLongitude": -2.427442,
+    "coordinates": "47.331275,-2.427442",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-04T09:38:29+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "jeux-de-construction-batisseurs-et-architectes",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/721661cfca6d4da0a0ee7119aa276de5.base.image.jpg"
   },
   {
     "uid": "oa-28837645",
@@ -1866,13 +1988,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327296,
     "lieuLongitude": -2.416456,
+    "coordinates": "47.327296,-2.416456",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-13T09:09:35.211000+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "conference-comprendre-larchitecture-par-xavier-menard",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/8633d91e95be449cbf2bbe42eb1d48e1.base.image.jpg"
   },
   {
     "uid": "oa-15755951",
@@ -1895,13 +2019,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.339223,
     "lieuLongitude": -2.426348,
+    "coordinates": "47.339223,-2.426348",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-20T07:15:36+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "collecte-don-du-sang-3951315",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/57e31c43fe704015bfa4ab03848543b9.base.image.jpg"
   },
   {
     "uid": "oa-75617650",
@@ -1924,13 +2050,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327775,
     "lieuLongitude": -2.426294,
+    "coordinates": "47.327775,-2.426294",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-20T14:00:14.324000+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "mardis-sportifs-pickleball",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/da67f7b50c1348aabad86469978a963a.base.image.jpg"
   },
   {
     "uid": "oa-56356703",
@@ -1939,12 +2067,12 @@
     "licence": "lov2",
     "titre": "Vide-atelier du GRAG - Peintures et Sculptures",
     "descriptionCourte": "Le Groupe de Recherche Artistique Guérandais organise la 7ᵉ édition de son Vide Atelier Artistique, les 15 et 16 août, sur le boulevard du Nord.",
-    "descriptionLongue": "Pour la 7ᵉ année, le Groupe de Recherche Artistique Guérandais (GRAG) organise son « Vide Atelier Artistique ». Cet événement est l'occasion pour le public de rencontrer les artistes et de découvrir leurs créations.Les 15 et 16 août 2026, les artistes du GRAG investissent la promenade du boulevard du Nord, autour des remparts de Guérande, pour présenter leurs œuvres et partager leur univers avec les visiteurs.Peintures, sculptures et autres créations artistiques seront exposés tout au long du week-end, offrant au public l'opportunité de découvrir le travail des artistes et d'échanger avec eux.Informations complémentaires par mail assograg@gmail.com et/ou par téléphone au 06 87 14 88 35.",
+    "descriptionLongue": "Pour la 7ᵉ année, le Groupe de Recherche Artistique Guérandais (GRAG) organise son « Vide Atelier Artistique ». Cet événement est l'occasion pour le public de rencontrer les artistes et de découvrir leurs créations.Les 15 et 16 août 2026, les artistes du GRAG investissent la promenade du boulevard du Nord, autour des remparts de Guérande, pour présenter leurs œuvres et partager leur univers avec les visiteurs.Peintures, sculptures et autres créations artistiques seront exposés tout au long du week-end, offrant au public l'opportunité de découvrir le travail des artistes et d'échanger avec eux.Informations complémentaires par mail [email supprimé] et/ou par téléphone au [téléphone supprimé].",
     "dateDebut": "2026-08-15T08:00:00+00:00",
     "dateFin": "2026-08-15T17:00:00+00:00",
     "categorie": "exposition",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Boulevard du Nord, 44600 Guérande",
     "lieuAdresse": "Boulevard du Nord, Guérande",
@@ -1953,13 +2081,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.329598,
     "lieuLongitude": -2.427877,
+    "coordinates": "47.329598,-2.427877",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-28T12:31:44+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "vide-atelier-du-grag-peintures-et-sculptures",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/c9abb50cabcc42bbafe6bc5dbdc994a2.base.image.jpg"
   },
   {
     "uid": "oa-93791833",
@@ -1982,13 +2112,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327836,
     "lieuLongitude": -2.429264,
+    "coordinates": "47.327836,-2.429264",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-03T13:12:58+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "le-marche-de-guerande",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/ca42e2fd8b0b422794d8508c47ab8d77.base.image.jpg"
   },
   {
     "uid": "oa-14806021",
@@ -2011,13 +2143,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.328058,
     "lieuLongitude": -2.428778,
+    "coordinates": "47.328058,-2.428778",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-13T07:32:49+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-la-vie-de-saint-aubin",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/440eb7e4f0f14d07946950b017239e17.base.image.jpg"
   },
   {
     "uid": "oa-55211199",
@@ -2040,13 +2174,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327978,
     "lieuLongitude": -2.426784,
+    "coordinates": "47.327978,-2.426784",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-13T07:47:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-la-cite-bretonne-4894652",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/782914ff4f9c4637affd06992b760096.base.image.jpg"
   },
   {
     "uid": "oa-7847017",
@@ -2073,13 +2209,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.331309,
     "lieuLongitude": -2.427584,
+    "coordinates": "47.331309,-2.427584",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-05-27T13:44:11+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "des-questions-informatiques-2683968",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/66a21d533f11411bb14fe20b6dcb07e2.base.image.jpg"
   },
   {
     "uid": "oa-65123731",
@@ -2102,13 +2240,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327775,
     "lieuLongitude": -2.426294,
+    "coordinates": "47.327775,-2.426294",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-06-26T13:00:57.198000+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "mardis-sportifs-petanque-et-behourd",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/8f33f301a4214cb896425a491c1c3e90.base.image.jpg"
   },
   {
     "uid": "oa-88484472",
@@ -2133,13 +2273,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.331309,
     "lieuLongitude": -2.427584,
+    "coordinates": "47.331309,-2.427584",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-23T13:03:12+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "a-la-decouverte-du-jeu-video-skyrim-4544726",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/d4989810299247c787ff7447e63014f7.base.image.jpg"
   },
   {
     "uid": "oa-95454643",
@@ -2162,13 +2304,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327296,
     "lieuLongitude": -2.416456,
+    "coordinates": "47.327296,-2.416456",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-29T07:24:51+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "festival-du-film-de-la-page-a-limage-i-le-croisic-guerande",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/fbf55818af864805817590c9d65b4792.base.image.jpg"
   },
   {
     "uid": "oa-97075185",
@@ -2191,13 +2335,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327275,
     "lieuLongitude": -2.427157,
+    "coordinates": "47.327275,-2.427157",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-13T07:19:11+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-john-howe-et-larchitecture-medievale",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/9188328aca9346bebe2b9ca1f9585d07.base.image.jpg"
   },
   {
     "uid": "oa-63894458",
@@ -2206,7 +2352,7 @@
     "licence": "lov2",
     "titre": "Permanence Bus \"Le Lien, accès aux droits et au numérique\"",
     "descriptionCourte": "Un lieu d'information, d'écoute et d'orientation pour répondre à toutes vos questions en lien avec la vie quotidienne.",
-    "descriptionLongue": "L'UDAF Loire-Atlantique met à disposition un bus accessible PMR avec à son bord, un conseiller numérique et un chargé d’information qui vont à votre rencontre afin de vous apporter une aide dans toute démarche d’accès aux droits et vous proposer un accompagnement à l’usage du numérique.Exemples de questions : Ai-je le droit à des aides financières pour mes projets ? Comment envoyer un e-mail ? Ai-je le droit à l’aide au logement ? Comment aller sur internet en sécurité ? Où trouver mon attestation d’assurance maladie ? Comment remplir ma déclaration d’impôts ? Comment scanner un document à l’aide de mon smartphone Rendez-vous le mardi 6 octobre de 10h à 12h30 sur le Parking de la Place Jean IV (devant l'église) à Saillé.Plus d'informations au 02 51 80 30 46.",
+    "descriptionLongue": "L'UDAF Loire-Atlantique met à disposition un bus accessible PMR avec à son bord, un conseiller numérique et un chargé d’information qui vont à votre rencontre afin de vous apporter une aide dans toute démarche d’accès aux droits et vous proposer un accompagnement à l’usage du numérique.Exemples de questions : Ai-je le droit à des aides financières pour mes projets ? Comment envoyer un e-mail ? Ai-je le droit à l’aide au logement ? Comment aller sur internet en sécurité ? Où trouver mon attestation d’assurance maladie ? Comment remplir ma déclaration d’impôts ? Comment scanner un document à l’aide de mon smartphone Rendez-vous le mardi 6 octobre de 10h à 12h30 sur le Parking de la Place Jean IV (devant l'église) à Saillé.Plus d'informations au [téléphone supprimé].",
     "dateDebut": "2026-10-06T08:00:00+00:00",
     "dateFin": "2026-10-06T10:30:00+00:00",
     "categorie": "spectacle",
@@ -2220,13 +2366,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.294674,
     "lieuLongitude": -2.431277,
+    "coordinates": "47.294674,-2.431277",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-01-07T09:58:49+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "permanence-bus-le-lien-acces-aux-droits-et-au-numerique-3869686",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/017d75897e5c48918e1214113da62436.base.image.jpg"
   },
   {
     "uid": "oa-44381514",
@@ -2242,7 +2390,7 @@
     "motsCles": [
       "jeux"
     ],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Parc de la Coulée verte",
     "lieuAdresse": "guerande",
@@ -2251,13 +2399,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.332671,
     "lieuLongitude": -2.424921,
+    "coordinates": "47.332671,-2.424921",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-05-27T13:43:36+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "jeux-sur-lherbe-7492421",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/5e9710c026de4a96ab1cd79a506b4c37.base.image.jpg"
   },
   {
     "uid": "oa-65100078",
@@ -2284,13 +2434,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.331309,
     "lieuLongitude": -2.427584,
+    "coordinates": "47.331309,-2.427584",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-06-19T10:15:22+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "jeux-video-minecraft-655805",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/0aaf08ef74ef479dbc787bcdf0dcc502.base.image.jpg"
   },
   {
     "uid": "oa-79309658",
@@ -2304,7 +2456,7 @@
     "dateFin": "2026-07-22T20:00:00+00:00",
     "categorie": "spectacle",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Place Saint-Aubin",
     "lieuAdresse": "Place Saint-Aubin 44350 Guérande",
@@ -2313,13 +2465,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327836,
     "lieuLongitude": -2.429264,
+    "coordinates": "47.327836,-2.429264",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-07T09:36:53.363000+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "village-vignerons-6309196",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/4d51afdae3444104902aee5760315775.base.image.jpg"
   },
   {
     "uid": "oa-66247208",
@@ -2342,13 +2496,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327775,
     "lieuLongitude": -2.426294,
+    "coordinates": "47.327775,-2.426294",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-20T06:22:23.214000+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "mardis-sportifs-pickleball-et-danse-en-ligne",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/5504cdeb984b410bad4e27085c89041a.base.image.jpg"
   },
   {
     "uid": "oa-58940697",
@@ -2371,13 +2527,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.330239,
     "lieuLongitude": -2.419489,
+    "coordinates": "47.330239,-2.419489",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-20T07:12:13+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "collecte-don-du-sang-5089998",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://cdn.openagenda.com/main/da82c0397aae4a9fad60544dc44773bd.base.image.jpg"
   },
   {
     "uid": "oa-43268826",
@@ -2400,13 +2558,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.331775,
     "lieuLongitude": -2.427564,
+    "coordinates": "47.331775,-2.427564",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-07-20T12:18:22+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "conference-chroniques-oubliees-des-megalithes-de-bretagne-par-la-societe-des-ami",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/eb2a9c00d6024879bb687b84b8f69fc8.base.image.jpg"
   },
   {
     "uid": "oa-3272126",
@@ -2429,13 +2589,15 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327275,
     "lieuLongitude": -2.427157,
+    "coordinates": "47.327275,-2.427157",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-13T07:02:42+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-la-porte-saint-michel-de-fond-en-combles",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/9a6501a2db9a4d7b99d56055c11ed5c4.base.image.jpg"
   },
   {
     "uid": "oa-28131538",
@@ -2458,12 +2620,14 @@
     "lieuCodeInsee": "44069",
     "lieuLatitude": 47.327275,
     "lieuLongitude": -2.427157,
+    "coordinates": "47.327275,-2.427157",
     "lieuDepartement": "Loire-Atlantique",
     "lieuRegion": "Pays de la Loire",
     "dateMaj": "2026-08-13T07:16:06+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-famille-la-porte-saint-michel-dans-tous-les-sens-5494714",
-    "departementNumero": "44"
+    "departementNumero": "44",
+    "image": "https://img.openagenda.com/main/bf509d9b9f3e46dc9bea2ce1e897918b.base.image.jpg"
   }
 ]

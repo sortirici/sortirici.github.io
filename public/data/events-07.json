@@ -1,0 +1,39 @@
+[
+  {
+    "uid": "tours-8VOeSNJRxY",
+    "source": "tours-metropole",
+    "sourceUrl": "https://api.publidata.io/v2/tours-fr/events/8VOeSNJRxY",
+    "licence": "lov2",
+    "titre": "Tours en fête 2026",
+    "descriptionCourte": "Tours en Fête est le rendez-vous annuel du sport et des associations à Tours. La manifestation se tiendra le dimanche 13 septembre 2026 de 10h à 18h au Lac de la Bergeonnerie et au Centre Aquatique du Lac. C'est l'occasion de venir à la rencontre de 250 acteurs locaux associatifs et sportifs. Profit",
+    "descriptionLongue": "Tours en Fête est le rendez-vous annuel du sport et des associations à Tours. La manifestation se tiendra le dimanche 13 septembre 2026 de 10h à 18h au Lac de la Bergeonnerie et au Centre Aquatique du Lac. C'est l'occasion de venir à la rencontre de 250 acteurs locaux associatifs et sportifs. Profitez de cette journée conviviale pour découvrir de nombreuses activités sportives, sociales, citoyennes, ...   L'entrée est libre et toutes les animations sont gratuites !  250 exposants, regroupés par espace :  Espace aquatiqueEspace nautiqueEspace arts martiaux & combatsEspace artistique et gymniqueEspace sports collectifs et de glisseEspace athlétismeEspace nature & cyclesEspace raquettesEspace multisportEspace sport santé Espace parasportEspace cultureEspace défense des droitsEspace éducationEspace santé / bien-êtreEspace solidarité action socialeEspace vie localeEspace partenaires De nombreuses animations à découvrir de 10h à 18h Autour du Lac de la Bergeonnerie : De nombreuses démonstrations ou initiations d'activités sportives et de loisirs, pour petits et grands. Dans le Centre Aquatique du Lac : Natation artistique, fit'palmes, tir sur cible, plongée, nage avec palmes, water-polo ... A découvrir dans l'enceintre de la piscine.   Village Parasport En collaboration avec le Comité Régional Handisport Centre-Val de Loire, Tours en Fête accueille pour la 6ème année un village handisport et sport adapté. Des animations et démonstrations sont organisées tout au long de la journée sur le parking du Lac de la Bergeonnerie, avec une quinzaine d'associations sportives présentes dans le village.   Espace Restauration Rendez-vous sur place pour vous restaurer et vous détendre !  Favorisez les transports en commun pour venir Bus - Ligne 2 \"arrêt lac\" / ligne 5 \"arrêt Fac 2 Lions\" Tramway - Ligne A \"arrêt Fac 2 Lions\" Parking vélos sur place  Parking PMR  Liste des associations présentes  Programme des animations",
+    "dateDebut": "2026-09-13T08:00:00+00:00",
+    "dateFin": "2026-09-13T16:00:00+00:00",
+    "categorie": "exposition",
+    "motsCles": [
+      "Fête",
+      "Activité associative",
+      "Culture",
+      "Sport et Loisir",
+      "Sport"
+    ],
+    "gratuit": true,
+    "prixIndicatif": "Gratuit",
+    "lieuNom": "Lac de la Bergeonnerie",
+    "lieuAdresse": "Accès par l'avenue de Grammont, 37200 Tours",
+    "lieuCodePostal": "07310",
+    "lieuCommune": "Saint-Clément",
+    "lieuCodeInsee": "07226",
+    "lieuLatitude": 47.367506,
+    "lieuLongitude": 0.690487,
+    "coordinates": "47.367506,0.690487",
+    "lieuDepartement": "07",
+    "lieuRegion": "",
+    "dateMaj": "2026-08-19T12:23:18.070Z",
+    "statut": "programme",
+    "modeAcces": "sur_place",
+    "slug": "tours-en-fete-2026-8voesnjrxy",
+    "departementNumero": "07",
+    "image": "https://medias.publidata.io/production/images/images/000/115/419/original/TEF-couvertureFacebook.jpg?1785414137"
+  }
+]

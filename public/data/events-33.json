@@ -17,8 +17,8 @@
       "Bateaux",
       "Garonne"
     ],
-    "gratuit": false,
-    "prixIndicatif": "",
+    "gratuit": true,
+    "prixIndicatif": "Gratuit",
     "lieuNom": "Place de la Bourse, Bordeaux",
     "lieuAdresse": "place de la Bourse",
     "lieuCodePostal": "33000",
@@ -26,13 +26,15 @@
     "lieuCodeInsee": "33063",
     "lieuLatitude": 44.840309,
     "lieuLongitude": -0.56912,
+    "coordinates": "44.840309,-0.56912",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2025-12-23T12:48:12+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "tall-ships-races-2027-7380802",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-20932078",
@@ -60,13 +62,15 @@
     "lieuCodeInsee": "33075",
     "lieuLatitude": 44.883085,
     "lieuLongitude": -0.617237,
+    "coordinates": "44.883085,-0.617237",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-24T13:22:28+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "icones-du-rock",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-57911536",
@@ -98,13 +102,15 @@
     "lieuCodeInsee": "33281",
     "lieuLatitude": 44.844087,
     "lieuLongitude": -0.650939,
+    "coordinates": "44.844087,-0.650939",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-22T10:11:12+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-coquettes-nouveau-spectacle",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-34103446",
@@ -127,13 +133,15 @@
     "lieuCodeInsee": "33119",
     "lieuLatitude": 44.857664,
     "lieuLongitude": -0.530037,
+    "coordinates": "44.857664,-0.530037",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-24T13:32:27+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "molino",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-69775337",
@@ -156,13 +164,15 @@
     "lieuCodeInsee": "33119",
     "lieuLatitude": 44.857664,
     "lieuLongitude": -0.530037,
+    "coordinates": "44.857664,-0.530037",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-24T13:32:27+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "premier-envol-1481316",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-66256334",
@@ -196,13 +206,15 @@
     "lieuCodeInsee": "33281",
     "lieuLatitude": 44.844087,
     "lieuLongitude": -0.650939,
+    "coordinates": "44.844087,-0.650939",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-22T10:05:00+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "cie-nicolas-huchard-credo",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-79941183",
@@ -234,13 +246,15 @@
     "lieuCodeInsee": "33281",
     "lieuLatitude": 44.844087,
     "lieuLongitude": -0.650939,
+    "coordinates": "44.844087,-0.650939",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-03-26T09:56:31+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-prochaine-fois-que-tu-mordras-la-poussiere-152130",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-61493997",
@@ -269,13 +283,15 @@
     "lieuCodeInsee": "33281",
     "lieuLatitude": 44.844087,
     "lieuLongitude": -0.650939,
+    "coordinates": "44.844087,-0.650939",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-22T09:58:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "mur-mure-clovis-cornillac",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-84266317",
@@ -298,13 +314,15 @@
     "lieuCodeInsee": "33119",
     "lieuLatitude": 44.857664,
     "lieuLongitude": -0.530037,
+    "coordinates": "44.857664,-0.530037",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-24T13:32:27+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-gueule-du-loup",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-11597242",
@@ -337,13 +355,15 @@
     "lieuCodeInsee": "33281",
     "lieuLatitude": 44.844087,
     "lieuLongitude": -0.650939,
+    "coordinates": "44.844087,-0.650939",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-22T11:04:34+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-maitres-de-lillusion-7eme-edition",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-13089195",
@@ -366,13 +386,15 @@
     "lieuCodeInsee": "33119",
     "lieuLatitude": 44.857664,
     "lieuLongitude": -0.530037,
+    "coordinates": "44.857664,-0.530037",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-24T13:32:27+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "de-la-morue-1464391",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-54026661",
@@ -405,13 +427,15 @@
     "lieuCodeInsee": "33281",
     "lieuLatitude": 44.844087,
     "lieuLongitude": -0.650939,
+    "coordinates": "44.844087,-0.650939",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-22T09:51:01+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-jalousie-michel-fau",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-43662533",
@@ -434,13 +458,15 @@
     "lieuCodeInsee": "33075",
     "lieuLatitude": 44.883085,
     "lieuLongitude": -0.617237,
+    "coordinates": "44.883085,-0.617237",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-24T13:20:26+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "leau-et-les-reves-5017763",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-16929619",
@@ -473,13 +499,15 @@
     "lieuCodeInsee": "33281",
     "lieuLatitude": 44.844087,
     "lieuLongitude": -0.650939,
+    "coordinates": "44.844087,-0.650939",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-22T09:48:23+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "orchestre-national-bordeaux-aquitaine-beethoven",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-2301207",
@@ -512,13 +540,15 @@
     "lieuCodeInsee": "33281",
     "lieuLatitude": 44.844087,
     "lieuLongitude": -0.650939,
+    "coordinates": "44.844087,-0.650939",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-22T10:59:39+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "cie-antonio-najarro-querencia",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-29535719",
@@ -541,13 +571,15 @@
     "lieuCodeInsee": "33119",
     "lieuLatitude": 44.857664,
     "lieuLongitude": -0.530037,
+    "coordinates": "44.857664,-0.530037",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-25T08:48:39+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "match-dimpro-8687916",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-85781864",
@@ -576,13 +608,15 @@
     "lieuCodeInsee": "33281",
     "lieuLatitude": 44.844087,
     "lieuLongitude": -0.650939,
+    "coordinates": "44.844087,-0.650939",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-22T10:58:15+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "le-cercle-des-poetes-disparus-xavier-gallais",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-32772448",
@@ -614,13 +648,15 @@
     "lieuCodeInsee": "33281",
     "lieuLatitude": 44.844087,
     "lieuLongitude": -0.650939,
+    "coordinates": "44.844087,-0.650939",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-22T09:36:08+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "leila-ka-maldonne-535741",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-64192479",
@@ -648,13 +684,15 @@
     "lieuCodeInsee": "33075",
     "lieuLatitude": 44.883085,
     "lieuLongitude": -0.617237,
+    "coordinates": "44.883085,-0.617237",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-24T13:19:26.468000+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "zoom-461688",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-46875986",
@@ -688,13 +726,15 @@
     "lieuCodeInsee": "33281",
     "lieuLatitude": 44.844087,
     "lieuLongitude": -0.650939,
+    "coordinates": "44.844087,-0.650939",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-22T09:35:23+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "oum-pa-pa-opus-2",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-35992002",
@@ -726,13 +766,15 @@
     "lieuCodeInsee": "33281",
     "lieuLatitude": 44.844087,
     "lieuLongitude": -0.650939,
+    "coordinates": "44.844087,-0.650939",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-03-17T17:06:13+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-troupe-du-jamel-comedy",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-24757580",
@@ -764,13 +806,15 @@
     "lieuCodeInsee": "33281",
     "lieuLatitude": 44.844087,
     "lieuLongitude": -0.650939,
+    "coordinates": "44.844087,-0.650939",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-22T09:34:26+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "cie-haspop-curiosite",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-39990491",
@@ -804,13 +848,15 @@
     "lieuCodeInsee": "33281",
     "lieuLatitude": 44.844087,
     "lieuLongitude": -0.650939,
+    "coordinates": "44.844087,-0.650939",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-22T10:56:53+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "benjamin-millepied-barbara-du-bout-des-levres",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-74478879",
@@ -842,13 +888,15 @@
     "lieuCodeInsee": "33281",
     "lieuLatitude": 44.844087,
     "lieuLongitude": -0.650939,
+    "coordinates": "44.844087,-0.650939",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-22T09:30:54+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "edouard-baer-le-journal-de-merignac",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-18030094",
@@ -882,13 +930,15 @@
     "lieuCodeInsee": "33281",
     "lieuLatitude": 44.844087,
     "lieuLongitude": -0.650939,
+    "coordinates": "44.844087,-0.650939",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-22T09:29:29+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "cie-yeraz-pour-toi-aznavour",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-29470262",
@@ -911,13 +961,15 @@
     "lieuCodeInsee": "33119",
     "lieuLatitude": 44.857664,
     "lieuLongitude": -0.530037,
+    "coordinates": "44.857664,-0.530037",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-24T13:32:27+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "ricochet",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-77678914",
@@ -948,13 +1000,15 @@
     "lieuCodeInsee": "33075",
     "lieuLatitude": 44.883085,
     "lieuLongitude": -0.617237,
+    "coordinates": "44.883085,-0.617237",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-24T13:18:59.452000+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "bulle-des-andes",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-73946251",
@@ -986,13 +1040,15 @@
     "lieuCodeInsee": "33281",
     "lieuLatitude": 44.844087,
     "lieuLongitude": -0.650939,
+    "coordinates": "44.844087,-0.650939",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-22T09:24:45+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-flute-enchantee-wolfgang-amadeus-mozart-opera-2001",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-10901457",
@@ -1024,13 +1080,15 @@
     "lieuCodeInsee": "33281",
     "lieuLatitude": 44.844087,
     "lieuLongitude": -0.650939,
+    "coordinates": "44.844087,-0.650939",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-22T09:22:19+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "xiexin-dance-theatre-in-satie-and-the-rite-of-spring",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-50423807",
@@ -1063,13 +1121,15 @@
     "lieuCodeInsee": "33281",
     "lieuLatitude": 44.844087,
     "lieuLongitude": -0.650939,
+    "coordinates": "44.844087,-0.650939",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-22T10:55:50+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "cirque-alfonse-la-noce-dalfonse",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-16037974",
@@ -1102,13 +1162,15 @@
     "lieuCodeInsee": "33281",
     "lieuLatitude": 44.844087,
     "lieuLongitude": -0.650939,
+    "coordinates": "44.844087,-0.650939",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-22T09:17:55+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "olivier-de-benoist-le-droit-au-bonheur-758028",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-94539192",
@@ -1136,13 +1198,15 @@
     "lieuCodeInsee": "33075",
     "lieuLatitude": 44.883085,
     "lieuLongitude": -0.617237,
+    "coordinates": "44.883085,-0.617237",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-24T13:18:19.390000+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-truite-9501512",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-44528044",
@@ -1175,13 +1239,15 @@
     "lieuCodeInsee": "33281",
     "lieuLatitude": 44.844087,
     "lieuLongitude": -0.650939,
+    "coordinates": "44.844087,-0.650939",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-22T09:16:29+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "secrets-medical-michel-cymes",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-68726316",
@@ -1213,13 +1279,15 @@
     "lieuCodeInsee": "33312",
     "lieuLatitude": 44.948538,
     "lieuLongitude": -0.605271,
+    "coordinates": "44.948538,-0.605271",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-25T06:21:25+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "faites-de-la-musique-285338",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-58410481",
@@ -1233,8 +1301,8 @@
     "dateFin": "2026-11-10T11:00:00+00:00",
     "categorie": "concert",
     "motsCles": [],
-    "gratuit": false,
-    "prixIndicatif": "",
+    "gratuit": true,
+    "prixIndicatif": "Gratuit",
     "lieuNom": "Bibliothèque Mériadeck",
     "lieuAdresse": "85 cours du Maréchal Juin, 33000 Bordeaux",
     "lieuCodePostal": "33000",
@@ -1242,13 +1310,15 @@
     "lieuCodeInsee": "33063",
     "lieuLatitude": 44.835305,
     "lieuLongitude": -0.586878,
+    "coordinates": "44.835305,-0.586878",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-02-04T08:56:59+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "mardis-de-la-musique-sister-rosetta-tharpe-pionniere-du-rock",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-13384995",
@@ -1282,13 +1352,15 @@
     "lieuCodeInsee": "33281",
     "lieuLatitude": 44.844087,
     "lieuLongitude": -0.650939,
+    "coordinates": "44.844087,-0.650939",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-22T09:11:43+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "le-prince-de-madrid-francis-lopez-4171358",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-75023729",
@@ -1316,13 +1388,15 @@
     "lieuCodeInsee": "33075",
     "lieuLatitude": 44.883085,
     "lieuLongitude": -0.617237,
+    "coordinates": "44.883085,-0.617237",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-24T13:17:54+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "toutes-les-choses-geniales-4231461",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-85807187",
@@ -1341,8 +1415,8 @@
       "bordeaux",
       "comedy club"
     ],
-    "gratuit": false,
-    "prixIndicatif": "",
+    "gratuit": true,
+    "prixIndicatif": "Gratuit",
     "lieuNom": "Gina",
     "lieuAdresse": "Place des millésimes",
     "lieuCodePostal": "33300",
@@ -1350,13 +1424,15 @@
     "lieuCodeInsee": "33063",
     "lieuLatitude": 44.863142,
     "lieuLongitude": -0.551159,
+    "coordinates": "44.863142,-0.551159",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-03-03T14:56:55+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "gina-comedy-show-ariane-brodier-vendredi-6-novembre-2026-20h30",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-26167764",
@@ -1379,13 +1455,15 @@
     "lieuCodeInsee": "33119",
     "lieuLatitude": 44.857664,
     "lieuLongitude": -0.530037,
+    "coordinates": "44.857664,-0.530037",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-24T13:32:27+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "calins-poulpe",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-81796099",
@@ -1418,13 +1496,15 @@
     "lieuCodeInsee": "33162",
     "lieuLatitude": 44.894349,
     "lieuLongitude": -0.657542,
+    "coordinates": "44.894349,-0.657542",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-02-13T13:38:49+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-de-lexploitation-le-jardin-de-cyril-maraichage-1340411",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-97018739",
@@ -1443,8 +1523,8 @@
       "enfant",
       "quinconces"
     ],
-    "gratuit": false,
-    "prixIndicatif": "",
+    "gratuit": true,
+    "prixIndicatif": "Gratuit",
     "lieuNom": "Place des Quinconces",
     "lieuAdresse": "Place des Quinconces",
     "lieuCodePostal": "33000",
@@ -1452,13 +1532,15 @@
     "lieuCodeInsee": "33063",
     "lieuLatitude": 44.845384,
     "lieuLongitude": -0.575538,
+    "coordinates": "44.845384,-0.575538",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-02-16T15:06:20+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "feria-del-placer-del-otono-de-burdeos",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-91461116",
@@ -1488,13 +1570,15 @@
     "lieuCodeInsee": "33063",
     "lieuLatitude": 44.856886,
     "lieuLongitude": -0.579249,
+    "coordinates": "44.856886,-0.579249",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-22T08:52:20+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-phaze-speaker-louis-king-kong-blues-2943745",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-4385388",
@@ -1525,13 +1609,15 @@
     "lieuCodeInsee": "33063",
     "lieuLatitude": 44.835419,
     "lieuLongitude": -0.579497,
+    "coordinates": "44.835419,-0.579497",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-26T13:20:12+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-a-2-voix-jean-dupasrene-buthaud",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-77463136",
@@ -1560,13 +1646,15 @@
     "lieuCodeInsee": "33063",
     "lieuLatitude": 44.838957,
     "lieuLongitude": -0.579709,
+    "coordinates": "44.838957,-0.579709",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-26T13:20:12+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "rencontre-histoires-de-peaux",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-16801708",
@@ -1598,13 +1686,15 @@
     "lieuCodeInsee": "33200",
     "lieuLatitude": 44.872105,
     "lieuLongitude": -0.676166,
+    "coordinates": "44.872105,-0.676166",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-23T12:43:21+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "land-art-tableau-vegetal",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-45025504",
@@ -1627,13 +1717,15 @@
     "lieuCodeInsee": "33522",
     "lieuLatitude": 44.806452,
     "lieuLongitude": -0.591183,
+    "coordinates": "44.806452,-0.591183",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-25T14:24:56+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "exposition-photos-voyage-entre-bordeaux-et-le-bassin-darcachon-en-1845",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-90063007",
@@ -1655,8 +1747,8 @@
       "Lingala",
       "MITANO"
     ],
-    "gratuit": false,
-    "prixIndicatif": "",
+    "gratuit": true,
+    "prixIndicatif": "Gratuit",
     "lieuNom": "Eglise Saint Amand à Caudéran",
     "lieuAdresse": "173 av Louis Barthou Cauderan, 33200 Bordeaux",
     "lieuCodePostal": "33200",
@@ -1664,13 +1756,15 @@
     "lieuCodeInsee": "33063",
     "lieuLatitude": 44.852463,
     "lieuLongitude": -0.615885,
+    "coordinates": "44.852463,-0.615885",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-03-30T13:05:47+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "festifiap-2026-mitano-cinq",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-43716969",
@@ -1700,13 +1794,15 @@
     "lieuCodeInsee": "33063",
     "lieuLatitude": 44.838957,
     "lieuLongitude": -0.579709,
+    "coordinates": "44.838957,-0.579709",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-26T16:39:26+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "exposition-morceaux-choisis-2",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-82055792",
@@ -1739,13 +1835,15 @@
     "lieuCodeInsee": "33162",
     "lieuLatitude": 44.885467,
     "lieuLongitude": -0.648694,
+    "coordinates": "44.885467,-0.648694",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-02-13T13:50:39+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-de-lexploitation-herbajo-plantes-aromatiques-medicinales-et-fleurs-233084",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-13188390",
@@ -1773,13 +1871,15 @@
     "lieuCodeInsee": "33063",
     "lieuLatitude": 44.897809,
     "lieuLongitude": -0.571481,
+    "coordinates": "44.897809,-0.571481",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-02-23T09:17:04+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "triatlon-de-burdeos",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-48674783",
@@ -1810,13 +1910,15 @@
     "lieuCodeInsee": "33063",
     "lieuLatitude": 44.896292,
     "lieuLongitude": -0.565801,
+    "coordinates": "44.896292,-0.565801",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-03-18T14:25:17+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "triathlon-de-bordeaux-8916769",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-77928852",
@@ -1835,8 +1937,8 @@
       "Musique",
       "Jeux"
     ],
-    "gratuit": false,
-    "prixIndicatif": "",
+    "gratuit": true,
+    "prixIndicatif": "Gratuit",
     "lieuNom": "Place de la Commune de Paris (Place de du marché)",
     "lieuAdresse": "Place de la commune de Paris, 33530 Bassens",
     "lieuCodePostal": "33530",
@@ -1844,13 +1946,15 @@
     "lieuCodeInsee": "33032",
     "lieuLatitude": 44.902997,
     "lieuLongitude": -0.512384,
+    "coordinates": "44.902997,-0.512384",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-23T15:37:18+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-halte-bassenaise",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   },
   {
     "uid": "oa-6058697",
@@ -1859,7 +1963,7 @@
     "licence": "lov2",
     "titre": "PIQUE NIQUE",
     "descriptionCourte": "Le Comité Mairie Bourg organise son pique nique annuel le dimanche 23 août à 12 h.",
-    "descriptionLongue": "Le Comité Mairie Bourg organise son pique nique annuel le dimanche 23 août à 12 h à la Plaine des Sports de Bègles (Bègles Plage) avec animations l'après-midi.RESERVATION OBLIGATOIREMerci de bien vouloir contater le Comité au 07.78.38.06.21 pour plus de renseignements (prix etc)",
+    "descriptionLongue": "Le Comité Mairie Bourg organise son pique nique annuel le dimanche 23 août à 12 h à la Plaine des Sports de Bègles (Bègles Plage) avec animations l'après-midi.RESERVATION OBLIGATOIREMerci de bien vouloir contater le Comité au [téléphone supprimé] pour plus de renseignements (prix etc)",
     "dateDebut": "2026-08-23T10:00:00+00:00",
     "dateFin": "2026-08-23T16:00:00+00:00",
     "categorie": "spectacle",
@@ -1873,12 +1977,14 @@
     "lieuCodeInsee": "33039",
     "lieuLatitude": 44.800787,
     "lieuLongitude": -0.538819,
+    "coordinates": "44.800787,-0.538819",
     "lieuDepartement": "Gironde",
     "lieuRegion": "Nouvelle-Aquitaine",
     "dateMaj": "2026-06-22T09:22:47+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "pique-nique-4099798",
-    "departementNumero": "33"
+    "departementNumero": "33",
+    "image": ""
   }
 ]

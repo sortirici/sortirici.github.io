@@ -26,13 +26,15 @@
     "lieuCodeInsee": "45188",
     "lieuLatitude": 48.002274,
     "lieuLongitude": 2.085658,
+    "coordinates": "48.002274,2.085658",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-05-21T14:10:14+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "vivre-le-brame-du-cerf-5815723",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/38fc92d7095848ed90ed72004886e61f.base.image.jpg"
   },
   {
     "uid": "oa-34395480",
@@ -60,13 +62,15 @@
     "lieuCodeInsee": "45232",
     "lieuLatitude": 47.875407,
     "lieuLongitude": 1.905171,
+    "coordinates": "47.875407,1.905171",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-05-26T06:17:36+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-ateliers-de-lete-a-olivet-methodologie-collegiens-5266634",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/cd8869be1ff14e1c81c6f9be390ca2ea.base.image.jpg"
   },
   {
     "uid": "oa-20333901",
@@ -98,13 +102,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.898117,
     "lieuLongitude": 1.913644,
+    "coordinates": "47.898117,1.913644",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-05-26T06:27:28+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "bal-swing-1877791",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/67ddd2d8a5eb466c84cd3426cb2817b5.base.image.jpg"
   },
   {
     "uid": "oa-52638100",
@@ -135,13 +141,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902734,
     "lieuLongitude": 1.908607,
+    "coordinates": "47.902734,1.908607",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-05-29T06:15:46+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "yoga-nidra-9199679",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/1ee836e055c84024beb178f2490e89ad.base.image.jpg"
   },
   {
     "uid": "oa-518893",
@@ -175,13 +183,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.834413,
     "lieuLongitude": 1.936815,
+    "coordinates": "47.834413,1.936815",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-02-27T15:47:02+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "courses-de-lindien-semi-marathon-10km-5km-edition-2026-50e-edition",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/e4b7d80341d44b2fb1f16c03a1e6e378.base.image.jpg"
   },
   {
     "uid": "oa-67735503",
@@ -208,13 +218,15 @@
     "lieuCodeInsee": "45147",
     "lieuLatitude": 47.924479,
     "lieuLongitude": 1.917631,
+    "coordinates": "47.924479,1.917631",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2025-12-04T14:24:29+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "don-de-sang-2616648",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/a31a6eba65b34e048c6a3e06eea3a9e1.base.image.jpg"
   },
   {
     "uid": "oa-47836219",
@@ -241,13 +253,15 @@
     "lieuCodeInsee": "45147",
     "lieuLatitude": 47.924479,
     "lieuLongitude": 1.917631,
+    "coordinates": "47.924479,1.917631",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2025-12-04T14:27:09+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "don-de-sang-1704529",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/e82c881ba6ed418081106a0a799e2d2d.base.image.jpg"
   },
   {
     "uid": "oa-48404297",
@@ -274,13 +288,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902848,
     "lieuLongitude": 1.902698,
+    "coordinates": "47.902848,1.902698",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2025-12-08T15:54:49+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "stage-sous-locean",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/e5ba93a043894ae8b6708a4432bacdb0.base.image.jpg"
   },
   {
     "uid": "oa-98753652",
@@ -310,13 +326,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902848,
     "lieuLongitude": 1.902698,
+    "coordinates": "47.902848,1.902698",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2025-12-09T09:31:23+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "stage-abracadabra",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/e54680613f3f47e398aeeae0c03d9a0b.base.image.jpg"
   },
   {
     "uid": "oa-84913642",
@@ -346,13 +364,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902848,
     "lieuLongitude": 1.902698,
+    "coordinates": "47.902848,1.902698",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2025-12-09T09:31:27+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "stage-vive-la-colo",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/609850c3355a4504a2b075af6723af9f.base.image.jpg"
   },
   {
     "uid": "oa-38190409",
@@ -381,13 +401,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902848,
     "lieuLongitude": 1.902698,
+    "coordinates": "47.902848,1.902698",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2025-12-09T09:31:40+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "stage-arthur-et-la-bande-des-pas-tres-pret",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/5e922420969346d29b6ff8a2062f984e.base.image.jpg"
   },
   {
     "uid": "oa-53596729",
@@ -418,13 +440,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902848,
     "lieuLongitude": 1.902698,
+    "coordinates": "47.902848,1.902698",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2025-12-09T09:32:46+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "stage-bienvenue-a-broadway",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/f206263a39254784b8035f22aa8c5d9f.base.image.jpg"
   },
   {
     "uid": "oa-5737014",
@@ -453,13 +477,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902848,
     "lieuLongitude": 1.902698,
+    "coordinates": "47.902848,1.902698",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2025-12-09T09:32:50+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "stage-detective-and-cie",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/1901c20c3247485c8deac09be8fd8b62.base.image.jpg"
   },
   {
     "uid": "oa-46137263",
@@ -492,13 +518,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902848,
     "lieuLongitude": 1.902698,
+    "coordinates": "47.902848,1.902698",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2025-12-09T10:10:29+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "stage-moi-quand-je-serais-grand",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/5b49e18a65e547968f16fb23c8e9ccc1.base.image.jpg"
   },
   {
     "uid": "oa-7126500",
@@ -527,13 +555,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902518,
     "lieuLongitude": 1.892953,
+    "coordinates": "47.902518,1.892953",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-08T08:36:07+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "ateliers-initiation-danses-trad",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/d7be74ef4444449785dbbbf2274d46b6.base.image.jpg"
   },
   {
     "uid": "oa-18015140",
@@ -562,13 +592,15 @@
     "lieuCodeInsee": "45235",
     "lieuLatitude": 47.941813,
     "lieuLongitude": 1.818231,
+    "coordinates": "47.941813,1.818231",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-11T12:57:46+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-soirees-de-montaigu-2026",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/0acb9a3910154006ad2809e9ef46d5a2.base.image.jpg"
   },
   {
     "uid": "oa-13884329",
@@ -602,13 +634,15 @@
     "lieuCodeInsee": "45147",
     "lieuLatitude": 47.931435,
     "lieuLongitude": 1.906399,
+    "coordinates": "47.931435,1.906399",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-12T13:23:26+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-estivales-2026-cinema-plein-air-alice-au-pays-des-merveilles",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/e665ef3aff3242ccb6d923ea623e3dc3.base.image.jpg"
   },
   {
     "uid": "oa-66875611",
@@ -637,13 +671,15 @@
     "lieuCodeInsee": "45147",
     "lieuLatitude": 47.924975,
     "lieuLongitude": 1.920217,
+    "coordinates": "47.924975,1.920217",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-15T09:01:45+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-estivales-2026-cabaret-dimprovisation-par-lassociation-mefisto",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/bbcfe8a5e5d34915bc9d11170ed0ff5c.base.image.jpg"
   },
   {
     "uid": "oa-91246161",
@@ -673,13 +709,15 @@
     "lieuCodeInsee": "45147",
     "lieuLatitude": 47.924975,
     "lieuLongitude": 1.920217,
+    "coordinates": "47.924975,1.920217",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-15T09:57:04+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-estivales-2026-concert-de-musiques-folkloriques-tsiganes",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/d96dfec8f3944613a5d9497f02cad3c7.base.image.jpg"
   },
   {
     "uid": "oa-59138576",
@@ -702,13 +740,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.899475,
     "lieuLongitude": 1.915665,
+    "coordinates": "47.899475,1.915665",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-16T12:16:39+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "promenade-sur-la-terrasse-louis-xi-9025775",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/7f9d5d7424864ee8b8e679f7305b4027.base.image.jpg"
   },
   {
     "uid": "oa-23707963",
@@ -731,13 +771,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902511,
     "lieuLongitude": 1.903861,
+    "coordinates": "47.902511,1.903861",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-17T15:09:07+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-de-la-porte-bannier-2500661",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/4caae9498dd344fa8d4f02a4a7d6db7f.base.image.jpg"
   },
   {
     "uid": "oa-56606886",
@@ -771,13 +813,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.847358,
     "lieuLongitude": 1.937732,
+    "coordinates": "47.847358,1.937732",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-18T08:38:03+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "slow-electro-festival-9161552",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/40c6edce98d14c82b4da3c6a8ae6dc62.base.image.jpg"
   },
   {
     "uid": "oa-75038478",
@@ -805,13 +849,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902254,
     "lieuLongitude": 1.908692,
+    "coordinates": "47.902254,1.908692",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-18T15:09:12+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "matinee-du-piano-hammerklavier-recital-de-piano-de-filippo-gorini-1er-prix-du-co",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/46a411a4f2c745ff869c0f86cf037ba4.base.image.jpg"
   },
   {
     "uid": "oa-75118495",
@@ -834,13 +880,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.904396,
     "lieuLongitude": 1.913351,
+    "coordinates": "47.904396,1.913351",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-22T10:50:50+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "short-message-service-suzanne-de-baecque-joaquim-fossi",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/d4c06d6cb9dc43089a44af349fb88808.base.image.jpg"
   },
   {
     "uid": "oa-41063166",
@@ -874,13 +922,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.901038,
     "lieuLongitude": 1.905924,
+    "coordinates": "47.901038,1.905924",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-22T10:54:18+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "animations-journees-du-patrimoine-2750399",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/54293ea0d189446c879a67c57932338f.base.image.jpg"
   },
   {
     "uid": "oa-73487204",
@@ -908,13 +958,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.898902,
     "lieuLongitude": 1.908714,
+    "coordinates": "47.898902,1.908714",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-22T10:59:02+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "one-shot-6667103",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/8df4eebb7a51475581afb3db964373fa.base.image.jpg"
   },
   {
     "uid": "oa-8993479",
@@ -937,13 +989,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.904396,
     "lieuLongitude": 1.913351,
+    "coordinates": "47.904396,1.913351",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-22T11:02:13+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "loto-3000-collectif-es",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/dfef0203837345ae854c72cad3725b04.base.image.jpg"
   },
   {
     "uid": "oa-69064794",
@@ -966,13 +1020,15 @@
     "lieuCodeInsee": "45284",
     "lieuLatitude": 47.908659,
     "lieuLongitude": 1.976083,
+    "coordinates": "47.908659,1.976083",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-22T13:39:35+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "ostinato-compagnie-akoreacro-alexandre-markoff",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/9cdf2ed214d54f0287c513ed3f8e84f9.base.image.jpg"
   },
   {
     "uid": "oa-62618228",
@@ -995,13 +1051,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.908257,
     "lieuLongitude": 1.906922,
+    "coordinates": "47.908257,1.906922",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-22T15:20:12+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-gratuite-du-parcours",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/04e338a8f0704dd2a06bafd099fcac0a.base.image.jpg"
   },
   {
     "uid": "oa-13742567",
@@ -1029,13 +1087,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.908385,
     "lieuLongitude": 1.907382,
+    "coordinates": "47.908385,1.907382",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-23T09:50:54+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "aria-8765633",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/b3fefe462dbe4a1394c18c7abe5f85ff.base.image.jpg"
   },
   {
     "uid": "oa-47269173",
@@ -1064,13 +1124,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.898902,
     "lieuLongitude": 1.908714,
+    "coordinates": "47.898902,1.908714",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-23T10:59:49+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "trio-aminu-4256871",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/6a0cab13f81b4ef78ce7d6765fd65948.base.image.jpg"
   },
   {
     "uid": "oa-14258341",
@@ -1093,13 +1155,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.904396,
     "lieuLongitude": 1.913351,
+    "coordinates": "47.904396,1.913351",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-23T15:20:38+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-memoire-de-ma-mere-lorchestre-dhommes-ochestres",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/cf7ca68c26314ccd9055a4b9ea643592.base.image.jpg"
   },
   {
     "uid": "oa-65379203",
@@ -1122,13 +1186,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.904396,
     "lieuLongitude": 1.913351,
+    "coordinates": "47.904396,1.913351",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-24T06:50:39+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-noce-dalfonse-cirque-alfonse",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/821b0318ac4941bb9dc1150a6ba5c845.base.image.jpg"
   },
   {
     "uid": "oa-24728440",
@@ -1155,13 +1221,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.904396,
     "lieuLongitude": 1.913351,
+    "coordinates": "47.904396,1.913351",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-24T06:51:23+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "plonger",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/95fddc1d30734ae891447a0ea2a595b0.base.image.jpg"
   },
   {
     "uid": "oa-98138257",
@@ -1189,13 +1257,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.904396,
     "lieuLongitude": 1.913351,
+    "coordinates": "47.904396,1.913351",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-24T06:51:34+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "finale-du-17e-concours-international-de-piano-dorleans-ensemble-intercontemporai",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/f0df4868d6b843739b7fba52c869fc46.base.image.jpg"
   },
   {
     "uid": "oa-53657680",
@@ -1218,13 +1288,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.904396,
     "lieuLongitude": 1.913351,
+    "coordinates": "47.904396,1.913351",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-24T06:51:54+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "le-mobile-la-marche-du-crabe",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/0dd26bdf9be5459996091a160d465ffa.base.image.jpg"
   },
   {
     "uid": "oa-59295220",
@@ -1250,13 +1322,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.904396,
     "lieuLongitude": 1.913351,
+    "coordinates": "47.904396,1.913351",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-24T14:23:41+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "fora",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/eb3dc6b3d3f743d7aee922ce327c1cbe.base.image.jpg"
   },
   {
     "uid": "oa-96138750",
@@ -1281,13 +1355,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.886766,
     "lieuLongitude": 1.910645,
+    "coordinates": "47.886766,1.910645",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-25T07:34:05+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "ping-pong-book-1588507",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/7331f008378c413583c340bad7bcf5c4.base.image.jpg"
   },
   {
     "uid": "oa-1701774",
@@ -1312,13 +1388,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.886766,
     "lieuLongitude": 1.910645,
+    "coordinates": "47.886766,1.910645",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-25T07:34:07+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "ping-pong-book-5495682",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/733c4742a8244e8dbbe42238748bb526.base.image.jpg"
   },
   {
     "uid": "oa-4682080",
@@ -1341,13 +1419,15 @@
     "lieuCodeInsee": "45089",
     "lieuLatitude": 47.891873,
     "lieuLongitude": 2.029297,
+    "coordinates": "47.891873,2.029297",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-25T07:51:50+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "clic-et-declic-2678534",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/9954cac2599e456dbb012cae59990aaf.base.image.jpg"
   },
   {
     "uid": "oa-57373685",
@@ -1374,13 +1454,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.904396,
     "lieuLongitude": 1.913351,
+    "coordinates": "47.904396,1.913351",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-25T10:17:56+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "sahravane-souad-asla-and-omar-sosa",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/1f74bb510d2c437991abb0eb19a310ae.base.image.jpg"
   },
   {
     "uid": "oa-48217044",
@@ -1409,13 +1491,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.904396,
     "lieuLongitude": 1.913351,
+    "coordinates": "47.904396,1.913351",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-25T14:00:40+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "luttes",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/c8ff6250c47f458ba0f4636c07f78902.base.image.jpg"
   },
   {
     "uid": "oa-85802492",
@@ -1440,13 +1524,15 @@
     "lieuCodeInsee": "45286",
     "lieuLatitude": 47.896754,
     "lieuLongitude": 1.935676,
+    "coordinates": "47.896754,1.935676",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-26T10:26:21+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "lhorizon-dorleans",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/f90bde0dd28a4d6fb96876bc23461563.base.image.jpg"
   },
   {
     "uid": "oa-46977980",
@@ -1469,13 +1555,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.889408,
     "lieuLongitude": 1.906131,
+    "coordinates": "47.889408,1.906131",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-26T11:32:35+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "quatuor-bela-schubert-janacek-britten",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/3732cd7833e3450fa04c4e132fadd964.base.image.jpg"
   },
   {
     "uid": "oa-97921116",
@@ -1505,13 +1593,15 @@
     "lieuCodeInsee": "45284",
     "lieuLatitude": 47.91973,
     "lieuLongitude": 1.991163,
+    "coordinates": "47.91973,1.991163",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-26T14:45:58+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "soigneur-en-herbe-aout",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/4dbe97bc21af41d2a0bd794807e1661e.base.image.jpg"
   },
   {
     "uid": "oa-55992725",
@@ -1539,13 +1629,15 @@
     "lieuCodeInsee": "45284",
     "lieuLatitude": 47.91973,
     "lieuLongitude": 1.991163,
+    "coordinates": "47.91973,1.991163",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-26T14:46:29+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "balade-daout-avec-les-zanes",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/c68af905a03c4db999f3a1466ff42bb4.base.image.jpg"
   },
   {
     "uid": "oa-63359908",
@@ -1573,13 +1665,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902254,
     "lieuLongitude": 1.908692,
+    "coordinates": "47.902254,1.908692",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-29T14:57:28+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "matinees-du-piano-souffles-du-nord-recital-de-piano-danael-bonnet",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/034efed9e8d94f0eae84703dfe78bf06.base.image.jpg"
   },
   {
     "uid": "oa-19554615",
@@ -1608,13 +1702,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.898902,
     "lieuLongitude": 1.908714,
+    "coordinates": "47.898902,1.908714",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-29T14:58:01+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "histoires-en-vadrouille-4946321",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/fa75fa9eebb44ef284855de4915049d2.base.image.jpg"
   },
   {
     "uid": "oa-84528583",
@@ -1642,13 +1738,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.898902,
     "lieuLongitude": 1.908714,
+    "coordinates": "47.898902,1.908714",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-29T14:58:03+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "code-en-bois",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/8546d24e690947f9874f0ff2adce17d9.base.image.jpg"
   },
   {
     "uid": "oa-57362853",
@@ -1677,13 +1775,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.904396,
     "lieuLongitude": 1.913351,
+    "coordinates": "47.904396,1.913351",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-29T14:58:09+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "brad-mehldau-103123",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/4f1b2cd6cd9d4f679a4e7688c937375e.base.image.jpg"
   },
   {
     "uid": "oa-95494802",
@@ -1709,13 +1809,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.904396,
     "lieuLongitude": 1.913351,
+    "coordinates": "47.904396,1.913351",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-29T14:58:14+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "xxl-sofiane-chalal",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/0cb4ec9c8fc44824b3f7ccc91111b455.base.image.jpg"
   },
   {
     "uid": "oa-79008811",
@@ -1741,13 +1843,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.904396,
     "lieuLongitude": 1.913351,
+    "coordinates": "47.904396,1.913351",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-29T15:01:47+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "abimes-linda-hayford-8044594",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/f11e1583c7cb4407ad450eb3e6ee1da0.base.image.jpg"
   },
   {
     "uid": "oa-27309952",
@@ -1773,13 +1877,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.904396,
     "lieuLongitude": 1.913351,
+    "coordinates": "47.904396,1.913351",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-29T15:01:51+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "youn-sun-nah-nit-and-dogs-premiere-partie",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/e006dc12268d4e7c882250d2e7da1ff9.base.image.jpg"
   },
   {
     "uid": "oa-7335660",
@@ -1808,13 +1914,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902254,
     "lieuLongitude": 1.908692,
+    "coordinates": "47.902254,1.908692",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-30T08:43:09+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "matinees-du-piano-etudes-recital-de-piano-de-zhonghua-wei",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/81a4a92faae34d9bba613f7b759b863a.base.image.jpg"
   },
   {
     "uid": "oa-86027590",
@@ -1846,13 +1954,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.900664,
     "lieuLongitude": 1.913619,
+    "coordinates": "47.900664,1.913619",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-30T13:35:18+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "cafe-reparation-numerique-2431893",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/9a69198d3e9c4add878520f4f9a0d030.base.image.jpg"
   },
   {
     "uid": "oa-29851381",
@@ -1866,7 +1976,7 @@
     "dateFin": "2026-07-21T17:30:00+00:00",
     "categorie": "spectacle",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "L' Alliage",
     "lieuAdresse": "rue Michel Roques 45160 OLIVET",
@@ -1875,13 +1985,15 @@
     "lieuCodeInsee": "45232",
     "lieuLatitude": 47.863753,
     "lieuLongitude": 1.892426,
+    "coordinates": "47.863753,1.892426",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-30T13:42:38+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "collecte-de-sang-9182493",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/be54650e90684721ab7786d3a7d2025e.base.image.jpg"
   },
   {
     "uid": "oa-58586146",
@@ -1890,7 +2002,7 @@
     "licence": "lov2",
     "titre": "Visite des coulisses d'Ostinato - COMPAGNIE AKOREACRO",
     "descriptionCourte": "La compagnie Akoreacro installe son chapiteau à Saint-Jean de Braye pour Ostinato ! Découvrez les coulisses du cirque et assistez à une partie des échauffements des artistes.",
-    "descriptionLongue": "Découvrez le chapiteau et le campement Quand la compagnie AKOREACRO se déplace, elle ne passe pas inaperçue ! Avec (seulement) 2 semi-remorques, 15 caravanes et une vingtaine de personnes en tournée, elle sillonne l’Europe, à la rencontre de nouveaux publics. Depuis sa création il y a 20 ans, la compagnie défend un cirque nouveau, populaire et acrobatique. Ce collectif d’artistes, expérimentateurs loufoques, rêveurs, interprètes virtuoses, se mesure à lui-même et aux limites du réalisable.&nbsp; La compagnie propose un cirque adressé à tous où le chapiteau devient un outil artistique à part entière. Un objet fédérateur, terreau de la création. C’est un mode de fonctionnement où chacun apporte ses compétences et ses envies. Un chaos ordonné par l’humour, l’amour, les relations humaines…&nbsp; Après la visite du campement et du chapiteau, les artistes vous proposeront d’assister à une partie de leur échauffement._Sam. 03 oct. 16h30, sam 10 oct. 16h30Tarifs 5€Durée 45 minutes_À noter | En participant à l'atelier, vous bénéficiez du tarif adhérent pour le spectacle Ostinato. Contactez la billetterie pour réserver votre place : 02 38 62 75 30 ou billetterie@theatredorleans.fr.",
+    "descriptionLongue": "Découvrez le chapiteau et le campement Quand la compagnie AKOREACRO se déplace, elle ne passe pas inaperçue ! Avec (seulement) 2 semi-remorques, 15 caravanes et une vingtaine de personnes en tournée, elle sillonne l’Europe, à la rencontre de nouveaux publics. Depuis sa création il y a 20 ans, la compagnie défend un cirque nouveau, populaire et acrobatique. Ce collectif d’artistes, expérimentateurs loufoques, rêveurs, interprètes virtuoses, se mesure à lui-même et aux limites du réalisable.&nbsp; La compagnie propose un cirque adressé à tous où le chapiteau devient un outil artistique à part entière. Un objet fédérateur, terreau de la création. C’est un mode de fonctionnement où chacun apporte ses compétences et ses envies. Un chaos ordonné par l’humour, l’amour, les relations humaines…&nbsp; Après la visite du campement et du chapiteau, les artistes vous proposeront d’assister à une partie de leur échauffement._Sam. 03 oct. 16h30, sam 10 oct. 16h30Tarifs 5€Durée 45 minutes_À noter | En participant à l'atelier, vous bénéficiez du tarif adhérent pour le spectacle Ostinato. Contactez la billetterie pour réserver votre place : [téléphone supprimé] ou [email supprimé]",
     "dateDebut": "2026-10-03T14:30:00+00:00",
     "dateFin": "2026-10-03T15:15:00+00:00",
     "categorie": "exposition",
@@ -1909,13 +2021,15 @@
     "lieuCodeInsee": "45284",
     "lieuLatitude": 47.908659,
     "lieuLongitude": 1.976083,
+    "coordinates": "47.908659,1.976083",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-01T07:43:08+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-des-coulisses-dostinato-compagnie-akoreacro",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/e80663a7846b4459903da7e5bcac4ac3.base.image.jpg"
   },
   {
     "uid": "oa-21692172",
@@ -1942,13 +2056,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902112,
     "lieuLongitude": 1.904339,
+    "coordinates": "47.902112,1.904339",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-01T12:39:26+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-500-ans-de-la-renaissance-a-orleans",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/c96ff5bdb4ec44368000b1313371218c.base.image.jpg"
   },
   {
     "uid": "oa-67004500",
@@ -1973,13 +2089,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.882167,
     "lieuLongitude": 1.899806,
+    "coordinates": "47.882167,1.899806",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-02T15:24:48+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "yatra-kundalini-activation",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/675bf2d87d404dc9929bd2e9754bad9a.base.image.jpg"
   },
   {
     "uid": "oa-2000931",
@@ -2006,13 +2124,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902112,
     "lieuLongitude": 1.904339,
+    "coordinates": "47.902112,1.904339",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-03T10:39:34+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "orleans-la-capitale-du-sucre-des-antilles",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/50589e6024d245939f457f4801040a6e.base.image.jpg"
   },
   {
     "uid": "oa-86410057",
@@ -2039,13 +2159,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902112,
     "lieuLongitude": 1.904339,
+    "coordinates": "47.902112,1.904339",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-03T14:00:29+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "a-la-decouverte-du-vieil-orleans-visite-en-allemand",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/5aecbe30fe3e482c96238102d9b187e9.base.image.jpg"
   },
   {
     "uid": "oa-92843268",
@@ -2054,7 +2176,7 @@
     "licence": "lov2",
     "titre": "Soirée jeux à la ludothèque de Fleury-les-Aubrais",
     "descriptionCourte": "\"Ce soir, on joue !\" revient le vendredi 16 octobre pour une nouvelle saison et continue à vous offrir des soirées 100% plaisir et découvertes !",
-    "descriptionLongue": "DES JEUX, DE LA BONNE HUMEUR, DU FUN !! Vendredi 16 octobre à 20h, ludothécaires, bibliothécaires et bénévoles vous font découvrir des jeux de plateaux pour novices, initiés et experts. Il y en a pour tous les goûts et tous les niveaux.La thématique de la soirée sera annoncée prochainement. Événement à partir de 14 ans, à la ludothèque Anaïs et Thibault.Inscription à partir du vendredi 18 septembre au 02 38 47 79 20, sur place ou en ligne : https://bibliotheques.fleurylesaubrais.fr/",
+    "descriptionLongue": "DES JEUX, DE LA BONNE HUMEUR, DU FUN !! Vendredi 16 octobre à 20h, ludothécaires, bibliothécaires et bénévoles vous font découvrir des jeux de plateaux pour novices, initiés et experts. Il y en a pour tous les goûts et tous les niveaux.La thématique de la soirée sera annoncée prochainement. Événement à partir de 14 ans, à la ludothèque Anaïs et Thibault.Inscription à partir du vendredi 18 septembre au [téléphone supprimé], sur place ou en ligne : https://bibliotheques.fleurylesaubrais.fr/",
     "dateDebut": "2026-10-16T18:00:00+00:00",
     "dateFin": "2026-10-16T21:00:00+00:00",
     "categorie": "enfants",
@@ -2075,13 +2197,15 @@
     "lieuCodeInsee": "45147",
     "lieuLatitude": 47.925926,
     "lieuLongitude": 1.913392,
+    "coordinates": "47.925926,1.913392",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-06T13:01:36+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "soiree-jeux-a-la-ludotheque-de-fleury-les-aubrais",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/5b8a635fee0d46f98ed50b932a2bda20.base.image.jpg"
   },
   {
     "uid": "oa-19956046",
@@ -2106,13 +2230,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.90743,
     "lieuLongitude": 1.900403,
+    "coordinates": "47.90743,1.900403",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-07T09:28:03+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "creons-ensemble-notre-ile-animal-crossing-new-horizons-4167859",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/2030df968db74a79b412d3ec9582a752.base.image.jpg"
   },
   {
     "uid": "oa-15124558",
@@ -2137,13 +2263,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.90743,
     "lieuLongitude": 1.900403,
+    "coordinates": "47.90743,1.900403",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-07T09:29:14+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "ltelier-en-libre-acces-3453544",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/b4e68b41992041159a8c1fe62519feee.base.image.jpg"
   },
   {
     "uid": "oa-13390186",
@@ -2168,13 +2296,15 @@
     "lieuCodeInsee": "45286",
     "lieuLatitude": 47.896754,
     "lieuLongitude": 1.935676,
+    "coordinates": "47.896754,1.935676",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-07T09:30:47+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "blind-test-musical-estival",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/ccdd41d77725494cb189367e36497484.base.image.jpg"
   },
   {
     "uid": "oa-35512782",
@@ -2199,13 +2329,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.90743,
     "lieuLongitude": 1.900403,
+    "coordinates": "47.90743,1.900403",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-07T09:33:16+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "casque-vr-maestro",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/777ff692c058484485aaaad11b88d26e.base.image.jpg"
   },
   {
     "uid": "oa-27591735",
@@ -2230,13 +2362,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.90743,
     "lieuLongitude": 1.900403,
+    "coordinates": "47.90743,1.900403",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-07T09:34:51+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "creons-ensemble-notre-ile-animal-crossing-new-horizons-1828441",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/420b3cf920de4fb085f55b5249ca9eed.base.image.jpg"
   },
   {
     "uid": "oa-89066980",
@@ -2261,13 +2395,15 @@
     "lieuCodeInsee": "45286",
     "lieuLatitude": 47.896754,
     "lieuLongitude": 1.935676,
+    "coordinates": "47.896754,1.935676",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-07T09:35:54+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "bbtq-battle-blind-test-quizz",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/17469c4a997641b98433f03f4e0e01e2.base.image.jpg"
   },
   {
     "uid": "oa-48314005",
@@ -2292,13 +2428,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.834949,
     "lieuLongitude": 1.929125,
+    "coordinates": "47.834949,1.929125",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-07T09:36:09+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "jeux-video-decouvertes-des-vacances-5142240",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/ef233fb3065e40c8beeeef4e656a1fe1.base.image.jpg"
   },
   {
     "uid": "oa-21483781",
@@ -2323,13 +2461,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.90743,
     "lieuLongitude": 1.900403,
+    "coordinates": "47.90743,1.900403",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-07T09:37:41+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "ltelier-en-libre-acces-1595533",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/2055cff0fe884c2a84ac6daef4ed3679.base.image.jpg"
   },
   {
     "uid": "oa-69014871",
@@ -2354,13 +2494,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.90743,
     "lieuLongitude": 1.900403,
+    "coordinates": "47.90743,1.900403",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-07T09:39:50+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "creons-ensemble-notre-ile-animal-crossing-new-horizons-4772442",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/0f26416f48d0476fb15bb1e80dc5ae8e.base.image.jpg"
   },
   {
     "uid": "oa-24137710",
@@ -2385,13 +2527,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.90743,
     "lieuLongitude": 1.900403,
+    "coordinates": "47.90743,1.900403",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-07T09:40:16+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "ltelier-en-libre-acces-1232736",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/edf91386ecb743dc85b8487393a083f7.base.image.jpg"
   },
   {
     "uid": "oa-69255427",
@@ -2416,13 +2560,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.90743,
     "lieuLongitude": 1.900403,
+    "coordinates": "47.90743,1.900403",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-07T09:41:01+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "creons-ensemble-notre-ile-animal-crossing-new-horizons-1941079",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/8f5732b429674d7eb2b0ae72e0d4c0e0.base.image.jpg"
   },
   {
     "uid": "oa-12791909",
@@ -2447,13 +2593,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.834949,
     "lieuLongitude": 1.929125,
+    "coordinates": "47.834949,1.929125",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-07T09:42:00+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "creons-ensemble-notre-ile-animal-crossing-new-horizons-6423340",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/4268f4c1ac334118b374a830953785bb.base.image.jpg"
   },
   {
     "uid": "oa-46007502",
@@ -2479,13 +2627,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.898902,
     "lieuLongitude": 1.908714,
+    "coordinates": "47.898902,1.908714",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-10T14:49:12+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "le-gout-du-vent-5927594",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/e16967751f144d0fad1f7b20f1c27568.base.image.jpg"
   },
   {
     "uid": "oa-84456986",
@@ -2515,13 +2665,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.898902,
     "lieuLongitude": 1.908714,
+    "coordinates": "47.898902,1.908714",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-10T14:49:46+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "amalia",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/3395ff44a91f4a95a3748c5b1a40e1e8.base.image.jpg"
   },
   {
     "uid": "oa-81120262",
@@ -2547,13 +2699,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.893264,
     "lieuLongitude": 1.899567,
+    "coordinates": "47.893264,1.899567",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-16T08:11:47+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "fermes-pedagogiques-ephemeres-4889468",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/3c590de585e34d39b6a1046495ca3050.base.image.jpg"
   },
   {
     "uid": "oa-29422356",
@@ -2562,7 +2716,7 @@
     "licence": "lov2",
     "titre": "Visite guidée de la préfecture de la région Centre-Val de Loire et du Loiret",
     "descriptionCourte": "Des visites guidées des salons, de la galerie des glaces, de l'escalier (classé Monument Historique), du bureau du préfet, du Centre Opérationnel Départemental (COD) et des jardins.",
-    "descriptionLongue": "Des visites guidées des salons, de la galerie des glaces, de l'escalier (classé Monument Historique), du bureau du préfet, du Centre Opérationnel Départemental (COD) et des jardins, sont organisées sur des créneaux d'1 heure avec préinscription par téléphone.Point de rendez-vous à l'accueil de la préfecture pour la visite-guidée : Préfecture de la région Centre-Val de Loire et du Loiret 181 rue de Bourgogne 45000 Orléans.Conditions d’accès : Gratuit, accueil d'un groupe de 20 personnes chaque heure. Préinscription obligatoire par téléphone au 02 38 81 40 39 (le nombre de places est limité). Merci de vous présenter 15 minutes avant le début de la visite.Prévoyez une pièce d'identité. Pour des raisons de sécurité, ne prenez pas de sac/bagage volumineux.Accessibilité : Pour faciliter votre visite à la préfecture, merci de signaler si vous avez un handicap moteur lors de l'inscription.",
+    "descriptionLongue": "Des visites guidées des salons, de la galerie des glaces, de l'escalier (classé Monument Historique), du bureau du préfet, du Centre Opérationnel Départemental (COD) et des jardins, sont organisées sur des créneaux d'1 heure avec préinscription par téléphone.Point de rendez-vous à l'accueil de la préfecture pour la visite-guidée : Préfecture de la région Centre-Val de Loire et du Loiret 181 rue de Bourgogne 45000 Orléans.Conditions d’accès : Gratuit, accueil d'un groupe de 20 personnes chaque heure. Préinscription obligatoire par téléphone au [téléphone supprimé] (le nombre de places est limité). Merci de vous présenter 15 minutes avant le début de la visite.Prévoyez une pièce d'identité. Pour des raisons de sécurité, ne prenez pas de sac/bagage volumineux.Accessibilité : Pour faciliter votre visite à la préfecture, merci de signaler si vous avez un handicap moteur lors de l'inscription.",
     "dateDebut": "2026-09-19T07:00:00+00:00",
     "dateFin": "2026-09-19T08:00:00+00:00",
     "categorie": "exposition",
@@ -2583,13 +2737,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.900785,
     "lieuLongitude": 1.910631,
+    "coordinates": "47.900785,1.910631",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-20T07:34:55+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-de-la-prefecture-de-la-region-centre-val-de-loire-et-du-loiret-554",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/e7905f5e5472451c9e522554790b56d8.base.image.jpg"
   },
   {
     "uid": "oa-49024367",
@@ -2614,13 +2770,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.901772,
     "lieuLongitude": 1.909186,
+    "coordinates": "47.901772,1.909186",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-20T07:36:46+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "le-jazz-autour-du-monde",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/67e3739dd9ac41628b9db9f1bd6a7036.base.image.jpg"
   },
   {
     "uid": "oa-19495160",
@@ -2645,13 +2803,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.898757,
     "lieuLongitude": 1.911509,
+    "coordinates": "47.898757,1.911509",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-20T11:16:55+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visites-flash-exposition-le-design-coule-de-source",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/42378ce0b03341d0b032a49748a560fa.base.image.jpg"
   },
   {
     "uid": "oa-38806006",
@@ -2682,13 +2842,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.89878,
     "lieuLongitude": 1.911739,
+    "coordinates": "47.89878,1.911739",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-20T12:12:35+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "recorrido-urbano-los-resurgimientos-del-diseno",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/8876ac5ccdcb4611868e26d37ca6a0f3.base.image.jpg"
   },
   {
     "uid": "oa-75157148",
@@ -2720,13 +2882,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.899475,
     "lieuLongitude": 1.915665,
+    "coordinates": "47.899475,1.915665",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-20T12:17:38+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "le-petit-seminaire-de-la-chapelle-st-mesmin-une-aventure-humaine-and-spirituelle",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/cb3d1bf1c284494fa798cf30b45a1441.base.image.jpg"
   },
   {
     "uid": "oa-65623366",
@@ -2741,8 +2905,7 @@
     "categorie": "atelier",
     "motsCles": [
       "jeux de société",
-      "jeux de rôle",
-      ""
+      "jeux de rôle"
     ],
     "gratuit": false,
     "prixIndicatif": "",
@@ -2753,13 +2916,15 @@
     "lieuCodeInsee": "45232",
     "lieuLatitude": 47.866995,
     "lieuLongitude": 1.897375,
+    "coordinates": "47.866995,1.897375",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-20T16:51:49+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "ouverture-dominicale-6078990",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/5188551dd4b24f56bc33ba87a7dd8870.base.image.jpg"
   },
   {
     "uid": "oa-49981425",
@@ -2774,8 +2939,7 @@
     "categorie": "atelier",
     "motsCles": [
       "jeux de société",
-      "jeux de rôle",
-      ""
+      "jeux de rôle"
     ],
     "gratuit": false,
     "prixIndicatif": "",
@@ -2786,13 +2950,15 @@
     "lieuCodeInsee": "45232",
     "lieuLatitude": 47.866995,
     "lieuLongitude": 1.897375,
+    "coordinates": "47.866995,1.897375",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-20T16:54:09+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "ouverture-dominicale-6907301",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/1a6a2b0d92ce43d3b8eb579b81972814.base.image.jpg"
   },
   {
     "uid": "oa-57869705",
@@ -2823,13 +2989,15 @@
     "lieuCodeInsee": "45284",
     "lieuLatitude": 47.91224,
     "lieuLongitude": 1.972277,
+    "coordinates": "47.91224,1.972277",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-21T07:24:08+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "du-blues-o-swing-saison-12",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/f9d846d90c6c44fe8874fe89857684b0.base.image.jpg"
   },
   {
     "uid": "oa-71870728",
@@ -2845,8 +3013,7 @@
     "motsCles": [
       "jazz",
       "acoustique",
-      "swing manouche",
-      ""
+      "swing manouche"
     ],
     "gratuit": false,
     "prixIndicatif": "",
@@ -2857,13 +3024,15 @@
     "lieuCodeInsee": "45284",
     "lieuLatitude": 47.91222,
     "lieuLongitude": 1.972269,
+    "coordinates": "47.91222,1.972269",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-21T07:25:03+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "fapy-lafertin-trio-invite-adrian-cox",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/6fc3713fc9b04e5a9b1f0004d8527f14.base.image.jpg"
   },
   {
     "uid": "oa-32288244",
@@ -2897,13 +3066,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.90265,
     "lieuLongitude": 1.909767,
+    "coordinates": "47.90265,1.909767",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-04-28T08:50:18+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "stage-darts-plastiques-6-8-ans-9038696",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/bdc3063c5f2342ef9c546364c2112696.base.image.jpg"
   },
   {
     "uid": "oa-21309102",
@@ -2937,13 +3108,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902848,
     "lieuLongitude": 1.902698,
+    "coordinates": "47.902848,1.902698",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-03-06T14:45:06+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "stage-cest-du-theatre",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/b9496a47d335424ea2bc7269d79ac4ac.base.image.jpg"
   },
   {
     "uid": "oa-36841563",
@@ -2968,13 +3141,15 @@
     "lieuCodeInsee": "45284",
     "lieuLatitude": 47.91973,
     "lieuLongitude": 1.991163,
+    "coordinates": "47.91973,1.991163",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-21T07:54:27+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "week-end-creatif-aout-balade-retour-a-la-terre",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/481bdddea1fc4e5691a7c6e4adb1b47a.base.image.jpg"
   },
   {
     "uid": "oa-68804500",
@@ -3001,13 +3176,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.903448,
     "lieuLongitude": 1.910223,
+    "coordinates": "47.903448,1.910223",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-21T14:05:18+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "hop-pop-hop-2026",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/91cd6e3ab46d4d15a4ebf9ccaa252162.base.image.jpg"
   },
   {
     "uid": "oa-41542808",
@@ -3035,13 +3212,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.904297,
     "lieuLongitude": 1.91159,
+    "coordinates": "47.904297,1.91159",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-21T14:36:39+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "6309264",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/31c0a5c1434d4783855464dda0ce71ad.base.image.jpg"
   },
   {
     "uid": "oa-77560127",
@@ -3061,7 +3240,7 @@
       "Animations",
       "Restauration"
     ],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Rue Lazare Carnot Fleury les Aubrais",
     "lieuAdresse": "Rue Lazare Carnot 45400 Fleury les Aubrais",
@@ -3070,13 +3249,15 @@
     "lieuCodeInsee": "45147",
     "lieuLatitude": 47.923922,
     "lieuLongitude": 1.899316,
+    "coordinates": "47.923922,1.899316",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-22T07:32:00+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "lapanty-en-fete",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/40fa2275b3c74f749624b3dd1b6634c8.base.image.jpg"
   },
   {
     "uid": "oa-19128943",
@@ -3105,13 +3286,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.847358,
     "lieuLongitude": 1.937732,
+    "coordinates": "47.847358,1.937732",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-22T07:37:12+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "music-club-festival-4710032",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/6fe17827d78f4e1ea80fa0381e92a66e.base.image.jpg"
   },
   {
     "uid": "oa-60613184",
@@ -3139,13 +3322,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902254,
     "lieuLongitude": 1.908692,
+    "coordinates": "47.902254,1.908692",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-22T13:43:51+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "matinees-du-piano-schumann-carter-albeniz-recital-de-piano-de-lorenzo-soules",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/2f4a6281732a4edc896ece03323b3295.base.image.jpg"
   },
   {
     "uid": "oa-7651089",
@@ -3170,13 +3355,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.905378,
     "lieuLongitude": 1.910631,
+    "coordinates": "47.905378,1.910631",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-23T08:51:59+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "ceremonie-82e-anniversaire-de-la-liberation-dorleans",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/26eaff5b0d264f179e703f6d966e1f21.base.image.jpg"
   },
   {
     "uid": "oa-830245",
@@ -3205,13 +3392,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.898117,
     "lieuLongitude": 1.913644,
+    "coordinates": "47.898117,1.913644",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-23T08:52:41+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "flying-orkestar-8267137",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/d5a1058128f4469b88c2f0b903c1bb87.base.image.jpg"
   },
   {
     "uid": "oa-79287401",
@@ -3238,13 +3427,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.898117,
     "lieuLongitude": 1.913644,
+    "coordinates": "47.898117,1.913644",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-23T08:52:46+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "dge-la-bas-1266078",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/cdfc454be5d04e0fbf1e286e72d99968.base.image.jpg"
   },
   {
     "uid": "oa-80113506",
@@ -3271,13 +3462,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.898117,
     "lieuLongitude": 1.913644,
+    "coordinates": "47.898117,1.913644",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-23T11:28:46+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "blindtest-la-charcuterie-musicale",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/6aba2550f5ea462790ddd8adb241493a.base.image.jpg"
   },
   {
     "uid": "oa-20607876",
@@ -3293,8 +3486,7 @@
     "motsCles": [
       "jazz",
       "acoustique",
-      "swing manouche",
-      ""
+      "swing manouche"
     ],
     "gratuit": false,
     "prixIndicatif": "",
@@ -3305,13 +3497,15 @@
     "lieuCodeInsee": "45284",
     "lieuLatitude": 47.91222,
     "lieuLongitude": 1.972269,
+    "coordinates": "47.91222,1.972269",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-23T12:40:14+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "nouvel-orchestre-du-hot-club-de-france",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/48de1da63d064eb78edcbc49460690bf.base.image.jpg"
   },
   {
     "uid": "oa-34940258",
@@ -3340,13 +3534,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.89878,
     "lieuLongitude": 1.911739,
+    "coordinates": "47.89878,1.911739",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-23T16:01:31+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visitas-flash-exposicion-el-diseno-fluye-desde-la-fuente",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/a5669b2b857d4fcbb66363ac3857e214.base.image.jpg"
   },
   {
     "uid": "oa-23696861",
@@ -3362,7 +3558,7 @@
     "motsCles": [
       "course / marche / enfants / village animation"
     ],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "île Charlemagne (base de loisirs)",
     "lieuAdresse": "Levée de la Chevauchée 45650 Saint Jean le Blanc",
@@ -3371,13 +3567,15 @@
     "lieuCodeInsee": "45286",
     "lieuLatitude": 47.894356,
     "lieuLongitude": 1.939518,
+    "coordinates": "47.894356,1.939518",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-24T12:59:09+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "defi-des-heros-en-or",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/73ab787ecdba480fa32e532ea8a6b425.base.image.jpg"
   },
   {
     "uid": "oa-7519730",
@@ -3403,13 +3601,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.822178,
     "lieuLongitude": 1.933913,
+    "coordinates": "47.822178,1.933913",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-27T10:23:54+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "fermes-pedagogiques-ephemeres-2002804",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/d804ecfa3985416589ead3b5d4e0e8ab.base.image.jpg"
   },
   {
     "uid": "oa-19399068",
@@ -3434,13 +3634,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.90743,
     "lieuLongitude": 1.900403,
+    "coordinates": "47.90743,1.900403",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-29T08:01:35+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "creons-ensemble-notre-ile-animal-crossing-new-horizons-2141382",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/bcc39021a7bb4608a8b57132cb988e0d.base.image.jpg"
   },
   {
     "uid": "oa-28319945",
@@ -3464,7 +3666,7 @@
       "Démonstrations",
       "Concerts"
     ],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "La Passerelle",
     "lieuAdresse": "57 boulevard de Lamballe, Fleury les Aubrais",
@@ -3473,13 +3675,15 @@
     "lieuCodeInsee": "45147",
     "lieuLatitude": 47.924908,
     "lieuLongitude": 1.920533,
+    "coordinates": "47.924908,1.920533",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-29T08:10:45+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "forum-des-associations-9221193",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/fffc253edbfe4985ad8ecd33a3d889d0.base.image.jpg"
   },
   {
     "uid": "oa-13944797",
@@ -3505,13 +3709,15 @@
     "lieuCodeInsee": "45232",
     "lieuLatitude": 47.867258,
     "lieuLongitude": 1.879933,
+    "coordinates": "47.867258,1.879933",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-29T09:34:58+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "lete-des-echecs-4470921",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/bb282e308b77431d83eea18e506e327b.base.image.jpg"
   },
   {
     "uid": "oa-85351931",
@@ -3520,7 +3726,7 @@
     "licence": "lov2",
     "titre": "Soutien Numérique Personnalisé",
     "descriptionCourte": "Le réseau des médiathèques d’Orléans propose de vous accompagner dans l’initiation au numérique. Créneaux individuels d’une heure, un rendez-vous maximum par mois.",
-    "descriptionLongue": "Le réseau des médiathèques d’Orléans propose de vous accompagner dans l’initiation au numérique.Créneaux individuels d’une heure, un rendez-vous maximum par mois.Sur inscription au 02 38 68 45 45 en indiquant précisément vos besoins, souhaits ou attentes.Nous nous réservons la possibilité de refuser les demandes auxquelles nous ne sommes pas en mesure de répondre.",
+    "descriptionLongue": "Le réseau des médiathèques d’Orléans propose de vous accompagner dans l’initiation au numérique.Créneaux individuels d’une heure, un rendez-vous maximum par mois.Sur inscription au [téléphone supprimé] en indiquant précisément vos besoins, souhaits ou attentes.Nous nous réservons la possibilité de refuser les demandes auxquelles nous ne sommes pas en mesure de répondre.",
     "dateDebut": "2026-07-31T13:00:00+00:00",
     "dateFin": "2026-07-31T14:00:00+00:00",
     "categorie": "atelier",
@@ -3536,13 +3742,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.834949,
     "lieuLongitude": 1.929125,
+    "coordinates": "47.834949,1.929125",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-30T07:02:27+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "soutien-numerique-personnalise-8106747",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/268c1abc72b1419789ac9be9dbd1d45a.base.image.jpg"
   },
   {
     "uid": "oa-49369304",
@@ -3567,13 +3775,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902578,
     "lieuLongitude": 1.906243,
+    "coordinates": "47.902578,1.906243",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-30T07:14:22+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-par-un-magistrat-548567",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/7521572ac5f44a96bdace9e3526a4511.base.image.jpg"
   },
   {
     "uid": "oa-21044548",
@@ -3596,13 +3806,15 @@
     "lieuCodeInsee": "45075",
     "lieuLatitude": 47.890292,
     "lieuLongitude": 1.835724,
+    "coordinates": "47.890292,1.835724",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-30T07:14:33+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-vamps-voyage-a-lourdes-5142354",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/efe5a7cab5f94a928b80b69974c68fcc.base.image.jpg"
   },
   {
     "uid": "oa-27597662",
@@ -3632,13 +3844,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.89878,
     "lieuLongitude": 1.911739,
+    "coordinates": "47.89878,1.911739",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-30T07:15:17+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "exposicion-el-diseno-fluye-de-la-fuente",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/a2b5c4e0f8904e30b131c4413276bfab.base.image.jpg"
   },
   {
     "uid": "oa-81175255",
@@ -3661,13 +3875,15 @@
     "lieuCodeInsee": "45286",
     "lieuLatitude": 47.887692,
     "lieuLongitude": 1.927826,
+    "coordinates": "47.887692,1.927826",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-30T07:18:48+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "fugueuses-6031911",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/741fd6af19d44e7a852cfdbda44a209c.base.image.jpg"
   },
   {
     "uid": "oa-24856168",
@@ -3690,13 +3906,15 @@
     "lieuCodeInsee": "45075",
     "lieuLatitude": 47.890292,
     "lieuLongitude": 1.835724,
+    "coordinates": "47.890292,1.835724",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-30T07:18:50+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "mon-colocataire-est-une-garce-2606930",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/e9e08a30dea24aafbe0c229c17e8f61c.base.image.jpg"
   },
   {
     "uid": "oa-14440443",
@@ -3719,13 +3937,15 @@
     "lieuCodeInsee": "45286",
     "lieuLatitude": 47.887692,
     "lieuLongitude": 1.927826,
+    "coordinates": "47.887692,1.927826",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-30T07:19:19+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "rose-765810",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/3666e1d0cd7240dead30de39afb17f0c.base.image.jpg"
   },
   {
     "uid": "oa-93609570",
@@ -3754,13 +3974,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.871638,
     "lieuLongitude": 1.912803,
+    "coordinates": "47.871638,1.912803",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-30T12:50:16+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "journees-europeennes-du-patrimoine-2026-au-zenith-dorleans-7747003",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/28f51a89eb554249b8f71d479fee7e0f.base.image.jpg"
   },
   {
     "uid": "oa-7937057",
@@ -3789,13 +4011,15 @@
     "lieuCodeInsee": "45147",
     "lieuLatitude": 47.924967,
     "lieuLongitude": 1.920217,
+    "coordinates": "47.924967,1.920217",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-07-31T10:11:20+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "du-zhejiang-a-lanhui-au-fil-du-fleuve-qjantang-1631303",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/76f799aa1b2a48af987a9a7ff0f63978.base.image.jpg"
   },
   {
     "uid": "oa-1139872",
@@ -3818,13 +4042,15 @@
     "lieuCodeInsee": "45284",
     "lieuLatitude": 47.91973,
     "lieuLongitude": 1.991163,
+    "coordinates": "47.91973,1.991163",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-02T10:44:26+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-creation-de-bijou-a-partir-dune-graine",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/772915768869481fa8200ba958bc38bf.base.image.jpg"
   },
   {
     "uid": "oa-98344263",
@@ -3858,13 +4084,15 @@
     "lieuCodeInsee": "45284",
     "lieuLatitude": 47.913251,
     "lieuLongitude": 1.967125,
+    "coordinates": "47.913251,1.967125",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-03T07:08:01+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "a-vous-le-numerique-seniors-a-saint-jean-de-braye-9568746",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/bbe55f96efe643c3bfe27c312371f5c2.base.image.jpg"
   },
   {
     "uid": "oa-72898135",
@@ -3887,13 +4115,15 @@
     "lieuCodeInsee": "45284",
     "lieuLatitude": 47.91973,
     "lieuLongitude": 1.991163,
+    "coordinates": "47.91973,1.991163",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-03T07:21:12+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-aromaete-fabrique-ton-roll-on-anti-moustiques",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/b1b6293c17af4a2aa1baecd600d9c9cc.base.image.jpg"
   },
   {
     "uid": "oa-95494885",
@@ -3918,13 +4148,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902598,
     "lieuLongitude": 1.912923,
+    "coordinates": "47.902598,1.912923",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-03T09:23:54+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "journees-europeennes-du-patrimoine-decouverte-des-archives-du-cercil",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/87e2bca7e90a47cc821bff1f54921159.base.image.jpg"
   },
   {
     "uid": "oa-28015607",
@@ -3947,13 +4179,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902308,
     "lieuLongitude": 1.913061,
+    "coordinates": "47.902308,1.913061",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-03T13:32:04+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "performances-des-artistes-orleanaises",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/a23d2d9fd3d34b959da493e9a54d3082.base.image.jpg"
   },
   {
     "uid": "oa-62535413",
@@ -3976,13 +4210,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902308,
     "lieuLongitude": 1.913061,
+    "coordinates": "47.902308,1.913061",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-03T13:32:50+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "everybody-geant-avec-les-es",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/f462ad28d4cb46c9a798247054ae80a2.base.image.jpg"
   },
   {
     "uid": "oa-58743234",
@@ -4015,13 +4251,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.886494,
     "lieuLongitude": 1.909966,
+    "coordinates": "47.886494,1.909966",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-04T08:45:09+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "festival-de-la-sante-9067830",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/c806317af63544c5826e88a9a5f13ad7.base.image.jpg"
   },
   {
     "uid": "oa-30605533",
@@ -4055,13 +4293,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.90265,
     "lieuLongitude": 1.909767,
+    "coordinates": "47.90265,1.909767",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-07T11:57:14+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "cours-dhistoire-de-lart-4175625",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/976e56fa81a4499ab6d29cce63e97215.base.image.jpg"
   },
   {
     "uid": "oa-20357892",
@@ -4086,13 +4326,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.90743,
     "lieuLongitude": 1.900403,
+    "coordinates": "47.90743,1.900403",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-07T12:04:30+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "creons-ensemble-notre-ile-animal-crossing-new-horizons-8756331",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/583aaa1453ad42dfa16e5a262d2f8e0a.base.image.jpg"
   },
   {
     "uid": "oa-84368000",
@@ -4117,13 +4359,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.90743,
     "lieuLongitude": 1.900403,
+    "coordinates": "47.90743,1.900403",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-07T12:04:40+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "ltelier-en-libre-acces-7853292",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/d555ccd9b8e343768de5d824dc40d71b.base.image.jpg"
   },
   {
     "uid": "oa-854259",
@@ -4157,13 +4401,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.90265,
     "lieuLongitude": 1.909767,
+    "coordinates": "47.90265,1.909767",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-07T12:38:50+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "journees-europeennes-du-patrimoine-beaux-arts",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/5e5129179e86437e8c30ba6f6e104135.base.image.jpg"
   },
   {
     "uid": "oa-93594713",
@@ -4197,13 +4443,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.900815,
     "lieuLongitude": 1.902725,
+    "coordinates": "47.900815,1.902725",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-07T12:47:50+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "journees-europeennes-du-patrimoine-centre-jeanne-darc",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/2e32229dd5e64282a8ad2cb85d1f972d.base.image.jpg"
   },
   {
     "uid": "oa-30840405",
@@ -4237,13 +4485,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.90265,
     "lieuLongitude": 1.909767,
+    "coordinates": "47.90265,1.909767",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-07T14:17:54+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "le-cabaret-magnifique-1926",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/345605f74c234123a8920d8756ece6a3.base.image.jpg"
   },
   {
     "uid": "oa-90520431",
@@ -4262,7 +4512,7 @@
       "spectacle \"Dans la peau\"",
       "Bals folk et jam"
     ],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Stade de la Binette",
     "lieuAdresse": "rue de la binette, Bou",
@@ -4271,13 +4521,15 @@
     "lieuCodeInsee": "45043",
     "lieuLatitude": 47.862668,
     "lieuLongitude": 2.052175,
+    "coordinates": "47.862668,2.052175",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-10T07:36:53+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "rencontres-au-bou-de-la-danse-4935384",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/d569475606db4d2bb306fa547e4261c5.base.image.jpg"
   },
   {
     "uid": "oa-9554185",
@@ -4304,13 +4556,15 @@
     "lieuCodeInsee": "45147",
     "lieuLatitude": 47.944108,
     "lieuLongitude": 1.927303,
+    "coordinates": "47.944108,1.927303",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-10T09:02:20+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "don-de-sang-5070570",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/c31318937ff641b1801203220ccb6305.base.image.jpg"
   },
   {
     "uid": "oa-34167056",
@@ -4319,7 +4573,7 @@
     "licence": "lov2",
     "titre": "Vendanges 2026 des vignes de Chécy",
     "descriptionCourte": "L'association CAVE vous invite à participer aux vendanges caciennes",
-    "descriptionLongue": "Cette année encore, la canicule a accéléré la maturation des raisins et avancé le calendrier des vendanges : Vendredi 21 août – Parcelle des Grazons : Première cueillette, principalement en pinot noir et pinot meunier, pour la nouvelle cuvée de Cassia Blanc. Rendez-vous à partir de 8h00 pour profiter de la fraîcheur matinale, avec vos outils habituels (seau, sécateur ou vendangette, gants). Fin de session prévue vers 13h00, suivie d'un pique-nique tiré du panier pour ceux qui le souhaitent Vendredi 28 août – Parcelles des Verdeilles : Suite de la vendange, toujours à partir de 8h00, avec un pique-nique vers 13h00 Samedi 29 août (si besoin) : S'il reste de la vendange à terminer, une session complémentaire aura lieu le samedi matin, nous vous tiendrons informés le vendredi midi Nous comptons sur une belle mobilisation pour la réussite de nos vendanges 2026 — n'hésitez pas à en parler autour de vous !Inscriptions et informations : contact@checycave.frNota : nous disposons d'outils en quantité limitée, si vous ne disposez pas de sécateur ou vendangette, nous pouvons vous en fournir... dans la limite des stocks disponibles",
+    "descriptionLongue": "Cette année encore, la canicule a accéléré la maturation des raisins et avancé le calendrier des vendanges : Vendredi 21 août – Parcelle des Grazons : Première cueillette, principalement en pinot noir et pinot meunier, pour la nouvelle cuvée de Cassia Blanc. Rendez-vous à partir de 8h00 pour profiter de la fraîcheur matinale, avec vos outils habituels (seau, sécateur ou vendangette, gants). Fin de session prévue vers 13h00, suivie d'un pique-nique tiré du panier pour ceux qui le souhaitent Vendredi 28 août – Parcelles des Verdeilles : Suite de la vendange, toujours à partir de 8h00, avec un pique-nique vers 13h00 Samedi 29 août (si besoin) : S'il reste de la vendange à terminer, une session complémentaire aura lieu le samedi matin, nous vous tiendrons informés le vendredi midi Nous comptons sur une belle mobilisation pour la réussite de nos vendanges 2026 — n'hésitez pas à en parler autour de vous !Inscriptions et informations : [email supprimé] : nous disposons d'outils en quantité limitée, si vous ne disposez pas de sécateur ou vendangette, nous pouvons vous en fournir... dans la limite des stocks disponibles",
     "dateDebut": "2026-08-21T06:00:00+00:00",
     "dateFin": "2026-08-21T11:00:00+00:00",
     "categorie": "exposition",
@@ -4338,13 +4592,15 @@
     "lieuCodeInsee": "45089",
     "lieuLatitude": 47.899586,
     "lieuLongitude": 2.013692,
+    "coordinates": "47.899586,2.013692",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-10T10:09:08+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "vendanges-2026-des-vignes-de-checy-6084842",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/993217965f204deebf8a36f7180e03f2.base.image.jpg"
   },
   {
     "uid": "oa-6414707",
@@ -4378,13 +4634,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.90265,
     "lieuLongitude": 1.909767,
+    "coordinates": "47.90265,1.909767",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-10T11:48:43+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "des-images-a-lire-9113626",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/53b3564192b648b0a2679d90bfcd208a.base.image.jpg"
   },
   {
     "uid": "oa-57383264",
@@ -4418,13 +4676,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.90265,
     "lieuLongitude": 1.909767,
+    "coordinates": "47.90265,1.909767",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-10T11:50:38+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "a-quatre-mains-et-quatre-pattes",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/70b96f935394491f956d907289fc926f.base.image.jpg"
   },
   {
     "uid": "oa-4753570",
@@ -4458,13 +4718,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.90265,
     "lieuLongitude": 1.909767,
+    "coordinates": "47.90265,1.909767",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-10T12:02:00+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "dessiner-au-musee-6730724",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/ce0fd04d8c1b4edea4e1749559157d63.base.image.jpg"
   },
   {
     "uid": "oa-34438296",
@@ -4498,13 +4760,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.90265,
     "lieuLongitude": 1.909767,
+    "coordinates": "47.90265,1.909767",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-10T12:04:08+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "une-oeuvre-un-atelier-autour-de-guido-reni",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/dc2ce23103b9430295fefa3258c2061f.base.image.jpg"
   },
   {
     "uid": "oa-97207183",
@@ -4538,13 +4802,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.90265,
     "lieuLongitude": 1.909767,
+    "coordinates": "47.90265,1.909767",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-10T12:06:05+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "dans-la-fabrique-des-ombres",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/3df28dd207d94593a8db1476ecfb8de8.base.image.jpg"
   },
   {
     "uid": "oa-31497148",
@@ -4578,13 +4844,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.90265,
     "lieuLongitude": 1.909767,
+    "coordinates": "47.90265,1.909767",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-10T14:49:59+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-nuit-des-ombres-9322560",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/8922e2af7c22402e9f4eabcce03e00e5.base.image.jpg"
   },
   {
     "uid": "oa-86895685",
@@ -4618,13 +4886,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.900815,
     "lieuLongitude": 1.902725,
+    "coordinates": "47.900815,1.902725",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-10T15:07:42+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "jeanne-darc-un-cliche-a-affranchir",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/e0b2455ed96741ed8e68c7ec9b034bf9.base.image.jpg"
   },
   {
     "uid": "oa-10367359",
@@ -4649,13 +4919,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.889408,
     "lieuLongitude": 1.906131,
+    "coordinates": "47.889408,1.906131",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-11T10:52:59+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "fetes-de-la-saint-fiacre-479224",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/1f2b69e7fbcd4b80b2eb11fa8922efdf.base.image.jpg"
   },
   {
     "uid": "oa-36270117",
@@ -4669,7 +4941,7 @@
     "dateFin": "2026-09-06T12:00:00+00:00",
     "categorie": "exposition",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Val des Pâtures",
     "lieuAdresse": "chemin du port, chécy",
@@ -4678,13 +4950,15 @@
     "lieuCodeInsee": "45089",
     "lieuLatitude": 47.886679,
     "lieuLongitude": 2.027214,
+    "coordinates": "47.886679,2.027214",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-11T15:21:03+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "forum-des-assos-3138227",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/30bf02ddb8374cb7873ff6fd6ac3df82.base.image.jpg"
   },
   {
     "uid": "oa-69848760",
@@ -4715,13 +4989,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902734,
     "lieuLongitude": 1.908607,
+    "coordinates": "47.902734,1.908607",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-12T07:44:19+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "yoga-nidra-3027061",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/4a64bcbace8841688da5c72180388069.base.image.jpg"
   },
   {
     "uid": "oa-46942464",
@@ -4751,13 +5027,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902734,
     "lieuLongitude": 1.908607,
+    "coordinates": "47.902734,1.908607",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-12T07:44:28+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "japprends-a-me-connaitre-2880400",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/6c03825aa8d94c14b3b84ef233427e62.base.image.jpg"
   },
   {
     "uid": "oa-92216658",
@@ -4786,13 +5064,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.898399,
     "lieuLongitude": 1.906263,
+    "coordinates": "47.898399,1.906263",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-12T08:40:09.336000+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "balade-en-bateau-sur-la-loire-557484",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/87a87459ab08448784601b1ac2f4f8db.base.image.jpg"
   },
   {
     "uid": "oa-30225089",
@@ -4815,13 +5095,15 @@
     "lieuCodeInsee": "45285",
     "lieuLatitude": 47.913519,
     "lieuLongitude": 1.879438,
+    "coordinates": "47.913519,1.879438",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-12T09:05:49+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "sonata-per-tubi-9016824",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/d47dccc799fa468a909042bf2639d3ed.base.image.jpg"
   },
   {
     "uid": "oa-29146716",
@@ -4844,13 +5126,15 @@
     "lieuCodeInsee": "45285",
     "lieuLatitude": 47.913519,
     "lieuLongitude": 1.879438,
+    "coordinates": "47.913519,1.879438",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-12T09:48:37+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "origine-6643773",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/08e804a76ddc4d45ae1291562019ab8b.base.image.jpg"
   },
   {
     "uid": "oa-66295933",
@@ -4869,7 +5153,7 @@
       "pollen",
       "frelons"
     ],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Maison des abeilles - rucher école",
     "lieuAdresse": "313 rue de Lorette 45160 Olivet",
@@ -4878,13 +5162,15 @@
     "lieuCodeInsee": "45232",
     "lieuLatitude": 47.850929,
     "lieuLongitude": 1.921254,
+    "coordinates": "47.850929,1.921254",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-13T06:45:35+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "portee-ouvertes-api-week",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/c8bb39ed5e8d4b42bf5405aa77c75426.base.image.jpg"
   },
   {
     "uid": "oa-80371742",
@@ -4909,13 +5195,15 @@
     "lieuCodeInsee": "45285",
     "lieuLatitude": 47.911464,
     "lieuLongitude": 1.876913,
+    "coordinates": "47.911464,1.876913",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-13T07:11:02+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "marche-automnal-9247651",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/ed25ea446a5f488d873137cd5423a937.base.image.jpg"
   },
   {
     "uid": "oa-9831427",
@@ -4949,13 +5237,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.912332,
     "lieuLongitude": 1.907539,
+    "coordinates": "47.912332,1.907539",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-13T13:07:06+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "a-vous-le-numerique-seniors-a-orleans-8068758",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/fe151378fadf450787b3ac4c1acf4927.base.image.jpg"
   },
   {
     "uid": "oa-52263007",
@@ -4980,7 +5270,7 @@
       "feu artifice de jour",
       "apiculture"
     ],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "PARC DU POUTYL",
     "lieuAdresse": "OLIVET",
@@ -4989,13 +5279,15 @@
     "lieuCodeInsee": "45232",
     "lieuLatitude": 47.865098,
     "lieuLongitude": 1.901575,
+    "coordinates": "47.865098,1.901575",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-14T15:09:05+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "cetait-mieux-demain-5768548",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/abd0c65fcdab48bb92839c378fb1eec2.base.image.jpg"
   },
   {
     "uid": "oa-41008409",
@@ -5018,13 +5310,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.902254,
     "lieuLongitude": 1.908692,
+    "coordinates": "47.902254,1.908692",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-17T14:22:03.435000+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "trio-addendum",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/22904cdcb927428eb5706fd383b04e4a.base.image.jpg"
   },
   {
     "uid": "oa-67580581",
@@ -5052,13 +5346,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.908382,
     "lieuLongitude": 1.912384,
+    "coordinates": "47.908382,1.912384",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-18T09:26:46.361000+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "decouverte-marche-nordique",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/317379dffb314808a20c25a3714a5447.base.image.jpg"
   },
   {
     "uid": "oa-28170926",
@@ -5081,13 +5377,15 @@
     "lieuCodeInsee": "45075",
     "lieuLatitude": 47.8868,
     "lieuLongitude": 1.84274,
+    "coordinates": "47.8868,1.84274",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-18T11:57:08+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-de-la-grotte-du-dragon-8651374",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/8be4f066918b4f989d6c705539b8340d.base.image.jpg"
   },
   {
     "uid": "oa-13852840",
@@ -5116,13 +5414,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.901268,
     "lieuLongitude": 1.90616,
+    "coordinates": "47.901268,1.90616",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-08-18T12:54:47+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-marchands-dorleans-xviie-xviiie-siecleentre-cadix-et-paris",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/894a19205d9e40f9a2c555cf10733450.base.image.jpg"
   },
   {
     "uid": "oa-27089726",
@@ -5150,13 +5450,15 @@
     "lieuCodeInsee": "45232",
     "lieuLatitude": 47.875407,
     "lieuLongitude": 1.905171,
+    "coordinates": "47.875407,1.905171",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-05-26T06:17:32+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-ateliers-de-lete-methodologie-pour-les-primaires-8641258",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/be97b3d0a8314b65be85ec6d4a123407.base.image.jpg"
   },
   {
     "uid": "oa-2533464",
@@ -5185,13 +5487,15 @@
     "lieuCodeInsee": "45232",
     "lieuLatitude": 47.875407,
     "lieuLongitude": 1.905171,
+    "coordinates": "47.875407,1.905171",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-05-26T06:18:01+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-ateliers-de-lete-a-olivet-6-bricks-lego-9700928",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/402ea12d9bc34717a30f97f7ec5c55fa.base.image.jpg"
   },
   {
     "uid": "oa-54857631",
@@ -5222,13 +5526,15 @@
     "lieuCodeInsee": "45232",
     "lieuLatitude": 47.875407,
     "lieuLongitude": 1.905171,
+    "coordinates": "47.875407,1.905171",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-05-26T06:18:30+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-ateliers-de-lete-a-olivet-escape-game-3100403",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/00b972b680e048d59c7a6d0445fde870.base.image.jpg"
   },
   {
     "uid": "oa-39207488",
@@ -5254,13 +5560,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.911153,
     "lieuLongitude": 1.930907,
+    "coordinates": "47.911153,1.930907",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-03T13:00:02+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-creation-en-bache-dimpression-a-partir-de-8-ans-7679133",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/4b92e77f7b6948919195d2f5323d6069.base.image.jpg"
   },
   {
     "uid": "oa-83158961",
@@ -5283,13 +5591,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.89912,
     "lieuLongitude": 1.891859,
+    "coordinates": "47.89912,1.891859",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-04T12:54:59+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-de-leglise-saint-laurent-et-de-la-crypte",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/bc6628e2f36c4aabac7f899ec5552623.base.image.jpg"
   },
   {
     "uid": "oa-77839436",
@@ -5316,13 +5626,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.907825,
     "lieuLongitude": 1.893854,
+    "coordinates": "47.907825,1.893854",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-11T14:27:05+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "vide-grenier-dunois",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/f4ee1d7da0b6450d8a502f7a97e6d815.base.image.jpg"
   },
   {
     "uid": "oa-8052086",
@@ -5354,13 +5666,15 @@
     "lieuCodeInsee": "45147",
     "lieuLatitude": 47.924975,
     "lieuLongitude": 1.920217,
+    "coordinates": "47.924975,1.920217",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-12T13:27:22+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-estivales-2026-concert-italo-tropical-zocco-baia",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/ebe3c4ffdd20416fad1525c6f14a7da8.base.image.jpg"
   },
   {
     "uid": "oa-75514723",
@@ -5390,13 +5704,15 @@
     "lieuCodeInsee": "45147",
     "lieuLatitude": 47.924975,
     "lieuLongitude": 1.920217,
+    "coordinates": "47.924975,1.920217",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-15T08:23:20+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-estivales-2026-activites-roulees-skate-trottinette",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/c0492a392493482ca0b2b34f9d9fba2f.base.image.jpg"
   },
   {
     "uid": "oa-74834074",
@@ -5424,13 +5740,15 @@
     "lieuCodeInsee": "45147",
     "lieuLatitude": 47.932728,
     "lieuLongitude": 1.909523,
+    "coordinates": "47.932728,1.909523",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-15T09:53:18+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-estivales-2026-conference-musicale-loufoque",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/c3e374e21e964cf393f8e4809f70d77e.base.image.jpg"
   },
   {
     "uid": "oa-23083864",
@@ -5462,13 +5780,15 @@
     "lieuCodeInsee": "45147",
     "lieuLatitude": 47.924975,
     "lieuLongitude": 1.920217,
+    "coordinates": "47.924975,1.920217",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-15T10:03:15+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-estivales-2026-les-vengeurs-demasques-concert-de-chansons-francaises",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/ea7b020ed787408682ff9b5f1ea36930.base.image.jpg"
   },
   {
     "uid": "oa-45720284",
@@ -5500,13 +5820,15 @@
     "lieuCodeInsee": "45147",
     "lieuLatitude": 47.924975,
     "lieuLongitude": 1.920217,
+    "coordinates": "47.924975,1.920217",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-15T10:05:09+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-estivales-2026-gum-over",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/24d1772477e3420fb37b65d9f7bab310.base.image.jpg"
   },
   {
     "uid": "oa-5479106",
@@ -5515,7 +5837,7 @@
     "licence": "lov2",
     "titre": "Atelier La Fresque de l'Eau",
     "descriptionCourte": "La Fresque de l'eau est un atelier ludique et collaboratif pour comprendre le cycle de l'eau et comment il est affecté par les activités humaines.",
-    "descriptionLongue": "💧 Plongez au cœur du cycle de l’eau ! 🌍♻️Envie de mieux comprendre les enjeux liés à l’eau et de découvrir comment nos actions influencent ce bien précieux ? Participez à l’atelier Fresque de l’Eau !L’atelier de la Fresque de l’Eau permet de construire une vision globale du cycle de l’eau, grâce à un jeu de cartes qui est mis en place par les joueurs selon 4 lots : le cycle naturel de l’eau, le cycle anthropique de l’eau (influencé par l’homme) ainsi que les impacts de l’Homme et l’impact du changement climatique sur ces cycles. Un échange permet ensuite de discuter des mesures individuelles et collectives qui peuvent être prises. Au programme : Découvrir du cycle naturel de l’eau 🌱 Comprendre du cycle anthropique 💧🏭 Explorer les impacts humains et du changement climatique 🌡️🌪️ Échanger et imaginer des solutions pour agir ensemble 🤝💡🎲 Un atelier ludique et collaboratif animé par CAP Climat Orléans pour repenser notre rapport à l’eau et imaginer un futur plus durable. Informations pratiques : 📅 Samedi 17 octobre⏰ 10h00 - 13h00📍 Muséum d'Orléans pour la Biodiversité et l'Environnement - 6, rue Marcel Proust 45000 Orléans👩👵🧔👲 Tous publics à partir de 15 ans environ💦 Inscription préalable :&lt;https://www.billetweb.fr/shop.php?event=1315092&amp;margin=margin_small&amp;color=no&amp;ref=fdeau-loiret-45&amp;step=1&amp;session=12436295&gt;Atelier gratuit animé par CAP Climat OrléansPour toute information complémentaire, contactez-nous : contact@capclimatorleans.fr",
+    "descriptionLongue": "💧 Plongez au cœur du cycle de l’eau ! 🌍♻️Envie de mieux comprendre les enjeux liés à l’eau et de découvrir comment nos actions influencent ce bien précieux ? Participez à l’atelier Fresque de l’Eau !L’atelier de la Fresque de l’Eau permet de construire une vision globale du cycle de l’eau, grâce à un jeu de cartes qui est mis en place par les joueurs selon 4 lots : le cycle naturel de l’eau, le cycle anthropique de l’eau (influencé par l’homme) ainsi que les impacts de l’Homme et l’impact du changement climatique sur ces cycles. Un échange permet ensuite de discuter des mesures individuelles et collectives qui peuvent être prises. Au programme : Découvrir du cycle naturel de l’eau 🌱 Comprendre du cycle anthropique 💧🏭 Explorer les impacts humains et du changement climatique 🌡️🌪️ Échanger et imaginer des solutions pour agir ensemble 🤝💡🎲 Un atelier ludique et collaboratif animé par CAP Climat Orléans pour repenser notre rapport à l’eau et imaginer un futur plus durable. Informations pratiques : 📅 Samedi 17 octobre⏰ 10h00 - 13h00📍 Muséum d'Orléans pour la Biodiversité et l'Environnement - 6, rue Marcel Proust 45000 Orléans👩👵🧔👲 Tous publics à partir de 15 ans environ💦 Inscription préalable :&lt;https://www.billetweb.fr/shop.php?event=1315092&amp;margin=margin_small&amp;color=no&amp;ref=fdeau-loiret-45&amp;step=1&amp;session=12436295&gt;Atelier gratuit animé par CAP Climat OrléansPour toute information complémentaire, contactez-nous : [email supprimé]",
     "dateDebut": "2026-10-17T08:00:00+00:00",
     "dateFin": "2026-10-17T11:00:00+00:00",
     "categorie": "atelier",
@@ -5540,13 +5862,15 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.907978,
     "lieuLongitude": 1.909131,
+    "coordinates": "47.907978,1.909131",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-15T11:51:20+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-la-fresque-de-leau-4059857",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/2f961c8df7d0469dbb95bf0777238840.base.image.jpg"
   },
   {
     "uid": "oa-58038435",
@@ -5569,12 +5893,14 @@
     "lieuCodeInsee": "45234",
     "lieuLatitude": 47.899475,
     "lieuLongitude": 1.915665,
+    "coordinates": "47.899475,1.915665",
     "lieuDepartement": "Loiret",
     "lieuRegion": "Centre-Val de Loire",
     "dateMaj": "2026-06-18T09:42:16+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-du-seminaire-interdiocesaine-notre-dame-de-lesperance",
-    "departementNumero": "45"
+    "departementNumero": "45",
+    "image": "https://img.openagenda.com/main/c8af8bce4fc74a0ea0bb183042906b90.base.image.jpg"
   }
 ]

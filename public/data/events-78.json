@@ -22,13 +22,15 @@
     "lieuCodeInsee": "78158",
     "lieuLatitude": 48.820729,
     "lieuLongitude": 2.121528,
+    "coordinates": "48.820729,2.121528",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-01T06:41:18+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "sol-invictus-1385933",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://cdn.openagenda.com/main/a2e4c13da1144deda9d12fbc9a9bed62.base.image.jpg"
   },
   {
     "uid": "oa-5155426",
@@ -51,13 +53,15 @@
     "lieuCodeInsee": "78297",
     "lieuLatitude": 48.782288,
     "lieuLongitude": 2.059556,
+    "coordinates": "48.782288,2.059556",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-23T04:17:44+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "autour-de-la-guitare-pick-and-jazz",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://cdn.openagenda.com/main/367f9f05c99245c4962a35c75e519171.base.image.jpg"
   },
   {
     "uid": "oa-12174387",
@@ -73,8 +77,8 @@
     "motsCles": [
       "Théâtre"
     ],
-    "gratuit": false,
-    "prixIndicatif": "",
+    "gratuit": true,
+    "prixIndicatif": "Gratuit",
     "lieuNom": "Théâtre Nouvelle-France (TNF)",
     "lieuAdresse": "9, rue Pottier Le Chesnay-Rocquencourt",
     "lieuCodePostal": "78150",
@@ -82,13 +86,15 @@
     "lieuCodeInsee": "78158",
     "lieuLatitude": 48.826447,
     "lieuLongitude": 2.125306,
+    "coordinates": "48.826447,2.125306",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-01T06:41:51+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-disparition-de-josef-mengele-1762066",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://cdn.openagenda.com/main/63ce3e1bbfbb461fa467cb80422a7d52.base.image.jpg"
   },
   {
     "uid": "oa-90141087",
@@ -111,13 +117,15 @@
     "lieuCodeInsee": "78551",
     "lieuLatitude": 48.893978,
     "lieuLongitude": 2.088964,
+    "coordinates": "48.893978,2.088964",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-16T18:38:23+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "alela-diane-usa-elias-dris",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://img.openagenda.com/main/5edd0e9710584a779afa69b71ed7d924.base.image.jpg"
   },
   {
     "uid": "oa-50998325",
@@ -140,13 +148,48 @@
     "lieuCodeInsee": "78158",
     "lieuLatitude": 48.826447,
     "lieuLongitude": 2.125306,
+    "coordinates": "48.826447,2.125306",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-03T09:12:54+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "the-dansant-8158584",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://img.openagenda.com/main/e1c5fbea955843c2b9e0d867a0012e81.base.image.jpg"
+  },
+  {
+    "uid": "paris-111703",
+    "source": "paris-evenements",
+    "sourceUrl": "https://www.paris.fr/evenements/salon-international-coquelicot-6eme-edition-111703",
+    "licence": "lov2",
+    "titre": "Salon International Coquelicot - 6ème édition",
+    "descriptionCourte": "Ce salon artistique d’envergure internationale réunit des peintres, sculpteurs et photographes venus du monde entier autour des valeurs fondamentales de la création, du dialogue interculturel et de la diversité artistique.Véritable espace de rencontre et d’échange, le Salon International Coquelicot ",
+    "descriptionLongue": "Ce salon artistique d’envergure internationale réunit des peintres, sculpteurs et photographes venus du monde entier autour des valeurs fondamentales de la création, du dialogue interculturel et de la diversité artistique.Véritable espace de rencontre et d’échange, le Salon International Coquelicot met à l’honneur des artistes aux univers variés, favorisant le partage des sensibilités, des techniques et des regards sur le monde contemporain.Cette année, l’artiste-peintre Ye XingQian, invité d’honneur, sera présent aux côtés de Vanecha Roudbaraki, fondatrice de ce salon.Cette nouvelle édition du Salon International Coquelicot promet d’être un moment fort de la scène artistique contemporaine, favorisant la rencontre entre les créateurs et le public, tout en célébrant la richesse et la pluralité des expressions artistiques actuelles.",
+    "dateDebut": "2026-10-02T13:00:00+00:00",
+    "dateFin": "2026-10-11T20:00:00+00:00",
+    "categorie": "exposition",
+    "motsCles": [
+      "Art contemporain;Expo;Peinture"
+    ],
+    "gratuit": true,
+    "prixIndicatif": "Gratuit",
+    "lieuNom": "Maison Andre Derain",
+    "lieuAdresse": "64, grande Rue",
+    "lieuCodePostal": "78240",
+    "lieuCommune": "Chambourcy",
+    "lieuCodeInsee": "",
+    "lieuLatitude": 48.9062950103107,
+    "lieuLongitude": 2.03718401586505,
+    "coordinates": "48.9062950103107,2.03718401586505",
+    "lieuDepartement": "78",
+    "lieuRegion": "",
+    "dateMaj": "2026-05-15T09:30:57+00:00",
+    "statut": "programme",
+    "modeAcces": "sur_place",
+    "slug": "salon-international-coquelicot-6eme-edition-111703",
+    "departementNumero": "78",
+    "image": "https://cdn.paris.fr/qfapv4/2025/08/26/huge-e530fa72cbc59f5f2c74e323f0141140.jpg"
   },
   {
     "uid": "oa-88845845",
@@ -175,13 +218,15 @@
     "lieuCodeInsee": "78361",
     "lieuLatitude": 48.991711,
     "lieuLongitude": 1.710043,
+    "coordinates": "48.991711,1.710043",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-06T12:31:28+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "mantes-metal-night-primal-age-iceland-ice-chemicals-la-pire-hour",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://img.openagenda.com/main/e998743df3d04b6a80e2452d0111c783.base.image.jpg"
   },
   {
     "uid": "oa-13063282",
@@ -204,13 +249,15 @@
     "lieuCodeInsee": "78517",
     "lieuLatitude": 48.646373,
     "lieuLongitude": 1.823755,
+    "coordinates": "48.646373,1.823755",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-20T15:42:16+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visites-guidees-eglise-saint-lubin",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://cdn.openagenda.com/main/4d9f7e4c3c984cbe9203a25b02daabc9.base.image.jpg"
   },
   {
     "uid": "oa-93467978",
@@ -233,13 +280,15 @@
     "lieuCodeInsee": "78193",
     "lieuLatitude": 48.706343,
     "lieuLongitude": 1.975941,
+    "coordinates": "48.706343,1.975941",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-22T10:17:19+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-commentee-du-chantier-de-restauration-de-la-maison-de-fer-par-larchitecte",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://cdn.openagenda.com/main/46a2dac68f2d4efab667f508af8a4ce6.base.image.jpg"
   },
   {
     "uid": "oa-89231054",
@@ -262,13 +311,15 @@
     "lieuCodeInsee": "78517",
     "lieuLatitude": 48.644357,
     "lieuLongitude": 1.8221,
+    "coordinates": "48.644357,1.8221",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-25T14:24:14+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "le-palais-du-roi-de-rome-a-travers-lobjectif",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://cdn.openagenda.com/main/430c6594324d45d790a862ed90e9b3a0.base.image.jpg"
   },
   {
     "uid": "oa-79621934",
@@ -291,13 +342,15 @@
     "lieuCodeInsee": "78551",
     "lieuLatitude": 48.895724,
     "lieuLongitude": 2.087944,
+    "coordinates": "48.895724,2.087944",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-08T15:48:12+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "exposition-de-photographies-de-lumiere",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://cdn.openagenda.com/main/503e50d011be4addad1a7c504f900e5d.base.image.jpg"
   },
   {
     "uid": "oa-54951531",
@@ -311,8 +364,8 @@
     "dateFin": "2026-09-19T13:30:00+00:00",
     "categorie": "spectacle",
     "motsCles": [],
-    "gratuit": false,
-    "prixIndicatif": "",
+    "gratuit": true,
+    "prixIndicatif": "Gratuit",
     "lieuNom": "Musée du Domaine royal de Marly",
     "lieuAdresse": "1 Grille Royale - parc de Marly 78160 Marly-le-Roi",
     "lieuCodePostal": "78160",
@@ -320,13 +373,15 @@
     "lieuCodeInsee": "78372",
     "lieuLatitude": 48.862692,
     "lieuLongitude": 2.098704,
+    "coordinates": "48.862692,2.098704",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-29T15:21:56+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visita-tematica-las-fuentes-del-rey",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://cdn.openagenda.com/main/95d0f061fd6c4ed78689acb45b567c3c.base.image.jpg"
   },
   {
     "uid": "oa-92355101",
@@ -349,13 +404,15 @@
     "lieuCodeInsee": "78361",
     "lieuLatitude": 48.999658,
     "lieuLongitude": 1.683514,
+    "coordinates": "48.999658,1.683514",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-27T19:00:31+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "jeu-avec-la-mediatheque-aragon",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": ""
   },
   {
     "uid": "oa-33331963",
@@ -378,13 +435,15 @@
     "lieuCodeInsee": "78551",
     "lieuLatitude": 48.893978,
     "lieuLongitude": 2.088964,
+    "coordinates": "48.893978,2.088964",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-16T18:12:44+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "brocante-musicale-1376111",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://img.openagenda.com/main/707725a52ef84dce9bac3397e9698f01.base.image.jpg"
   },
   {
     "uid": "oa-14456472",
@@ -407,13 +466,15 @@
     "lieuCodeInsee": "78297",
     "lieuLatitude": 48.780708,
     "lieuLongitude": 2.045303,
+    "coordinates": "48.780708,2.045303",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-23T10:37:11+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visites-commentees-de-la-bibliotheque-universitaire-de-saint-quentin-en-yvelines",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://img.openagenda.com/main/9b871e37eee6498ca5b83feb83de02ef.base.image.jpg"
   },
   {
     "uid": "oa-4399972",
@@ -436,13 +497,15 @@
     "lieuCodeInsee": "78310",
     "lieuLatitude": 48.78928,
     "lieuLongitude": 1.599226,
+    "coordinates": "48.78928,1.599226",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-22T19:23:35+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "exposition-la-boldoflorine-lusine-et-sa-celebre-tisane",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://cdn.openagenda.com/main/786d852209f2475b9ea623e448278b85.base.image.jpg"
   },
   {
     "uid": "oa-94814284",
@@ -465,13 +528,15 @@
     "lieuCodeInsee": "78172",
     "lieuLatitude": 48.992397,
     "lieuLongitude": 2.095654,
+    "coordinates": "48.992397,2.095654",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-13T15:44:48+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "museo-de-la-navegacion-y-las-vias-navegables",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://cdn.openagenda.com/main/4b50f05ad3524fd5943b8cf1e98961af.base.image.jpg"
   },
   {
     "uid": "oa-4426028",
@@ -485,8 +550,8 @@
     "dateFin": "2026-09-19T11:00:00+00:00",
     "categorie": "atelier",
     "motsCles": [],
-    "gratuit": false,
-    "prixIndicatif": "",
+    "gratuit": true,
+    "prixIndicatif": "Gratuit",
     "lieuNom": "Musée de la batellerie et des voies navigables",
     "lieuAdresse": "3 Place Jules Gévelot, 78700 Conflans-Sainte-Honorine, France",
     "lieuCodePostal": "78700",
@@ -494,13 +559,15 @@
     "lieuCodeInsee": "78172",
     "lieuLatitude": 48.992397,
     "lieuLongitude": 2.095654,
+    "coordinates": "48.992397,2.095654",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-13T15:46:50+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "construye-tu-pequeno-barco-y-pruebalo-en-el-agua",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://cdn.openagenda.com/main/fb0a5a44a6cc43f594ad901a93a60b01.base.image.jpg"
   },
   {
     "uid": "oa-64359131",
@@ -523,13 +590,15 @@
     "lieuCodeInsee": "78356",
     "lieuLatitude": 48.745036,
     "lieuLongitude": 2.015642,
+    "coordinates": "48.745036,2.015642",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-23T13:40:02+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-du-site-des-ruines-de-labbaye-de-port-royal-des-champs-y-compris-l",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://img.openagenda.com/main/134cc60fce1e4559b3b2d68b4c61e68f.base.image.jpg"
   },
   {
     "uid": "oa-53005090",
@@ -552,13 +621,15 @@
     "lieuCodeInsee": "78551",
     "lieuLatitude": 48.896038,
     "lieuLongitude": 2.088563,
+    "coordinates": "48.896038,2.088563",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-25T13:23:14+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "jp-manufacture",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://cdn.openagenda.com/main/79207ba43bf24458bdc3fb8e0f2eefee.base.image.jpg"
   },
   {
     "uid": "oa-64959184",
@@ -581,13 +652,15 @@
     "lieuCodeInsee": "78646",
     "lieuLatitude": 48.802898,
     "lieuLongitude": 2.1292,
+    "coordinates": "48.802898,2.1292",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-24T08:55:42+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "versailles-insolite",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://img.openagenda.com/main/1c47622d301e40438f581b592763c72c.base.image.jpg"
   },
   {
     "uid": "oa-6413950",
@@ -617,12 +690,47 @@
     "lieuCodeInsee": "78383",
     "lieuLatitude": 48.760721,
     "lieuLongitude": 1.921667,
+    "coordinates": "48.760721,1.921667",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-23T14:08:27+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "concert-reggae-and-dancehall-au-meeple-bar",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://img.openagenda.com/main/79f0bdb9d0b84a4cb8442d512a37cf0f.base.image.jpg"
+  },
+  {
+    "uid": "paris-40837",
+    "source": "paris-evenements",
+    "sourceUrl": "https://www.paris.fr/evenements/les-parcours-nocturnes-d-accrobranches-a-accrocamp-40837",
+    "licence": "lov2",
+    "titre": "Les parcours nocturnes d'accrobranches à Accrocamp",
+    "descriptionCourte": "Les soirées nocturnes chez AccroCamp c'est aussi l'occasion de jouer à se faire frissonner en toute sécurité, idéales pour une sortie en famille ou entre amis. Une fois sur les parcours en hauteur à la tombée de la nuit, privés de votre vue, tous vos sens seront aiguisés pour conserver votre agilité",
+    "descriptionLongue": "Les soirées nocturnes chez AccroCamp c'est aussi l'occasion de jouer à se faire frissonner en toute sécurité, idéales pour une sortie en famille ou entre amis. Une fois sur les parcours en hauteur à la tombée de la nuit, privés de votre vue, tous vos sens seront aiguisés pour conserver votre agilité et entendre tous les bruits de la nature qui s'éveille dans l'obscurité.Pas de panique, la lueur de la lune et les lampes frontales qui vous seront prêtées, vous permettront de ne pas être entièrement à l'aveugle … Sauf si vous souhaitez vivre à fond les sensations de la tyrolienne dans le noir complet ! Rendez-vous le 21 août !Les parcours restent accessibles selon la taille des participants, exactement comme en journée (les systèmes de lignes de vie continues garantissent une sécurité maximale), avec lampes frontales fournies.",
+    "dateDebut": "2026-08-21T22:00:00+00:00",
+    "dateFin": "2026-08-22T00:00:00+00:00",
+    "categorie": "enfants",
+    "motsCles": [
+      "Nature;Sport"
+    ],
+    "gratuit": false,
+    "prixIndicatif": "",
+    "lieuNom": "Accrocamp Saint-Quentin-en-Yvelines",
+    "lieuAdresse": "Chemin des vents d'ouest",
+    "lieuCodePostal": "78390",
+    "lieuCommune": "Montigny-le-Bretonneux",
+    "lieuCodeInsee": "",
+    "lieuLatitude": 48.7983866318062,
+    "lieuLongitude": 2.03216115381815,
+    "coordinates": "48.7983866318062,2.03216115381815",
+    "lieuDepartement": "78",
+    "lieuRegion": "",
+    "dateMaj": "2026-07-27T16:03:05+00:00",
+    "statut": "programme",
+    "modeAcces": "sur_place",
+    "slug": "les-parcours-nocturnes-d-accrobranches-a-accrocamp-40837",
+    "departementNumero": "78",
+    "image": "https://cdn.paris.fr/qfapv4/2023/07/27/huge-7e32658390482107dfdcfec9eb09e9c1.png"
   }
 ]

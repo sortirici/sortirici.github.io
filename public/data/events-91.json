@@ -24,13 +24,15 @@
     "lieuCodeInsee": "91521",
     "lieuLatitude": 48.637312,
     "lieuLongitude": 2.404301,
+    "coordinates": "48.637312,2.404301",
     "lieuDepartement": "Essonne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-23T08:08:54+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "hooverphonic-1ere-partie",
-    "departementNumero": "91"
+    "departementNumero": "91",
+    "image": "https://cdn.openagenda.com/main/73e0085ac83b4891b021fe98c0cbe8c8.base.image.jpg"
   },
   {
     "uid": "oa-55116808",
@@ -59,13 +61,15 @@
     "lieuCodeInsee": "91570",
     "lieuLatitude": 48.637029,
     "lieuLongitude": 2.321219,
+    "coordinates": "48.637029,2.321219",
     "lieuDepartement": "Essonne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-04T14:51:40+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "20000-lieues-sous-les-mers-717178",
-    "departementNumero": "91"
+    "departementNumero": "91",
+    "image": "https://cdn.openagenda.com/main/667b7e9ef93a4294a4864a10aff15a41.base.image.jpg"
   },
   {
     "uid": "oa-5069293",
@@ -88,13 +92,15 @@
     "lieuCodeInsee": "91377",
     "lieuLatitude": 48.735915,
     "lieuLongitude": 2.26217,
+    "coordinates": "48.735915,2.26217",
     "lieuDepartement": "Essonne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-14T07:54:23+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "agora-livres",
-    "departementNumero": "91"
+    "departementNumero": "91",
+    "image": "https://img.openagenda.com/main/1e4f84cd093f403481a1c50658494697.base.image.jpg"
   },
   {
     "uid": "oa-23250036",
@@ -117,13 +123,15 @@
     "lieuCodeInsee": "91326",
     "lieuLatitude": 48.690461,
     "lieuLongitude": 2.374737,
+    "coordinates": "48.690461,2.374737",
     "lieuDepartement": "Essonne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-09T17:50:40+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "comptoir-numerique",
-    "departementNumero": "91"
+    "departementNumero": "91",
+    "image": "https://img.openagenda.com/main/00c5fa5925a245b8aec650ea373024b2.base.image.jpg"
   },
   {
     "uid": "oa-13728973",
@@ -150,13 +158,15 @@
     "lieuCodeInsee": "91477",
     "lieuLatitude": 48.713111,
     "lieuLongitude": 2.199685,
+    "coordinates": "48.713111,2.199685",
     "lieuDepartement": "Essonne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-05-21T08:49:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "junior-conference-on-wireless-and-optical-communication-jwoc-4149685",
-    "departementNumero": "91"
+    "departementNumero": "91",
+    "image": "https://img.openagenda.com/main/7f68548f82984ebe9f709962841439b1.base.image.jpg"
   },
   {
     "uid": "oa-69896710",
@@ -179,13 +189,15 @@
     "lieuCodeInsee": "91079",
     "lieuLatitude": 48.376813,
     "lieuLongitude": 2.151911,
+    "coordinates": "48.376813,2.151911",
     "lieuDepartement": "Essonne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-03T15:27:13+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-decouverte-du-domaine-de-bierville",
-    "departementNumero": "91"
+    "departementNumero": "91",
+    "image": "https://img.openagenda.com/main/73aa773ef82644a09515255dbcd8d33b.base.image.jpg"
   },
   {
     "uid": "oa-84733614",
@@ -208,13 +220,15 @@
     "lieuCodeInsee": "91390",
     "lieuLatitude": 48.319855,
     "lieuLongitude": 2.088433,
+    "coordinates": "48.319855,2.088433",
     "lieuDepartement": "Essonne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-19T10:12:03+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "taller-de-prensado-de-manzanas-6086962",
-    "departementNumero": "91"
+    "departementNumero": "91",
+    "image": "https://cdn.openagenda.com/main/3867ff4f874349b4b564a168ca053849.base.image.jpg"
   },
   {
     "uid": "oa-50115819",
@@ -237,13 +251,15 @@
     "lieuCodeInsee": "91639",
     "lieuLatitude": 48.43978,
     "lieuLongitude": 2.355676,
+    "coordinates": "48.43978,2.355676",
     "lieuDepartement": "Essonne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-09T12:56:59+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "descubrimiento-de-nuestro-patrimonio-rural",
-    "departementNumero": "91"
+    "departementNumero": "91",
+    "image": ""
   },
   {
     "uid": "oa-62995729",
@@ -266,13 +282,15 @@
     "lieuCodeInsee": "91408",
     "lieuLatitude": 48.433018,
     "lieuLongitude": 2.443184,
+    "coordinates": "48.433018,2.443184",
     "lieuDepartement": "Essonne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-06T10:47:35+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guide-de-la-carriere-les-gres-de-fontainebleau",
-    "departementNumero": "91"
+    "departementNumero": "91",
+    "image": "https://cdn.openagenda.com/main/d7104f77c35b4cb494c3dcbee3f67bb7.base.image.jpg"
   },
   {
     "uid": "oa-37789384",
@@ -295,13 +313,15 @@
     "lieuCodeInsee": "91243",
     "lieuLatitude": 48.62609,
     "lieuLongitude": 2.148885,
+    "coordinates": "48.62609,2.148885",
     "lieuDepartement": "Essonne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-22T09:15:15+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "le-piano-historique-de-bligny-fete-ses-92-ans-et-toutes-ses-notes",
-    "departementNumero": "91"
+    "departementNumero": "91",
+    "image": "https://img.openagenda.com/main/44e91159d7234a2884fad93919f1e731.base.image.jpg"
   },
   {
     "uid": "oa-40331777",
@@ -319,8 +339,8 @@
       "science",
       "santé"
     ],
-    "gratuit": false,
-    "prixIndicatif": "",
+    "gratuit": true,
+    "prixIndicatif": "Gratuit",
     "lieuNom": "Auditorium, Bâtiment Lumen, 8 avenue des Sciences à Gif sur Yvette",
     "lieuAdresse": "Gif sur Yvette 8 avenue des Sciences",
     "lieuCodePostal": "91190",
@@ -328,13 +348,15 @@
     "lieuCodeInsee": "91272",
     "lieuLatitude": 48.701882,
     "lieuLongitude": 2.134529,
+    "coordinates": "48.701882,2.134529",
     "lieuDepartement": "Essonne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-19T07:39:16+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "science-a-la-coque-courir-marcher-vivre-comment-proteger-ses-articulations-tout-",
-    "departementNumero": "91"
+    "departementNumero": "91",
+    "image": "https://cdn.openagenda.com/main/eedd99c1e443492f9e2ba89b2c986e2f.base.image.jpg"
   },
   {
     "uid": "oa-10900678",
@@ -367,12 +389,47 @@
     "lieuCodeInsee": "91272",
     "lieuLatitude": 48.701882,
     "lieuLongitude": 2.134529,
+    "coordinates": "48.701882,2.134529",
     "lieuDepartement": "Essonne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-20T08:05:40+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "4761080",
-    "departementNumero": "91"
+    "departementNumero": "91",
+    "image": "https://img.openagenda.com/main/88e7c4f140a848349d10a2a791928b97.base.image.jpg"
+  },
+  {
+    "uid": "paris-35483",
+    "source": "paris-evenements",
+    "sourceUrl": "https://www.paris.fr/evenements/la-fete-de-l-humanite-35483",
+    "licence": "lov2",
+    "titre": "La fête de l'Humanité",
+    "descriptionCourte": "Programmation à venir",
+    "descriptionLongue": "Programmation à venir",
+    "dateDebut": "2026-09-11T00:00:00+00:00",
+    "dateFin": "2026-09-13T23:59:59+00:00",
+    "categorie": "festival",
+    "motsCles": [
+      "Concert;Festival"
+    ],
+    "gratuit": false,
+    "prixIndicatif": "",
+    "lieuNom": "Base 217 du Plessis-Pâté",
+    "lieuAdresse": "Le Plessis-Pâte",
+    "lieuCodePostal": "91000",
+    "lieuCommune": "Bretigny sur Orge",
+    "lieuCodeInsee": "",
+    "lieuLatitude": 48.5960000000001,
+    "lieuLongitude": 2.33200000000005,
+    "coordinates": "48.5960000000001,2.33200000000005",
+    "lieuDepartement": "91",
+    "lieuRegion": "",
+    "dateMaj": "2026-01-06T13:12:10+00:00",
+    "statut": "programme",
+    "modeAcces": "sur_place",
+    "slug": "la-fete-de-l-humanite-35483",
+    "departementNumero": "91",
+    "image": "https://cdn.paris.fr/qfapv4/2023/04/18/huge-747617ccc1d8df1d72d5c4b0b41c2f40.jpg"
   }
 ]

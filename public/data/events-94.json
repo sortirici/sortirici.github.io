@@ -29,13 +29,15 @@
     "lieuCodeInsee": "94017",
     "lieuLatitude": 48.810894,
     "lieuLongitude": 2.545548,
+    "coordinates": "48.810894,2.545548",
     "lieuDepartement": "Val-de-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-05-26T16:26:17+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "naissam-jalal-quest-of-the-invisible-3604270",
-    "departementNumero": "94"
+    "departementNumero": "94",
+    "image": "https://cdn.openagenda.com/main/23b93c4a1b704313b2fd259d347681c9.base.image.jpg"
   },
   {
     "uid": "oa-65467510",
@@ -58,13 +60,15 @@
     "lieuCodeInsee": "94080",
     "lieuLatitude": 48.847212,
     "lieuLongitude": 2.43774,
+    "coordinates": "48.847212,2.43774",
     "lieuDepartement": "Val-de-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-06T14:10:29+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "decouvrez-les-richesses-de-la-ruche-dans-les-boutiques-famille-mary-434320",
-    "departementNumero": "94"
+    "departementNumero": "94",
+    "image": "https://img.openagenda.com/main/2ab502d13081465db49b69f9194f5804.base.image.jpg"
   },
   {
     "uid": "oa-39864770",
@@ -87,13 +91,15 @@
     "lieuCodeInsee": "94018",
     "lieuLatitude": 48.822689,
     "lieuLongitude": 2.405507,
+    "coordinates": "48.822689,2.405507",
     "lieuDepartement": "Val-de-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-16T08:45:21+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-de-la-chapelle-de-conflans-973446",
-    "departementNumero": "94"
+    "departementNumero": "94",
+    "image": "https://cdn.openagenda.com/main/1a2db34f1fe945b38642689e0422b06d.base.image.jpg"
   },
   {
     "uid": "oa-9594713",
@@ -116,13 +122,15 @@
     "lieuCodeInsee": "94041",
     "lieuLatitude": 48.812572,
     "lieuLongitude": 2.384893,
+    "coordinates": "48.812572,2.384893",
     "lieuDepartement": "Val-de-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-25T16:25:47+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-des-batiments-gailhoustet-et-renaudie-a-ivry-sur-seine",
-    "departementNumero": "94"
+    "departementNumero": "94",
+    "image": "https://cdn.openagenda.com/main/9d26fe9c591c409ca3044f6e696a40f3.base.image.jpg"
   },
   {
     "uid": "oa-35494140",
@@ -145,13 +153,15 @@
     "lieuCodeInsee": "94004",
     "lieuLatitude": 48.727888,
     "lieuLongitude": 2.530154,
+    "coordinates": "48.727888,2.530154",
     "lieuDepartement": "Val-de-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-22T15:21:45+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "balade-sensorielle-et-ornithologique",
-    "departementNumero": "94"
+    "departementNumero": "94",
+    "image": "https://cdn.openagenda.com/main/03f84fe1a90f48e0bf0a8e502a305b76.base.image.jpg"
   },
   {
     "uid": "oa-62266157",
@@ -174,13 +184,15 @@
     "lieuCodeInsee": "94041",
     "lieuLatitude": 48.81121,
     "lieuLongitude": 2.383677,
+    "coordinates": "48.81121,2.383677",
     "lieuDepartement": "Val-de-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-27T09:42:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visitas-a-la-iglesia-de-san-pedro-y-san-pablo-en-ivry-sur-seine",
-    "departementNumero": "94"
+    "departementNumero": "94",
+    "image": "https://img.openagenda.com/main/565f707295fd413b9d20864e769d1c27.base.image.jpg"
   },
   {
     "uid": "oa-86836416",
@@ -203,13 +215,15 @@
     "lieuCodeInsee": "94028",
     "lieuLatitude": 48.785774,
     "lieuLongitude": 2.444187,
+    "coordinates": "48.785774,2.444187",
     "lieuDepartement": "Val-de-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-02T12:50:38+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-dessine-moi-ta-justice",
-    "departementNumero": "94"
+    "departementNumero": "94",
+    "image": "https://cdn.openagenda.com/main/b61a9b34e8ef454690760add1aa96489.base.image.jpg"
   },
   {
     "uid": "oa-91212134",
@@ -232,13 +246,15 @@
     "lieuCodeInsee": "94015",
     "lieuLatitude": 48.836617,
     "lieuLongitude": 2.532867,
+    "coordinates": "48.836617,2.532867",
     "lieuDepartement": "Val-de-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-22T16:21:48+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-de-linstitut-national-de-laudiovisuel",
-    "departementNumero": "94"
+    "departementNumero": "94",
+    "image": "https://cdn.openagenda.com/main/a6769e0a8e3041308ee5ad984fcf2a39.base.image.jpg"
   },
   {
     "uid": "oa-78361373",
@@ -261,13 +277,15 @@
     "lieuCodeInsee": "94080",
     "lieuLatitude": 48.847867,
     "lieuLongitude": 2.434502,
+    "coordinates": "48.847867,2.434502",
     "lieuDepartement": "Val-de-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-30T10:54:20+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "dialoguons-ensemble-visite-guidee-de-la-banque-de-france-de-vincennes-et-present",
-    "departementNumero": "94"
+    "departementNumero": "94",
+    "image": "https://cdn.openagenda.com/main/2ff57a64651e4b0387e06dbf4bcb8823.base.image.jpg"
   },
   {
     "uid": "oa-86067975",
@@ -290,13 +308,15 @@
     "lieuCodeInsee": "94041",
     "lieuLatitude": 48.807508,
     "lieuLongitude": 2.375279,
+    "coordinates": "48.807508,2.375279",
     "lieuDepartement": "Val-de-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-30T10:22:55+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "portes-ouvertes-eveha-archeologie-ivry",
-    "departementNumero": "94"
+    "departementNumero": "94",
+    "image": "https://img.openagenda.com/main/ab5f11f88cdf49d88098c9eb8280f828.base.image.jpg"
   },
   {
     "uid": "oa-70268318",
@@ -310,8 +330,8 @@
     "dateFin": "2026-09-19T16:00:00+00:00",
     "categorie": "spectacle",
     "motsCles": [],
-    "gratuit": false,
-    "prixIndicatif": "",
+    "gratuit": true,
+    "prixIndicatif": "Gratuit",
     "lieuNom": "Oeuvre patrimoniale de Guillaume Bottazzi à Vincennes",
     "lieuAdresse": "4 rue de la Bienfaisance 94300 Vincennes",
     "lieuCodePostal": "94300",
@@ -319,13 +339,15 @@
     "lieuCodeInsee": "94080",
     "lieuLatitude": 48.848465,
     "lieuLongitude": 2.450936,
+    "coordinates": "48.848465,2.450936",
     "lieuDepartement": "Val-de-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-18T10:01:58+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "ceramica-onirica-firmada-por-guillaume-bottazzi-en-vincennes",
-    "departementNumero": "94"
+    "departementNumero": "94",
+    "image": "https://img.openagenda.com/main/5241beb64ca64aa88cfeb440288fe95e.base.image.jpg"
   },
   {
     "uid": "oa-19617903",
@@ -348,12 +370,14 @@
     "lieuCodeInsee": "94068",
     "lieuLatitude": 48.804492,
     "lieuLongitude": 2.485575,
+    "coordinates": "48.804492,2.485575",
     "lieuDepartement": "Val-de-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-10T09:18:13+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "explorez-le-quartier-de-lhotel-de-ville",
-    "departementNumero": "94"
+    "departementNumero": "94",
+    "image": "https://img.openagenda.com/main/18a54b47806e46b897ee9a18ed608211.base.image.jpg"
   }
 ]

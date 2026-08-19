@@ -121,8 +121,65 @@ const SOURCES = [
   },
   {
     id: 'nice-evenements',
-    name: 'Événements Nice Côte d\'Azur',
+    name: "Événements Nice Côte d'Azur",
     url: 'http://opendata.nicecotedazur.org/data/storage/f/2026-05-09T06:06:01.384Z/events-public.json',
+    format: 'json',
+    licence: 'lov2',
+  },
+  // === NOUVELLES SOURCES ===
+  // Calvados (Normandie) — OpenAgenda API directe
+  {
+    id: 'calvados-evenements',
+    name: 'Événements Calvados (OpenAgenda)',
+    url: 'https://openagenda.com/agendas/11317568/events.json?page=1&oaq%5Bpassed%5D=1&key=8a4568494128ff4e57e91284ae275fb2&limit=5000',
+    format: 'json',
+    licence: 'lov2',
+  },
+  // GPSO — Grand Paris Seine Ouest (Hauts-de-Seine)
+  {
+    id: 'gpso-evenements',
+    name: 'Événements GPSO (OpenAgenda)',
+    url: 'https://data.seineouest.fr/api/explore/v2.1/catalog/datasets/openagenda-gpso/exports/json?limit=10000',
+    format: 'json',
+    licence: 'fr-lo',
+  },
+  // Nantes Métropole — Agenda global des événements
+  {
+    id: 'nantes-metropole-evenements',
+    name: 'Agenda des événements Nantes Métropole',
+    url: 'https://data.nantesmetropole.fr/api/explore/v2.1/catalog/datasets/244400404_agenda-evenements-nantes-metropole_v2/exports/json?limit=10000',
+    format: 'json',
+    licence: 'lov2',
+  },
+  // Tours Métropole Val de Loire
+  {
+    id: 'tours-metropole',
+    name: 'Événements Tours Métropole',
+    url: 'https://data.tours-metropole.fr/api/explore/v2.1/catalog/datasets/evenements-tours-metropole-val-de-loire/exports/json?limit=10000',
+    format: 'json',
+    licence: 'lov2',
+  },
+  // Paris — Que Faire à Paris ?
+  {
+    id: 'paris-evenements',
+    name: 'Que Faire à Paris ? Événements',
+    url: 'https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/que-faire-a-paris-/exports/json?limit=10000',
+    format: 'json',
+    licence: 'odc-odbl',
+  },
+  // Haute-Garonne — Grand Ouest Toulousain
+  {
+    id: 'haute-garonne-grand-ouest',
+    name: 'Agenda Grand Ouest Toulousain (OpenAgenda)',
+    url: 'https://data.haute-garonne.fr/api/explore/v2.1/catalog/datasets/agenda-du-grand-ouest-toulousain/exports/json?limit=5000',
+    format: 'json',
+    licence: 'lov2',
+  },
+  // CC Autour de Chenonceaux (Indre-et-Loire)
+  {
+    id: 'chenonceaux-agenda',
+    name: 'Agenda CC Autour de Chenonceaux',
+    url: 'https://data.cc-autourdechenonceaux.fr/api/explore/v2.1/catalog/datasets/attractivite-intramuros-api-agenda/exports/json?limit=5000',
     format: 'json',
     licence: 'lov2',
   },

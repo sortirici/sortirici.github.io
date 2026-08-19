@@ -6,7 +6,7 @@
     "licence": "lov2",
     "titre": "Atelier d'auto-réparation du mardi soir à Compiègne",
     "descriptionCourte": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous disposo",
-    "descriptionLongue": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous disposons d’un local au cœur de Compiègne. Nous y avons installé notre atelier d’auto-réparation, grâce aux dons en outils, matériaux et mobilier et à surtout à l’énergie des bénévoles. Nous proposons un planning d’ouvertures : le mardi soir et le samedi matin.Nos mécaniciens bénévoles se relaient pour partager leur passion du vélo. Adhérez à VélOOise et venez apprendre à entretenir et à réparer votre vélo, pour vous remettre en selle en toute tranquillité : éclairages, freins, pneus, garde-boue… les conseils et les coups de mains sont gratuits, seules les pièces sont à votre charge. Rejoignez-nous pour participer à l’aventure de VélOOise à Compiègne ! Vous pouvez adhérer sur place ou en ligne : 13€ par personne ou 20€ pour une famille. Contactez-nous à ateliercompiegne@velooise.frPlus d'infos",
+    "descriptionLongue": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous disposons d’un local au cœur de Compiègne. Nous y avons installé notre atelier d’auto-réparation, grâce aux dons en outils, matériaux et mobilier et à surtout à l’énergie des bénévoles. Nous proposons un planning d’ouvertures : le mardi soir et le samedi matin.Nos mécaniciens bénévoles se relaient pour partager leur passion du vélo. Adhérez à VélOOise et venez apprendre à entretenir et à réparer votre vélo, pour vous remettre en selle en toute tranquillité : éclairages, freins, pneus, garde-boue… les conseils et les coups de mains sont gratuits, seules les pièces sont à votre charge. Rejoignez-nous pour participer à l’aventure de VélOOise à Compiègne ! Vous pouvez adhérer sur place ou en ligne : 13€ par personne ou 20€ pour une famille. Contactez-nous à [email supprimé] d'infos",
     "dateDebut": "2027-06-08T15:30:00+00:00",
     "dateFin": "2027-06-08T17:30:00+00:00",
     "categorie": "atelier",
@@ -20,13 +20,15 @@
     "lieuCodeInsee": "77175",
     "lieuLatitude": 48.667579,
     "lieuLongitude": 2.623747,
+    "coordinates": "48.667579,2.623747",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-07T07:05:11+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-dauto-reparation-du-mardi-soir-a-compiegne-449950",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/4bc4e56d906c42819cf5ca3026b21da7.base.image.jpg"
   },
   {
     "uid": "oa-71746646",
@@ -35,7 +37,7 @@
     "licence": "lov2",
     "titre": "Atelier d'auto-réparation du samedi matin à Compiègne",
     "descriptionCourte": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous dis",
-    "descriptionLongue": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous disposons d’un local au cœur de Compiègne. Nous y avons installé notre atelier d’auto-réparation, grâce aux dons en outils, matériaux et mobilier et à surtout à l’énergie des bénévoles. Nous proposons un planning d’ouvertures : le mardi soir et le samedi matin.Nos mécaniciens bénévoles se relaient pour partager leur passion du vélo. Adhérez à VélOOise et venez apprendre à entretenir et à réparer votre vélo, pour vous remettre en selle en toute tranquillité : éclairages, freins, pneus, garde-boue… les conseils et les coups de mains sont gratuits, seules les pièces sont à votre charge. Rejoignez-nous pour participer à l’aventure de VélOOise à Compiègne ! Vous pouvez adhérer sur place ou en ligne : 13€ par personne ou 20€ pour une famille. Contactez-nous à ateliercompiegne@velooise.frPlus d'infos",
+    "descriptionLongue": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous disposons d’un local au cœur de Compiègne. Nous y avons installé notre atelier d’auto-réparation, grâce aux dons en outils, matériaux et mobilier et à surtout à l’énergie des bénévoles. Nous proposons un planning d’ouvertures : le mardi soir et le samedi matin.Nos mécaniciens bénévoles se relaient pour partager leur passion du vélo. Adhérez à VélOOise et venez apprendre à entretenir et à réparer votre vélo, pour vous remettre en selle en toute tranquillité : éclairages, freins, pneus, garde-boue… les conseils et les coups de mains sont gratuits, seules les pièces sont à votre charge. Rejoignez-nous pour participer à l’aventure de VélOOise à Compiègne ! Vous pouvez adhérer sur place ou en ligne : 13€ par personne ou 20€ pour une famille. Contactez-nous à [email supprimé] d'infos",
     "dateDebut": "2027-04-24T08:00:00+00:00",
     "dateFin": "2027-04-24T10:00:00+00:00",
     "categorie": "atelier",
@@ -49,13 +51,15 @@
     "lieuCodeInsee": "77175",
     "lieuLatitude": 48.667579,
     "lieuLongitude": 2.623747,
+    "coordinates": "48.667579,2.623747",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-07T07:06:36+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-dauto-reparation-du-samedi-matin-a-compiegne-6110533",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/5f926d19bec048228c72d1d1c6921e43.base.image.jpg"
   },
   {
     "uid": "oa-39543489",
@@ -64,7 +68,7 @@
     "licence": "lov2",
     "titre": "Atelier d'auto-réparation du samedi matin à Compiègne",
     "descriptionCourte": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous dis",
-    "descriptionLongue": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous disposons d’un local au cœur de Compiègne. Nous y avons installé notre atelier d’auto-réparation, grâce aux dons en outils, matériaux et mobilier et à surtout à l’énergie des bénévoles. Nous proposons un planning d’ouvertures : le mardi soir et le samedi matin.Nos mécaniciens bénévoles se relaient pour partager leur passion du vélo. Adhérez à VélOOise et venez apprendre à entretenir et à réparer votre vélo, pour vous remettre en selle en toute tranquillité : éclairages, freins, pneus, garde-boue… les conseils et les coups de mains sont gratuits, seules les pièces sont à votre charge. Rejoignez-nous pour participer à l’aventure de VélOOise à Compiègne ! Vous pouvez adhérer sur place ou en ligne : 13€ par personne ou 20€ pour une famille. Contactez-nous à ateliercompiegne@velooise.frPlus d'infos",
+    "descriptionLongue": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous disposons d’un local au cœur de Compiègne. Nous y avons installé notre atelier d’auto-réparation, grâce aux dons en outils, matériaux et mobilier et à surtout à l’énergie des bénévoles. Nous proposons un planning d’ouvertures : le mardi soir et le samedi matin.Nos mécaniciens bénévoles se relaient pour partager leur passion du vélo. Adhérez à VélOOise et venez apprendre à entretenir et à réparer votre vélo, pour vous remettre en selle en toute tranquillité : éclairages, freins, pneus, garde-boue… les conseils et les coups de mains sont gratuits, seules les pièces sont à votre charge. Rejoignez-nous pour participer à l’aventure de VélOOise à Compiègne ! Vous pouvez adhérer sur place ou en ligne : 13€ par personne ou 20€ pour une famille. Contactez-nous à [email supprimé] d'infos",
     "dateDebut": "2027-02-27T09:00:00+00:00",
     "dateFin": "2027-02-27T11:00:00+00:00",
     "categorie": "atelier",
@@ -78,13 +82,15 @@
     "lieuCodeInsee": "77175",
     "lieuLatitude": 48.667579,
     "lieuLongitude": 2.623747,
+    "coordinates": "48.667579,2.623747",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-07T07:06:23+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-dauto-reparation-du-samedi-matin-a-compiegne-7583569",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/00a0b3cdf28d4206b9d0f47668813fc0.base.image.jpg"
   },
   {
     "uid": "oa-44788700",
@@ -93,7 +99,7 @@
     "licence": "lov2",
     "titre": "Atelier d'auto-réparation du mardi soir à Compiègne",
     "descriptionCourte": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous disposo",
-    "descriptionLongue": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous disposons d’un local au cœur de Compiègne. Nous y avons installé notre atelier d’auto-réparation, grâce aux dons en outils, matériaux et mobilier et à surtout à l’énergie des bénévoles. Nous proposons un planning d’ouvertures : le mardi soir et le samedi matin.Nos mécaniciens bénévoles se relaient pour partager leur passion du vélo. Adhérez à VélOOise et venez apprendre à entretenir et à réparer votre vélo, pour vous remettre en selle en toute tranquillité : éclairages, freins, pneus, garde-boue… les conseils et les coups de mains sont gratuits, seules les pièces sont à votre charge. Rejoignez-nous pour participer à l’aventure de VélOOise à Compiègne ! Vous pouvez adhérer sur place ou en ligne : 13€ par personne ou 20€ pour une famille. Contactez-nous à ateliercompiegne@velooise.frPlus d'infos",
+    "descriptionLongue": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous disposons d’un local au cœur de Compiègne. Nous y avons installé notre atelier d’auto-réparation, grâce aux dons en outils, matériaux et mobilier et à surtout à l’énergie des bénévoles. Nous proposons un planning d’ouvertures : le mardi soir et le samedi matin.Nos mécaniciens bénévoles se relaient pour partager leur passion du vélo. Adhérez à VélOOise et venez apprendre à entretenir et à réparer votre vélo, pour vous remettre en selle en toute tranquillité : éclairages, freins, pneus, garde-boue… les conseils et les coups de mains sont gratuits, seules les pièces sont à votre charge. Rejoignez-nous pour participer à l’aventure de VélOOise à Compiègne ! Vous pouvez adhérer sur place ou en ligne : 13€ par personne ou 20€ pour une famille. Contactez-nous à [email supprimé] d'infos",
     "dateDebut": "2027-01-12T16:30:00+00:00",
     "dateFin": "2027-01-12T18:30:00+00:00",
     "categorie": "atelier",
@@ -107,13 +113,15 @@
     "lieuCodeInsee": "77175",
     "lieuLatitude": 48.667579,
     "lieuLongitude": 2.623747,
+    "coordinates": "48.667579,2.623747",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-07T07:05:14+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-dauto-reparation-du-mardi-soir-a-compiegne-8548859",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/e08fc598a13d4f1fa8d39a8faedcebb8.base.image.jpg"
   },
   {
     "uid": "oa-76640485",
@@ -136,13 +144,15 @@
     "lieuCodeInsee": "77037",
     "lieuLatitude": 48.474469,
     "lieuLongitude": 2.691052,
+    "coordinates": "48.474469,2.691052",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-01T08:07:25+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "festival-manga",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/b3edddb0d84147c3a8318bb76ede88e7.base.image.jpg"
   },
   {
     "uid": "oa-32893730",
@@ -165,13 +175,15 @@
     "lieuCodeInsee": "77221",
     "lieuLatitude": 48.853151,
     "lieuLongitude": 2.703728,
+    "coordinates": "48.853151,2.703728",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-24T09:00:40+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "journees-europeennes-du-patrimoine-a-leglise-de-guermantes",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/6e7344559c78474f834f8b451d7c8fbd.base.image.jpg"
   },
   {
     "uid": "oa-99142692",
@@ -194,13 +206,15 @@
     "lieuCodeInsee": "77243",
     "lieuLatitude": 48.877372,
     "lieuLongitude": 2.705845,
+    "coordinates": "48.877372,2.705845",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-27T13:34:01+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "presentation-et-visite-de-lorgue-de-leglise-notre-dame-des-ardents-3420867",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": ""
   },
   {
     "uid": "oa-7449089",
@@ -223,13 +237,15 @@
     "lieuCodeInsee": "77487",
     "lieuLatitude": 48.536938,
     "lieuLongitude": 2.654944,
+    "coordinates": "48.536938,2.654944",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-17T10:03:02+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "enquetes-a-melun-aux-origines-d-la-photographie",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/75854c3319424e1092f92619c39b9eb8.base.image.jpg"
   },
   {
     "uid": "oa-67506497",
@@ -252,13 +268,15 @@
     "lieuCodeInsee": "77186",
     "lieuLatitude": 48.357328,
     "lieuLongitude": 2.797756,
+    "coordinates": "48.357328,2.797756",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-11T13:50:18+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "7864092",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/14c1e51049c948ddb74445763ae41fc3.base.image.jpg"
   },
   {
     "uid": "oa-19124526",
@@ -272,8 +290,8 @@
     "dateFin": "2026-09-19T16:00:00+00:00",
     "categorie": "concert",
     "motsCles": [],
-    "gratuit": false,
-    "prixIndicatif": "",
+    "gratuit": true,
+    "prixIndicatif": "Gratuit",
     "lieuNom": "Manoir de Bel Ébat",
     "lieuAdresse": "2 avenue de Nemours 77210 Avon",
     "lieuCodePostal": "77210",
@@ -281,13 +299,15 @@
     "lieuCodeInsee": "77014",
     "lieuLatitude": 48.413254,
     "lieuLongitude": 2.735858,
+    "coordinates": "48.413254,2.735858",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-17T12:14:55+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "concierto-en-bel-ebat-9183734",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/7e62d69de0254bceba117c491b7ec001.base.image.jpg"
   },
   {
     "uid": "oa-81582434",
@@ -310,13 +330,15 @@
     "lieuCodeInsee": "77520",
     "lieuLatitude": 48.317184,
     "lieuLongitude": 2.647737,
+    "coordinates": "48.317184,2.647737",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-09T15:00:38+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-et-commentee-de-notre-village",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/af8ac0227dad40dca335ca5f2da855d1.base.image.jpg"
   },
   {
     "uid": "oa-34299009",
@@ -339,13 +361,15 @@
     "lieuCodeInsee": "77220",
     "lieuLatitude": 48.260074,
     "lieuLongitude": 2.558223,
+    "coordinates": "48.260074,2.558223",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-08T15:48:14+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-de-leglise-notre-dame-de-lassomption-de-guercheville",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/c2545aa0d1ce48a6848656b0e43dbc86.base.image.jpg"
   },
   {
     "uid": "oa-18284173",
@@ -368,13 +392,15 @@
     "lieuCodeInsee": "77284",
     "lieuLatitude": 48.960741,
     "lieuLongitude": 2.878491,
+    "coordinates": "48.960741,2.878491",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-22T15:21:28+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-tente-a-histoire-par-le-reseau-de-lecture-publique-de-la-communaute-dagglomer",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/46e5ff1f477545d8aaea81fe058ad6f5.base.image.jpg"
   },
   {
     "uid": "oa-88327998",
@@ -397,13 +423,15 @@
     "lieuCodeInsee": "77014",
     "lieuLatitude": 48.40519,
     "lieuLongitude": 2.720805,
+    "coordinates": "48.40519,2.720805",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-27T15:39:30+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visita-a-la-iglesia-de-san-pedro-9547053",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/1a9f6123c4c5417ab5a04b8f2d83938e.base.image.jpg"
   },
   {
     "uid": "oa-54309988",
@@ -426,13 +454,15 @@
     "lieuCodeInsee": "77316",
     "lieuLatitude": 48.374745,
     "lieuLongitude": 2.82277,
+    "coordinates": "48.374745,2.82277",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-03T15:07:13+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "apertura-del-museo-de-la-bicicleta",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/d474fd3da6424dbaafd694704b9c26bb.base.image.jpg"
   },
   {
     "uid": "oa-93622727",
@@ -455,13 +485,15 @@
     "lieuCodeInsee": "77176",
     "lieuLatitude": 48.801222,
     "lieuLongitude": 2.997104,
+    "coordinates": "48.801222,2.997104",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-20T15:41:15+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "mini-ferme",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/7f5a3f98aa5c418498920482dcf4254c.base.image.jpg"
   },
   {
     "uid": "oa-74883704",
@@ -484,13 +516,15 @@
     "lieuCodeInsee": "77469",
     "lieuLatitude": 48.73538,
     "lieuLongitude": 3.012273,
+    "coordinates": "48.73538,3.012273",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-21T16:00:52+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "archeo-sat77-80000-ans-dhistoire-et-exposition-temporaire-de-frederico-alagna",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/25ddd686cfc041bd985750730d690e26.base.image.jpg"
   },
   {
     "uid": "oa-75683594",
@@ -513,13 +547,15 @@
     "lieuCodeInsee": "77210",
     "lieuLatitude": 48.3803,
     "lieuLongitude": 2.90092,
+    "coordinates": "48.3803,2.90092",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-22T15:09:37+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "las-visitas-guiadas-del-sitio-de-pincevent",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/443875fb648641bf884ca4e74ff23357.base.image.jpg"
   },
   {
     "uid": "oa-42244816",
@@ -542,13 +578,15 @@
     "lieuCodeInsee": "77284",
     "lieuLatitude": 48.960741,
     "lieuLongitude": 2.878491,
+    "coordinates": "48.960741,2.878491",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-22T15:21:09+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "danses-renaissance-par-lassociation-la-mesnie-meldoise",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/7ede9e0d87804381b4ebe12fe9cf488c.base.image.jpg"
   },
   {
     "uid": "oa-65640372",
@@ -571,13 +609,15 @@
     "lieuCodeInsee": "77128",
     "lieuLatitude": 48.878658,
     "lieuLongitude": 2.866345,
+    "coordinates": "48.878658,2.866345",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-05T10:52:14+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "exposition-edmond-rostand-et-ses-2-monstres-sacres-sarah-bernhardt-et-constant-c",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/00c7b3e57f2b48faaf61f2c2a58fc67c.base.image.jpg"
   },
   {
     "uid": "oa-87580486",
@@ -600,13 +640,15 @@
     "lieuCodeInsee": "77279",
     "lieuLatitude": 48.386056,
     "lieuLongitude": 3.031911,
+    "coordinates": "48.386056,3.031911",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-13T12:57:51+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "porte-ouverte-au-chateau-de-motteux",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/421e98d6564b4f67a7bdd4764e708d8f.base.image.jpg"
   },
   {
     "uid": "oa-31816028",
@@ -627,8 +669,8 @@
       "musique",
       "danse"
     ],
-    "gratuit": false,
-    "prixIndicatif": "",
+    "gratuit": true,
+    "prixIndicatif": "Gratuit",
     "lieuNom": "Boulevard d'Aligre Provins",
     "lieuAdresse": "Boulevard d'Aligre Provins",
     "lieuCodePostal": "77160",
@@ -636,13 +678,15 @@
     "lieuCodeInsee": "77379",
     "lieuLatitude": 48.564019,
     "lieuLongitude": 3.302118,
+    "coordinates": "48.564019,3.302118",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-11T14:10:28+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-compagnie-errance-au-forum-des-associations-de-provins",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/f59f06efef754fe68bb19d5fe00c3556.base.image.jpg"
   },
   {
     "uid": "oa-17333259",
@@ -656,8 +700,8 @@
     "dateFin": "2026-08-30T06:00:00+00:00",
     "categorie": "spectacle",
     "motsCles": [],
-    "gratuit": false,
-    "prixIndicatif": "",
+    "gratuit": true,
+    "prixIndicatif": "Gratuit",
     "lieuNom": "Château Rosa Bonheur",
     "lieuAdresse": "12 rue Rosa Bonheur",
     "lieuCodePostal": "77810",
@@ -665,13 +709,15 @@
     "lieuCodeInsee": "77463",
     "lieuLatitude": 48.396211,
     "lieuLongitude": 2.78335,
+    "coordinates": "48.396211,2.78335",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-17T14:13:46+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "decouverte-et-ecoute-des-chauves-souris-avec-bonheur",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": ""
   },
   {
     "uid": "oa-61080294",
@@ -699,13 +745,15 @@
     "lieuCodeInsee": "77126",
     "lieuLatitude": 48.99781,
     "lieuLongitude": 2.977103,
+    "coordinates": "48.99781,2.977103",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-13T13:05:01+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "chauve-souriez-vous-etes-filmes-1738640",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/7a2e24ffad734ca8a5fa9b6844932642.base.image.jpg"
   },
   {
     "uid": "oa-81654496",
@@ -714,7 +762,7 @@
     "licence": "lov2",
     "titre": "Atelier d'auto-réparation du samedi matin à Compiègne",
     "descriptionCourte": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous dis",
-    "descriptionLongue": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous disposons d’un local au cœur de Compiègne. Nous y avons installé notre atelier d’auto-réparation, grâce aux dons en outils, matériaux et mobilier et à surtout à l’énergie des bénévoles. Nous proposons un planning d’ouvertures : le mardi soir et le samedi matin.Nos mécaniciens bénévoles se relaient pour partager leur passion du vélo. Adhérez à VélOOise et venez apprendre à entretenir et à réparer votre vélo, pour vous remettre en selle en toute tranquillité : éclairages, freins, pneus, garde-boue… les conseils et les coups de mains sont gratuits, seules les pièces sont à votre charge. Rejoignez-nous pour participer à l’aventure de VélOOise à Compiègne ! Vous pouvez adhérer sur place ou en ligne : 13€ par personne ou 20€ pour une famille. Contactez-nous à ateliercompiegne@velooise.frPlus d'infos",
+    "descriptionLongue": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous disposons d’un local au cœur de Compiègne. Nous y avons installé notre atelier d’auto-réparation, grâce aux dons en outils, matériaux et mobilier et à surtout à l’énergie des bénévoles. Nous proposons un planning d’ouvertures : le mardi soir et le samedi matin.Nos mécaniciens bénévoles se relaient pour partager leur passion du vélo. Adhérez à VélOOise et venez apprendre à entretenir et à réparer votre vélo, pour vous remettre en selle en toute tranquillité : éclairages, freins, pneus, garde-boue… les conseils et les coups de mains sont gratuits, seules les pièces sont à votre charge. Rejoignez-nous pour participer à l’aventure de VélOOise à Compiègne ! Vous pouvez adhérer sur place ou en ligne : 13€ par personne ou 20€ pour une famille. Contactez-nous à [email supprimé] d'infos",
     "dateDebut": "2026-08-29T08:00:00+00:00",
     "dateFin": "2026-08-29T10:00:00+00:00",
     "categorie": "atelier",
@@ -728,13 +776,15 @@
     "lieuCodeInsee": "77175",
     "lieuLatitude": 48.667579,
     "lieuLongitude": 2.623747,
+    "coordinates": "48.667579,2.623747",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-07T07:07:33.019000+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-dauto-reparation-velo-de-compiegne-du-samedi-6647335",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/f10277d564b04dbabefeb74331ec8e35.base.image.jpg"
   },
   {
     "uid": "oa-3894014",
@@ -763,13 +813,15 @@
     "lieuCodeInsee": "77035",
     "lieuLatitude": 48.257297,
     "lieuLongitude": 3.02468,
+    "coordinates": "48.257297,3.02468",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-24T07:41:32+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "du-mercredi-26-au-dimanche-30-aout-2026-a-blennes-77-et-vallery-89",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/2d33777217b845b89367a7da2a43f285.base.image.jpg"
   },
   {
     "uid": "oa-86433641",
@@ -792,12 +844,80 @@
     "lieuCodeInsee": "77463",
     "lieuLatitude": 48.396211,
     "lieuLongitude": 2.78335,
+    "coordinates": "48.396211,2.78335",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-25T13:38:55+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "programmation-festival-rosa-bonheur-gildaa",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/6d52c242a8374d11b45cbeba65fb6033.base.image.jpg"
+  },
+  {
+    "uid": "paris-115220",
+    "source": "paris-evenements",
+    "sourceUrl": "https://www.paris.fr/evenements/fete-de-la-moisson-115220",
+    "licence": "lov2",
+    "titre": "Fête de la Moisson",
+    "descriptionCourte": "Le temps d’une journée, laissez-vous transporter dans l’atmosphère d’autrefois à travers un programme riche en animations et en découvertes. Les sonorités des temps anciens, le battage traditionnel du blé, les musiques populaires, les groupes folkloriques ainsi que les savoir-faire d’antan feront re",
+    "descriptionLongue": "Le temps d’une journée, laissez-vous transporter dans l’atmosphère d’autrefois à travers un programme riche en animations et en découvertes. Les sonorités des temps anciens, le battage traditionnel du blé, les musiques populaires, les groupes folkloriques ainsi que les savoir-faire d’antan feront revivre les traditions qui ont façonné notre patrimoine.Cette année, le thème « les femmes et la moisson » sera le fil conducteur de la manifestation. Pendant la période 1870-1950, elles participent activement aux travaux agricoles, liées aux récoltes, ramassent, trans­portent et battent le blé. Elles préparent aussi les repas, organisent la vie quotidienne et veillent sur les enfants, demandant endurance et énergie.Une exposition intitulée « De femmes en femmes » sera présentée à l’Hôtel de Savigny, place du Châtel, du 11 juillet au 23 août 2026. Cette exposition viendra enrichir la programmation culturelle en mettant à l’honneur les femmes à travers un parcours empreint de mémoire et de transmission.Tout au long de la journée, une succession de défilés hauts en couleur animera les rues de la Ville Haute. Chars décorés, tracteurs anciens, voitures de collection, scooters et vélos d’époque défileront dans une ambiance conviviale et festive, offrant aux visiteurs un spectacle vivant qui ravira les passionnés de patrimoine comme les familles.Entre patrimoine, traditions, folklore et convivialité, cette 53ᵉ édition promet une journée authentique et chaleureuse, placée sous le signe du partage et de la découverte !",
+    "dateDebut": "2026-08-23T00:00:00+00:00",
+    "dateFin": "2026-08-23T23:59:59+00:00",
+    "categorie": "exposition",
+    "motsCles": [
+      "Festival"
+    ],
+    "gratuit": false,
+    "prixIndicatif": "Entrée Fête de la Moisson : 11 euros (au lieu de 12 euros) - Gratuit -12 ans Entrée Fête de la Moisson + Monuments : 18&nbsp;euros (au lieu de 20 euros) - Gratuit -12 ans Le jour de la Fête - Participation aux frais : 12&nbsp;euros Entrée seule / 20&nbsp;euros Fête + monuments",
+    "lieuNom": "Cité médiévale de Provins",
+    "lieuAdresse": "19, rue du Val",
+    "lieuCodePostal": "77160",
+    "lieuCommune": "Provins",
+    "lieuCodeInsee": "",
+    "lieuLatitude": 48.5605130058529,
+    "lieuLongitude": 3.29756601867152,
+    "coordinates": "48.5605130058529,3.29756601867152",
+    "lieuDepartement": "77",
+    "lieuRegion": "",
+    "dateMaj": "2026-06-30T15:20:49+00:00",
+    "statut": "programme",
+    "modeAcces": "sur_place",
+    "slug": "fete-de-la-moisson-115220",
+    "departementNumero": "77",
+    "image": "https://cdn.paris.fr/qfapv4/2026/06/30/huge-e96962e6cadc4faf6107fe7911138ab8.jpg"
+  },
+  {
+    "uid": "paris-112710",
+    "source": "paris-evenements",
+    "sourceUrl": "https://www.paris.fr/evenements/sejour-choregraphie-du-bien-etre-112710",
+    "licence": "lov2",
+    "titre": "Séjour Chorégraphie du Bien-Être",
+    "descriptionCourte": "Pendant dix jours, on redécouvre le mouvement, la posture, le regard et la sensation d'être là, dans son corps.Marina Kudryashova et Oleg Rogachev, danseurs à l'Opéra National de Bordeaux et anciens élèves de l'Académie du Bolchoï, proposent un séjour immersif alliant danse classique, contemporaine ",
+    "descriptionLongue": "Pendant dix jours, on redécouvre le mouvement, la posture, le regard et la sensation d'être là, dans son corps.Marina Kudryashova et Oleg Rogachev, danseurs à l'Opéra National de Bordeaux et anciens élèves de l'Académie du Bolchoï, proposent un séjour immersif alliant danse classique, contemporaine et historique, Münz Floor®, gymnastique de santé, ateliers de bien-être et art de vivre - séjour en résidence au château (repas inclus), à 1h30 de Paris. Chaque participant bénéficie d'un bilan personnalisé avec un kinésithérapeute dès son arrivée.Aucune expérience en danse n'est nécessaire. Seulement l'envie de ressentir et d'explorer.Le séjour se clôture par un Bal Masqué dans les salons du château - dîner aux chandelles, danses d'époque et performances artistiques.Pas un stage de danse. Pas un spa. Quelque chose qui va plus loin.",
+    "dateDebut": "2026-08-10T00:00:00+00:00",
+    "dateFin": "2026-08-19T23:59:59+00:00",
+    "categorie": "danse",
+    "motsCles": [
+      "Danse;Loisirs;Santé"
+    ],
+    "gratuit": false,
+    "prixIndicatif": "À partir de 2 650 euros par personne, séjour en résidence complète (10 jours / 9 nuits, repas inclus), bilan kinésithérapeute, 13 pratiques, 6 ateliers, accompagnement personnalisé, petit groupe, la soirée de clôture Bal Masqué. Les soins individuels (massage, ostéopathie, Kobido) et cours privés sont en option et facturés séparément.Tarif early bird disponible jusqu'au 1er juin 2026. Places limitées à 15 participants.",
+    "lieuNom": "Château de Misy-sur-Yonne",
+    "lieuAdresse": "Château de Misy-sur-Yonne",
+    "lieuCodePostal": "77130",
+    "lieuCommune": "Misy-sur-Yonne",
+    "lieuCodeInsee": "",
+    "lieuLatitude": 48.3627863824082,
+    "lieuLongitude": 3.09005800634623,
+    "coordinates": "48.3627863824082,3.09005800634623",
+    "lieuDepartement": "77",
+    "lieuRegion": "",
+    "dateMaj": "2026-05-29T09:30:44+00:00",
+    "statut": "programme",
+    "modeAcces": "sur_place",
+    "slug": "sejour-choregraphie-du-bien-etre-112710",
+    "departementNumero": "77",
+    "image": "https://cdn.paris.fr/qfapv4/2026/05/29/huge-72e1c1e40c7673ed97f189b1f541ea80.jpg"
   }
 ]

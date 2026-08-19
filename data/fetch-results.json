@@ -3,96 +3,138 @@
     "source": "openagenda-orleans",
     "status": "ok",
     "bytes": 43952117,
-    "latencyMs": 6079
+    "latencyMs": 4929
   },
   {
     "source": "openagenda-loiret",
     "status": "ok",
     "bytes": 31036774,
-    "latencyMs": 10726
+    "latencyMs": 14087
   },
   {
     "source": "clermont-agenda",
     "status": "ok",
     "bytes": 1211108,
-    "latencyMs": 1185
+    "latencyMs": 965
   },
   {
     "source": "guerande-agenda",
     "status": "ok",
     "bytes": 9516066,
-    "latencyMs": 1142
+    "latencyMs": 1559
   },
   {
     "source": "meudon-agenda",
     "status": "ok",
     "bytes": 16841409,
-    "latencyMs": 6901
+    "latencyMs": 3901
   },
   {
     "source": "labaule-agenda",
     "status": "ok",
     "bytes": 380673,
-    "latencyMs": 208
+    "latencyMs": 252
   },
   {
     "source": "nantes-culture",
     "status": "ok",
     "bytes": 260333,
-    "latencyMs": 203
+    "latencyMs": 238
   },
   {
     "source": "ministere-festivals",
     "status": "ok",
     "bytes": 559,
-    "latencyMs": 134
+    "latencyMs": 124
   },
   {
     "source": "bordeaux-agenda",
     "status": "ok",
     "bytes": 17080763,
-    "latencyMs": 2595
+    "latencyMs": 3587
   },
   {
     "source": "toulouse-spectacles",
     "status": "ok",
     "bytes": 40393,
-    "latencyMs": 1485
+    "latencyMs": 193
   },
   {
     "source": "vendee-tourinsoft",
     "status": "error",
     "error": "HTTP 500: Internal Server Error",
-    "latencyMs": 69
+    "latencyMs": 94
   },
   {
     "source": "martigues-agenda",
     "status": "ok",
     "bytes": 10019461,
-    "latencyMs": 23567
+    "latencyMs": 27083
   },
   {
     "source": "grenoble-culturel",
     "status": "error",
     "error": "HTTP 404: Not Found",
-    "latencyMs": 131
+    "latencyMs": 140
   },
   {
     "source": "occitanie-sorties",
     "status": "ok",
     "bytes": 496023,
-    "latencyMs": 594
+    "latencyMs": 211
   },
   {
     "source": "idf-evenements-publics",
     "status": "ok",
     "bytes": 42203295,
-    "latencyMs": 21465
+    "latencyMs": 7034
   },
   {
     "source": "nice-evenements",
     "status": "ok",
     "bytes": 3496023,
-    "latencyMs": 1054
+    "latencyMs": 1354
+  },
+  {
+    "source": "calvados-evenements",
+    "status": "ok",
+    "bytes": 34061701,
+    "latencyMs": 13425
+  },
+  {
+    "source": "gpso-evenements",
+    "status": "ok",
+    "bytes": 13470832,
+    "latencyMs": 6070
+  },
+  {
+    "source": "nantes-metropole-evenements",
+    "status": "ok",
+    "bytes": 15490808,
+    "latencyMs": 1938
+  },
+  {
+    "source": "tours-metropole",
+    "status": "ok",
+    "bytes": 30722967,
+    "latencyMs": 893
+  },
+  {
+    "source": "paris-evenements",
+    "status": "ok",
+    "bytes": 15346333,
+    "latencyMs": 538
+  },
+  {
+    "source": "haute-garonne-grand-ouest",
+    "status": "ok",
+    "bytes": 75273,
+    "latencyMs": 377
+  },
+  {
+    "source": "chenonceaux-agenda",
+    "status": "ok",
+    "bytes": 184241,
+    "latencyMs": 224
   }
 ]

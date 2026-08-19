@@ -20,13 +20,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.830538,
     "lieuLongitude": 2.33821,
+    "coordinates": "48.830538,2.33821",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2022-07-28T09:14:24+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "fiap-jean-monnet",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://cibul.s3.amazonaws.com/f876cb495f294557b74ab7e15191ecc7.base.image.jpg"
   },
   {
     "uid": "oa-5155426",
@@ -49,13 +51,15 @@
     "lieuCodeInsee": "78297",
     "lieuLatitude": 48.782288,
     "lieuLongitude": 2.059556,
+    "coordinates": "48.782288,2.059556",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-23T04:17:44+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "autour-de-la-guitare-pick-and-jazz",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://cdn.openagenda.com/main/367f9f05c99245c4962a35c75e519171.base.image.jpg"
   },
   {
     "uid": "oa-66892901",
@@ -82,13 +86,15 @@
     "lieuCodeInsee": "91521",
     "lieuLatitude": 48.637312,
     "lieuLongitude": 2.404301,
+    "coordinates": "48.637312,2.404301",
     "lieuDepartement": "Essonne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-23T08:08:54+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "hooverphonic-1ere-partie",
-    "departementNumero": "91"
+    "departementNumero": "91",
+    "image": "https://cdn.openagenda.com/main/73e0085ac83b4891b021fe98c0cbe8c8.base.image.jpg"
   },
   {
     "uid": "oa-11746767",
@@ -111,13 +117,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.862552,
     "lieuLongitude": 2.337324,
+    "coordinates": "48.862552,2.337324",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-05-13T13:36:33+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "test-snum-5087793",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": ""
   },
   {
     "uid": "oa-12028804",
@@ -140,13 +148,15 @@
     "lieuCodeInsee": "93048",
     "lieuLatitude": 48.856323,
     "lieuLongitude": 2.425949,
+    "coordinates": "48.856323,2.425949",
     "lieuDepartement": "Seine-Saint-Denis",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-03T09:38:49+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "salon-de-letudiant-declic",
-    "departementNumero": "93"
+    "departementNumero": "93",
+    "image": "https://cdn.openagenda.com/main/ee160692f6f246789baaabe2f2cdc907.base.image.jpg"
   },
   {
     "uid": "oa-40331777",
@@ -164,7 +174,7 @@
       "science",
       "santé"
     ],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Auditorium, Bâtiment Lumen, 8 avenue des Sciences à Gif sur Yvette",
     "lieuAdresse": "Gif sur Yvette 8 avenue des Sciences",
@@ -173,13 +183,15 @@
     "lieuCodeInsee": "91272",
     "lieuLatitude": 48.701882,
     "lieuLongitude": 2.134529,
+    "coordinates": "48.701882,2.134529",
     "lieuDepartement": "Essonne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-19T07:39:16+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "science-a-la-coque-courir-marcher-vivre-comment-proteger-ses-articulations-tout-",
-    "departementNumero": "91"
+    "departementNumero": "91",
+    "image": "https://cdn.openagenda.com/main/eedd99c1e443492f9e2ba89b2c986e2f.base.image.jpg"
   },
   {
     "uid": "oa-9594713",
@@ -202,13 +214,15 @@
     "lieuCodeInsee": "94041",
     "lieuLatitude": 48.812572,
     "lieuLongitude": 2.384893,
+    "coordinates": "48.812572,2.384893",
     "lieuDepartement": "Val-de-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-25T16:25:47+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-des-batiments-gailhoustet-et-renaudie-a-ivry-sur-seine",
-    "departementNumero": "94"
+    "departementNumero": "94",
+    "image": "https://cdn.openagenda.com/main/9d26fe9c591c409ca3044f6e696a40f3.base.image.jpg"
   },
   {
     "uid": "oa-48120824",
@@ -231,13 +245,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.863179,
     "lieuLongitude": 2.356998,
+    "coordinates": "48.863179,2.356998",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-16T12:47:44+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "exposition-de-gilles-caron-hommage-a-gilles-caron-galerie-anne-laure-buffard",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/91ba09f5622a4ce3a150b4056e519288.base.image.jpg"
   },
   {
     "uid": "oa-81959622",
@@ -260,13 +276,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.855225,
     "lieuLongitude": 2.336919,
+    "coordinates": "48.855225,2.336919",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-16T13:48:55+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "exposition-de-marc-riboud-galerie-arcturus",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/51d1370fb5c24e228df1ae39c3240fd4.base.image.jpg"
   },
   {
     "uid": "oa-22306171",
@@ -290,7 +308,7 @@
       "3eme EADM",
       "internat"
     ],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Campus educatif et écologique saint philippe",
     "lieuAdresse": "1 rue du père brottier, 92190 Meudon",
@@ -299,13 +317,15 @@
     "lieuCodeInsee": "92048",
     "lieuLatitude": 48.805094,
     "lieuLongitude": 2.247492,
+    "coordinates": "48.805094,2.247492",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-16T11:39:49.268000+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "journee-portes-ouvertes-8469943",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": "https://cdn.openagenda.com/main/9b6e2ea4a02c45058dcd09a1e12d1457.base.image.jpg"
   },
   {
     "uid": "oa-18996121",
@@ -328,13 +348,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.819893,
     "lieuLongitude": 2.338726,
+    "coordinates": "48.819893,2.338726",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-05-23T13:11:10+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "exposition-darts-plastiques-dartistes-mediterraneens",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://cdn.openagenda.com/main/a6cbe99d399643698b635a2b6fbf9349.base.image.jpg"
   },
   {
     "uid": "oa-68597708",
@@ -357,13 +379,15 @@
     "lieuCodeInsee": "93008",
     "lieuLatitude": 48.906488,
     "lieuLongitude": 2.44176,
+    "coordinates": "48.906488,2.44176",
     "lieuDepartement": "Seine-Saint-Denis",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-05-30T06:31:55+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "mrtahh-in-relation-to-whom-marah-haj-hussein-et-nur-garabli",
-    "departementNumero": "93"
+    "departementNumero": "93",
+    "image": "https://cdn.openagenda.com/main/14b9929ea95549919b451094828f1897.base.image.jpg"
   },
   {
     "uid": "oa-22402459",
@@ -386,13 +410,15 @@
     "lieuCodeInsee": "95150",
     "lieuLatitude": 49.132143,
     "lieuLongitude": 1.677066,
+    "coordinates": "49.132143,1.677066",
     "lieuDepartement": "Val-d'Oise",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-10T09:16:43+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "balade-au-crepuscule-la-magic-hour",
-    "departementNumero": "95"
+    "departementNumero": "95",
+    "image": "https://img.openagenda.com/main/526491efb1c14396a2db44ce7c93c35b.base.image.jpg"
   },
   {
     "uid": "oa-73503535",
@@ -415,13 +441,15 @@
     "lieuCodeInsee": "95150",
     "lieuLatitude": 49.112519,
     "lieuLongitude": 1.700067,
+    "coordinates": "49.112519,1.700067",
     "lieuDepartement": "Val-d'Oise",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-04-27T13:06:21+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "nuit-des-etoiles-performance-artistique-exo-6184932",
-    "departementNumero": "95"
+    "departementNumero": "95",
+    "image": "https://cdn.openagenda.com/main/aa0d4cb8c8b6455dbd246321a07b32a1.base.image.jpg"
   },
   {
     "uid": "oa-22300927",
@@ -452,13 +480,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.844346,
     "lieuLongitude": 2.356212,
+    "coordinates": "48.844346,2.356212",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-23T12:05:23+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-de-cuisine-vegetale-981029",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://cdn.openagenda.com/main/3571db689c8f40a0bfb0ca0ff894a8cc.base.image.jpg"
   },
   {
     "uid": "oa-76420909",
@@ -467,7 +497,7 @@
     "licence": "lov2",
     "titre": "Atelier cuisine avec l'Association Culture(s) en Herbe(s)",
     "descriptionCourte": "Venez cuisiner avec nous grâce aux récoltes du jardin dans les Murs à Pêches",
-    "descriptionLongue": "C'est l'été, il fait beau, quoi de mieux que de manger les légumes frais du jardin ?Il est grand temps de déguster ce que le jardin à de mieux à nous offrir, grâce légumes plantés par nos participants aux ateliers tout au long des saisons !Retrouvons nous au soleil afin de concocter ensemble une belle recette a base de légumes de saison. Convivialité, air frais et bonne humeur seront au rendez vous !Adresse :Impasse Gobetue, Montreuil (Parcelle tout au fond à droite)Comment s'y rendre :BUS :102 / 121 Arret Danton122 Arret Saint JustNous contacter :Mail : culturesenherbes3@gmail.comInstagram: Cultures_en_ herbesFacebook : Cultures en HerbesPar téléphone : 06 25 33 30 87",
+    "descriptionLongue": "C'est l'été, il fait beau, quoi de mieux que de manger les légumes frais du jardin ?Il est grand temps de déguster ce que le jardin à de mieux à nous offrir, grâce légumes plantés par nos participants aux ateliers tout au long des saisons !Retrouvons nous au soleil afin de concocter ensemble une belle recette a base de légumes de saison. Convivialité, air frais et bonne humeur seront au rendez vous !Adresse :Impasse Gobetue, Montreuil (Parcelle tout au fond à droite)Comment s'y rendre :BUS :102 / 121 Arret Danton122 Arret Saint JustNous contacter :Mail : [email supprimé]: Cultures_en_ herbesFacebook : Cultures en HerbesPar téléphone : [téléphone supprimé]",
     "dateDebut": "2026-08-26T13:00:00+00:00",
     "dateFin": "2026-08-26T15:00:00+00:00",
     "categorie": "atelier",
@@ -486,13 +516,15 @@
     "lieuCodeInsee": "93048",
     "lieuLatitude": 48.863342,
     "lieuLongitude": 2.454616,
+    "coordinates": "48.863342,2.454616",
     "lieuDepartement": "Seine-Saint-Denis",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-31T12:27:53+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-cuisine-avec-lassociation-cultures-en-herbes-8077649",
-    "departementNumero": "93"
+    "departementNumero": "93",
+    "image": "https://img.openagenda.com/main/ee3da5530d9f47a084535f3d1487219f.base.image.jpg"
   },
   {
     "uid": "oa-31816028",
@@ -513,7 +545,7 @@
       "musique",
       "danse"
     ],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Boulevard d'Aligre Provins",
     "lieuAdresse": "Boulevard d'Aligre Provins",
@@ -522,13 +554,15 @@
     "lieuCodeInsee": "77379",
     "lieuLatitude": 48.564019,
     "lieuLongitude": 3.302118,
+    "coordinates": "48.564019,3.302118",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-11T14:10:28+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-compagnie-errance-au-forum-des-associations-de-provins",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/f59f06efef754fe68bb19d5fe00c3556.base.image.jpg"
   },
   {
     "uid": "oa-40709748",
@@ -537,7 +571,7 @@
     "licence": "lov2",
     "titre": "Conte & Musique Stage de deux jours",
     "descriptionCourte": "Créer des ambiances sonores et trouver sa signature en tant que conteur.euse",
-    "descriptionLongue": "La musique et le conte partagent une même origine : celle de latransmission orale. Depuis toujours, les conteur·euse·s du mondeentier accompagnent leurs récits d'instruments pour créer desatmosphères, ponctuer les moments clés ou donner une identitésonore à leurs personnages. Cette formation propose d'explorer les multiples façonsd'introduire la musique dans le conte : du simple bruitage àl'accompagnement mélodique, en passant par les percussionsrythmiques. Les participants découvriront différents instruments accessibles(tambourins, kalimbas, bol tibétain, petitespercussions, instruments à vent simples) et apprendront à lesintégrer naturellement dans leur pratique narrative. 01 53 24 67 40www.agedordefrance.frÂge d'Or de France",
+    "descriptionLongue": "La musique et le conte partagent une même origine : celle de latransmission orale. Depuis toujours, les conteur·euse·s du mondeentier accompagnent leurs récits d'instruments pour créer desatmosphères, ponctuer les moments clés ou donner une identitésonore à leurs personnages. Cette formation propose d'explorer les multiples façonsd'introduire la musique dans le conte : du simple bruitage àl'accompagnement mélodique, en passant par les percussionsrythmiques. Les participants découvriront différents instruments accessibles(tambourins, kalimbas, bol tibétain, petitespercussions, instruments à vent simples) et apprendront à lesintégrer naturellement dans leur pratique narrative. [téléphone supprimé]www.agedordefrance.frÂge d'Or de France",
     "dateDebut": "2026-11-05T09:00:00+00:00",
     "dateFin": "2026-11-05T16:00:00+00:00",
     "categorie": "concert",
@@ -561,13 +595,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.860118,
     "lieuLongitude": 2.368214,
+    "coordinates": "48.860118,2.368214",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-18T16:17:50+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "conte-and-musique-stage-de-deux-jours",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/8bd5e0f6f18145ae8a87c0ec61b5414e.base.image.jpg"
   },
   {
     "uid": "oa-61341160",
@@ -601,13 +637,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.880583,
     "lieuLongitude": 2.301849,
+    "coordinates": "48.880583,2.301849",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-05-26T15:48:09+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "naissam-jalal-landscapes-of-eternity-1128185",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://cdn.openagenda.com/main/ec077277886b4174a48aa95092f39468.base.image.jpg"
   },
   {
     "uid": "oa-52197180",
@@ -639,13 +677,15 @@
     "lieuCodeInsee": "94017",
     "lieuLatitude": 48.810894,
     "lieuLongitude": 2.545548,
+    "coordinates": "48.810894,2.545548",
     "lieuDepartement": "Val-de-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-05-26T16:26:17+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "naissam-jalal-quest-of-the-invisible-3604270",
-    "departementNumero": "94"
+    "departementNumero": "94",
+    "image": "https://cdn.openagenda.com/main/23b93c4a1b704313b2fd259d347681c9.base.image.jpg"
   },
   {
     "uid": "oa-76640485",
@@ -668,13 +708,15 @@
     "lieuCodeInsee": "77037",
     "lieuLatitude": 48.474469,
     "lieuLongitude": 2.691052,
+    "coordinates": "48.474469,2.691052",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-01T08:07:25+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "festival-manga",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/b3edddb0d84147c3a8318bb76ede88e7.base.image.jpg"
   },
   {
     "uid": "oa-55116808",
@@ -703,13 +745,15 @@
     "lieuCodeInsee": "91570",
     "lieuLatitude": 48.637029,
     "lieuLongitude": 2.321219,
+    "coordinates": "48.637029,2.321219",
     "lieuDepartement": "Essonne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-04T14:51:40+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "20000-lieues-sous-les-mers-717178",
-    "departementNumero": "91"
+    "departementNumero": "91",
+    "image": "https://cdn.openagenda.com/main/667b7e9ef93a4294a4864a10aff15a41.base.image.jpg"
   },
   {
     "uid": "oa-79621934",
@@ -732,13 +776,15 @@
     "lieuCodeInsee": "78551",
     "lieuLatitude": 48.895724,
     "lieuLongitude": 2.087944,
+    "coordinates": "48.895724,2.087944",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-08T15:48:12+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "exposition-de-photographies-de-lumiere",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://cdn.openagenda.com/main/503e50d011be4addad1a7c504f900e5d.base.image.jpg"
   },
   {
     "uid": "oa-34299009",
@@ -761,13 +807,15 @@
     "lieuCodeInsee": "77220",
     "lieuLatitude": 48.260074,
     "lieuLongitude": 2.558223,
+    "coordinates": "48.260074,2.558223",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-08T15:48:14+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-de-leglise-notre-dame-de-lassomption-de-guercheville",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/c2545aa0d1ce48a6848656b0e43dbc86.base.image.jpg"
   },
   {
     "uid": "oa-64242494",
@@ -790,13 +838,15 @@
     "lieuCodeInsee": "95176",
     "lieuLatitude": 48.982757,
     "lieuLongitude": 2.198494,
+    "coordinates": "48.982757,2.198494",
     "lieuDepartement": "Val-d'Oise",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-10T14:29:24+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "presentation-maquette-canon-155-debange",
-    "departementNumero": "95"
+    "departementNumero": "95",
+    "image": "https://cdn.openagenda.com/main/f0ef1e646d794048b883eed9b99e4f07.base.image.jpg"
   },
   {
     "uid": "oa-94930249",
@@ -819,13 +869,15 @@
     "lieuCodeInsee": "92072",
     "lieuLatitude": 48.824328,
     "lieuLongitude": 2.216403,
+    "coordinates": "48.824328,2.216403",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-10T16:30:58+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "de-la-manufacture-royale-de-porcelaine-a-france-education-international-en-passa",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": "https://cdn.openagenda.com/main/52d08c5c743042c6870dee0613ca1088.base.image.jpg"
   },
   {
     "uid": "oa-67506497",
@@ -848,13 +900,15 @@
     "lieuCodeInsee": "77186",
     "lieuLatitude": 48.357328,
     "lieuLongitude": 2.797756,
+    "coordinates": "48.357328,2.797756",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-11T13:50:18+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "7864092",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/14c1e51049c948ddb74445763ae41fc3.base.image.jpg"
   },
   {
     "uid": "oa-39864770",
@@ -877,13 +931,15 @@
     "lieuCodeInsee": "94018",
     "lieuLatitude": 48.822689,
     "lieuLongitude": 2.405507,
+    "coordinates": "48.822689,2.405507",
     "lieuDepartement": "Val-de-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-16T08:45:21+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-de-la-chapelle-de-conflans-973446",
-    "departementNumero": "94"
+    "departementNumero": "94",
+    "image": "https://cdn.openagenda.com/main/1a2db34f1fe945b38642689e0422b06d.base.image.jpg"
   },
   {
     "uid": "oa-24534863",
@@ -906,13 +962,15 @@
     "lieuCodeInsee": "93031",
     "lieuLatitude": 48.960686,
     "lieuLongitude": 2.297683,
+    "coordinates": "48.960686,2.297683",
     "lieuDepartement": "Seine-St-Denis",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-16T12:48:27+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-musicale-de-leglise-notre-dame-des-missions",
-    "departementNumero": "93"
+    "departementNumero": "93",
+    "image": "https://cdn.openagenda.com/main/50be9c32ce134cff9ee84d675c609e54.base.image.jpg"
   },
   {
     "uid": "oa-56796864",
@@ -935,13 +993,15 @@
     "lieuCodeInsee": "92036",
     "lieuLatitude": 48.933559,
     "lieuLongitude": 2.300138,
+    "coordinates": "48.933559,2.300138",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-16T13:49:33+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-du-musee-de-lecole-publique-92-2544215",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": "https://img.openagenda.com/main/8fd4e53195ed4085b421a810519ac997.base.image.jpg"
   },
   {
     "uid": "oa-892974",
@@ -964,13 +1024,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.831347,
     "lieuLongitude": 2.337499,
+    "coordinates": "48.831347,2.337499",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-17T10:55:18+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "vernissage-exposition-echos-de-la-sirene",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/27c93102f70844c883e253c1c81a3cd3.base.image.jpg"
   },
   {
     "uid": "oa-70268318",
@@ -984,7 +1046,7 @@
     "dateFin": "2026-09-19T16:00:00+00:00",
     "categorie": "spectacle",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Oeuvre patrimoniale de Guillaume Bottazzi à Vincennes",
     "lieuAdresse": "4 rue de la Bienfaisance 94300 Vincennes",
@@ -993,13 +1055,15 @@
     "lieuCodeInsee": "94080",
     "lieuLatitude": 48.848465,
     "lieuLongitude": 2.450936,
+    "coordinates": "48.848465,2.450936",
     "lieuDepartement": "Val-de-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-18T10:01:58+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "ceramica-onirica-firmada-por-guillaume-bottazzi-en-vincennes",
-    "departementNumero": "94"
+    "departementNumero": "94",
+    "image": "https://img.openagenda.com/main/5241beb64ca64aa88cfeb440288fe95e.base.image.jpg"
   },
   {
     "uid": "oa-74223080",
@@ -1013,7 +1077,7 @@
     "dateFin": "2026-09-19T16:00:00+00:00",
     "categorie": "spectacle",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Résidence Symphonie",
     "lieuAdresse": "10 place du 14 juillet 92240 Malakoff",
@@ -1022,13 +1086,15 @@
     "lieuCodeInsee": "92046",
     "lieuLatitude": 48.819606,
     "lieuLongitude": 2.301199,
+    "coordinates": "48.819606,2.301199",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-18T10:44:03+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "oeuvre-emaillee-retroeclairee-de-320-m-de-long-signee-guillaume-bottazzi",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": "https://img.openagenda.com/main/adf416cc68884e198e84e515f4b58ea1.base.image.jpg"
   },
   {
     "uid": "oa-84733614",
@@ -1051,13 +1117,15 @@
     "lieuCodeInsee": "91390",
     "lieuLatitude": 48.319855,
     "lieuLongitude": 2.088433,
+    "coordinates": "48.319855,2.088433",
     "lieuDepartement": "Essonne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-19T10:12:03+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "taller-de-prensado-de-manzanas-6086962",
-    "departementNumero": "91"
+    "departementNumero": "91",
+    "image": "https://cdn.openagenda.com/main/3867ff4f874349b4b564a168ca053849.base.image.jpg"
   },
   {
     "uid": "oa-4399972",
@@ -1080,13 +1148,15 @@
     "lieuCodeInsee": "78310",
     "lieuLatitude": 48.78928,
     "lieuLongitude": 1.599226,
+    "coordinates": "48.78928,1.599226",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-22T19:23:35+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "exposition-la-boldoflorine-lusine-et-sa-celebre-tisane",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://cdn.openagenda.com/main/786d852209f2475b9ea623e448278b85.base.image.jpg"
   },
   {
     "uid": "oa-72583277",
@@ -1100,7 +1170,7 @@
     "dateFin": "2026-09-20T16:00:00+00:00",
     "categorie": "spectacle",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Église Saint-Laurent de Beaumont-sur-Oise",
     "lieuAdresse": "Place Monseigneur Gosselin 95260 Beaumont-sur-Oise",
@@ -1109,13 +1179,15 @@
     "lieuCodeInsee": "95052",
     "lieuLatitude": 49.144669,
     "lieuLongitude": 2.287679,
+    "coordinates": "49.144669,2.287679",
     "lieuDepartement": "Val-d'Oise",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-25T13:05:24+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visita-a-la-iglesia-de-saint-laurent-de-beaumont-sur-oise-5437569",
-    "departementNumero": "95"
+    "departementNumero": "95",
+    "image": "https://cdn.openagenda.com/main/812f7871233f466aae6772f9f2301b4d.base.image.jpg"
   },
   {
     "uid": "oa-53005090",
@@ -1138,13 +1210,15 @@
     "lieuCodeInsee": "78551",
     "lieuLatitude": 48.896038,
     "lieuLongitude": 2.088563,
+    "coordinates": "48.896038,2.088563",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-25T13:23:14+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "jp-manufacture",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://cdn.openagenda.com/main/79207ba43bf24458bdc3fb8e0f2eefee.base.image.jpg"
   },
   {
     "uid": "oa-87396143",
@@ -1167,13 +1241,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.84332,
     "lieuLongitude": 2.335923,
+    "coordinates": "48.84332,2.335923",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-25T13:23:17+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "escape-game-a-la-faculte-de-pharmacie-de-paris-7212391",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://cdn.openagenda.com/main/e6b5a0ab59644f588673d083071468c8.base.image.jpg"
   },
   {
     "uid": "oa-89231054",
@@ -1196,13 +1272,15 @@
     "lieuCodeInsee": "78517",
     "lieuLatitude": 48.644357,
     "lieuLongitude": 1.8221,
+    "coordinates": "48.644357,1.8221",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-25T14:24:14+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "le-palais-du-roi-de-rome-a-travers-lobjectif",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://cdn.openagenda.com/main/430c6594324d45d790a862ed90e9b3a0.base.image.jpg"
   },
   {
     "uid": "oa-4743779",
@@ -1216,7 +1294,7 @@
     "dateFin": "2026-09-20T15:00:00+00:00",
     "categorie": "concert",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Église Saint-Sulpice",
     "lieuAdresse": "Place Saint-Sulpice, 75006 Paris, France",
@@ -1225,13 +1303,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.850915,
     "lieuLongitude": 2.334011,
+    "coordinates": "48.850915,2.334011",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-25T15:03:11+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "los-organos-de-san-sulpicio",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://cdn.openagenda.com/main/d35968ad60c943e4b62368975d269870.base.image.jpg"
   },
   {
     "uid": "oa-54951531",
@@ -1245,7 +1325,7 @@
     "dateFin": "2026-09-19T13:30:00+00:00",
     "categorie": "spectacle",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Musée du Domaine royal de Marly",
     "lieuAdresse": "1 Grille Royale - parc de Marly 78160 Marly-le-Roi",
@@ -1254,13 +1334,15 @@
     "lieuCodeInsee": "78372",
     "lieuLatitude": 48.862692,
     "lieuLongitude": 2.098704,
+    "coordinates": "48.862692,2.098704",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-29T15:21:56+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visita-tematica-las-fuentes-del-rey",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://cdn.openagenda.com/main/95d0f061fd6c4ed78689acb45b567c3c.base.image.jpg"
   },
   {
     "uid": "oa-67947970",
@@ -1274,7 +1356,7 @@
     "dateFin": "2026-09-19T16:00:00+00:00",
     "categorie": "spectacle",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Prieuré Sainte-Bathilde",
     "lieuAdresse": "7 rue d'Issy, 92170 Vanves, France",
@@ -1283,13 +1365,15 @@
     "lieuCodeInsee": "92075",
     "lieuLatitude": 48.822105,
     "lieuLongitude": 2.283726,
+    "coordinates": "48.822105,2.283726",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-30T08:27:36+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visita-libre-del-priorato-de-santa-bathilda-2371389",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": "https://cdn.openagenda.com/main/b3bac3baa5ba4856af054cdde9dc966f.base.image.jpg"
   },
   {
     "uid": "oa-76501352",
@@ -1320,13 +1404,15 @@
     "lieuCodeInsee": "95018",
     "lieuLatitude": 48.943398,
     "lieuLongitude": 2.247484,
+    "coordinates": "48.943398,2.247484",
     "lieuDepartement": "Val-d'Oise",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-30T09:00:16+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "personne-nest-ensemble-sauf-moi-5879808",
-    "departementNumero": "95"
+    "departementNumero": "95",
+    "image": "https://cdn.openagenda.com/main/896d76483e5b41d8805e1a451559cbdc.base.image.jpg"
   },
   {
     "uid": "oa-78361373",
@@ -1349,13 +1435,15 @@
     "lieuCodeInsee": "94080",
     "lieuLatitude": 48.847867,
     "lieuLongitude": 2.434502,
+    "coordinates": "48.847867,2.434502",
     "lieuDepartement": "Val-de-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-30T10:54:20+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "dialoguons-ensemble-visite-guidee-de-la-banque-de-france-de-vincennes-et-present",
-    "departementNumero": "94"
+    "departementNumero": "94",
+    "image": "https://cdn.openagenda.com/main/2ff57a64651e4b0387e06dbf4bcb8823.base.image.jpg"
   },
   {
     "uid": "oa-62461363",
@@ -1378,13 +1466,15 @@
     "lieuCodeInsee": "93031",
     "lieuLatitude": 48.951793,
     "lieuLongitude": 2.313769,
+    "coordinates": "48.951793,2.313769",
     "lieuDepartement": "Seine-Saint-Denis",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-30T13:13:48+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "animacion-en-torno-a-la-cosecha-de-semillas-en-el-jardin-vavilov",
-    "departementNumero": "93"
+    "departementNumero": "93",
+    "image": "https://cdn.openagenda.com/main/cb93236ece904ea3bbc525f6e86bf45c.base.image.jpg"
   },
   {
     "uid": "oa-81275616",
@@ -1407,13 +1497,15 @@
     "lieuCodeInsee": "92040",
     "lieuLatitude": 48.825968,
     "lieuLongitude": 2.270199,
+    "coordinates": "48.825968,2.270199",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-01T08:59:52+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-bonnes-pistes-fausses-pistes",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": ""
   },
   {
     "uid": "oa-86836416",
@@ -1436,13 +1528,15 @@
     "lieuCodeInsee": "94028",
     "lieuLatitude": 48.785774,
     "lieuLongitude": 2.444187,
+    "coordinates": "48.785774,2.444187",
     "lieuDepartement": "Val-de-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-02T12:50:38+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-dessine-moi-ta-justice",
-    "departementNumero": "94"
+    "departementNumero": "94",
+    "image": "https://cdn.openagenda.com/main/b61a9b34e8ef454690760add1aa96489.base.image.jpg"
   },
   {
     "uid": "oa-54309988",
@@ -1465,13 +1559,15 @@
     "lieuCodeInsee": "77316",
     "lieuLatitude": 48.374745,
     "lieuLongitude": 2.82277,
+    "coordinates": "48.374745,2.82277",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-03T15:07:13+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "apertura-del-museo-de-la-bicicleta",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/d474fd3da6424dbaafd694704b9c26bb.base.image.jpg"
   },
   {
     "uid": "oa-23840025",
@@ -1494,13 +1590,15 @@
     "lieuCodeInsee": "95351",
     "lieuLatitude": 49.041117,
     "lieuLongitude": 2.50695,
+    "coordinates": "49.041117,2.50695",
     "lieuDepartement": "Val-d'Oise",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-06T08:17:58+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visitas-guiadas-a-la-torre-de-saint-rieul-7150609",
-    "departementNumero": "95"
+    "departementNumero": "95",
+    "image": "https://cdn.openagenda.com/main/a0da9b18162b428a9f897cead5fdc201.base.image.jpg"
   },
   {
     "uid": "oa-62995729",
@@ -1523,13 +1621,15 @@
     "lieuCodeInsee": "91408",
     "lieuLatitude": 48.433018,
     "lieuLongitude": 2.443184,
+    "coordinates": "48.433018,2.443184",
     "lieuDepartement": "Essonne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-06T10:47:35+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guide-de-la-carriere-les-gres-de-fontainebleau",
-    "departementNumero": "91"
+    "departementNumero": "91",
+    "image": "https://cdn.openagenda.com/main/d7104f77c35b4cb494c3dcbee3f67bb7.base.image.jpg"
   },
   {
     "uid": "oa-56862635",
@@ -1552,13 +1652,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.857735,
     "lieuLongitude": 2.332538,
+    "coordinates": "48.857735,2.332538",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-06T10:48:01+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "speed-searching-rencontre-avec-les-doctorants-de-linalco-4197618",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://cdn.openagenda.com/main/bf8fb4dc11b749a88aedbc78b78c7749.base.image.jpg"
   },
   {
     "uid": "oa-38741453",
@@ -1581,13 +1683,15 @@
     "lieuCodeInsee": "93066",
     "lieuLatitude": 48.934904,
     "lieuLongitude": 2.358034,
+    "coordinates": "48.934904,2.358034",
     "lieuDepartement": "Seine-Saint-Denis",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-06T12:49:38+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "scriptorium-deviens-le-maitre-du-manuscrit",
-    "departementNumero": "93"
+    "departementNumero": "93",
+    "image": "https://cdn.openagenda.com/main/0456a67557ea4f5aac494a2743e62ecd.base.image.jpg"
   },
   {
     "uid": "oa-44355469",
@@ -1610,13 +1714,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.87339,
     "lieuLongitude": 2.340452,
+    "coordinates": "48.87339,2.340452",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-07T06:18:06+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "jardin-des-langues-initiation-au-japonais",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://cdn.openagenda.com/main/c2d1e5b49a5240a7947965ac9bd7953b.base.image.jpg"
   },
   {
     "uid": "oa-30202104",
@@ -1639,13 +1745,15 @@
     "lieuCodeInsee": "95351",
     "lieuLatitude": 49.036148,
     "lieuLongitude": 2.496034,
+    "coordinates": "49.036148,2.496034",
     "lieuDepartement": "Val-d'Oise",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-07T08:20:58+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visitas-guiadas-al-sitio-arqueologico-de-orville-9021404",
-    "departementNumero": "95"
+    "departementNumero": "95",
+    "image": "https://cdn.openagenda.com/main/432d4200482f486c9985356593d22a0d.base.image.jpg"
   },
   {
     "uid": "oa-94419142",
@@ -1654,7 +1762,7 @@
     "licence": "lov2",
     "titre": "Visite du service des archives",
     "descriptionCourte": "Visite libre",
-    "descriptionLongue": "Ce week-end est une opportunité unique de découvrir l’histoire de notre établissement, son patrimoine historique et architectural mais aussi des œuvres de patients.Au programmeAprès l’accueil et le petit déjeuner auprès des Z'amis de Nono à la médiation animale, vous pourrez admirer les œuvres des patients exposées à la ferme et aux anciennes cuisines et visiter le musée de la psychiatrie qui sera fraîchement rénové pour y (re)découvrir \"la robe de la Reine » de Marie Maillet Vitiello, créée à Maison Blanche et inscrite à l’inventaire supplémentaire des monuments historiques (ISMH).L'exposition \"1934, d’un asile à l’autre, vies de papier\" en partenariat avec HMMB jalonnera le parcours depuis l'entrée de l'établissement jusqu'au service des archives, ouvert pour l’occasion : le dossier de Camille Claudel sera consultable sur place, notamment.Au pavillon Chaslin, retrouvez VE fait son cinéma, espace dédié à la photographie et au cinéma !Des visites guidées seront animées par les membres de la Serhep (Société d’études et de recherches historiques en psychiatrie) et de la direction du patrimoine et des travaux, départ de la ferme à 14h30 les 2 jours (durée 1h30 environ), inscription à jep@epsve.fr.Et nouveauté à retrouver cette année : un itinéraire jeune public en visite libre créé en lien avec la fondation du patrimoine !Samedi à 17h à la chapelle aura lieu la représentation théâtrale \"Pour son bien\". À travers Camille Claudel, dans une enquête sensible et intime, Pour son bien interroge la privation de liberté, hier comme aujourd'hui, à partir notamment de lettres et d'archives de Ville-Évrard.Dimanche à 16h la troupe des Diseurs interprètera \"La fleur à la bouche\" de Pirandello puis la journée se terminera en beauté avec un récital à la chapelle sur le piano de l'établissement datant de 1908 et récemment restauré.La préservation du Patrimoine passe également par l’idée de transmission et de réhabilitation et les Journée européennes du patrimoine ont lieu pendant la ",
+    "descriptionLongue": "Ce week-end est une opportunité unique de découvrir l’histoire de notre établissement, son patrimoine historique et architectural mais aussi des œuvres de patients.Au programmeAprès l’accueil et le petit déjeuner auprès des Z'amis de Nono à la médiation animale, vous pourrez admirer les œuvres des patients exposées à la ferme et aux anciennes cuisines et visiter le musée de la psychiatrie qui sera fraîchement rénové pour y (re)découvrir \"la robe de la Reine » de Marie Maillet Vitiello, créée à Maison Blanche et inscrite à l’inventaire supplémentaire des monuments historiques (ISMH).L'exposition \"1934, d’un asile à l’autre, vies de papier\" en partenariat avec HMMB jalonnera le parcours depuis l'entrée de l'établissement jusqu'au service des archives, ouvert pour l’occasion : le dossier de Camille Claudel sera consultable sur place, notamment.Au pavillon Chaslin, retrouvez VE fait son cinéma, espace dédié à la photographie et au cinéma !Des visites guidées seront animées par les membres de la Serhep (Société d’études et de recherches historiques en psychiatrie) et de la direction du patrimoine et des travaux, départ de la ferme à 14h30 les 2 jours (durée 1h30 environ), inscription à [email supprimé] nouveauté à retrouver cette année : un itinéraire jeune public en visite libre créé en lien avec la fondation du patrimoine !Samedi à 17h à la chapelle aura lieu la représentation théâtrale \"Pour son bien\". À travers Camille Claudel, dans une enquête sensible et intime, Pour son bien interroge la privation de liberté, hier comme aujourd'hui, à partir notamment de lettres et d'archives de Ville-Évrard.Dimanche à 16h la troupe des Diseurs interprètera \"La fleur à la bouche\" de Pirandello puis la journée se terminera en beauté avec un récital à la chapelle sur le piano de l'établissement datant de 1908 et récemment restauré.La préservation du Patrimoine passe également par l’idée de transmission et de réhabilitation et les Journée européennes du patrimoine ont lieu pendant la",
     "dateDebut": "2026-09-19T09:00:00+00:00",
     "dateFin": "2026-09-19T14:30:00+00:00",
     "categorie": "spectacle",
@@ -1668,13 +1776,15 @@
     "lieuCodeInsee": "93050",
     "lieuLatitude": 48.862562,
     "lieuLongitude": 2.54512,
+    "coordinates": "48.862562,2.54512",
     "lieuDepartement": "Seine-Saint-Denis",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-17T09:59:17+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-du-service-des-archives-3823019",
-    "departementNumero": "93"
+    "departementNumero": "93",
+    "image": "https://cdn.openagenda.com/main/d329b5aa93984df3af9cf8335ab807af.base.image.jpg"
   },
   {
     "uid": "oa-69067876",
@@ -1688,7 +1798,7 @@
     "dateFin": "2026-09-19T15:00:00+00:00",
     "categorie": "atelier",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "INHA - Institut national d'histoire de l'art (galerie Colbert)",
     "lieuAdresse": "2 rue Vivienne 75002 Paris",
@@ -1697,13 +1807,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.866502,
     "lieuLongitude": 2.33883,
+    "coordinates": "48.866502,2.33883",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-17T10:00:10+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-autour-de-la-protection-du-patrimoine-archeologique-et-des-vestiges-du-l",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://cdn.openagenda.com/main/1afba6d7fcfa490394df51c791ec6545.base.image.jpg"
   },
   {
     "uid": "oa-22182019",
@@ -1726,13 +1838,15 @@
     "lieuCodeInsee": "92040",
     "lieuLatitude": 48.825339,
     "lieuLongitude": 2.257517,
+    "coordinates": "48.825339,2.257517",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-17T10:01:17+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-de-la-tour-aux-figures-de-jean-dubuffet-7592124",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": "https://img.openagenda.com/main/2e77e76f15f645538c99c70aae156c2f.base.image.jpg"
   },
   {
     "uid": "oa-7449089",
@@ -1755,13 +1869,15 @@
     "lieuCodeInsee": "77487",
     "lieuLatitude": 48.536938,
     "lieuLongitude": 2.654944,
+    "coordinates": "48.536938,2.654944",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-17T10:03:02+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "enquetes-a-melun-aux-origines-d-la-photographie",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/75854c3319424e1092f92619c39b9eb8.base.image.jpg"
   },
   {
     "uid": "oa-19124526",
@@ -1775,7 +1891,7 @@
     "dateFin": "2026-09-19T16:00:00+00:00",
     "categorie": "concert",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Manoir de Bel Ébat",
     "lieuAdresse": "2 avenue de Nemours 77210 Avon",
@@ -1784,13 +1900,15 @@
     "lieuCodeInsee": "77014",
     "lieuLatitude": 48.413254,
     "lieuLongitude": 2.735858,
+    "coordinates": "48.413254,2.735858",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-17T12:14:55+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "concierto-en-bel-ebat-9183734",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/7e62d69de0254bceba117c491b7ec001.base.image.jpg"
   },
   {
     "uid": "oa-60148255",
@@ -1813,13 +1931,15 @@
     "lieuCodeInsee": "95052",
     "lieuLatitude": 49.14139,
     "lieuLongitude": 2.283086,
+    "coordinates": "49.14139,2.283086",
     "lieuDepartement": "Val-d'Oise",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-18T00:46:53+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visita-sala-y-proyeccion-de-cine-amateur-anos-30-la-playa-de-beaumont-2366367",
-    "departementNumero": "95"
+    "departementNumero": "95",
+    "image": "https://cdn.openagenda.com/main/660214242c5c4a0ca1531c614ff0e0af.base.image.jpg"
   },
   {
     "uid": "oa-28412035",
@@ -1842,13 +1962,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.855182,
     "lieuLongitude": 2.337552,
+    "coordinates": "48.855182,2.337552",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-20T08:24:25+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "enfoque-en-el-art-deco-y-la-arquitectura-de-un-edificio-emblematico-de-los-anos-",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://cdn.openagenda.com/main/00c3aeedf8234af3bbd7ff4aba4e55d1.base.image.jpg"
   },
   {
     "uid": "oa-93622727",
@@ -1871,13 +1993,15 @@
     "lieuCodeInsee": "77176",
     "lieuLatitude": 48.801222,
     "lieuLongitude": 2.997104,
+    "coordinates": "48.801222,2.997104",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-20T15:41:15+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "mini-ferme",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/7f5a3f98aa5c418498920482dcf4254c.base.image.jpg"
   },
   {
     "uid": "oa-97562649",
@@ -1900,13 +2024,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.844178,
     "lieuLongitude": 2.346038,
+    "coordinates": "48.844178,2.346038",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-20T15:41:54+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "acces-libre-a-la-mediatheque-8274589",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://cdn.openagenda.com/main/3a6a55ba7bde4f0581a9de54472a7849.base.image.jpg"
   },
   {
     "uid": "oa-13063282",
@@ -1929,13 +2055,15 @@
     "lieuCodeInsee": "78517",
     "lieuLatitude": 48.646373,
     "lieuLongitude": 1.823755,
+    "coordinates": "48.646373,1.823755",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-20T15:42:16+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visites-guidees-eglise-saint-lubin",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://cdn.openagenda.com/main/4d9f7e4c3c984cbe9203a25b02daabc9.base.image.jpg"
   },
   {
     "uid": "oa-20179655",
@@ -1958,13 +2086,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.82832,
     "lieuLongitude": 2.326993,
+    "coordinates": "48.82832,2.326993",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-21T09:56:04+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-liberation-de-paris-vue-par-robert-capa-or-balade-urbaine",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://cdn.openagenda.com/main/01ce8723b8ee40e38ac68e6eb353bb61.base.image.jpg"
   },
   {
     "uid": "oa-61239540",
@@ -1996,13 +2126,15 @@
     "lieuCodeInsee": "92002",
     "lieuLatitude": 48.754325,
     "lieuLongitude": 2.300224,
+    "coordinates": "48.754325,2.300224",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-21T15:33:28+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "suzanne-une-histoire-du-cirque-1824234",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": "https://cdn.openagenda.com/main/39bbacd67c9745d494f465029e77d98c.base.image.jpg"
   },
   {
     "uid": "oa-74883704",
@@ -2025,13 +2157,15 @@
     "lieuCodeInsee": "77469",
     "lieuLatitude": 48.73538,
     "lieuLongitude": 3.012273,
+    "coordinates": "48.73538,3.012273",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-21T16:00:52+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "archeo-sat77-80000-ans-dhistoire-et-exposition-temporaire-de-frederico-alagna",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/25ddd686cfc041bd985750730d690e26.base.image.jpg"
   },
   {
     "uid": "oa-37789384",
@@ -2054,13 +2188,15 @@
     "lieuCodeInsee": "91243",
     "lieuLatitude": 48.62609,
     "lieuLongitude": 2.148885,
+    "coordinates": "48.62609,2.148885",
     "lieuDepartement": "Essonne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-22T09:15:15+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "le-piano-historique-de-bligny-fete-ses-92-ans-et-toutes-ses-notes",
-    "departementNumero": "91"
+    "departementNumero": "91",
+    "image": "https://img.openagenda.com/main/44e91159d7234a2884fad93919f1e731.base.image.jpg"
   },
   {
     "uid": "oa-93467978",
@@ -2083,13 +2219,15 @@
     "lieuCodeInsee": "78193",
     "lieuLatitude": 48.706343,
     "lieuLongitude": 1.975941,
+    "coordinates": "48.706343,1.975941",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-22T10:17:19+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-commentee-du-chantier-de-restauration-de-la-maison-de-fer-par-larchitecte",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://cdn.openagenda.com/main/46a2dac68f2d4efab667f508af8a4ce6.base.image.jpg"
   },
   {
     "uid": "oa-75683594",
@@ -2112,13 +2250,15 @@
     "lieuCodeInsee": "77210",
     "lieuLatitude": 48.3803,
     "lieuLongitude": 2.90092,
+    "coordinates": "48.3803,2.90092",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-22T15:09:37+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "las-visitas-guiadas-del-sitio-de-pincevent",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/443875fb648641bf884ca4e74ff23357.base.image.jpg"
   },
   {
     "uid": "oa-42244816",
@@ -2141,13 +2281,15 @@
     "lieuCodeInsee": "77284",
     "lieuLatitude": 48.960741,
     "lieuLongitude": 2.878491,
+    "coordinates": "48.960741,2.878491",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-22T15:21:09+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "danses-renaissance-par-lassociation-la-mesnie-meldoise",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/7ede9e0d87804381b4ebe12fe9cf488c.base.image.jpg"
   },
   {
     "uid": "oa-18284173",
@@ -2170,13 +2312,15 @@
     "lieuCodeInsee": "77284",
     "lieuLatitude": 48.960741,
     "lieuLongitude": 2.878491,
+    "coordinates": "48.960741,2.878491",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-22T15:21:28+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-tente-a-histoire-par-le-reseau-de-lecture-publique-de-la-communaute-dagglomer",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/46e5ff1f477545d8aaea81fe058ad6f5.base.image.jpg"
   },
   {
     "uid": "oa-35494140",
@@ -2199,13 +2343,15 @@
     "lieuCodeInsee": "94004",
     "lieuLatitude": 48.727888,
     "lieuLongitude": 2.530154,
+    "coordinates": "48.727888,2.530154",
     "lieuDepartement": "Val-de-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-22T15:21:45+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "balade-sensorielle-et-ornithologique",
-    "departementNumero": "94"
+    "departementNumero": "94",
+    "image": "https://cdn.openagenda.com/main/03f84fe1a90f48e0bf0a8e502a305b76.base.image.jpg"
   },
   {
     "uid": "oa-89210687",
@@ -2228,13 +2374,15 @@
     "lieuCodeInsee": "95651",
     "lieuLatitude": 49.065316,
     "lieuLongitude": 1.701241,
+    "coordinates": "49.065316,1.701241",
     "lieuDepartement": "Val-D'Oise",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-22T16:21:40+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visites-guidees-de-leglise-notre-dame",
-    "departementNumero": "95"
+    "departementNumero": "95",
+    "image": "https://img.openagenda.com/main/4d629011a896407daa73f87dccc5b466.base.image.jpg"
   },
   {
     "uid": "oa-91212134",
@@ -2257,13 +2405,15 @@
     "lieuCodeInsee": "94015",
     "lieuLatitude": 48.836617,
     "lieuLongitude": 2.532867,
+    "coordinates": "48.836617,2.532867",
     "lieuDepartement": "Val-de-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-22T16:21:48+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-de-linstitut-national-de-laudiovisuel",
-    "departementNumero": "94"
+    "departementNumero": "94",
+    "image": "https://cdn.openagenda.com/main/a6769e0a8e3041308ee5ad984fcf2a39.base.image.jpg"
   },
   {
     "uid": "oa-35927372",
@@ -2286,13 +2436,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.862772,
     "lieuLongitude": 2.39312,
+    "coordinates": "48.862772,2.39312",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-22T16:22:04+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "8280054",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://cdn.openagenda.com/main/d011cacd42494c329d5518998346364d.base.image.jpg"
   },
   {
     "uid": "oa-58799469",
@@ -2315,13 +2467,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.865646,
     "lieuLongitude": 2.305999,
+    "coordinates": "48.865646,2.305999",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-23T10:21:25+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "conferencia-la-historia-del-incendio-del-bazar-de-la-caridad",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/86412e14ab9c4f62bba951c729781a97.base.image.jpg"
   },
   {
     "uid": "oa-64359131",
@@ -2344,13 +2498,15 @@
     "lieuCodeInsee": "78356",
     "lieuLatitude": 48.745036,
     "lieuLongitude": 2.015642,
+    "coordinates": "48.745036,2.015642",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-23T13:40:02+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-du-site-des-ruines-de-labbaye-de-port-royal-des-champs-y-compris-l",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://img.openagenda.com/main/134cc60fce1e4559b3b2d68b4c61e68f.base.image.jpg"
   },
   {
     "uid": "oa-2184546",
@@ -2373,13 +2529,15 @@
     "lieuCodeInsee": "95658",
     "lieuLatitude": 49.077532,
     "lieuLongitude": 1.926447,
+    "coordinates": "49.077532,1.926447",
     "lieuDepartement": "Val-d'Oise",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-23T15:41:39+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "le-chateau-de-vigny-a-travers-les-ages",
-    "departementNumero": "95"
+    "departementNumero": "95",
+    "image": "https://img.openagenda.com/main/c7de56a58944465ea58683192d13cf96.base.image.jpg"
   },
   {
     "uid": "oa-66062497",
@@ -2402,13 +2560,15 @@
     "lieuCodeInsee": "93029",
     "lieuLatitude": 48.918828,
     "lieuLongitude": 2.453544,
+    "coordinates": "48.918828,2.453544",
     "lieuDepartement": "Seine-Saint-Denis",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-23T16:43:18+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-couplee-du-memorial-de-la-shoah-de-drancy-et-du-memorial-de-la-gare-de-de",
-    "departementNumero": "93"
+    "departementNumero": "93",
+    "image": "https://img.openagenda.com/main/31c8e2dddf2341748cd2862fa865dc39.base.image.jpg"
   },
   {
     "uid": "oa-63235472",
@@ -2431,13 +2591,15 @@
     "lieuCodeInsee": "92040",
     "lieuLatitude": 48.822973,
     "lieuLongitude": 2.269676,
+    "coordinates": "48.822973,2.269676",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-23T20:44:53+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-du-palais-des-congres-dissy-1900602",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": "https://img.openagenda.com/main/136cc3f9b5c8400987a7441abbf5d01c.base.image.jpg"
   },
   {
     "uid": "oa-64959184",
@@ -2460,13 +2622,15 @@
     "lieuCodeInsee": "78646",
     "lieuLatitude": 48.802898,
     "lieuLongitude": 2.1292,
+    "coordinates": "48.802898,2.1292",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-24T08:55:42+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "versailles-insolite",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://img.openagenda.com/main/1c47622d301e40438f581b592763c72c.base.image.jpg"
   },
   {
     "uid": "oa-32893730",
@@ -2489,13 +2653,15 @@
     "lieuCodeInsee": "77221",
     "lieuLatitude": 48.853151,
     "lieuLongitude": 2.703728,
+    "coordinates": "48.853151,2.703728",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-24T09:00:40+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "journees-europeennes-du-patrimoine-a-leglise-de-guermantes",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/6e7344559c78474f834f8b451d7c8fbd.base.image.jpg"
   },
   {
     "uid": "oa-94656050",
@@ -2518,13 +2684,15 @@
     "lieuCodeInsee": "92048",
     "lieuLatitude": 48.813669,
     "lieuLongitude": 2.228723,
+    "coordinates": "48.813669,2.228723",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-24T09:55:50+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "lia-et-larchitecture-exposition-et-visite-des-jardins",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": "https://img.openagenda.com/main/5ca205c9acb4467cb48b012b9039f8ab.base.image.jpg"
   },
   {
     "uid": "oa-62266157",
@@ -2547,13 +2715,15 @@
     "lieuCodeInsee": "94041",
     "lieuLatitude": 48.81121,
     "lieuLongitude": 2.383677,
+    "coordinates": "48.81121,2.383677",
     "lieuDepartement": "Val-de-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-27T09:42:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visitas-a-la-iglesia-de-san-pedro-y-san-pablo-en-ivry-sur-seine",
-    "departementNumero": "94"
+    "departementNumero": "94",
+    "image": "https://img.openagenda.com/main/565f707295fd413b9d20864e769d1c27.base.image.jpg"
   },
   {
     "uid": "oa-99142692",
@@ -2576,13 +2746,15 @@
     "lieuCodeInsee": "77243",
     "lieuLatitude": 48.877372,
     "lieuLongitude": 2.705845,
+    "coordinates": "48.877372,2.705845",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-27T13:34:01+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "presentation-et-visite-de-lorgue-de-leglise-notre-dame-des-ardents-3420867",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": ""
   },
   {
     "uid": "oa-9975998",
@@ -2605,13 +2777,15 @@
     "lieuCodeInsee": "95476",
     "lieuLatitude": 49.063284,
     "lieuLongitude": 2.065904,
+    "coordinates": "49.063284,2.065904",
     "lieuDepartement": "Val-d'Oise",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-27T14:34:41+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "musee-des-pompiers-4977966",
-    "departementNumero": "95"
+    "departementNumero": "95",
+    "image": "https://img.openagenda.com/main/5c2dea20fb7e474d97f30ba7544e156f.base.image.jpg"
   },
   {
     "uid": "oa-88327998",
@@ -2634,13 +2808,15 @@
     "lieuCodeInsee": "77014",
     "lieuLatitude": 48.40519,
     "lieuLongitude": 2.720805,
+    "coordinates": "48.40519,2.720805",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-27T15:39:30+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visita-a-la-iglesia-de-san-pedro-9547053",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/1a9f6123c4c5417ab5a04b8f2d83938e.base.image.jpg"
   },
   {
     "uid": "oa-92355101",
@@ -2663,13 +2839,15 @@
     "lieuCodeInsee": "78361",
     "lieuLatitude": 48.999658,
     "lieuLongitude": 1.683514,
+    "coordinates": "48.999658,1.683514",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-27T19:00:31+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "jeu-avec-la-mediatheque-aragon",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": ""
   },
   {
     "uid": "oa-44033674",
@@ -2692,13 +2870,15 @@
     "lieuCodeInsee": "93055",
     "lieuLatitude": 48.896592,
     "lieuLongitude": 2.401343,
+    "coordinates": "48.896592,2.401343",
     "lieuDepartement": "Seine-Saint-Denis",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-28T08:49:27+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "hotel-de-ville-de-pantin-visites-guidees",
-    "departementNumero": "93"
+    "departementNumero": "93",
+    "image": "https://img.openagenda.com/main/642e8bfd59e8419ea84d0900e1b12c1f.base.image.jpg"
   },
   {
     "uid": "oa-86316393",
@@ -2721,13 +2901,15 @@
     "lieuCodeInsee": "93055",
     "lieuLatitude": 48.888363,
     "lieuLongitude": 2.415661,
+    "coordinates": "48.888363,2.415661",
     "lieuDepartement": "Seine-Saint-Denis",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-28T08:49:37+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "lecole-de-plein-air-mehul-preserve-son-architecture-singuliere",
-    "departementNumero": "93"
+    "departementNumero": "93",
+    "image": "https://img.openagenda.com/main/366a1b71acd3409096c8027fe2eafc0b.base.image.jpg"
   },
   {
     "uid": "oa-7498057",
@@ -2750,13 +2932,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.858819,
     "lieuLongitude": 2.294597,
+    "coordinates": "48.858819,2.294597",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-29T09:34:29+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "levez-les-yeux-7495296",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/19608e980dd5401b8f2bec9b73cae4de.base.image.jpg"
   },
   {
     "uid": "oa-53273250",
@@ -2779,13 +2963,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.838741,
     "lieuLongitude": 2.361249,
+    "coordinates": "48.838741,2.361249",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-29T13:38:03+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-chapelle-saint-louis-de-la-salpetriere",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/259688e8212d428aac1f14cd94f672d8.base.image.jpg"
   },
   {
     "uid": "oa-86067975",
@@ -2808,13 +2994,15 @@
     "lieuCodeInsee": "94041",
     "lieuLatitude": 48.807508,
     "lieuLongitude": 2.375279,
+    "coordinates": "48.807508,2.375279",
     "lieuDepartement": "Val-de-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-30T10:22:55+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "portes-ouvertes-eveha-archeologie-ivry",
-    "departementNumero": "94"
+    "departementNumero": "94",
+    "image": "https://img.openagenda.com/main/ab5f11f88cdf49d88098c9eb8280f828.base.image.jpg"
   },
   {
     "uid": "oa-74015499",
@@ -2837,13 +3025,15 @@
     "lieuCodeInsee": "93066",
     "lieuLatitude": 48.935884,
     "lieuLongitude": 2.357511,
+    "coordinates": "48.935884,2.357511",
     "lieuDepartement": "Seine-Saint-Denis",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-31T10:14:29+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "saint-denis-labyrinthe-parcours-test",
-    "departementNumero": "93"
+    "departementNumero": "93",
+    "image": "https://img.openagenda.com/main/f8204b098f064a2793d3be50c7caeb40.base.image.jpg"
   },
   {
     "uid": "oa-23851476",
@@ -2866,13 +3056,15 @@
     "lieuCodeInsee": "92040",
     "lieuLatitude": 48.822973,
     "lieuLongitude": 2.269676,
+    "coordinates": "48.822973,2.269676",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-31T10:14:32+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "jazz-new-orleans-au-palais-des-congres-avec-sebastian-ochoa",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": "https://img.openagenda.com/main/08f4ad7e7cd34822bfdab796e1a308f6.base.image.jpg"
   },
   {
     "uid": "oa-57174033",
@@ -2895,13 +3087,15 @@
     "lieuCodeInsee": "93027",
     "lieuLatitude": 48.92578,
     "lieuLongitude": 2.391224,
+    "coordinates": "48.92578,2.391224",
     "lieuDepartement": "Seine-Saint-Denis",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-03T13:15:42+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "exposition-debat-le-patrimoine-vivant-de-la-courneuve-en-2126-un-futur-hybride",
-    "departementNumero": "93"
+    "departementNumero": "93",
+    "image": "https://img.openagenda.com/main/0c87d3f5f4a5498d95c4911f5fc36389.base.image.jpg"
   },
   {
     "uid": "oa-90926171",
@@ -2924,13 +3118,15 @@
     "lieuCodeInsee": "93001",
     "lieuLatitude": 48.914695,
     "lieuLongitude": 2.400648,
+    "coordinates": "48.914695,2.400648",
     "lieuDepartement": "Seine-Saint-Denis",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-03T15:25:51+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-maladrerie-de-renee-gailhoustet-a-aubervilliers",
-    "departementNumero": "93"
+    "departementNumero": "93",
+    "image": "https://img.openagenda.com/main/77bca463085447a9935a2ffb52ea7100.base.image.jpg"
   },
   {
     "uid": "oa-69896710",
@@ -2953,13 +3149,15 @@
     "lieuCodeInsee": "91079",
     "lieuLatitude": 48.376813,
     "lieuLongitude": 2.151911,
+    "coordinates": "48.376813,2.151911",
     "lieuDepartement": "Essonne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-03T15:27:13+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-decouverte-du-domaine-de-bierville",
-    "departementNumero": "91"
+    "departementNumero": "91",
+    "image": "https://img.openagenda.com/main/73aa773ef82644a09515255dbcd8d33b.base.image.jpg"
   },
   {
     "uid": "oa-75511419",
@@ -2982,13 +3180,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.876912,
     "lieuLongitude": 2.33156,
+    "coordinates": "48.876912,2.33156",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-08T14:36:03+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "jep-2026-restauration-de-leglise-de-la-sainte-trinite",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://cdn.openagenda.com/main/924a2f3f325b41dfa3d7595187f6c7bc.base.image.jpg"
   },
   {
     "uid": "oa-2595882",
@@ -3011,13 +3211,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.844315,
     "lieuLongitude": 2.344972,
+    "coordinates": "48.844315,2.344972",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-09T12:27:04+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visita-al-museo-curie-en-lsf-una-exploracion-accesible-del-patrimonio-cientifico",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://cdn.openagenda.com/main/eef3e9eaf79149f1b6f33ebc829698bf.base.image.jpg"
   },
   {
     "uid": "oa-50115819",
@@ -3040,13 +3242,15 @@
     "lieuCodeInsee": "91639",
     "lieuLatitude": 48.43978,
     "lieuLongitude": 2.355676,
+    "coordinates": "48.43978,2.355676",
     "lieuDepartement": "Essonne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-09T12:56:59+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "descubrimiento-de-nuestro-patrimonio-rural",
-    "departementNumero": "91"
+    "departementNumero": "91",
+    "image": ""
   },
   {
     "uid": "oa-19617903",
@@ -3069,13 +3273,15 @@
     "lieuCodeInsee": "94068",
     "lieuLatitude": 48.804492,
     "lieuLongitude": 2.485575,
+    "coordinates": "48.804492,2.485575",
     "lieuDepartement": "Val-de-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-10T09:18:13+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "explorez-le-quartier-de-lhotel-de-ville",
-    "departementNumero": "94"
+    "departementNumero": "94",
+    "image": "https://img.openagenda.com/main/18a54b47806e46b897ee9a18ed608211.base.image.jpg"
   },
   {
     "uid": "oa-13328336",
@@ -3098,13 +3304,15 @@
     "lieuCodeInsee": "92012",
     "lieuLatitude": 48.84143,
     "lieuLongitude": 2.227034,
+    "coordinates": "48.84143,2.227034",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-10T09:18:40+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "rencontre-et-discussion-les-fossiles-du-futur",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": "https://cdn.openagenda.com/main/74a0892e80a1457bbe5f94f1401ed30b.base.image.jpg"
   },
   {
     "uid": "oa-78266894",
@@ -3127,13 +3335,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.867022,
     "lieuLongitude": 2.338923,
+    "coordinates": "48.867022,2.338923",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-10T15:08:32+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visita-de-la-biblioteca-nacional-de-francia-bnf-sitio-richelieu",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://cdn.openagenda.com/main/dc2c7ac7eb294a5a907ba449d975b837.base.image.jpg"
   },
   {
     "uid": "oa-71764951",
@@ -3156,13 +3366,15 @@
     "lieuCodeInsee": "95018",
     "lieuLatitude": 48.94553,
     "lieuLongitude": 2.25747,
+    "coordinates": "48.94553,2.25747",
     "lieuDepartement": "Val-d'Oise",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-10T16:29:34+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "balades-theatralisees-en-promenade-avec-claude-monet-a-argenteuil",
-    "departementNumero": "95"
+    "departementNumero": "95",
+    "image": "https://cdn.openagenda.com/main/b27e580d43c64c2a9d0a4661a7c396ad.base.image.jpg"
   },
   {
     "uid": "oa-18260408",
@@ -3185,13 +3397,15 @@
     "lieuCodeInsee": "95018",
     "lieuLatitude": 48.941073,
     "lieuLongitude": 2.248213,
+    "coordinates": "48.941073,2.248213",
     "lieuDepartement": "Val-d'Oise",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-13T08:36:20+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "a-table-2144480",
-    "departementNumero": "95"
+    "departementNumero": "95",
+    "image": ""
   },
   {
     "uid": "oa-97244804",
@@ -3205,7 +3419,7 @@
     "dateFin": "2026-09-19T16:00:00+00:00",
     "categorie": "spectacle",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "L'Imagerie",
     "lieuAdresse": "10 rue du 8 mai 1945 95100 ARGENTEUIL",
@@ -3214,13 +3428,15 @@
     "lieuCodeInsee": "95018",
     "lieuLatitude": 48.940726,
     "lieuLongitude": 2.247798,
+    "coordinates": "48.940726,2.247798",
     "lieuDepartement": "Val-d'Oise",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-13T09:37:18+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-magie-du-cyanotype-creez-votre-portrait",
-    "departementNumero": "95"
+    "departementNumero": "95",
+    "image": "https://cdn.openagenda.com/main/1c924b4baf404ed185b5002e272154fc.base.image.jpg"
   },
   {
     "uid": "oa-64925195",
@@ -3243,13 +3459,15 @@
     "lieuCodeInsee": "92023",
     "lieuLatitude": 48.793248,
     "lieuLongitude": 2.260394,
+    "coordinates": "48.793248,2.260394",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-13T10:39:14+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "balade-biodiversite-des-oiseaux-dans-les-arbres",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": ""
   },
   {
     "uid": "oa-80148707",
@@ -3272,13 +3490,15 @@
     "lieuCodeInsee": "92025",
     "lieuLatitude": 48.923321,
     "lieuLongitude": 2.252039,
+    "coordinates": "48.923321,2.252039",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-13T12:40:25+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "concert-10-ans-10-concerts-dans-toute-la-ville",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": "https://cdn.openagenda.com/main/00d1875e12a948238a6c9bf1e5319cd4.base.image.jpg"
   },
   {
     "uid": "oa-62632727",
@@ -3292,7 +3512,7 @@
     "dateFin": "2026-09-19T18:30:00+00:00",
     "categorie": "spectacle",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Centre nature",
     "lieuAdresse": "16, rue Solférino, 92700 Colombes",
@@ -3301,13 +3521,15 @@
     "lieuCodeInsee": "92025",
     "lieuLatitude": 48.931091,
     "lieuLongitude": 2.263729,
+    "coordinates": "48.931091,2.263729",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-13T12:40:27+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "peuple-des-rues-et-du-bois",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": ""
   },
   {
     "uid": "oa-28855050",
@@ -3330,13 +3552,15 @@
     "lieuCodeInsee": "92025",
     "lieuLatitude": 48.920578,
     "lieuLongitude": 2.252727,
+    "coordinates": "48.920578,2.252727",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-13T12:40:29+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "mediation-et-atelier-decouverte-du-street-art",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": ""
   },
   {
     "uid": "oa-16957873",
@@ -3359,13 +3583,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.866303,
     "lieuLongitude": 2.294585,
+    "coordinates": "48.866303,2.294585",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-13T13:41:29+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "decouverte-de-maison-guimet-hotel-dheidelbach",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://cdn.openagenda.com/main/7de0a69a87b6421db823466d16dfeca6.base.image.jpg"
   },
   {
     "uid": "oa-65689705",
@@ -3388,13 +3614,15 @@
     "lieuCodeInsee": "92040",
     "lieuLatitude": 48.825339,
     "lieuLongitude": 2.257517,
+    "coordinates": "48.825339,2.257517",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-13T13:41:33+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-libre-de-lespace-decouverte-de-la-tour-aux-figures",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": "https://img.openagenda.com/main/261bc6c798e543a7b76b847df722d08e.base.image.jpg"
   },
   {
     "uid": "oa-94814284",
@@ -3417,13 +3645,15 @@
     "lieuCodeInsee": "78172",
     "lieuLatitude": 48.992397,
     "lieuLongitude": 2.095654,
+    "coordinates": "48.992397,2.095654",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-13T15:44:48+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "museo-de-la-navegacion-y-las-vias-navegables",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://cdn.openagenda.com/main/4b50f05ad3524fd5943b8cf1e98961af.base.image.jpg"
   },
   {
     "uid": "oa-4426028",
@@ -3437,7 +3667,7 @@
     "dateFin": "2026-09-19T11:00:00+00:00",
     "categorie": "atelier",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Musée de la batellerie et des voies navigables",
     "lieuAdresse": "3 Place Jules Gévelot, 78700 Conflans-Sainte-Honorine, France",
@@ -3446,13 +3676,15 @@
     "lieuCodeInsee": "78172",
     "lieuLatitude": 48.992397,
     "lieuLongitude": 2.095654,
+    "coordinates": "48.992397,2.095654",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-13T15:46:50+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "construye-tu-pequeno-barco-y-pruebalo-en-el-agua",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://cdn.openagenda.com/main/fb0a5a44a6cc43f594ad901a93a60b01.base.image.jpg"
   },
   {
     "uid": "oa-33259762",
@@ -3475,13 +3707,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.881432,
     "lieuLongitude": 2.333126,
+    "coordinates": "48.881432,2.333126",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-15T08:42:36+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "parcours-de-sensibilisation-a-la-culture-sourde",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://cdn.openagenda.com/main/e885f0e58b9c45e8bed5399714e54902.base.image.jpg"
   },
   {
     "uid": "oa-31728312",
@@ -3504,13 +3738,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.865971,
     "lieuLongitude": 2.296571,
+    "coordinates": "48.865971,2.296571",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-10T16:38:06+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-suivie-dune-rencontre-avec-une-restauratrice-textile",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/9b8a55625a934016bf26bcb218c0da4c.base.image.jpg"
   },
   {
     "uid": "oa-87580486",
@@ -3533,13 +3769,15 @@
     "lieuCodeInsee": "77279",
     "lieuLatitude": 48.386056,
     "lieuLongitude": 3.031911,
+    "coordinates": "48.386056,3.031911",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-13T12:57:51+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "porte-ouverte-au-chateau-de-motteux",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/421e98d6564b4f67a7bdd4764e708d8f.base.image.jpg"
   },
   {
     "uid": "oa-5069293",
@@ -3562,13 +3800,15 @@
     "lieuCodeInsee": "91377",
     "lieuLatitude": 48.735915,
     "lieuLongitude": 2.26217,
+    "coordinates": "48.735915,2.26217",
     "lieuDepartement": "Essonne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-14T07:54:23+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "agora-livres",
-    "departementNumero": "91"
+    "departementNumero": "91",
+    "image": "https://img.openagenda.com/main/1e4f84cd093f403481a1c50658494697.base.image.jpg"
   },
   {
     "uid": "oa-38815250",
@@ -3577,7 +3817,7 @@
     "licence": "lov2",
     "titre": "Visite théâtralisée \"À la recherche de Madame Campan\"",
     "descriptionCourte": "Visite théâtralisée \"À la recherche de Madame Campan\"",
-    "descriptionLongue": "En sept étapes et autant de tableaux, deux étranges conférenciers proposent aux visiteurs une promenade théâtrale et poétique dans la mémoire du château. A travers les sentiers et les jardins, ils nous racontent les aventures d’un peintre et de son modèle marchant sur les traces des jeunes filles de la Maison d’Éducation de la Légion d’Honneur, installée au château par Napoléon Bonaparte en 1805.Ce jeu de piste les entraîne à la poursuite de Madame Campan, ancienne directrice de l’établissement, et qui fut une des premières pédagogues de l’Histoire moderne.Un parcours bucolique, loufoque et familial, porté par deux comédiens aux multiples facettes. En partenariat avec le Théâtre de la ValléeD’après une histoire de René FixAdaptation et mise en scène Franck Zerbib avec Thérésa Berger et Thomas Segouin Le dimanche à 15hGratuit. Sur réservation au 01 34 38 38 50",
+    "descriptionLongue": "En sept étapes et autant de tableaux, deux étranges conférenciers proposent aux visiteurs une promenade théâtrale et poétique dans la mémoire du château. A travers les sentiers et les jardins, ils nous racontent les aventures d’un peintre et de son modèle marchant sur les traces des jeunes filles de la Maison d’Éducation de la Légion d’Honneur, installée au château par Napoléon Bonaparte en 1805.Ce jeu de piste les entraîne à la poursuite de Madame Campan, ancienne directrice de l’établissement, et qui fut une des premières pédagogues de l’Histoire moderne.Un parcours bucolique, loufoque et familial, porté par deux comédiens aux multiples facettes. En partenariat avec le Théâtre de la ValléeD’après une histoire de René FixAdaptation et mise en scène Franck Zerbib avec Thérésa Berger et Thomas Segouin Le dimanche à 15hGratuit. Sur réservation au [téléphone supprimé]",
     "dateDebut": "2026-09-20T13:00:00+00:00",
     "dateFin": "2026-09-20T14:00:00+00:00",
     "categorie": "spectacle",
@@ -3591,13 +3831,15 @@
     "lieuCodeInsee": "95205",
     "lieuLatitude": 49.017042,
     "lieuLongitude": 2.378317,
+    "coordinates": "49.017042,2.378317",
     "lieuDepartement": "Val-d'Oise",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-15T07:17:47+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-theatralisee-a-la-recherche-de-madame-campan",
-    "departementNumero": "95"
+    "departementNumero": "95",
+    "image": "https://img.openagenda.com/main/9c826cde0de944f992d435d66bd262e9.base.image.jpg"
   },
   {
     "uid": "oa-61282712",
@@ -3611,7 +3853,7 @@
     "dateFin": "2026-09-19T09:00:00+00:00",
     "categorie": "spectacle",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Musée de l'Air et de l'Espace",
     "lieuAdresse": "3 esplanade de l’Air et de l’Espace, 93350 Le Bourget, France",
@@ -3620,13 +3862,15 @@
     "lieuCodeInsee": "93013",
     "lieuLatitude": 48.947315,
     "lieuLongitude": 2.435485,
+    "coordinates": "48.947315,2.435485",
     "lieuDepartement": "Seine-Saint-Denis",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-15T07:18:22+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "mediation-curieux-objets-a-vous-de-percer-le-mystere-8607046",
-    "departementNumero": "93"
+    "departementNumero": "93",
+    "image": "https://img.openagenda.com/main/3141506281a14502a14c069c8e7a67ed.base.image.jpg"
   },
   {
     "uid": "oa-18002504",
@@ -3640,7 +3884,7 @@
     "dateFin": "2026-09-19T15:00:00+00:00",
     "categorie": "atelier",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Musée d'art et d'histoire Paul Eluard",
     "lieuAdresse": "22bis Rue Gabriel Péri, 93200 Saint-Denis, France",
@@ -3649,13 +3893,15 @@
     "lieuCodeInsee": "93066",
     "lieuLatitude": 48.932424,
     "lieuLongitude": 2.35622,
+    "coordinates": "48.932424,2.35622",
     "lieuDepartement": "Seine-Saint-Denis",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-15T07:18:40+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "demonstration-et-initiation-a-la-tarentelle",
-    "departementNumero": "93"
+    "departementNumero": "93",
+    "image": "https://img.openagenda.com/main/0d965c38309d47c8a7486f6330362e08.base.image.jpg"
   },
   {
     "uid": "oa-53852825",
@@ -3678,13 +3924,15 @@
     "lieuCodeInsee": "93066",
     "lieuLatitude": 48.932424,
     "lieuLongitude": 2.35622,
+    "coordinates": "48.932424,2.35622",
     "lieuDepartement": "Seine-Saint-Denis",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-15T07:18:40+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-une-histoire-des-collections-8678519",
-    "departementNumero": "93"
+    "departementNumero": "93",
+    "image": "https://img.openagenda.com/main/24e21a2556634abc9fa6526ab022fefb.base.image.jpg"
   },
   {
     "uid": "oa-55939857",
@@ -3707,13 +3955,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.854445,
     "lieuLongitude": 2.335642,
+    "coordinates": "48.854445,2.335642",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-15T07:18:49+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "sculpter-les-muses-de-latelier-de-delacroix",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/5b1e731a11f44ef1bd746d6a39cbdbe8.base.image.jpg"
   },
   {
     "uid": "oa-89933975",
@@ -3736,13 +3986,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.850443,
     "lieuLongitude": 2.343495,
+    "coordinates": "48.850443,2.343495",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-15T07:18:51+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "lhotel-des-abbes-de-cluny-103786",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/252f73c53acb406faab990b0568d99e7.base.image.jpg"
   },
   {
     "uid": "oa-3777806",
@@ -3765,13 +4017,15 @@
     "lieuCodeInsee": "92012",
     "lieuLatitude": 48.835944,
     "lieuLongitude": 2.239338,
+    "coordinates": "48.835944,2.239338",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-17T10:00:01+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "elles-des-annees-trente",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": "https://img.openagenda.com/main/73ee65d3ee084c3dba56c4ec151a8cba.base.image.jpg"
   },
   {
     "uid": "oa-39062351",
@@ -3794,13 +4048,15 @@
     "lieuCodeInsee": "92012",
     "lieuLatitude": 48.845921,
     "lieuLongitude": 2.236178,
+    "coordinates": "48.845921,2.236178",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-17T13:10:28+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-commentee-de-la-basilique-notre-dame-de-boulogne",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": "https://img.openagenda.com/main/7b3d789305cc45df860c12fcf7bff25a.base.image.jpg"
   },
   {
     "uid": "oa-38275806",
@@ -3823,13 +4079,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.873887,
     "lieuLongitude": 2.329051,
+    "coordinates": "48.873887,2.329051",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-16T12:47:42+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "jeu-de-piste-sur-les-traces-dun-photographe-clandestin-sous-loccupation",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/c2253461629b4680a4c6de2e3d2623fb.base.image.jpg"
   },
   {
     "uid": "oa-72880171",
@@ -3852,13 +4110,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.87082,
     "lieuLongitude": 2.341135,
+    "coordinates": "48.87082,2.341135",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-16T12:47:46+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "colloque-de-larip-ce-que-le-groupe-fait-a-la-photographie-groupements-reseaux-co",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/1df41e1cdfea463a96a14032e5d7d619.base.image.jpg"
   },
   {
     "uid": "oa-14777449",
@@ -3881,13 +4141,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.864229,
     "lieuLongitude": 2.353095,
+    "coordinates": "48.864229,2.353095",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-16T14:49:43+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "exposition-de-dana-cojbuc-galerie-putman",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/b1e0d8331bfb4dc79c2405fe11387938.base.image.jpg"
   },
   {
     "uid": "oa-60175240",
@@ -3910,13 +4172,15 @@
     "lieuCodeInsee": "93008",
     "lieuLatitude": 48.903049,
     "lieuLongitude": 2.445979,
+    "coordinates": "48.903049,2.445979",
     "lieuDepartement": "Seine-Saint-Denis",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-16T15:30:31+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-processus-de-creation-photojournalistique",
-    "departementNumero": "93"
+    "departementNumero": "93",
+    "image": "https://img.openagenda.com/main/ba86bc1beade483e9755f65d2bcb443a.base.image.jpg"
   },
   {
     "uid": "oa-85395585",
@@ -3939,13 +4203,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.851466,
     "lieuLongitude": 2.341634,
+    "coordinates": "48.851466,2.341634",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-17T09:53:16+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "michel-butor",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/5793b38146474a2b96f3bb5a9c6c31e4.base.image.jpg"
   },
   {
     "uid": "oa-88594036",
@@ -3968,13 +4234,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.854869,
     "lieuLongitude": 2.355318,
+    "coordinates": "48.854869,2.355318",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-17T13:03:58+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "2415956",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/8f1dfbfcdd054d61910de56a68607b7f.base.image.jpg"
   },
   {
     "uid": "oa-29865577",
@@ -3997,13 +4265,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.855761,
     "lieuLongitude": 2.402257,
+    "coordinates": "48.855761,2.402257",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-18T07:59:39+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "ateliers-deducation-et-de-sensibilisation-a-limage",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/c3b958b786904f4d8210890b0960f26e.base.image.jpg"
   },
   {
     "uid": "oa-69602988",
@@ -4026,13 +4296,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.866502,
     "lieuLongitude": 2.33883,
+    "coordinates": "48.866502,2.33883",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-03T16:05:10+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "colloque-sur-la-conservation-restauration-des-photographies",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/58a32b148edf4490ad76ce4e550ccc78.base.image.jpg"
   },
   {
     "uid": "oa-98681632",
@@ -4055,13 +4327,15 @@
     "lieuCodeInsee": "92012",
     "lieuLatitude": 48.841345,
     "lieuLongitude": 2.228274,
+    "coordinates": "48.841345,2.228274",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-10T08:15:15+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "lux-tour-mondes-en-commun-musee-departemental-albert-kahn",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": "https://img.openagenda.com/main/823b31abed7542e19c293369aa66cf11.base.image.jpg"
   },
   {
     "uid": "oa-31695446",
@@ -4084,13 +4358,15 @@
     "lieuCodeInsee": "95176",
     "lieuLatitude": 48.97633,
     "lieuLongitude": 2.198714,
+    "coordinates": "48.97633,2.198714",
     "lieuDepartement": "Val-d'Oise",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-17T14:40:46+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visites-guidees-de-lexposition-fan-de-daguerre-cormeilles-celebre-son-photograph",
-    "departementNumero": "95"
+    "departementNumero": "95",
+    "image": "https://img.openagenda.com/main/33aedb234d3d4815ba6ac4f46748d0ea.base.image.jpg"
   },
   {
     "uid": "oa-17629183",
@@ -4116,13 +4392,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.826061,
     "lieuLongitude": 2.359178,
+    "coordinates": "48.826061,2.359178",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-12T17:23:03+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "echecs-and-jam-entree-a-prix-libre-1727372",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://cdn.openagenda.com/main/f1b1453b06a74ce98e03c92275137e0a.base.image.jpg"
   },
   {
     "uid": "oa-76991834",
@@ -4148,13 +4426,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.826061,
     "lieuLongitude": 2.359178,
+    "coordinates": "48.826061,2.359178",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-26T15:47:05+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "zoot-fest-4-le-collectif-fete-ses-10-ans",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/170b9eade08543b2b673f6eedd7e11a6.base.image.jpg"
   },
   {
     "uid": "oa-41467640",
@@ -4179,13 +4459,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.826061,
     "lieuLongitude": 2.359178,
+    "coordinates": "48.826061,2.359178",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-26T15:47:14.159000+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "gael-horellou-organ-trio-14406",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/abe819e663024963a57f91f0f9f0c84e.base.image.jpg"
   },
   {
     "uid": "oa-52493270",
@@ -4212,13 +4494,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.826061,
     "lieuLongitude": 2.359178,
+    "coordinates": "48.826061,2.359178",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-30T09:49:05+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "old-school-funky-family-2704877",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/1fe76a66dca34d3ba3828019f46543a0.base.image.jpg"
   },
   {
     "uid": "oa-11001699",
@@ -4246,13 +4530,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.826061,
     "lieuLongitude": 2.359178,
+    "coordinates": "48.826061,2.359178",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-31T17:28:04+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "ellen-birath-mother-of-pearl",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/4aad3090c70848df9a2a2b29e334cf49.base.image.jpg"
   },
   {
     "uid": "oa-82923318",
@@ -4278,13 +4564,15 @@
     "lieuCodeInsee": "",
     "lieuLatitude": 48.93594,
     "lieuLongitude": 2.162991,
+    "coordinates": "48.93594,2.162991",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-15T05:46:23+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "forum-de-linsertion-iae-boostez-votre-retour-a-lemploi-et-echangez-avec-les-prof",
-    "departementNumero": "00"
+    "departementNumero": "00",
+    "image": "https://img.openagenda.com/main/5ffa3af5dc664452b13a99714dec7f68.base.image.jpg"
   },
   {
     "uid": "oa-52087982",
@@ -4313,13 +4601,15 @@
     "lieuCodeInsee": "",
     "lieuLatitude": 48.87775,
     "lieuLongitude": 2.40989,
+    "coordinates": "48.87775,2.40989",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-17T01:44:23+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "securisez-votre-parcours-avec-le-simulateur-mes-ressources-formation-decouvrez-v",
-    "departementNumero": "00"
+    "departementNumero": "00",
+    "image": "https://img.openagenda.com/main/ae0fd5fc08974515a05251b7ea900ae6.base.image.jpg"
   },
   {
     "uid": "oa-88845845",
@@ -4348,13 +4638,15 @@
     "lieuCodeInsee": "78361",
     "lieuLatitude": 48.991711,
     "lieuLongitude": 1.710043,
+    "coordinates": "48.991711,1.710043",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-06T12:31:28+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "mantes-metal-night-primal-age-iceland-ice-chemicals-la-pire-hour",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://img.openagenda.com/main/e998743df3d04b6a80e2452d0111c783.base.image.jpg"
   },
   {
     "uid": "oa-6413950",
@@ -4384,13 +4676,15 @@
     "lieuCodeInsee": "78383",
     "lieuLatitude": 48.760721,
     "lieuLongitude": 1.921667,
+    "coordinates": "48.760721,1.921667",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-23T14:08:27+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "concert-reggae-and-dancehall-au-meeple-bar",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://img.openagenda.com/main/79f0bdb9d0b84a4cb8442d512a37cf0f.base.image.jpg"
   },
   {
     "uid": "oa-33331963",
@@ -4413,13 +4707,15 @@
     "lieuCodeInsee": "78551",
     "lieuLatitude": 48.893978,
     "lieuLongitude": 2.088964,
+    "coordinates": "48.893978,2.088964",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-16T18:12:44+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "brocante-musicale-1376111",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://img.openagenda.com/main/707725a52ef84dce9bac3397e9698f01.base.image.jpg"
   },
   {
     "uid": "oa-90141087",
@@ -4442,13 +4738,15 @@
     "lieuCodeInsee": "78551",
     "lieuLatitude": 48.893978,
     "lieuLongitude": 2.088964,
+    "coordinates": "48.893978,2.088964",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-16T18:38:23+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "alela-diane-usa-elias-dris",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://img.openagenda.com/main/5edd0e9710584a779afa69b71ed7d924.base.image.jpg"
   },
   {
     "uid": "oa-65467510",
@@ -4471,13 +4769,15 @@
     "lieuCodeInsee": "94080",
     "lieuLatitude": 48.847212,
     "lieuLongitude": 2.43774,
+    "coordinates": "48.847212,2.43774",
     "lieuDepartement": "Val-de-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-06T14:10:29+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "decouvrez-les-richesses-de-la-ruche-dans-les-boutiques-famille-mary-434320",
-    "departementNumero": "94"
+    "departementNumero": "94",
+    "image": "https://img.openagenda.com/main/2ab502d13081465db49b69f9194f5804.base.image.jpg"
   },
   {
     "uid": "oa-66493199",
@@ -4500,13 +4800,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.836489,
     "lieuLongitude": 2.278327,
+    "coordinates": "48.836489,2.278327",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-05T09:51:19+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-petite-ceinture-en-balade-un-patrimoine-ferroviaire-reinvente",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/a50126ba451e417b895c837212e9f44e.base.image.jpg"
   },
   {
     "uid": "oa-65640372",
@@ -4529,13 +4831,15 @@
     "lieuCodeInsee": "77128",
     "lieuLatitude": 48.878658,
     "lieuLongitude": 2.866345,
+    "coordinates": "48.878658,2.866345",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-05T10:52:14+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "exposition-edmond-rostand-et-ses-2-monstres-sacres-sarah-bernhardt-et-constant-c",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/00c7b3e57f2b48faaf61f2c2a58fc67c.base.image.jpg"
   },
   {
     "uid": "oa-37030789",
@@ -4558,13 +4862,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.884341,
     "lieuLongitude": 2.322094,
+    "coordinates": "48.884341,2.322094",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-09T17:40:16+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-du-quartier-des-batignolles-avec-lassociation-histoire-and-patrimoine-par",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/2c55c5a1d4634a3194cd719a9ab62811.base.image.jpg"
   },
   {
     "uid": "oa-23250036",
@@ -4587,13 +4893,15 @@
     "lieuCodeInsee": "91326",
     "lieuLatitude": 48.690461,
     "lieuLongitude": 2.374737,
+    "coordinates": "48.690461,2.374737",
     "lieuDepartement": "Essonne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-09T17:50:40+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "comptoir-numerique",
-    "departementNumero": "91"
+    "departementNumero": "91",
+    "image": "https://img.openagenda.com/main/00c5fa5925a245b8aec650ea373024b2.base.image.jpg"
   },
   {
     "uid": "oa-21711062",
@@ -4602,7 +4910,7 @@
     "licence": "lov2",
     "titre": "Atelier d'auto-réparation du mardi soir à Compiègne",
     "descriptionCourte": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous disposo",
-    "descriptionLongue": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous disposons d’un local au cœur de Compiègne. Nous y avons installé notre atelier d’auto-réparation, grâce aux dons en outils, matériaux et mobilier et à surtout à l’énergie des bénévoles. Nous proposons un planning d’ouvertures : le mardi soir et le samedi matin.Nos mécaniciens bénévoles se relaient pour partager leur passion du vélo. Adhérez à VélOOise et venez apprendre à entretenir et à réparer votre vélo, pour vous remettre en selle en toute tranquillité : éclairages, freins, pneus, garde-boue… les conseils et les coups de mains sont gratuits, seules les pièces sont à votre charge. Rejoignez-nous pour participer à l’aventure de VélOOise à Compiègne ! Vous pouvez adhérer sur place ou en ligne : 13€ par personne ou 20€ pour une famille. Contactez-nous à ateliercompiegne@velooise.frPlus d'infos",
+    "descriptionLongue": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous disposons d’un local au cœur de Compiègne. Nous y avons installé notre atelier d’auto-réparation, grâce aux dons en outils, matériaux et mobilier et à surtout à l’énergie des bénévoles. Nous proposons un planning d’ouvertures : le mardi soir et le samedi matin.Nos mécaniciens bénévoles se relaient pour partager leur passion du vélo. Adhérez à VélOOise et venez apprendre à entretenir et à réparer votre vélo, pour vous remettre en selle en toute tranquillité : éclairages, freins, pneus, garde-boue… les conseils et les coups de mains sont gratuits, seules les pièces sont à votre charge. Rejoignez-nous pour participer à l’aventure de VélOOise à Compiègne ! Vous pouvez adhérer sur place ou en ligne : 13€ par personne ou 20€ pour une famille. Contactez-nous à [email supprimé] d'infos",
     "dateDebut": "2027-06-08T15:30:00+00:00",
     "dateFin": "2027-06-08T17:30:00+00:00",
     "categorie": "atelier",
@@ -4616,13 +4924,15 @@
     "lieuCodeInsee": "77175",
     "lieuLatitude": 48.667579,
     "lieuLongitude": 2.623747,
+    "coordinates": "48.667579,2.623747",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-07T07:05:11+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-dauto-reparation-du-mardi-soir-a-compiegne-449950",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/4bc4e56d906c42819cf5ca3026b21da7.base.image.jpg"
   },
   {
     "uid": "oa-44788700",
@@ -4631,7 +4941,7 @@
     "licence": "lov2",
     "titre": "Atelier d'auto-réparation du mardi soir à Compiègne",
     "descriptionCourte": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous disposo",
-    "descriptionLongue": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous disposons d’un local au cœur de Compiègne. Nous y avons installé notre atelier d’auto-réparation, grâce aux dons en outils, matériaux et mobilier et à surtout à l’énergie des bénévoles. Nous proposons un planning d’ouvertures : le mardi soir et le samedi matin.Nos mécaniciens bénévoles se relaient pour partager leur passion du vélo. Adhérez à VélOOise et venez apprendre à entretenir et à réparer votre vélo, pour vous remettre en selle en toute tranquillité : éclairages, freins, pneus, garde-boue… les conseils et les coups de mains sont gratuits, seules les pièces sont à votre charge. Rejoignez-nous pour participer à l’aventure de VélOOise à Compiègne ! Vous pouvez adhérer sur place ou en ligne : 13€ par personne ou 20€ pour une famille. Contactez-nous à ateliercompiegne@velooise.frPlus d'infos",
+    "descriptionLongue": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous disposons d’un local au cœur de Compiègne. Nous y avons installé notre atelier d’auto-réparation, grâce aux dons en outils, matériaux et mobilier et à surtout à l’énergie des bénévoles. Nous proposons un planning d’ouvertures : le mardi soir et le samedi matin.Nos mécaniciens bénévoles se relaient pour partager leur passion du vélo. Adhérez à VélOOise et venez apprendre à entretenir et à réparer votre vélo, pour vous remettre en selle en toute tranquillité : éclairages, freins, pneus, garde-boue… les conseils et les coups de mains sont gratuits, seules les pièces sont à votre charge. Rejoignez-nous pour participer à l’aventure de VélOOise à Compiègne ! Vous pouvez adhérer sur place ou en ligne : 13€ par personne ou 20€ pour une famille. Contactez-nous à [email supprimé] d'infos",
     "dateDebut": "2027-01-12T16:30:00+00:00",
     "dateFin": "2027-01-12T18:30:00+00:00",
     "categorie": "atelier",
@@ -4645,13 +4955,15 @@
     "lieuCodeInsee": "77175",
     "lieuLatitude": 48.667579,
     "lieuLongitude": 2.623747,
+    "coordinates": "48.667579,2.623747",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-07T07:05:14+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-dauto-reparation-du-mardi-soir-a-compiegne-8548859",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/e08fc598a13d4f1fa8d39a8faedcebb8.base.image.jpg"
   },
   {
     "uid": "oa-39543489",
@@ -4660,7 +4972,7 @@
     "licence": "lov2",
     "titre": "Atelier d'auto-réparation du samedi matin à Compiègne",
     "descriptionCourte": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous dis",
-    "descriptionLongue": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous disposons d’un local au cœur de Compiègne. Nous y avons installé notre atelier d’auto-réparation, grâce aux dons en outils, matériaux et mobilier et à surtout à l’énergie des bénévoles. Nous proposons un planning d’ouvertures : le mardi soir et le samedi matin.Nos mécaniciens bénévoles se relaient pour partager leur passion du vélo. Adhérez à VélOOise et venez apprendre à entretenir et à réparer votre vélo, pour vous remettre en selle en toute tranquillité : éclairages, freins, pneus, garde-boue… les conseils et les coups de mains sont gratuits, seules les pièces sont à votre charge. Rejoignez-nous pour participer à l’aventure de VélOOise à Compiègne ! Vous pouvez adhérer sur place ou en ligne : 13€ par personne ou 20€ pour une famille. Contactez-nous à ateliercompiegne@velooise.frPlus d'infos",
+    "descriptionLongue": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous disposons d’un local au cœur de Compiègne. Nous y avons installé notre atelier d’auto-réparation, grâce aux dons en outils, matériaux et mobilier et à surtout à l’énergie des bénévoles. Nous proposons un planning d’ouvertures : le mardi soir et le samedi matin.Nos mécaniciens bénévoles se relaient pour partager leur passion du vélo. Adhérez à VélOOise et venez apprendre à entretenir et à réparer votre vélo, pour vous remettre en selle en toute tranquillité : éclairages, freins, pneus, garde-boue… les conseils et les coups de mains sont gratuits, seules les pièces sont à votre charge. Rejoignez-nous pour participer à l’aventure de VélOOise à Compiègne ! Vous pouvez adhérer sur place ou en ligne : 13€ par personne ou 20€ pour une famille. Contactez-nous à [email supprimé] d'infos",
     "dateDebut": "2027-02-27T09:00:00+00:00",
     "dateFin": "2027-02-27T11:00:00+00:00",
     "categorie": "atelier",
@@ -4674,13 +4986,15 @@
     "lieuCodeInsee": "77175",
     "lieuLatitude": 48.667579,
     "lieuLongitude": 2.623747,
+    "coordinates": "48.667579,2.623747",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-07T07:06:23+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-dauto-reparation-du-samedi-matin-a-compiegne-7583569",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/00a0b3cdf28d4206b9d0f47668813fc0.base.image.jpg"
   },
   {
     "uid": "oa-71746646",
@@ -4689,7 +5003,7 @@
     "licence": "lov2",
     "titre": "Atelier d'auto-réparation du samedi matin à Compiègne",
     "descriptionCourte": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous dis",
-    "descriptionLongue": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous disposons d’un local au cœur de Compiègne. Nous y avons installé notre atelier d’auto-réparation, grâce aux dons en outils, matériaux et mobilier et à surtout à l’énergie des bénévoles. Nous proposons un planning d’ouvertures : le mardi soir et le samedi matin.Nos mécaniciens bénévoles se relaient pour partager leur passion du vélo. Adhérez à VélOOise et venez apprendre à entretenir et à réparer votre vélo, pour vous remettre en selle en toute tranquillité : éclairages, freins, pneus, garde-boue… les conseils et les coups de mains sont gratuits, seules les pièces sont à votre charge. Rejoignez-nous pour participer à l’aventure de VélOOise à Compiègne ! Vous pouvez adhérer sur place ou en ligne : 13€ par personne ou 20€ pour une famille. Contactez-nous à ateliercompiegne@velooise.frPlus d'infos",
+    "descriptionLongue": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous disposons d’un local au cœur de Compiègne. Nous y avons installé notre atelier d’auto-réparation, grâce aux dons en outils, matériaux et mobilier et à surtout à l’énergie des bénévoles. Nous proposons un planning d’ouvertures : le mardi soir et le samedi matin.Nos mécaniciens bénévoles se relaient pour partager leur passion du vélo. Adhérez à VélOOise et venez apprendre à entretenir et à réparer votre vélo, pour vous remettre en selle en toute tranquillité : éclairages, freins, pneus, garde-boue… les conseils et les coups de mains sont gratuits, seules les pièces sont à votre charge. Rejoignez-nous pour participer à l’aventure de VélOOise à Compiègne ! Vous pouvez adhérer sur place ou en ligne : 13€ par personne ou 20€ pour une famille. Contactez-nous à [email supprimé] d'infos",
     "dateDebut": "2027-04-24T08:00:00+00:00",
     "dateFin": "2027-04-24T10:00:00+00:00",
     "categorie": "atelier",
@@ -4703,13 +5017,15 @@
     "lieuCodeInsee": "77175",
     "lieuLatitude": 48.667579,
     "lieuLongitude": 2.623747,
+    "coordinates": "48.667579,2.623747",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-07T07:06:36+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-dauto-reparation-du-samedi-matin-a-compiegne-6110533",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/5f926d19bec048228c72d1d1c6921e43.base.image.jpg"
   },
   {
     "uid": "oa-81654496",
@@ -4718,7 +5034,7 @@
     "licence": "lov2",
     "titre": "Atelier d'auto-réparation du samedi matin à Compiègne",
     "descriptionCourte": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous dis",
-    "descriptionLongue": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous disposons d’un local au cœur de Compiègne. Nous y avons installé notre atelier d’auto-réparation, grâce aux dons en outils, matériaux et mobilier et à surtout à l’énergie des bénévoles. Nous proposons un planning d’ouvertures : le mardi soir et le samedi matin.Nos mécaniciens bénévoles se relaient pour partager leur passion du vélo. Adhérez à VélOOise et venez apprendre à entretenir et à réparer votre vélo, pour vous remettre en selle en toute tranquillité : éclairages, freins, pneus, garde-boue… les conseils et les coups de mains sont gratuits, seules les pièces sont à votre charge. Rejoignez-nous pour participer à l’aventure de VélOOise à Compiègne ! Vous pouvez adhérer sur place ou en ligne : 13€ par personne ou 20€ pour une famille. Contactez-nous à ateliercompiegne@velooise.frPlus d'infos",
+    "descriptionLongue": "Apprenez à entretenir votre vélo avec nos mécanos bénévoles. Depuis avril 2026, nous disposons d’un local au cœur de Compiègne. Nous y avons installé notre atelier d’auto-réparation, grâce aux dons en outils, matériaux et mobilier et à surtout à l’énergie des bénévoles. Nous proposons un planning d’ouvertures : le mardi soir et le samedi matin.Nos mécaniciens bénévoles se relaient pour partager leur passion du vélo. Adhérez à VélOOise et venez apprendre à entretenir et à réparer votre vélo, pour vous remettre en selle en toute tranquillité : éclairages, freins, pneus, garde-boue… les conseils et les coups de mains sont gratuits, seules les pièces sont à votre charge. Rejoignez-nous pour participer à l’aventure de VélOOise à Compiègne ! Vous pouvez adhérer sur place ou en ligne : 13€ par personne ou 20€ pour une famille. Contactez-nous à [email supprimé] d'infos",
     "dateDebut": "2026-08-29T08:00:00+00:00",
     "dateFin": "2026-08-29T10:00:00+00:00",
     "categorie": "atelier",
@@ -4732,13 +5048,15 @@
     "lieuCodeInsee": "77175",
     "lieuLatitude": 48.667579,
     "lieuLongitude": 2.623747,
+    "coordinates": "48.667579,2.623747",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-07T07:07:33.019000+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-dauto-reparation-velo-de-compiegne-du-samedi-6647335",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/f10277d564b04dbabefeb74331ec8e35.base.image.jpg"
   },
   {
     "uid": "oa-3894014",
@@ -4767,13 +5085,15 @@
     "lieuCodeInsee": "77035",
     "lieuLatitude": 48.257297,
     "lieuLongitude": 3.02468,
+    "coordinates": "48.257297,3.02468",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-24T07:41:32+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "du-mercredi-26-au-dimanche-30-aout-2026-a-blennes-77-et-vallery-89",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/2d33777217b845b89367a7da2a43f285.base.image.jpg"
   },
   {
     "uid": "oa-50772842",
@@ -4799,13 +5119,15 @@
     "lieuCodeInsee": "",
     "lieuLatitude": 48.89843,
     "lieuLongitude": 2.255269,
+    "coordinates": "48.89843,2.255269",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-05T20:46:52+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "me-former-pour-acceder-a-un-emploi-durable-du-projet-a-la-concretisation-6163249",
-    "departementNumero": "00"
+    "departementNumero": "00",
+    "image": ""
   },
   {
     "uid": "oa-61080294",
@@ -4833,13 +5155,15 @@
     "lieuCodeInsee": "77126",
     "lieuLatitude": 48.99781,
     "lieuLongitude": 2.977103,
+    "coordinates": "48.99781,2.977103",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-13T13:05:01+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "chauve-souriez-vous-etes-filmes-1738640",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/7a2e24ffad734ca8a5fa9b6844932642.base.image.jpg"
   },
   {
     "uid": "oa-17333259",
@@ -4853,7 +5177,7 @@
     "dateFin": "2026-08-30T06:00:00+00:00",
     "categorie": "spectacle",
     "motsCles": [],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Château Rosa Bonheur",
     "lieuAdresse": "12 rue Rosa Bonheur",
@@ -4862,13 +5186,15 @@
     "lieuCodeInsee": "77463",
     "lieuLatitude": 48.396211,
     "lieuLongitude": 2.78335,
+    "coordinates": "48.396211,2.78335",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-17T14:13:46+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "decouverte-et-ecoute-des-chauves-souris-avec-bonheur",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": ""
   },
   {
     "uid": "oa-66567059",
@@ -4901,13 +5227,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.853495,
     "lieuLongitude": 2.348392,
+    "coordinates": "48.853495,2.348392",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-08T13:24:20+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "ia-et-ethique-comprendre-les-enjeux-dun-usage-utile-et-responsable-pour-votre-en",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/6b60eb8379fb4cfdbef8754376136680.base.image.jpg"
   },
   {
     "uid": "oa-58403708",
@@ -4936,13 +5264,15 @@
     "lieuCodeInsee": "",
     "lieuLatitude": 48.860081,
     "lieuLongitude": 2.37814,
+    "coordinates": "48.860081,2.37814",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-17T17:58:58+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "calculez-vos-chances-de-survie-sur-le-titanic-grace-a-la-data",
-    "departementNumero": "00"
+    "departementNumero": "00",
+    "image": "https://img.openagenda.com/main/e237d7a605834f78b9efb966b2eec09a.base.image.jpg"
   },
   {
     "uid": "oa-46485516",
@@ -4970,13 +5300,15 @@
     "lieuCodeInsee": "",
     "lieuLatitude": 48.883793,
     "lieuLongitude": 2.387579,
+    "coordinates": "48.883793,2.387579",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-17T18:39:17+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "handicap-et-alternance-la-cle-vers-linsertion-professionnelle-reserve-au-public-",
-    "departementNumero": "00"
+    "departementNumero": "00",
+    "image": "https://img.openagenda.com/main/ac5bc4f138f14f02b72c1d7d996b517c.base.image.jpg"
   },
   {
     "uid": "oa-79112183",
@@ -5004,13 +5336,15 @@
     "lieuCodeInsee": "",
     "lieuLatitude": 48.89843,
     "lieuLongitude": 2.255269,
+    "coordinates": "48.89843,2.255269",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-17T18:41:42+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-emploi-retraite-3483158",
-    "departementNumero": "00"
+    "departementNumero": "00",
+    "image": "https://img.openagenda.com/main/5481b934db03405e828adbe8d9185561.base.image.jpg"
   },
   {
     "uid": "oa-5802970",
@@ -5033,13 +5367,15 @@
     "lieuCodeInsee": "95351",
     "lieuLatitude": 49.039237,
     "lieuLongitude": 2.505801,
+    "coordinates": "49.039237,2.505801",
     "lieuDepartement": "Val-d'Oise",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-11T09:49:56+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "dj-set-carte-blanche-a-dj-kila",
-    "departementNumero": "95"
+    "departementNumero": "95",
+    "image": "https://img.openagenda.com/main/9db63e8a80474800be54649833ecb915.base.image.jpg"
   },
   {
     "uid": "oa-95559175",
@@ -5062,13 +5398,15 @@
     "lieuCodeInsee": "95127",
     "lieuLatitude": 49.047494,
     "lieuLongitude": 2.034681,
+    "coordinates": "49.047494,2.034681",
     "lieuDepartement": "Val-d'Oise",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-08T08:30:49+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "concert-fff-oma-jali",
-    "departementNumero": "95"
+    "departementNumero": "95",
+    "image": "https://cdn.openagenda.com/main/4f9ed703f1cf4ed0b89165d102773d3e.base.image.jpg"
   },
   {
     "uid": "oa-79751539",
@@ -5091,13 +5429,15 @@
     "lieuCodeInsee": "95127",
     "lieuLatitude": 49.047494,
     "lieuLongitude": 2.034681,
+    "coordinates": "49.047494,2.034681",
     "lieuDepartement": "Val-d'Oise",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-08T10:15:23+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "concert-bertrand-belin-premiere-partie",
-    "departementNumero": "95"
+    "departementNumero": "95",
+    "image": "https://cdn.openagenda.com/main/40aeacd920fc4099b8a66fc957930340.base.image.jpg"
   },
   {
     "uid": "oa-84028687",
@@ -5127,13 +5467,15 @@
     "lieuCodeInsee": "93048",
     "lieuLatitude": 48.863556,
     "lieuLongitude": 2.436858,
+    "coordinates": "48.863556,2.436858",
     "lieuDepartement": "Seine-Saint-Denis",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-25T13:27:00+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "leo-le-petit-robot",
-    "departementNumero": "93"
+    "departementNumero": "93",
+    "image": "https://img.openagenda.com/main/e99cc82f507f46278483a46149db7be5.base.image.jpg"
   },
   {
     "uid": "oa-91949359",
@@ -5156,13 +5498,15 @@
     "lieuCodeInsee": "77463",
     "lieuLatitude": 48.396211,
     "lieuLongitude": 2.78335,
+    "coordinates": "48.396211,2.78335",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-25T13:32:47+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "programmation-festival-rosa-bonheur-awa-ly",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/018f363d1e134e72b0ad7c2afb16aaed.base.image.jpg"
   },
   {
     "uid": "oa-86433641",
@@ -5185,13 +5529,15 @@
     "lieuCodeInsee": "77463",
     "lieuLatitude": 48.396211,
     "lieuLongitude": 2.78335,
+    "coordinates": "48.396211,2.78335",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-25T13:38:55+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "programmation-festival-rosa-bonheur-gildaa",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://img.openagenda.com/main/6d52c242a8374d11b45cbeba65fb6033.base.image.jpg"
   },
   {
     "uid": "oa-56667368",
@@ -5211,7 +5557,7 @@
       "vélo",
       "route des Gardes"
     ],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Route des Gardes",
     "lieuAdresse": "Route des Gardes, Meudon",
@@ -5220,13 +5566,15 @@
     "lieuCodeInsee": "92048",
     "lieuLatitude": 48.817105,
     "lieuLongitude": 2.22828,
+    "coordinates": "48.817105,2.22828",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-26T07:40:06+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "tour-de-france-8297696",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": "https://img.openagenda.com/main/d1013d4bb36845a1819d955e2dfef055.base.image.jpg"
   },
   {
     "uid": "oa-15254346",
@@ -5256,13 +5604,15 @@
     "lieuCodeInsee": "92040",
     "lieuLatitude": 48.821622,
     "lieuLongitude": 2.244499,
+    "coordinates": "48.821622,2.244499",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-29T07:45:01+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "20eme-edition-cinema-en-plein-air-9306440",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": "https://img.openagenda.com/main/841ef92570b74ecfa6d7263cb55df996.base.image.jpg"
   },
   {
     "uid": "oa-57396727",
@@ -5285,13 +5635,15 @@
     "lieuCodeInsee": "78440",
     "lieuLatitude": 48.997472,
     "lieuLongitude": 1.905031,
+    "coordinates": "48.997472,1.905031",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-20T09:05:01+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "the-gypsy-jazz-band",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://img.openagenda.com/main/c50cac0444e84b73ae25fe6c26f7d446.base.image.jpg"
   },
   {
     "uid": "oa-64075534",
@@ -5317,13 +5669,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.855552,
     "lieuLongitude": 2.289392,
+    "coordinates": "48.855552,2.289392",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-28T10:30:32+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "14h-real-7662230",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/a0ffe4ddcfca47b0accf1a5a128a3527.base.image.jpg"
   },
   {
     "uid": "oa-41177149",
@@ -5346,7 +5700,7 @@
       "live",
       "djs"
     ],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "LA PETITE HALLE",
     "lieuAdresse": "211 avenue Jean Jaures, 75019 Paris",
@@ -5355,13 +5709,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.894208,
     "lieuLongitude": 2.393178,
+    "coordinates": "48.894208,2.393178",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-10T11:29:22+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "villette-tropicale-special-ete-26-i-live-and-djs",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/d32f59049061426eaa6b4c9a14c2e622.base.image.jpg"
   },
   {
     "uid": "oa-53094378",
@@ -5384,13 +5740,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.838708,
     "lieuLongitude": 2.378767,
+    "coordinates": "48.838708,2.378767",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-04-29T12:37:07+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "lece-a-levenement-big",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://img.openagenda.com/main/0b4775c39da442679ef7c2b96856f26b.base.image.jpg"
   },
   {
     "uid": "oa-13728973",
@@ -5417,13 +5775,15 @@
     "lieuCodeInsee": "91477",
     "lieuLatitude": 48.713111,
     "lieuLongitude": 2.199685,
+    "coordinates": "48.713111,2.199685",
     "lieuDepartement": "Essonne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-05-21T08:49:57+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "junior-conference-on-wireless-and-optical-communication-jwoc-4149685",
-    "departementNumero": "91"
+    "departementNumero": "91",
+    "image": "https://img.openagenda.com/main/7f68548f82984ebe9f709962841439b1.base.image.jpg"
   },
   {
     "uid": "oa-15779960",
@@ -5449,13 +5809,15 @@
     "lieuCodeInsee": "92040",
     "lieuLatitude": 48.816278,
     "lieuLongitude": 2.267067,
+    "coordinates": "48.816278,2.267067",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-01T16:45:32+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "archeosquelette-9417474",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": "https://img.openagenda.com/main/58b1fa5fadb44d81becb8b6ff55f19a9.base.image.jpg"
   },
   {
     "uid": "oa-80552767",
@@ -5486,13 +5848,15 @@
     "lieuCodeInsee": "92040",
     "lieuLatitude": 48.816278,
     "lieuLongitude": 2.267067,
+    "coordinates": "48.816278,2.267067",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-07T15:01:25+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "stage-open-lab-7652524",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": "https://img.openagenda.com/main/64e015cb4edb4fddb5399d15f0ea568c.base.image.jpg"
   },
   {
     "uid": "oa-72876866",
@@ -5520,13 +5884,15 @@
     "lieuCodeInsee": "92040",
     "lieuLatitude": 48.816278,
     "lieuLongitude": 2.267067,
+    "coordinates": "48.816278,2.267067",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-16T14:08:11+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "atelier-initiation-au-taichi-le-souffle-en-mouvement",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": "https://img.openagenda.com/main/8c3b86719358493caecbeb58765c3e57.base.image.jpg"
   },
   {
     "uid": "oa-10900678",
@@ -5559,13 +5925,15 @@
     "lieuCodeInsee": "91272",
     "lieuLatitude": 48.701882,
     "lieuLongitude": 2.134529,
+    "coordinates": "48.701882,2.134529",
     "lieuDepartement": "Essonne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-20T08:05:40+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "4761080",
-    "departementNumero": "91"
+    "departementNumero": "91",
+    "image": "https://img.openagenda.com/main/88e7c4f140a848349d10a2a791928b97.base.image.jpg"
   },
   {
     "uid": "oa-49819559",
@@ -5593,13 +5961,15 @@
     "lieuCodeInsee": "92040",
     "lieuLatitude": 48.816278,
     "lieuLongitude": 2.267067,
+    "coordinates": "48.816278,2.267067",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-21T15:10:58+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-replique-sexplique-lile-aux-esclaves-marivaux",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": "https://img.openagenda.com/main/58fbb76ca49e4dd6bc3b6ae3450c84fb.base.image.jpg"
   },
   {
     "uid": "oa-13920066",
@@ -5624,13 +5994,15 @@
     "lieuCodeInsee": "78158",
     "lieuLatitude": 48.820729,
     "lieuLongitude": 2.121528,
+    "coordinates": "48.820729,2.121528",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-01T06:41:18+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "sol-invictus-1385933",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://cdn.openagenda.com/main/a2e4c13da1144deda9d12fbc9a9bed62.base.image.jpg"
   },
   {
     "uid": "oa-12174387",
@@ -5646,7 +6018,7 @@
     "motsCles": [
       "Théâtre"
     ],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "Théâtre Nouvelle-France (TNF)",
     "lieuAdresse": "9, rue Pottier Le Chesnay-Rocquencourt",
@@ -5655,13 +6027,15 @@
     "lieuCodeInsee": "78158",
     "lieuLatitude": 48.826447,
     "lieuLongitude": 2.125306,
+    "coordinates": "48.826447,2.125306",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-01T06:41:51+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-disparition-de-josef-mengele-1762066",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://cdn.openagenda.com/main/63ce3e1bbfbb461fa467cb80422a7d52.base.image.jpg"
   },
   {
     "uid": "oa-50998325",
@@ -5684,13 +6058,15 @@
     "lieuCodeInsee": "78158",
     "lieuLatitude": 48.826447,
     "lieuLongitude": 2.125306,
+    "coordinates": "48.826447,2.125306",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-08-03T09:12:54+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "the-dansant-8158584",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://img.openagenda.com/main/e1c5fbea955843c2b9e0d867a0012e81.base.image.jpg"
   },
   {
     "uid": "oa-99091493",
@@ -5713,13 +6089,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.877679,
     "lieuLongitude": 2.385825,
+    "coordinates": "48.877679,2.385825",
     "lieuDepartement": "Paris",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-05-30T06:45:03.062000+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "exposition-personnelle-de-chloe-quenum-titre-a-venir",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://cdn.openagenda.com/main/793ed8dcb0ef4c038010c7aa3bb33abb.base.image.jpg"
   },
   {
     "uid": "oa-59944933",
@@ -5735,7 +6113,7 @@
     "motsCles": [
       "Concerts"
     ],
-    "gratuit": false,
+    "gratuit": true,
     "prixIndicatif": "",
     "lieuNom": "La Manufacture Chanson",
     "lieuAdresse": "124 avenue de la république 75011 paris",
@@ -5744,13 +6122,15 @@
     "lieuCodeInsee": "75056",
     "lieuLatitude": 48.863008,
     "lieuLongitude": 2.385701,
+    "coordinates": "48.863008,2.385701",
     "lieuDepartement": "75",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-05-26T18:14:04+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "minuit-soleil",
-    "departementNumero": "75"
+    "departementNumero": "75",
+    "image": "https://cdn.openagenda.com/main/a35dd97fd1b94b6aa0921b0ebaf77fdc.base.image.jpg"
   },
   {
     "uid": "oa-62194398",
@@ -5775,13 +6155,15 @@
     "lieuCodeInsee": "92036",
     "lieuLatitude": 48.933708,
     "lieuLongitude": 2.286937,
+    "coordinates": "48.933708,2.286937",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-22T13:14:24+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "trab-terapy-rai-roots",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": "https://cdn.openagenda.com/main/ef28b1278dfe4808a428ae29c690bd90.base.image.jpg"
   },
   {
     "uid": "oa-94380748",
@@ -5808,13 +6190,15 @@
     "lieuCodeInsee": "92036",
     "lieuLatitude": 48.933708,
     "lieuLongitude": 2.286937,
+    "coordinates": "48.933708,2.286937",
     "lieuDepartement": "Hauts-de-Seine",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-06-22T13:19:03+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "zola-pas-comme-emile-3526217",
-    "departementNumero": "92"
+    "departementNumero": "92",
+    "image": "https://cdn.openagenda.com/main/84076e1abdd54043872db2510b0ede67.base.image.jpg"
   },
   {
     "uid": "oa-35662781",
@@ -5848,13 +6232,15 @@
     "lieuCodeInsee": "77294",
     "lieuLatitude": 48.974194,
     "lieuLongitude": 2.640612,
+    "coordinates": "48.974194,2.640612",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-02T08:11:41+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "aventure-crepusculaire-et-poetique-au-moulin-des-marais",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/903ef490cd4b47fca0481e778635acd3.base.image.jpg"
   },
   {
     "uid": "oa-14456472",
@@ -5877,13 +6263,15 @@
     "lieuCodeInsee": "78297",
     "lieuLatitude": 48.780708,
     "lieuLongitude": 2.045303,
+    "coordinates": "48.780708,2.045303",
     "lieuDepartement": "Yvelines",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-23T10:37:11+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visites-commentees-de-la-bibliotheque-universitaire-de-saint-quentin-en-yvelines",
-    "departementNumero": "78"
+    "departementNumero": "78",
+    "image": "https://img.openagenda.com/main/9b871e37eee6498ca5b83feb83de02ef.base.image.jpg"
   },
   {
     "uid": "oa-81582434",
@@ -5906,12 +6294,14 @@
     "lieuCodeInsee": "77520",
     "lieuLatitude": 48.317184,
     "lieuLongitude": 2.647737,
+    "coordinates": "48.317184,2.647737",
     "lieuDepartement": "Seine-et-Marne",
     "lieuRegion": "Île-de-France",
     "dateMaj": "2026-07-09T15:00:38+00:00",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "visite-guidee-et-commentee-de-notre-village",
-    "departementNumero": "77"
+    "departementNumero": "77",
+    "image": "https://cdn.openagenda.com/main/af8ac0227dad40dca335ca5f2da855d1.base.image.jpg"
   }
 ]
