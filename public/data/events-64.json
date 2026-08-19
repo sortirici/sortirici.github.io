@@ -1,0 +1,31 @@
+[
+  {
+    "uid": "oa-432hsz7f",
+    "source": "occitanie-sorties",
+    "sourceUrl": "https://www.laregion.fr/Hendaia-Film-Festival",
+    "licence": "lov2",
+    "titre": "Hendaia Film Festival",
+    "descriptionCourte": "Depuis 2013, au mois d’octobre, un festival du court-métrage international prend ses loges à Hendaye avec l’association Hendaia Film Festival menée par Angela Mejias et toute une équipe de bénévoles dès plus combatifs. Chaque année, une sélection de court-métrages est&nbsp;(…)",
+    "descriptionLongue": "",
+    "dateDebut": "2026-10-15",
+    "dateFin": "2026-10-18",
+    "categorie": "festival",
+    "motsCles": [],
+    "gratuit": false,
+    "prixIndicatif": "",
+    "lieuNom": "",
+    "lieuAdresse": "",
+    "lieuCodePostal": "",
+    "lieuCommune": "Hendaye",
+    "lieuCodeInsee": "64260",
+    "lieuLatitude": 43.3553944,
+    "lieuLongitude": -1.7735696,
+    "lieuDepartement": "64",
+    "lieuRegion": "",
+    "dateMaj": "2026-08-19T10:36:22.321Z",
+    "statut": "programme",
+    "modeAcces": "sur_place",
+    "slug": "hendaia-film-festival",
+    "departementNumero": "64"
+  }
+]

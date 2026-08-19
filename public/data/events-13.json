@@ -1,0 +1,31 @@
+[
+  {
+    "uid": "oa-aitq4d60",
+    "source": "occitanie-sorties",
+    "sourceUrl": "https://www.laregion.fr/Les-Nuits-des-Vendanges-35364",
+    "licence": "lov2",
+    "titre": "Les Nuits des Vendanges",
+    "descriptionCourte": "✨ LES NUITS DES VENDANGES SONT DE RETOUR ✨ Pour clôturer la saison en beauté, KOLYBREE vous donne rendez-vous pour la dernière soirée de l’année. Une soirée unique au cœur des Alpilles, entre musique, vin et art de vivre. 🍇🤍 📅 Samedi 3 octobre 2026 📍 Mas Sainte-Berthe –&nbsp;(…)",
+    "descriptionLongue": "",
+    "dateDebut": "2026-10-03",
+    "dateFin": "2026-10-04",
+    "categorie": "concert",
+    "motsCles": [],
+    "gratuit": false,
+    "prixIndicatif": "",
+    "lieuNom": "",
+    "lieuAdresse": "",
+    "lieuCodePostal": "",
+    "lieuCommune": "Les Baux-de-Provence",
+    "lieuCodeInsee": "13011",
+    "lieuLatitude": 43.7399857,
+    "lieuLongitude": 4.8054528,
+    "lieuDepartement": "13",
+    "lieuRegion": "",
+    "dateMaj": "2026-08-19T10:36:22.339Z",
+    "statut": "programme",
+    "modeAcces": "sur_place",
+    "slug": "les-nuits-des-vendanges",
+    "departementNumero": "13"
+  }
+]

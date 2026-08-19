@@ -1,13 +1,55 @@
 {
-  "lastUpdated": "2026-08-19T09:42:38.317Z",
-  "totalEvents": 266,
-  "totalDepartements": 3,
+  "lastUpdated": "2026-08-19T10:36:24.051Z",
+  "totalEvents": 879,
+  "totalDepartements": 27,
   "departements": [
+    {
+      "departement": "11",
+      "nom": "Aude",
+      "totalEvents": 22,
+      "visibleEvents": 22
+    },
+    {
+      "departement": "12",
+      "nom": "Aveyron",
+      "totalEvents": 15,
+      "visibleEvents": 15
+    },
+    {
+      "departement": "13",
+      "nom": "Bouches-du-Rhône",
+      "totalEvents": 1,
+      "visibleEvents": 1
+    },
+    {
+      "departement": "30",
+      "nom": "Gard",
+      "totalEvents": 24,
+      "visibleEvents": 24
+    },
+    {
+      "departement": "31",
+      "nom": "Haute-Garonne",
+      "totalEvents": 156,
+      "visibleEvents": 156
+    },
+    {
+      "departement": "32",
+      "nom": "Gers",
+      "totalEvents": 10,
+      "visibleEvents": 10
+    },
     {
       "departement": "33",
       "nom": "Gironde",
       "totalEvents": 53,
       "visibleEvents": 53
+    },
+    {
+      "departement": "34",
+      "nom": "Hérault",
+      "totalEvents": 69,
+      "visibleEvents": 69
     },
     {
       "departement": "44",
@@ -20,12 +62,116 @@
       "nom": "Loiret",
       "totalEvents": 113,
       "visibleEvents": 113
+    },
+    {
+      "departement": "46",
+      "nom": "Lot",
+      "totalEvents": 14,
+      "visibleEvents": 14
+    },
+    {
+      "departement": "48",
+      "nom": "Lozère",
+      "totalEvents": 6,
+      "visibleEvents": 6
+    },
+    {
+      "departement": "64",
+      "nom": "Pyrénées-Atlantiques",
+      "totalEvents": 1,
+      "visibleEvents": 1
+    },
+    {
+      "departement": "65",
+      "nom": "Hautes-Pyrénées",
+      "totalEvents": 3,
+      "visibleEvents": 3
+    },
+    {
+      "departement": "66",
+      "nom": "Pyrénées-Orientales",
+      "totalEvents": 15,
+      "visibleEvents": 15
+    },
+    {
+      "departement": "75",
+      "nom": "Paris",
+      "totalEvents": 46,
+      "visibleEvents": 46
+    },
+    {
+      "departement": "77",
+      "nom": "Seine-et-Marne",
+      "totalEvents": 27,
+      "visibleEvents": 27
+    },
+    {
+      "departement": "78",
+      "nom": "Yvelines",
+      "totalEvents": 21,
+      "visibleEvents": 21
+    },
+    {
+      "departement": "81",
+      "nom": "Tarn",
+      "totalEvents": 29,
+      "visibleEvents": 29
+    },
+    {
+      "departement": "82",
+      "nom": "Tarn-et-Garonne",
+      "totalEvents": 47,
+      "visibleEvents": 47
+    },
+    {
+      "departement": "91",
+      "nom": "Essonne",
+      "totalEvents": 12,
+      "visibleEvents": 12
+    },
+    {
+      "departement": "92",
+      "nom": "Hauts-de-Seine",
+      "totalEvents": 27,
+      "visibleEvents": 27
+    },
+    {
+      "departement": "93",
+      "nom": "Seine-Saint-Denis",
+      "totalEvents": 18,
+      "visibleEvents": 18
+    },
+    {
+      "departement": "94",
+      "nom": "Val-de-Marne",
+      "totalEvents": 12,
+      "visibleEvents": 12
+    },
+    {
+      "departement": "95",
+      "nom": "Val-d'Oise",
+      "totalEvents": 17,
+      "visibleEvents": 17
+    },
+    {
+      "departement": "09",
+      "nom": "Ariège",
+      "totalEvents": 15,
+      "visibleEvents": 15
+    },
+    {
+      "departement": "04",
+      "nom": "Alpes-de-Haute-Provence",
+      "totalEvents": 1,
+      "visibleEvents": 1
     }
   ],
   "sources": [
     "openagenda-orleans",
     "guerande-agenda",
     "labaule-agenda",
-    "bordeaux-agenda"
+    "bordeaux-agenda",
+    "occitanie-sorties",
+    "idf-evenements-publics"
   ]
 }

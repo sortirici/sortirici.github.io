@@ -3,78 +3,96 @@
     "source": "openagenda-orleans",
     "status": "ok",
     "bytes": 43952117,
-    "latencyMs": 22746
+    "latencyMs": 6079
   },
   {
     "source": "openagenda-loiret",
     "status": "ok",
     "bytes": 31036774,
-    "latencyMs": 14755
+    "latencyMs": 10726
   },
   {
     "source": "clermont-agenda",
     "status": "ok",
     "bytes": 1211108,
-    "latencyMs": 1968
+    "latencyMs": 1185
   },
   {
     "source": "guerande-agenda",
     "status": "ok",
     "bytes": 9516066,
-    "latencyMs": 1298
+    "latencyMs": 1142
   },
   {
     "source": "meudon-agenda",
     "status": "ok",
     "bytes": 16841409,
-    "latencyMs": 11279
+    "latencyMs": 6901
   },
   {
     "source": "labaule-agenda",
     "status": "ok",
     "bytes": 380673,
-    "latencyMs": 396
+    "latencyMs": 208
   },
   {
     "source": "nantes-culture",
     "status": "ok",
     "bytes": 260333,
-    "latencyMs": 355
+    "latencyMs": 203
   },
   {
     "source": "ministere-festivals",
     "status": "ok",
     "bytes": 559,
-    "latencyMs": 449
+    "latencyMs": 134
   },
   {
     "source": "bordeaux-agenda",
     "status": "ok",
     "bytes": 17080763,
-    "latencyMs": 2859
+    "latencyMs": 2595
   },
   {
     "source": "toulouse-spectacles",
     "status": "ok",
     "bytes": 40393,
-    "latencyMs": 383
+    "latencyMs": 1485
   },
   {
     "source": "vendee-tourinsoft",
     "status": "error",
     "error": "HTTP 500: Internal Server Error",
-    "latencyMs": 300
+    "latencyMs": 69
   },
   {
     "source": "martigues-agenda",
     "status": "ok",
     "bytes": 10019461,
-    "latencyMs": 16842
+    "latencyMs": 23567
   },
   {
     "source": "grenoble-culturel",
     "status": "error",
     "error": "HTTP 404: Not Found",
-    "latencyMs": 566
+    "latencyMs": 131
+  },
+  {
+    "source": "occitanie-sorties",
+    "status": "ok",
+    "bytes": 496023,
+    "latencyMs": 594
+  },
+  {
+    "source": "idf-evenements-publics",
+    "status": "ok",
+    "bytes": 42203295,
+    "latencyMs": 21465
+  },
+  {
+    "source": "nice-evenements",
+    "status": "ok",
+    "bytes": 3496023,
+    "latencyMs": 1054
   }
 ]

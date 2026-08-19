@@ -105,6 +105,27 @@ const SOURCES = [
     format: 'csv',
     licence: 'odc-odbl',
   },
+  {
+    id: 'occitanie-sorties',
+    name: 'Agendas participatifs des sorties en Occitanie',
+    url: 'https://data.laregion.fr/api/explore/v2.1/catalog/datasets/agendas-participatif-des-sorties-en-occitanie/exports/json?limit=10000',
+    format: 'json',
+    licence: 'lov2',
+  },
+  {
+    id: 'idf-evenements-publics',
+    name: 'Événements publics Île-de-France',
+    url: 'https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/evenements-publics-cibul/exports/json?limit=10000',
+    format: 'json',
+    licence: 'lov2',
+  },
+  {
+    id: 'nice-evenements',
+    name: 'Événements Nice Côte d\'Azur',
+    url: 'http://opendata.nicecotedazur.org/data/storage/f/2026-05-09T06:06:01.384Z/events-public.json',
+    format: 'json',
+    licence: 'lov2',
+  },
 ];
 
 async function fetchSource(source) {

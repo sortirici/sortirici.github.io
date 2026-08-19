@@ -101,10 +101,10 @@ function normalizeOpenAgenda(item, sourceId) {
   const desc = getLocalized(item, 'description') || item.description_fr || '';
   const rawLongDesc = typeof item.longdescription_fr === 'string' ? item.longdescription_fr : '';
   const longDesc = rawLongDesc.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
-  const debut = getField(item, 'firstDateBegin', 'firstdate_begin', 'firstday', 'dateDebut') || '';
-  const fin = getField(item, 'firstDateEnd', 'firstdate_end', 'lastdate_end', 'lastDateEnd', 'lastday', 'dateFin') || debut;
-  const coords = item.locationCoordinates || item.location_coordinates || { lon: 0, lat: 0 };
-  const insee = getField(item, 'locationInsee', 'location_insee', 'codeInsee', 'code_insee', 'insee') || '';
+  const debut = getField(item, 'date_debut', 'firstDateBegin', 'firstdate_begin', 'firstday', 'dateDebut', 'date') || '';
+  const fin = getField(item, 'date_fin', 'firstDateEnd', 'firstdate_end', 'lastdate_end', 'lastDateEnd', 'lastday', 'dateFin') || debut;
+  const coords = item.locationCoordinates || item.location_coordinates || item.geo_point_2d || { lon: 0, lat: 0 };
+  const insee = getField(item, 'code_insee', 'locationInsee', 'location_insee', 'codeInsee', 'insee') || '';
   const keywordsRaw = item.keywords_fr || (item.keywords ? (typeof item.keywords.fr === 'string' ? item.keywords.fr.split('|') : []) : []);
   const keywords = Array.isArray(keywordsRaw) ? keywordsRaw : String(keywordsRaw).split(';').map(s => s.trim());
   const gratuit = keywords.join(' ').toLowerCase().includes('gratuit') ||
@@ -113,7 +113,7 @@ function normalizeOpenAgenda(item, sourceId) {
   const nomLieu = getField(item, 'locationName', 'location_name', 'lieuNom') || '';
   const adresse = getField(item, 'locationAddress', 'location_address', 'lieuAdresse') || '';
   const cp = getField(item, 'locationPostalCode', 'location_postalcode', 'lieuCodePostal') || '';
-  const commune = getField(item, 'locationCity', 'location_city', 'lieuCommune') || '';
+  const commune = getField(item, 'commune', 'locationCity', 'location_city', 'lieuCommune') || '';
   const dept = getField(item, 'locationDepartment', 'location_department', 'lieuDepartement') || getDepartmentFromInsee(insee);
   const region = getField(item, 'locationRegion', 'location_region', 'lieuRegion') || '';
   const updated = getField(item, 'updatedAt', 'updatedat', 'dateMaj') || new Date().toISOString();
@@ -121,7 +121,7 @@ function normalizeOpenAgenda(item, sourceId) {
   return {
     uid: `oa-${item.uid || Math.random().toString(36).substring(2, 10)}`,
     source: sourceId,
-    sourceUrl: item.canonicalUrl || item.canonicalurl || '',
+    sourceUrl: item.canonicalUrl || item.canonicalurl || item.url || '',
     licence: 'lov2',
     titre,
     descriptionCourte: desc.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim().substring(0, 300),
@@ -198,6 +198,10 @@ function main() {
     { id: 'vendee-tourinsoft', file: 'vendee-tourinsoft.json', parser: 'csv' },
     { id: 'martigues-agenda', file: 'martigues-agenda.csv', parser: 'csv' },
     { id: 'grenoble-culturel', file: 'grenoble-culturel.csv', parser: 'csv' },
+    { id: 'occitanie-sorties', file: 'occitanie-sorties.json', parser: 'openagenda' },
+    { id: 'idf-evenements-publics', file: 'idf-evenements-publics.json', parser: 'openagenda' },
+    { id: 'tours-metropole', file: 'tours-metropole.json', parser: 'openagenda' },
+    { id: 'nice-evenements', file: 'nice-evenements.json', parser: 'openagenda' },
   ];
 
   for (const { id, file, parser } of files) {
