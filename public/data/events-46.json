@@ -1,12 +1,12 @@
 [
   {
-    "uid": "mob-203249",
+    "uid": "mob-c56fd20e-e19d-4375-8190-b8b25c9f1c56",
     "source": "mobilizon-france",
     "sourceUrl": "https://mobilizon.fr/events/c56fd20e-e19d-4375-8190-b8b25c9f1c56",
     "licence": "agpl-3.0",
     "titre": "Spectacle // Fils de Bâtard à l'Espace François Mitterrand de Figeac",
-    "descriptionCourte": "",
-    "descriptionLongue": "",
+    "descriptionCourte": "Un fils part sur les traces de son père, mort depuis 15 ans. Trois cartes comme seuls indices : RD Congo, Antarctique, Libye. Peu à peu, c’est pourtant sa mère, héroïne de l’ombre, qui émerge de cette enquête vertigineuse. Narration, musique, mime, slam… Ce spectacle transdisciplinaire tisse un réci",
+    "descriptionLongue": "Un fils part sur les traces de son père, mort depuis 15 ans. Trois cartes comme seuls indices : RD Congo, Antarctique, Libye. Peu à peu, c’est pourtant sa mère, héroïne de l’ombre, qui émerge de cette enquête vertigineuse. Narration, musique, mime, slam… Ce spectacle transdisciplinaire tisse un récit qui emmène le public là où il ne s’y attendait pas. Du rire aux larmes, cette histoire vraie bouscule les notions de filiation et de patriarcat. « Volubile, habité par une énergie joyeuse, il occupe la scène avec une présence sur-vitaminée » Coups d’Oeil« Une prestation pleine de vie au rythme frénétique qui mêle avec justesse l’humour, la colère et la tendresse » RTBF",
     "dateDebut": "2026-11-20T19:30:00Z",
     "dateFin": "2026-11-20T21:00:00Z",
     "categorie": "theatre",
@@ -23,21 +23,21 @@
     "coordinates": "44.612474,2.035615",
     "lieuDepartement": "46",
     "lieuRegion": "Lot",
-    "dateMaj": "2026-08-19T12:54:30.575Z",
+    "dateMaj": "2026-08-19T13:16:40.041Z",
     "statut": "programme",
     "modeAcces": "sur_place",
-    "slug": "spectacle-fils-de-batard-a-l-espace-francois-mitterrand-de-figeac-203249",
+    "slug": "spectacle-fils-de-batard-a-l-espace-francois-mitterrand-de-figeac",
     "departementNumero": "46",
     "image": "https://mobilizon.fr/media/90001e0b2730201e21ea2637b27eded0a6319294e9b3d20b12b4744d38de120c.jpg?name=2.%20FDB%20Orphise%20Labarbe%20%26%20Emmanuel%20De%20Candido%20%C2%A9Lara%20Herbinia.jpg"
   },
   {
-    "uid": "mob-203245",
+    "uid": "mob-e3da158d-3c8c-44f9-84a0-dfd99f2fe7f3",
     "source": "mobilizon-france",
     "sourceUrl": "https://mobilizon.fr/events/e3da158d-3c8c-44f9-84a0-dfd99f2fe7f3",
     "licence": "agpl-3.0",
     "titre": "Spectacle // Fils de Bâtard au Théâtre de la Ville de Cahors",
-    "descriptionCourte": "",
-    "descriptionLongue": "",
+    "descriptionCourte": "Un fils part sur les traces de son père, mort depuis 15 ans. Trois cartes comme seuls indices : RD Congo, Antarctique, Libye. Peu à peu, c’est pourtant sa mère, héroïne de l’ombre, qui émerge de cette enquête vertigineuse. Narration, musique, mime, slam… Ce spectacle transdisciplinaire tisse un réci",
+    "descriptionLongue": "Un fils part sur les traces de son père, mort depuis 15 ans. Trois cartes comme seuls indices : RD Congo, Antarctique, Libye. Peu à peu, c’est pourtant sa mère, héroïne de l’ombre, qui émerge de cette enquête vertigineuse. Narration, musique, mime, slam… Ce spectacle transdisciplinaire tisse un récit qui emmène le public là où il ne s’y attendait pas. Du rire aux larmes, cette histoire vraie bouscule les notions de filiation et de patriarcat. « Volubile, habité par une énergie joyeuse, il occupe la scène avec une présence sur-vitaminée » Coups d’Oeil« Une prestation pleine de vie au rythme frénétique qui mêle avec justesse l’humour, la colère et la tendresse » RTBF",
     "dateDebut": "2026-11-19T19:30:00Z",
     "dateFin": "2026-11-19T21:00:00Z",
     "categorie": "theatre",
@@ -54,15 +54,15 @@
     "coordinates": "44.444817,1.441419",
     "lieuDepartement": "46",
     "lieuRegion": "Lot",
-    "dateMaj": "2026-08-19T12:54:30.575Z",
+    "dateMaj": "2026-08-19T13:16:40.041Z",
     "statut": "programme",
     "modeAcces": "sur_place",
-    "slug": "spectacle-fils-de-batard-au-theatre-de-la-ville-de-cahors-203245",
+    "slug": "spectacle-fils-de-batard-au-theatre-de-la-ville-de-cahors",
     "departementNumero": "46",
     "image": "https://mobilizon.fr/media/0634c7ff2a87a817145be83b29506ce3111f86dd929a563155fe36b1dbf057bd.jpg?name=2.%20FDB%20Orphise%20Labarbe%20%26%20Emmanuel%20De%20Candido%20%C2%A9Lara%20Herbinia.jpg"
   },
   {
-    "uid": "oa-hg51f5cf",
+    "uid": "oa-d308naqz",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/CONFERENCE-LA-NAISSANCE-DE-L-ETOILE-FERROVIAIRE-DE-CAPDENAC",
     "licence": "lov2",
@@ -85,7 +85,7 @@
     "coordinates": "44.6032632,2.0371094",
     "lieuDepartement": "46",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.301Z",
+    "dateMaj": "2026-08-19T13:16:32.671Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "conference-nbsp-la-naissance-de-l-etoile-ferroviaire-de-capdenac",
@@ -93,7 +93,7 @@
     "image": ""
   },
   {
-    "uid": "oa-06iirmy3",
+    "uid": "oa-vrxp5piu",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/ITINERANCES-10-11-OCTOBRE-A-LA-DECOUVERTE-DU-LOT-&#127807;",
     "licence": "lov2",
@@ -116,7 +116,7 @@
     "coordinates": "44.443955,1.7299757",
     "lieuDepartement": "46",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.285Z",
+    "dateMaj": "2026-08-19T13:16:32.648Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "itinerances-10-et-11-octobre-a-la-decouverte-du-lot-127807",
@@ -124,7 +124,7 @@
     "image": ""
   },
   {
-    "uid": "oa-o0yzux7w",
+    "uid": "oa-q3w2ogs3",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Automnales-Crempsoises",
     "licence": "lov2",
@@ -147,7 +147,7 @@
     "coordinates": "44.410822,1.57408",
     "lieuDepartement": "46",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.289Z",
+    "dateMaj": "2026-08-19T13:16:32.652Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "automnales-crempsoises",
@@ -155,7 +155,7 @@
     "image": ""
   },
   {
-    "uid": "oa-xo5j14sz",
+    "uid": "oa-0unq4dkf",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Fest-Images-Territoire-du-Monde",
     "licence": "lov2",
@@ -178,7 +178,7 @@
     "coordinates": "44.4600635,1.4740923",
     "lieuDepartement": "46",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.297Z",
+    "dateMaj": "2026-08-19T13:16:32.667Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "fest-8217-images-territoire-du-monde",
@@ -186,7 +186,7 @@
     "image": ""
   },
   {
-    "uid": "oa-r0vn0t9m",
+    "uid": "oa-gj95pfj1",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/LES-COURS-DU-SOIR-DE-L-ATSAC-Comment-les-associations-satisfont-elles-les-besoins",
     "licence": "lov2",
@@ -209,7 +209,7 @@
     "coordinates": "44.6032632,2.0371094",
     "lieuDepartement": "46",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.286Z",
+    "dateMaj": "2026-08-19T13:16:32.649Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-cours-du-soir-de-l-8217-atsac-nbsp-comment-les-associations-satisfont-elles-",
@@ -217,7 +217,7 @@
     "image": ""
   },
   {
-    "uid": "oa-0rphkkxy",
+    "uid": "oa-jufkfiye",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/26e-Salon-du-livre-ancien-et-moderne-de-Cahors",
     "licence": "lov2",
@@ -240,7 +240,7 @@
     "coordinates": "44.4447799,1.4330312",
     "lieuDepartement": "46",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.287Z",
+    "dateMaj": "2026-08-19T13:16:32.650Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "28e-salon-du-livre-ancien-et-moderne-de-cahors",
@@ -248,7 +248,7 @@
     "image": ""
   },
   {
-    "uid": "oa-zhqewkfj",
+    "uid": "oa-yjnw1zgn",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/FORUM-des-SPORTS",
     "licence": "lov2",
@@ -271,7 +271,7 @@
     "coordinates": "44.4546391,1.4439468",
     "lieuDepartement": "46",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.287Z",
+    "dateMaj": "2026-08-19T13:16:32.650Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "forum-des-sports",
@@ -279,7 +279,7 @@
     "image": ""
   },
   {
-    "uid": "oa-m9tkcuy6",
+    "uid": "oa-ib03vw4x",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/FESTIVAL-POLYNESIEN-LAROSIERE-CAHORS",
     "licence": "lov2",
@@ -302,7 +302,7 @@
     "coordinates": "44.4158326,1.4172973",
     "lieuDepartement": "46",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.287Z",
+    "dateMaj": "2026-08-19T13:16:32.650Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "festival-polynesien-larosiere-cahors",
@@ -310,7 +310,7 @@
     "image": ""
   },
   {
-    "uid": "oa-ny34so15",
+    "uid": "oa-m853twr4",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Fete-de-Prayssac-2025-46",
     "licence": "lov2",
@@ -333,7 +333,7 @@
     "coordinates": "44.503904,1.1853167",
     "lieuDepartement": "46",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.294Z",
+    "dateMaj": "2026-08-19T13:16:32.663Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "fete-de-prayssac-2026-46",
@@ -341,7 +341,7 @@
     "image": ""
   },
   {
-    "uid": "oa-6s4b3i1v",
+    "uid": "oa-1v489dgn",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Cours-de-Poterie-pour-enfants-35042",
     "licence": "lov2",
@@ -364,7 +364,7 @@
     "coordinates": "44.5242863,1.2022412",
     "lieuDepartement": "46",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.299Z",
+    "dateMaj": "2026-08-19T13:16:32.669Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "cours-de-poterie-pour-enfants",
@@ -372,7 +372,7 @@
     "image": ""
   },
   {
-    "uid": "oa-f91tucw1",
+    "uid": "oa-ci6y2vl7",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Fete-Perchee",
     "licence": "lov2",
@@ -395,7 +395,7 @@
     "coordinates": "44.9225916,2.0475542",
     "lieuDepartement": "46",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.291Z",
+    "dateMaj": "2026-08-19T13:16:32.653Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "fete-perchee",
@@ -403,7 +403,7 @@
     "image": ""
   },
   {
-    "uid": "oa-g6aiiuon",
+    "uid": "oa-gcn0wc7y",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Poterie-Cours-de-modelage-Adulte-35049",
     "licence": "lov2",
@@ -426,7 +426,7 @@
     "coordinates": "44.5242863,1.2022412",
     "lieuDepartement": "46",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.304Z",
+    "dateMaj": "2026-08-19T13:16:32.674Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "poterie-nbsp-cours-de-modelage-adulte",
@@ -434,7 +434,7 @@
     "image": ""
   },
   {
-    "uid": "oa-lss77a2j",
+    "uid": "oa-lhja5fsh",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/40es-Rencontres-Cinema-de-Gindou",
     "licence": "lov2",
@@ -457,7 +457,7 @@
     "coordinates": "44.6322426,1.2490846",
     "lieuDepartement": "46",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.288Z",
+    "dateMaj": "2026-08-19T13:16:32.651Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "42es-rencontres-cinema-de-gindou",
@@ -465,7 +465,7 @@
     "image": ""
   },
   {
-    "uid": "oa-w4ootvuf",
+    "uid": "oa-0lfd631h",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Festival-de-Rocamadour-35110",
     "licence": "lov2",
@@ -488,7 +488,7 @@
     "coordinates": "44.8149040585,1.62199936905",
     "lieuDepartement": "46",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.288Z",
+    "dateMaj": "2026-08-19T13:16:32.651Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "festival-de-rocamadour",

@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-19T12:54:34.520Z",
-  "totalEvents": 25606,
+  "lastUpdated": "2026-08-19T13:16:43.892Z",
+  "totalEvents": 25633,
   "totalDepartements": 96,
   "departements": [
     {
@@ -90,8 +90,8 @@
     {
       "departement": "25",
       "nom": "Doubs",
-      "totalEvents": 117,
-      "visibleEvents": 117
+      "totalEvents": 118,
+      "visibleEvents": 118
     },
     {
       "departement": "26",
@@ -204,13 +204,13 @@
     {
       "departement": "44",
       "nom": "Loire-Atlantique",
-      "totalEvents": 4836,
+      "totalEvents": 4839,
       "visibleEvents": 200
     },
     {
       "departement": "45",
       "nom": "Loiret",
-      "totalEvents": 791,
+      "totalEvents": 792,
       "visibleEvents": 200
     },
     {
@@ -264,14 +264,14 @@
     {
       "departement": "54",
       "nom": "Meurthe-et-Moselle",
-      "totalEvents": 191,
-      "visibleEvents": 191
+      "totalEvents": 192,
+      "visibleEvents": 192
     },
     {
       "departement": "55",
       "nom": "Meuse",
-      "totalEvents": 84,
-      "visibleEvents": 84
+      "totalEvents": 87,
+      "visibleEvents": 87
     },
     {
       "departement": "56",
@@ -342,14 +342,14 @@
     {
       "departement": "67",
       "nom": "Bas-Rhin",
-      "totalEvents": 396,
+      "totalEvents": 402,
       "visibleEvents": 200
     },
     {
       "departement": "68",
       "nom": "Haut-Rhin",
-      "totalEvents": 148,
-      "visibleEvents": 148
+      "totalEvents": 149,
+      "visibleEvents": 149
     },
     {
       "departement": "69",
@@ -366,7 +366,7 @@
     {
       "departement": "71",
       "nom": "Saône-et-Loire",
-      "totalEvents": 260,
+      "totalEvents": 265,
       "visibleEvents": 200
     },
     {
@@ -390,7 +390,7 @@
     {
       "departement": "75",
       "nom": "Paris",
-      "totalEvents": 2093,
+      "totalEvents": 2095,
       "visibleEvents": 200
     },
     {
@@ -558,8 +558,8 @@
     {
       "departement": "08",
       "nom": "Ardennes",
-      "totalEvents": 65,
-      "visibleEvents": 65
+      "totalEvents": 69,
+      "visibleEvents": 69
     },
     {
       "departement": "03",

@@ -3782,13 +3782,13 @@
     "image": "https://storage.openagenda.com/main/e340ea1ef2cd4b0281df152ab7f04b48.base.image.jpg"
   },
   {
-    "uid": "mob-202405",
+    "uid": "mob-76ba7550-9617-45b8-8082-f234cbd09e60",
     "source": "mobilizon-france",
     "sourceUrl": "https://mobilizon.fr/events/76ba7550-9617-45b8-8082-f234cbd09e60",
     "licence": "agpl-3.0",
     "titre": "Festival HÉBÉ! #06 (août 2026)",
-    "descriptionCourte": "",
-    "descriptionLongue": "",
+    "descriptionCourte": "Le festival féministe HÉBÉ! porté par team sama revient pour une sixième édition autour de la thématique des services publics et de la dignité humaine. La programmation s’applique à parler au plus grand nombre : conversations, ateliers, exposition, cabaret queer, concerts, artisanat et village assoc",
+    "descriptionLongue": "Le festival féministe HÉBÉ! porté par team sama revient pour une sixième édition autour de la thématique des services publics et de la dignité humaine. La programmation s’applique à parler au plus grand nombre : conversations, ateliers, exposition, cabaret queer, concerts, artisanat et village associatif, des temps d’échanges variés avec des auteurices, journalistes, artistes… Il y aura également des activités pour les enfants, une buvette, de quoi se restaurer et un vide-dressing. Toutes les conversations programmées sont interprétées en Langue des Signes Française.Le festival est pensé pour répondre à des besoins, des centres d’intérêts mais aussi créer des rencontres, des espaces de découvertes et d’apprentissages collectifs. Dans un souci d’inclusivité et de visibilité cher à team sama, les auteurices, journalistes, artistes ou intervenant·es qui prennent part au festival sont des femmes, des personnes non-binaires ou appartenant à la communauté LGBTQIA+Une tombola aura lieu avec de super lots !L&#39;entrée est libre et gratuite, tout don est bienvenu pour aider au financement du festival.Lieu : Auberge landaise à Mont de MarsanDates : du 28 au 30 août 2026Affiche : Mounkat",
     "dateDebut": "2026-08-27T22:00:00Z",
     "dateFin": "2026-08-29T22:00:00Z",
     "categorie": "conference",
@@ -3804,8 +3804,8 @@
       "concert",
       "cabaret"
     ],
-    "gratuit": false,
-    "prixIndicatif": "",
+    "gratuit": true,
+    "prixIndicatif": "Gratuit",
     "lieuNom": "Auberge Landaise",
     "lieuAdresse": "",
     "lieuCodePostal": "",
@@ -3816,10 +3816,10 @@
     "coordinates": "43.895905,-0.49876",
     "lieuDepartement": "40",
     "lieuRegion": "Landes",
-    "dateMaj": "2026-08-19T12:54:30.574Z",
+    "dateMaj": "2026-08-19T13:16:40.047Z",
     "statut": "programme",
     "modeAcces": "sur_place",
-    "slug": "festival-hebe-06-aout-2026-202405",
+    "slug": "festival-hebe-06-aout-2026",
     "departementNumero": "40",
     "image": "https://mobilizon.fr/media/afbbd8d562ba466bff8ae1df4cc661a242301baceea120ff18d0c2ab37d8f705.jpg?name=1080-1350-affiche-hebe.jpg"
   }

@@ -1,6 +1,6 @@
 [
   {
-    "uid": "oa-jj5aiet5",
+    "uid": "oa-0cbpa3jw",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Programme-START-Premieres-a-Nimes",
     "licence": "lov2",
@@ -23,7 +23,7 @@
     "coordinates": "43.844657813,4.34759109263",
     "lieuDepartement": "30",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.292Z",
+    "dateMaj": "2026-08-19T13:16:32.660Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "programme-start-premieres-a-nimes",
@@ -31,7 +31,7 @@
     "image": ""
   },
   {
-    "uid": "oa-6smsgd1z",
+    "uid": "oa-c7hd5edo",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Fete-de-la-Courge-Aigueze",
     "licence": "lov2",
@@ -54,7 +54,7 @@
     "coordinates": "44.3026957,4.556652",
     "lieuDepartement": "30",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.292Z",
+    "dateMaj": "2026-08-19T13:16:32.660Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "fete-de-la-courge-aigueze",
@@ -62,7 +62,7 @@
     "image": ""
   },
   {
-    "uid": "oa-ffvcvgw3",
+    "uid": "oa-4qvbh0iu",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Stage-Reiki-Usui-2-a-Aimargues",
     "licence": "lov2",
@@ -85,7 +85,7 @@
     "coordinates": "43.6868105,4.2083672",
     "lieuDepartement": "30",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.301Z",
+    "dateMaj": "2026-08-19T13:16:32.671Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "stage-reiki-usui-2-a-aimargues",
@@ -93,7 +93,7 @@
     "image": ""
   },
   {
-    "uid": "oa-9ab9ig9y",
+    "uid": "oa-06sl085i",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/LES-VENDANGES-DE-L-HISTOIRE-34667",
     "licence": "lov2",
@@ -116,7 +116,7 @@
     "coordinates": "44.1508634,4.6775844",
     "lieuDepartement": "30",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.302Z",
+    "dateMaj": "2026-08-19T13:16:32.672Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-vendanges-de-l-8217-histoire",
@@ -124,7 +124,7 @@
     "image": ""
   },
   {
-    "uid": "oa-jsmb5i8t",
+    "uid": "oa-8q3rhssg",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Animaniac-4eme-Edition",
     "licence": "lov2",
@@ -147,7 +147,7 @@
     "coordinates": "43.9333242,4.2341485",
     "lieuDepartement": "30",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.302Z",
+    "dateMaj": "2026-08-19T13:16:32.672Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "animaniac-4eme-edition",
@@ -155,7 +155,7 @@
     "image": ""
   },
   {
-    "uid": "oa-07l1ildb",
+    "uid": "oa-pe9lhaxl",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Festival-de-theatre-Zadig-et-compagnies",
     "licence": "lov2",
@@ -178,7 +178,7 @@
     "coordinates": "44.1566038,4.0841262",
     "lieuDepartement": "30",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.289Z",
+    "dateMaj": "2026-08-19T13:16:32.652Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "festival-de-theatre-zadig-et-compagnies",
@@ -186,7 +186,7 @@
     "image": ""
   },
   {
-    "uid": "oa-8nookqba",
+    "uid": "oa-jjmluytx",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/SALON-DE-L-HABITAT-D-ALES-2026",
     "licence": "lov2",
@@ -209,7 +209,7 @@
     "coordinates": "44.097609,4.14528",
     "lieuDepartement": "30",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.290Z",
+    "dateMaj": "2026-08-19T13:16:32.652Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "salon-de-l-8217-habitat-d-8217-ales-2026",
@@ -217,7 +217,7 @@
     "image": ""
   },
   {
-    "uid": "oa-7gixdctb",
+    "uid": "oa-mxpje9uw",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Etre-parents-aujourd-hui-Une-activite-a-construire-au-quotidien",
     "licence": "lov2",
@@ -240,7 +240,7 @@
     "coordinates": "44.2932435,4.0943524",
     "lieuDepartement": "30",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.293Z",
+    "dateMaj": "2026-08-19T13:16:32.662Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "etre-parents-aujourd-hui-171-nbsp-une-activite-a-construire-au-quotidien-nbsp-18",
@@ -248,7 +248,7 @@
     "image": ""
   },
   {
-    "uid": "oa-gkx5eyc3",
+    "uid": "oa-lclp7qdy",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Marche-Litteraire-Cevenol",
     "licence": "lov2",
@@ -271,7 +271,7 @@
     "coordinates": "44.1234985,4.0635632",
     "lieuDepartement": "30",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.298Z",
+    "dateMaj": "2026-08-19T13:16:32.668Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "marche-litteraire-cevenol",
@@ -279,7 +279,7 @@
     "image": ""
   },
   {
-    "uid": "oa-qfpcivz2",
+    "uid": "oa-vytm7xbe",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Conference-LA-CAMARGUE-UNE-CANDIDATURE-AU-PATRIMOINE-MONDIAL-DE-L-UNESCO",
     "licence": "lov2",
@@ -302,7 +302,7 @@
     "coordinates": "43.834941,4.3584735",
     "lieuDepartement": "30",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.286Z",
+    "dateMaj": "2026-08-19T13:16:32.649Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "conference-la-camargue-une-candidature-au-patrimoine-mondial-de-l-unesco",
@@ -310,7 +310,7 @@
     "image": ""
   },
   {
-    "uid": "oa-3qvhythi",
+    "uid": "oa-2vzpztdx",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Les-mercredis-de-l-orientation-a-Nimes-35389",
     "licence": "lov2",
@@ -333,7 +333,7 @@
     "coordinates": "43.8315456,4.3668275",
     "lieuDepartement": "30",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.303Z",
+    "dateMaj": "2026-08-19T13:16:32.673Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-mercredis-de-l-orientation-a-nimes-nbsp",
@@ -341,7 +341,7 @@
     "image": ""
   },
   {
-    "uid": "oa-k7plwsl8",
+    "uid": "oa-572klvkl",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Vetathlon-Les-Relais-du-Coeur-34689",
     "licence": "lov2",
@@ -364,7 +364,7 @@
     "coordinates": "43.7501717,4.2196456",
     "lieuDepartement": "30",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.293Z",
+    "dateMaj": "2026-08-19T13:16:32.662Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "vetathlon-les-relais-du-coeur",
@@ -372,7 +372,7 @@
     "image": ""
   },
   {
-    "uid": "oa-rlb8wh9b",
+    "uid": "oa-x4r7lyc3",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/SALON-DE-L-HABITAT-DE-NIMES-2026",
     "licence": "lov2",
@@ -395,7 +395,7 @@
     "coordinates": "43.817887,4.366138",
     "lieuDepartement": "30",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.287Z",
+    "dateMaj": "2026-08-19T13:16:32.650Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "salon-de-l-8217-habitat-de-nimes-2026",
@@ -403,7 +403,7 @@
     "image": ""
   },
   {
-    "uid": "oa-iphqoi8q",
+    "uid": "oa-8w73rkbo",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Decouvrez-Champclauson-son-aerodrome-et-le-Glacier-Culturel",
     "licence": "lov2",
@@ -426,7 +426,7 @@
     "coordinates": "44.2434473,4.0226277",
     "lieuDepartement": "30",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.298Z",
+    "dateMaj": "2026-08-19T13:16:32.668Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "decouvrez-champclauson-son-aerodrome-et-le-glacier-culturel",
@@ -434,7 +434,7 @@
     "image": ""
   },
   {
-    "uid": "oa-otg2xte2",
+    "uid": "oa-ibsqggxq",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Afterwork-7-Lavoir-du-Puits-Couchoux-4-Septembre-2026-35245",
     "licence": "lov2",
@@ -457,7 +457,7 @@
     "coordinates": "43.8433751,4.3591819",
     "lieuDepartement": "30",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.294Z",
+    "dateMaj": "2026-08-19T13:16:32.662Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "afterwork-7-lavoir-du-puits-couchoux-4-septembre-2026",
@@ -465,7 +465,7 @@
     "image": ""
   },
   {
-    "uid": "oa-kv8krpar",
+    "uid": "oa-1lb2mih7",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Sortie-a-la-Grotte-de-la-Salamandre",
     "licence": "lov2",
@@ -488,7 +488,7 @@
     "coordinates": "44.2308528992,4.36404793258",
     "lieuDepartement": "30",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.299Z",
+    "dateMaj": "2026-08-19T13:16:32.669Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "sortie-a-la-grotte-de-la-salamandre-nbsp",
@@ -496,7 +496,7 @@
     "image": ""
   },
   {
-    "uid": "oa-9iajiasa",
+    "uid": "oa-jvhg2i5a",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Les-Mardis-Live-avec-Payou",
     "licence": "lov2",
@@ -519,7 +519,7 @@
     "coordinates": "44.2459992,4.3488065",
     "lieuDepartement": "30",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.299Z",
+    "dateMaj": "2026-08-19T13:16:32.669Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-mardis-live-avec-payou",
@@ -527,7 +527,7 @@
     "image": ""
   },
   {
-    "uid": "oa-tju3a9if",
+    "uid": "oa-132pbk0x",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Festival-Les-Romanesques-11eme-edition",
     "licence": "lov2",
@@ -550,7 +550,7 @@
     "coordinates": "44.003,3.77861",
     "lieuDepartement": "30",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.287Z",
+    "dateMaj": "2026-08-19T13:16:32.650Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "festival-les-romanesques-11eme-edition",
@@ -558,7 +558,7 @@
     "image": ""
   },
   {
-    "uid": "oa-gdadkdqb",
+    "uid": "oa-phqjqwvt",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Orient-Occident-voyage-imprevu",
     "licence": "lov2",
@@ -581,7 +581,7 @@
     "coordinates": "44.0432725168,3.85171155629",
     "lieuDepartement": "30",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.294Z",
+    "dateMaj": "2026-08-19T13:16:32.663Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "orient-occident-voyage-imprevu",
@@ -589,7 +589,7 @@
     "image": ""
   },
   {
-    "uid": "oa-zmhkq0il",
+    "uid": "oa-rmgj2d2y",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Les-flutes-enchantees-de-Chine",
     "licence": "lov2",
@@ -612,7 +612,7 @@
     "coordinates": "44.125249733,3.93811544404",
     "lieuDepartement": "30",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.304Z",
+    "dateMaj": "2026-08-19T13:16:32.673Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "les-flutes-enchantees-de-chine",
@@ -620,7 +620,7 @@
     "image": ""
   },
   {
-    "uid": "oa-jb9c5sao",
+    "uid": "oa-eu626r1y",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Allegro-Europa",
     "licence": "lov2",
@@ -643,7 +643,7 @@
     "coordinates": "44.0432725168,3.85171155629",
     "lieuDepartement": "30",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.291Z",
+    "dateMaj": "2026-08-19T13:16:32.654Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "allegro-europa-nbsp",
@@ -651,7 +651,7 @@
     "image": ""
   },
   {
-    "uid": "oa-5ee2r7d9",
+    "uid": "oa-muxf1yvj",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/La-Fete-de-l-Alto-14e-edition",
     "licence": "lov2",
@@ -674,7 +674,7 @@
     "coordinates": "44.0432725168,3.85171155629",
     "lieuDepartement": "30",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.288Z",
+    "dateMaj": "2026-08-19T13:16:32.651Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "la-fete-de-l-8217-alto-14e-edition",
@@ -682,7 +682,7 @@
     "image": ""
   },
   {
-    "uid": "oa-qw8ykqyq",
+    "uid": "oa-fy0mzxkh",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/LE-MERCREDI-C-EST-COMEDIE",
     "licence": "lov2",
@@ -705,7 +705,7 @@
     "coordinates": "43.8326674,4.4984774",
     "lieuDepartement": "30",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.288Z",
+    "dateMaj": "2026-08-19T13:16:32.651Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "le-mercredi-c-8217-est-comedie-nbsp",
@@ -713,7 +713,7 @@
     "image": ""
   },
   {
-    "uid": "oa-cntqaoct",
+    "uid": "oa-i14xip3c",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Cabaret-Equestre",
     "licence": "lov2",
@@ -736,7 +736,7 @@
     "coordinates": "44.003,3.77861",
     "lieuDepartement": "30",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.304Z",
+    "dateMaj": "2026-08-19T13:16:32.674Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "cabaret-equestre",

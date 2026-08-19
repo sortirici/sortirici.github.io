@@ -2605,8 +2605,8 @@
     "sourceUrl": "https://openagenda.com/ville-de-draguignan/events/34073530_fete-de-lagriculture-2267846",
     "licence": "lov2",
     "titre": "Fête de l’Agriculture",
-    "descriptionCourte": "Fête de l’Agriculture",
-    "descriptionLongue": "La prochaine Fête de l’Agriculture se déroulera le samedi 17 octobre 2026 de 10h à 17h. sur le parking des Allées d'Azémar et Jardin Anglès.",
+    "descriptionCourte": "Place à l’Agri",
+    "descriptionLongue": "**La prochaine Fête de l’Agriculture se déroulera le samedi 17 octobre de 10h à 17h. sur le parking des Allées d'Azémar et dans le Jardin Anglès.** ### Marché de producteurs Une quarantaine de producteurs varois réunis pour vous faire découvrir toute la richesse de notre agriculture ! Vins, huiles d’olive, fromages, fruits et légumes, fleurs, produits du terroir… Une grande diversité de productions locales à découvrir, déguster et acheter directement auprès des producteurs. ### Au cœur du monde agricole • Exposition de matériel agricole, anciens et nouveaux • Présentation d’une machine à vendanger • Rencontres et échanges avec les agriculteurs ### Animations pour toute la famille • Ferme pédagogique • Balades à poney • Tracteurs à pédales • Stand de maquillage • Concours de dessins « Dessine-moi une ferme » • De nombreuses animations et dégustations pour petits et grands ### Le Juste Prix du Producteur À vous de jouer : estimez le prix d’un panier composé de produits de producteurs et tentez de le gagner. ### L’emploi agricole • Espace emploi agricole • Stand Agri Emploi RSA • Mur de l’emploi : de nombreuses offres à pourvoir sur le territoire • Rencontres avec les acteurs de l’emploi et de la formation agricole ### Espace partenaires Un espace dédié aux acteurs et partenaires de l’agriculture et du territoire. ### Restauration & buvette sur place toute la journée. Une journée festive, conviviale et familiale pour découvrir l’agriculture varoise, rencontrer ses producteurs et partager leurs savoir-faire !",
     "dateDebut": "2026-10-17T10:00",
     "dateFin": "2026-10-17T17:00",
     "categorie": "spectacle",
@@ -2623,12 +2623,12 @@
     "coordinates": "43.53638,6.462634",
     "lieuDepartement": "Var",
     "lieuRegion": "Provence-Alpes-Côte d'Azur",
-    "dateMaj": "2026-06-23T07:46:15.000Z",
+    "dateMaj": "2026-08-19T13:10:30.000Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "fete-de-lagriculture-2267846",
     "departementNumero": "83",
-    "image": "https://storage.openagenda.com/main/5d28ca034c664c1b96559f6f6b9075b9.base.image.jpg"
+    "image": "https://img.openagenda.com/main/5d28ca034c664c1b96559f6f6b9075b9.base.image.jpg"
   },
   {
     "uid": "oa-56112987",

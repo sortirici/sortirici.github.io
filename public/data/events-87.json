@@ -5102,16 +5102,16 @@
     "image": "https://storage.openagenda.com/main/266772a979654f8e9fbfb798bb3390b1.base.image.jpg"
   },
   {
-    "uid": "mob-204282",
+    "uid": "mob-13e7c444-1c05-4d81-b5ce-aaa43b8f46de",
     "source": "mobilizon-france",
     "sourceUrl": "https://mobilizon.fr/events/13e7c444-1c05-4d81-b5ce-aaa43b8f46de",
     "licence": "agpl-3.0",
     "titre": "/!\\ Blind Test Vol 25 /!\\",
-    "descriptionCourte": "",
-    "descriptionLongue": "",
+    "descriptionCourte": "Eh coucou !La prochaine édition aura lieu le jeudi 27 août toujours à partir de 19h30 le temps de se retrouver et commander, lancement du Blind-test à 20h pour de vrai de vrai !A partir de maintenant, plus de classement, et tout le monde est gagnant ! Nous vous proposons de venir jouer pour le jeu e",
+    "descriptionLongue": "Eh coucou !La prochaine édition aura lieu le jeudi 27 août toujours à partir de 19h30 le temps de se retrouver et commander, lancement du Blind-test à 20h pour de vrai de vrai !A partir de maintenant, plus de classement, et tout le monde est gagnant ! Nous vous proposons de venir jouer pour le jeu et la (plus ou moins bonne …) musique, et de repartir dans tous les cas avec un KDO !Nous remercions toujours l&#39;association Conso Mais Autrement, sans qui nous ne pourrions pas vous proposer tout ça ! Nous avons donc dans nos stocks 1 objet par personne (donc 4 par équipe) ! Et n&#39;oubliez pas que si l’objet remporté ne vous plaît pas, il vous suffit de le ramener ainsi que son petit bon au magasin, afin de l’échanger contre un objet de votre choix, qui, lui, vous plaira ! Car le principe reste quand même de ne pas accumuler d’objets inutiles, et d’en récupérer, des, qui le sont (pour vous en tout cas …). Sympa, non ?Pour y voir plus clair et vous renseigner sur Conso, c’est par-là :-https://consomaisautrement.fr/-https://www.facebook.com/p/Association-Conso-Mais-Autrement-100[téléphone supprimé]33/?locale=fr_FR-https://www.instagram.com/consomaisautrement/On garde le même concept :-&gt; 1 point par titre, 1 point par artiste(s) ;-&gt; 4 personnes par équipe ;-&gt; 20 titres et artistes « en vrac » en première partie ;-&gt; ‘tite pause ;-&gt; 4 thèmes spéciaux de 5 chansons chacun en deuxième partie ;PS : n’oubliez pas que des indices sur les thèmes sont dissimulés plus ou moins adroitement dans le magnifique bandeau illustrant l’évènement …PS 2 : n’oubliez pas de réserver ! Max 10 équipes !Et bien sûr, cœur cœur love et amour sur vous, toujours.",
     "dateDebut": "2026-08-27T17:30:00Z",
     "dateFin": "2026-08-27T18:30:00Z",
-    "categorie": "spectacle",
+    "categorie": "concert",
     "motsCles": [],
     "gratuit": false,
     "prixIndicatif": "",
@@ -5125,10 +5125,10 @@
     "coordinates": "45.828527,1.258023",
     "lieuDepartement": "87",
     "lieuRegion": "Haute-Vienne",
-    "dateMaj": "2026-08-19T12:54:30.574Z",
+    "dateMaj": "2026-08-19T13:16:40.048Z",
     "statut": "programme",
     "modeAcces": "sur_place",
-    "slug": "blind-test-vol-25-204282",
+    "slug": "blind-test-vol-25",
     "departementNumero": "87",
     "image": "https://mobilizon.fr/media/ddf96251d50a4e038f5adec439651d5806b948690ccd6b002e3c371a6ddf0cbc.jpg?name=blind%20test%2025%20copy.jpg"
   }

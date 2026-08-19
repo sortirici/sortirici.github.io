@@ -1,12 +1,12 @@
 [
   {
-    "uid": "mob-203241",
+    "uid": "mob-ec2b6810-7f90-49f4-9b64-be76e6b51e3c",
     "source": "mobilizon-france",
     "sourceUrl": "https://mobilizon.fr/events/ec2b6810-7f90-49f4-9b64-be76e6b51e3c",
     "licence": "agpl-3.0",
     "titre": "Spectacle // Fils de Bâtard  au Théâtre Jacques Carat à Cachan, Salle Michel Bouquet",
-    "descriptionCourte": "",
-    "descriptionLongue": "",
+    "descriptionCourte": "Un fils part sur les traces de son père, mort depuis 15 ans. Trois cartes comme seuls indices : RD Congo, Antarctique, Libye. Peu à peu, c’est pourtant sa mère, héroïne de l’ombre, qui émerge de cette enquête vertigineuse. Narration, musique, mime, slam… Ce spectacle transdisciplinaire tisse un réci",
+    "descriptionLongue": "Un fils part sur les traces de son père, mort depuis 15 ans. Trois cartes comme seuls indices : RD Congo, Antarctique, Libye. Peu à peu, c’est pourtant sa mère, héroïne de l’ombre, qui émerge de cette enquête vertigineuse. Narration, musique, mime, slam… Ce spectacle transdisciplinaire tisse un récit qui emmène le public là où il ne s’y attendait pas. Du rire aux larmes, cette histoire vraie bouscule les notions de filiation et de patriarcat. « Volubile, habité par une énergie joyeuse, il occupe la scène avec une présence sur-vitaminée » Coups d’Oeil« Une prestation pleine de vie au rythme frénétique qui mêle avec justesse l’humour, la colère et la tendresse » RTBF",
     "dateDebut": "2026-11-14T19:30:00Z",
     "dateFin": "2026-11-14T21:00:00Z",
     "categorie": "theatre",
@@ -23,10 +23,10 @@
     "coordinates": "48.792446,2.335897",
     "lieuDepartement": "94",
     "lieuRegion": "Val-de-Marne",
-    "dateMaj": "2026-08-19T12:54:30.575Z",
+    "dateMaj": "2026-08-19T13:16:40.042Z",
     "statut": "programme",
     "modeAcces": "sur_place",
-    "slug": "spectacle-fils-de-batard-au-theatre-jacques-carat-a-cachan-salle-michel-bouquet-",
+    "slug": "spectacle-fils-de-batard-au-theatre-jacques-carat-a-cachan-salle-michel-bouquet",
     "departementNumero": "94",
     "image": "https://mobilizon.fr/media/bd17c2e4fdd6c51a33bbe35ddc14bd9b302edbf6780eab96e52dd8fe1dcb1808.jpg?name=2.%20FDB%20Orphise%20Labarbe%20%26%20Emmanuel%20De%20Candido%20%C2%A9Lara%20Herbinia.jpg"
   },

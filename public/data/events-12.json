@@ -1,6 +1,6 @@
 [
   {
-    "uid": "oa-2hm9nd4p",
+    "uid": "oa-7pjqzvch",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Permanence-Maison-de-l-orientation-35300",
     "licence": "lov2",
@@ -23,7 +23,7 @@
     "coordinates": "44.353925,2.5732399",
     "lieuDepartement": "12",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.285Z",
+    "dateMaj": "2026-08-19T13:16:32.648Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "permanence-maison-de-l-8217-orientation",
@@ -31,7 +31,7 @@
     "image": ""
   },
   {
-    "uid": "oa-rzimpomy",
+    "uid": "oa-40x2qetm",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Concert-Jazz-34857",
     "licence": "lov2",
@@ -54,7 +54,7 @@
     "coordinates": "43.7831134,3.0314187",
     "lieuDepartement": "12",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.289Z",
+    "dateMaj": "2026-08-19T13:16:32.652Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "concert-jazz",
@@ -62,7 +62,7 @@
     "image": ""
   },
   {
-    "uid": "oa-rszi19v4",
+    "uid": "oa-a9ltuj3k",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Permanence-Maison-de-l-orientation-35299",
     "licence": "lov2",
@@ -85,7 +85,7 @@
     "coordinates": "44.353925,2.5732399",
     "lieuDepartement": "12",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.289Z",
+    "dateMaj": "2026-08-19T13:16:32.652Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "permanence-maison-de-l-8217-orientation",
@@ -93,7 +93,7 @@
     "image": ""
   },
   {
-    "uid": "oa-31ppvd7n",
+    "uid": "oa-xu0v12e2",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Conference-Images-discretes-de-la-chapelle-St-Roch-de-Conques",
     "licence": "lov2",
@@ -116,7 +116,7 @@
     "coordinates": "44.353925,2.5732399",
     "lieuDepartement": "12",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.297Z",
+    "dateMaj": "2026-08-19T13:16:32.667Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "conference-images-discretes-de-la-chapelle-st-roch-de-conques",
@@ -124,7 +124,7 @@
     "image": ""
   },
   {
-    "uid": "oa-64aofto5",
+    "uid": "oa-gcovp839",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Cafe-crea-de-l-aveyron-Mesurer-pour-mieux-piloter-son-activite",
     "licence": "lov2",
@@ -147,7 +147,7 @@
     "coordinates": "44.353925,2.5732399",
     "lieuDepartement": "12",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.289Z",
+    "dateMaj": "2026-08-19T13:16:32.652Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "cafe-crea-de-l-8217-aveyron-mesurer-pour-mieux-piloter-son-activite",
@@ -155,7 +155,7 @@
     "image": ""
   },
   {
-    "uid": "oa-94n6ipao",
+    "uid": "oa-a52ns4j7",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Musique-baroque",
     "licence": "lov2",
@@ -178,7 +178,7 @@
     "coordinates": "43.7799362,3.0298132",
     "lieuDepartement": "12",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.289Z",
+    "dateMaj": "2026-08-19T13:16:32.652Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "musique-baroque",
@@ -186,7 +186,7 @@
     "image": ""
   },
   {
-    "uid": "oa-77zs7j5b",
+    "uid": "oa-3hzmvrek",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Conference-des-hommes-et-des-pierres-histoires-de-Reves",
     "licence": "lov2",
@@ -209,7 +209,7 @@
     "coordinates": "44.353925,2.5732399",
     "lieuDepartement": "12",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.286Z",
+    "dateMaj": "2026-08-19T13:16:32.649Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "conference-des-hommes-et-des-pierres-histoires-de-reves",
@@ -217,7 +217,7 @@
     "image": ""
   },
   {
-    "uid": "oa-v0qtt18w",
+    "uid": "oa-fvunf3rv",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Aubrac-en-Plateau-festival-de-spectacles-vivants-3e-edition",
     "licence": "lov2",
@@ -240,7 +240,7 @@
     "coordinates": "44.5565082,2.8465486",
     "lieuDepartement": "12",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.298Z",
+    "dateMaj": "2026-08-19T13:16:32.668Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "aubrac-en-plateau-festival-de-spectacles-vivants-3e-edition",
@@ -248,7 +248,7 @@
     "image": ""
   },
   {
-    "uid": "oa-u1svbsnj",
+    "uid": "oa-8y6skjer",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Serie-de-3-expositions-Au-coeur-du-Patrimoine",
     "licence": "lov2",
@@ -271,7 +271,7 @@
     "coordinates": "44.353925,2.5732399",
     "lieuDepartement": "12",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.290Z",
+    "dateMaj": "2026-08-19T13:16:32.653Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "serie-de-3-expositions-au-coeur-du-patrimoine",
@@ -279,7 +279,7 @@
     "image": ""
   },
   {
-    "uid": "oa-8todwwk9",
+    "uid": "oa-1vn37qih",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Vernissage-et-presentation-Au-coeur-du-patrimoine",
     "licence": "lov2",
@@ -302,7 +302,7 @@
     "coordinates": "44.353925,2.5732399",
     "lieuDepartement": "12",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.303Z",
+    "dateMaj": "2026-08-19T13:16:32.673Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "vernissage-et-presentation-au-coeur-du-patrimoine",
@@ -310,7 +310,7 @@
     "image": ""
   },
   {
-    "uid": "oa-0tu71g5q",
+    "uid": "oa-5ng8djxu",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Permanence-Maison-de-l-orientation-35298",
     "licence": "lov2",
@@ -333,7 +333,7 @@
     "coordinates": "44.353925,2.5732399",
     "lieuDepartement": "12",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.303Z",
+    "dateMaj": "2026-08-19T13:16:32.673Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "permanence-maison-de-l-8217-orientation",
@@ -341,7 +341,7 @@
     "image": ""
   },
   {
-    "uid": "oa-ad9bnitw",
+    "uid": "oa-0ksrnl80",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Apero-Trail-d-Espalion",
     "licence": "lov2",
@@ -364,7 +364,7 @@
     "coordinates": "44.5190787171,2.76421250667",
     "lieuDepartement": "12",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.303Z",
+    "dateMaj": "2026-08-19T13:16:32.673Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "apero-trail-d-8217-espalion",
@@ -372,7 +372,7 @@
     "image": ""
   },
   {
-    "uid": "oa-t4qgwslr",
+    "uid": "oa-8cci2739",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Apero-concert-musiques-d-Amerique-du-sud",
     "licence": "lov2",
@@ -395,7 +395,7 @@
     "coordinates": "44.16303,2.196332",
     "lieuDepartement": "12",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.287Z",
+    "dateMaj": "2026-08-19T13:16:32.650Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "apero-concert-musiques-d-8217-amerique-du-sud",
@@ -403,7 +403,7 @@
     "image": ""
   },
   {
-    "uid": "oa-l7kv3k9d",
+    "uid": "oa-4s3dcioj",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/Apero-concert-Les-grands-airs-du-classique",
     "licence": "lov2",
@@ -426,7 +426,7 @@
     "coordinates": "44.16303,2.196332",
     "lieuDepartement": "12",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.304Z",
+    "dateMaj": "2026-08-19T13:16:32.673Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "apero-concert-les-grands-airs-du-classique",
@@ -434,7 +434,7 @@
     "image": ""
   },
   {
-    "uid": "oa-ew9uxdy4",
+    "uid": "oa-elm5k861",
     "source": "occitanie-sorties",
     "sourceUrl": "https://www.laregion.fr/stage-de-violoncelle-claviers-percussions-Les-grands-airs-du-classique",
     "licence": "lov2",
@@ -457,7 +457,7 @@
     "coordinates": "44.162905,2.1963922",
     "lieuDepartement": "12",
     "lieuRegion": "",
-    "dateMaj": "2026-08-19T12:54:23.294Z",
+    "dateMaj": "2026-08-19T13:16:32.664Z",
     "statut": "programme",
     "modeAcces": "sur_place",
     "slug": "stage-de-violoncelle-et-direction-d-8217-orchestre-les-grands-airs-du-classique",

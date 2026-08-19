@@ -3,138 +3,240 @@
     "source": "openagenda-orleans",
     "status": "ok",
     "bytes": 43952117,
-    "latencyMs": 4929
-  },
-  {
-    "source": "openagenda-loiret",
-    "status": "ok",
-    "bytes": 31036774,
-    "latencyMs": 14087
+    "latencyMs": 8132
   },
   {
     "source": "clermont-agenda",
     "status": "ok",
     "bytes": 1211108,
-    "latencyMs": 965
+    "latencyMs": 2960
   },
   {
     "source": "guerande-agenda",
     "status": "ok",
     "bytes": 9516066,
-    "latencyMs": 1559
+    "latencyMs": 1627
   },
   {
     "source": "meudon-agenda",
     "status": "ok",
     "bytes": 16841409,
-    "latencyMs": 3901
+    "latencyMs": 13866
   },
   {
     "source": "labaule-agenda",
     "status": "ok",
     "bytes": 380673,
-    "latencyMs": 252
+    "latencyMs": 270
   },
   {
     "source": "nantes-culture",
     "status": "ok",
     "bytes": 260333,
-    "latencyMs": 238
-  },
-  {
-    "source": "ministere-festivals",
-    "status": "ok",
-    "bytes": 559,
-    "latencyMs": 124
+    "latencyMs": 224
   },
   {
     "source": "bordeaux-agenda",
     "status": "ok",
     "bytes": 17080763,
-    "latencyMs": 3587
+    "latencyMs": 5446
   },
   {
     "source": "toulouse-spectacles",
     "status": "ok",
     "bytes": 40393,
-    "latencyMs": 193
-  },
-  {
-    "source": "vendee-tourinsoft",
-    "status": "error",
-    "error": "HTTP 500: Internal Server Error",
-    "latencyMs": 94
-  },
-  {
-    "source": "martigues-agenda",
-    "status": "ok",
-    "bytes": 10019461,
-    "latencyMs": 27083
-  },
-  {
-    "source": "grenoble-culturel",
-    "status": "error",
-    "error": "HTTP 404: Not Found",
-    "latencyMs": 140
+    "latencyMs": 302
   },
   {
     "source": "occitanie-sorties",
     "status": "ok",
     "bytes": 496023,
-    "latencyMs": 211
+    "latencyMs": 353
   },
   {
     "source": "idf-evenements-publics",
     "status": "ok",
     "bytes": 42203295,
-    "latencyMs": 7034
+    "latencyMs": 12682
   },
   {
     "source": "nice-evenements",
     "status": "ok",
     "bytes": 3496023,
-    "latencyMs": 1354
+    "latencyMs": 1432
   },
   {
-    "source": "calvados-evenements",
+    "source": "ministere-festivals",
     "status": "ok",
-    "bytes": 34061701,
-    "latencyMs": 13425
-  },
-  {
-    "source": "gpso-evenements",
-    "status": "ok",
-    "bytes": 13470832,
-    "latencyMs": 6070
+    "bytes": 559,
+    "latencyMs": 170
   },
   {
     "source": "nantes-metropole-evenements",
     "status": "ok",
-    "bytes": 15490808,
-    "latencyMs": 1938
+    "bytes": 15495799,
+    "latencyMs": 1353
   },
   {
     "source": "tours-metropole",
     "status": "ok",
     "bytes": 30722967,
-    "latencyMs": 893
+    "latencyMs": 3430
   },
   {
     "source": "paris-evenements",
     "status": "ok",
-    "bytes": 15346333,
-    "latencyMs": 538
+    "bytes": 15356459,
+    "latencyMs": 662
   },
   {
     "source": "haute-garonne-grand-ouest",
     "status": "ok",
     "bytes": 75273,
-    "latencyMs": 377
+    "latencyMs": 324
   },
   {
     "source": "chenonceaux-agenda",
     "status": "ok",
     "bytes": 184241,
-    "latencyMs": 224
+    "latencyMs": 259
+  },
+  {
+    "source": "gpso-evenements",
+    "status": "ok",
+    "bytes": 13470832,
+    "latencyMs": 2657
+  },
+  {
+    "source": "openagenda-loiret",
+    "status": "ok",
+    "bytes": 31035103,
+    "latencyMs": 17282
+  },
+  {
+    "source": "loiret-openagenda",
+    "status": "ok",
+    "bytes": 31035103,
+    "latencyMs": 14347
+  },
+  {
+    "source": "calvados-evenements",
+    "status": "ok",
+    "bytes": 34061701,
+    "latencyMs": 17660
+  },
+  {
+    "source": "martigues-agenda",
+    "status": "ok",
+    "bytes": 10019461,
+    "latencyMs": 25464
+  },
+  {
+    "source": "rouen-metropole-evenements",
+    "status": "ok",
+    "bytes": 56813507,
+    "latencyMs": 23062
+  },
+  {
+    "source": "villeurbanne-agenda-culturel",
+    "status": "ok",
+    "bytes": 13852945,
+    "latencyMs": 9462
+  },
+  {
+    "source": "draguignan-evenements",
+    "status": "ok",
+    "bytes": 4645419,
+    "latencyMs": 3259
+  },
+  {
+    "source": "criquiers-evenements",
+    "status": "ok",
+    "bytes": 6262,
+    "latencyMs": 992
+  },
+  {
+    "source": "jardins-ouverts-2026",
+    "status": "ok",
+    "bytes": 3812887,
+    "latencyMs": 2464
+  },
+  {
+    "source": "jnarchi-bourgogne-franche-comte",
+    "status": "ok",
+    "bytes": 181429,
+    "latencyMs": 1053
+  },
+  {
+    "source": "jep-centre-val-de-loire",
+    "status": "ok",
+    "bytes": 13289156,
+    "latencyMs": 5065
+  },
+  {
+    "source": "jep-bretagne",
+    "status": "ok",
+    "bytes": 6193742,
+    "latencyMs": 3129
+  },
+  {
+    "source": "jep-normandie",
+    "status": "ok",
+    "bytes": 24426657,
+    "latencyMs": 6848
+  },
+  {
+    "source": "jep-hauts-de-france",
+    "status": "ok",
+    "bytes": 13910700,
+    "latencyMs": 5320
+  },
+  {
+    "source": "jep-corse",
+    "status": "ok",
+    "bytes": 389260,
+    "latencyMs": 1086
+  },
+  {
+    "source": "jep-grand-est",
+    "status": "ok",
+    "bytes": 22821226,
+    "latencyMs": 6219
+  },
+  {
+    "source": "jep-bourgogne-franche-comte",
+    "status": "ok",
+    "bytes": 13559557,
+    "latencyMs": 9542
+  },
+  {
+    "source": "jep-pays-de-la-loire",
+    "status": "ok",
+    "bytes": 12961186,
+    "latencyMs": 13930
+  },
+  {
+    "source": "jep-auvergne-rhone-alpes",
+    "status": "ok",
+    "bytes": 27918925,
+    "latencyMs": 7217
+  },
+  {
+    "source": "jep-paca",
+    "status": "ok",
+    "bytes": 12233651,
+    "latencyMs": 6038
+  },
+  {
+    "source": "jep-nouvelle-aquitaine",
+    "status": "ok",
+    "bytes": 31602978,
+    "latencyMs": 9265
+  },
+  {
+    "source": "mobilizon-france",
+    "status": "ok",
+    "bytes": 1383938,
+    "latencyMs": 5346
   }
 ]

@@ -701,7 +701,7 @@
     "image": "https://img.openagenda.com/main/79f0bdb9d0b84a4cb8442d512a37cf0f.base.image.jpg"
   },
   {
-    "uid": "mob-201732",
+    "uid": "mob-529e1685-36bb-4f2a-94de-d7339f0aea8f",
     "source": "mobilizon-france",
     "sourceUrl": "https://mobilizon.fr/events/529e1685-36bb-4f2a-94de-d7339f0aea8f",
     "licence": "agpl-3.0",
@@ -729,10 +729,10 @@
     "coordinates": "48.996782,2.063278",
     "lieuDepartement": "78",
     "lieuRegion": "Yvelines",
-    "dateMaj": "2026-08-19T12:54:30.574Z",
+    "dateMaj": "2026-08-19T13:16:40.046Z",
     "statut": "programme",
     "modeAcces": "sur_place",
-    "slug": "atelier-maurecourt-201732",
+    "slug": "atelier-maurecourt",
     "departementNumero": "78",
     "image": ""
   },
@@ -985,7 +985,7 @@
     "image": "https://storage.openagenda.com/main/5186b94fce094f8f86ec7cb83467edcd.base.image.jpg"
   },
   {
-    "uid": "mob-201731",
+    "uid": "mob-06b11193-a00c-47cb-bd7b-8bc5c8f649f7",
     "source": "mobilizon-france",
     "sourceUrl": "https://mobilizon.fr/events/06b11193-a00c-47cb-bd7b-8bc5c8f649f7",
     "licence": "agpl-3.0",
@@ -1013,10 +1013,10 @@
     "coordinates": "48.996782,2.063278",
     "lieuDepartement": "78",
     "lieuRegion": "Yvelines",
-    "dateMaj": "2026-08-19T12:54:30.574Z",
+    "dateMaj": "2026-08-19T13:16:40.047Z",
     "statut": "programme",
     "modeAcces": "sur_place",
-    "slug": "atelier-maurecourt-201731",
+    "slug": "atelier-maurecourt",
     "departementNumero": "78",
     "image": ""
   },
@@ -1221,7 +1221,7 @@
     "image": "https://storage.openagenda.com/main/14181c392362436895f23cc1bcfbc600.base.image.jpg"
   },
   {
-    "uid": "mob-201730",
+    "uid": "mob-83876d95-6ddc-4666-9372-bc032302212e",
     "source": "mobilizon-france",
     "sourceUrl": "https://mobilizon.fr/events/83876d95-6ddc-4666-9372-bc032302212e",
     "licence": "agpl-3.0",
@@ -1249,10 +1249,10 @@
     "coordinates": "48.996782,2.063278",
     "lieuDepartement": "78",
     "lieuRegion": "Yvelines",
-    "dateMaj": "2026-08-19T12:54:30.573Z",
+    "dateMaj": "2026-08-19T13:16:40.050Z",
     "statut": "programme",
     "modeAcces": "sur_place",
-    "slug": "atelier-maurecourt-201730",
+    "slug": "atelier-maurecourt",
     "departementNumero": "78",
     "image": ""
   },
