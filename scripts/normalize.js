@@ -86,6 +86,55 @@ function cleanHtml(text) {
 }
 
 /** Supprime les emails et numéros de téléphone (zéro PII) */
+/**
+ * Corrige la typographie et les erreurs courantes dans les textes français.
+ * Appliqué aux descriptions longues pour améliorer la qualité SEO/GEO.
+ */
+function correctText(text) {
+  if (!text) return '';
+  let t = String(text);
+  // 1. Décoder les entités HTML courantes
+  t = t.replace(/&amp;/g, '&')
+       .replace(/&nbsp;/g, ' ')
+       .replace(/&lt;/g, '<')
+       .replace(/&gt;/g, '>')
+       .replace(/&quot;/g, '"')
+       .replace(/&#39;/g, "'")
+       .replace(/&eacute;/g, 'é')
+       .replace(/&egrave;/g, 'è')
+       .replace(/&ecirc;/g, 'ê')
+       .replace(/&euml;/g, 'ë')
+       .replace(/&agrave;/g, 'à')
+       .replace(/&acirc;/g, 'â')
+       .replace(/&ccedil;/g, 'ç')
+       .replace(/&ugrave;/g, 'ù')
+       .replace(/&ocirc;/g, 'ô')
+       .replace(/&icirc;/g, 'î')
+       .replace(/&iuml;/g, 'ï');
+  // 2. Espaces insécables avant la ponctuation haute
+  t = t.replace(/(\s)?([:;!?])(\s)/g, ' $2 ');
+  t = t.replace(/(\s)?([:;!?])(?=[\s<])/g, ' $2');
+  // 3. Supprimer les espaces multiples
+  t = t.replace(/  +/g, ' ');
+  // 4. Espace après la ponctuation (pas avant)
+  t = t.replace(/([.,])([^\s\d<])/g, '$1 $2');
+  // 5. Guillemets français
+  t = t.replace(/"([^"]*)"/g, '« $1 »');
+  // 6. Apostrophes correctes
+  t = t.replace(/(\w)'(\w)/g, "$1'$2");
+  // 7. Capitales accentuées (mots courants)
+  const accents = [
+    ['A ', 'À '], ['E ', 'É '], ['E,', 'É,'], ['E.', 'É.'],
+    ['A,', 'À,'], ['A.', 'À.'],
+    ['Et ', 'Et '],  // "Et" en début de phrase → "Et"
+  ];
+  for (const [from, to] of accents) {
+    // On ne touche pas aux balises HTML
+    t = t.replace(new RegExp(from.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), to);
+  }
+  return t.trim();
+}
+
 function sanitizeText(text) {
   return String(text || '')
     .replace(/[\w.+-]+@[\w-]+\.[\w.-]+/g, '[email supprimé]')
@@ -142,7 +191,7 @@ function normalizeOpenAgenda(item, sourceId) {
   const titre = getLocalized(item, 'title') || item.title_fr || item.titre || '';
   if (!titre) return null;
 
-  const desc = sanitizeText(cleanHtml(getLocalized(item, 'description') || item.description_fr || ''));
+  const desc = correctText(sanitizeText(cleanHtml(getLocalized(item, 'description') || item.description_fr || '')));
   const rawLongDesc = typeof item.longdescription_fr === 'string' ? item.longdescription_fr
     : (item.longDescription && typeof item.longDescription === 'object'
       ? (item.longDescription.fr || item.longDescription.en || '') : '');
@@ -153,7 +202,7 @@ function normalizeOpenAgenda(item, sourceId) {
     .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, '')             // Remove style + content
     .replace(/<\/?(?:iframe|object|embed|form|input)\b[^>]*>/gi, ''); // Remove dangerous tags (keep content)
   safeLongDesc = safeLongDesc.replace(/\s+/g, ' ').trim();
-  const longDesc = sanitizeText(safeLongDesc);
+  const longDesc = correctText(sanitizeText(safeLongDesc));
 
   // Dates : legacy (date_debut, firstdate_begin…) OU API native v2 (firstDate + firstTimeStart, timings[])
   let debut = getField(item, 'date_debut', 'firstDateBegin', 'firstdate_begin', 'firstday', 'dateDebut', 'date') || '';
