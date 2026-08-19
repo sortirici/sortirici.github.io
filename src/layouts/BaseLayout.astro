@@ -1,12 +1,13 @@
 ---
-// BaseLayout.astro - Layout principal avec SEO, JSON-LD, design tokens (v2)
+// BaseLayout.astro - Layout principal avec SEO complet, JSON-LD, design tokens (v3 — SEO/GEO optimisé)
 interface Props {
   title: string;
   description: string;
   canonical?: string;
   ogImage?: string;
-  jsonLd?: Record<string, any>;
+  jsonLd?: Record<string, any> | Record<string, any>[];
   noIndex?: boolean;
+  ogType?: string;
 }
 
 const {
@@ -16,11 +17,54 @@ const {
   ogImage = '/og-default.svg',
   jsonLd,
   noIndex = false,
+  ogType = 'website',
 } = Astro.props;
 
 const siteUrl = 'https://sortirici.github.io';
 const fullCanonical = canonical ? `${siteUrl}${canonical}` : siteUrl;
 const fullOgImage = `${siteUrl}${ogImage}`;
+
+// JSON-LD de base : Organization + WebSite (SearchAction) — présents sur TOUTES les pages
+const baseJsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${siteUrl}/#organization`,
+    "name": "SortirIci",
+    "url": siteUrl,
+    "logo": {
+      "@type": "ImageObject",
+      "url": `${siteUrl}/logo.svg`,
+      "width": 512,
+      "height": 512,
+    },
+    "description": "L'agenda local de confiance — 100% open data, 0 cookie, 0 tracking",
+    "slogan": "L'agenda local de confiance",
+    "knowsAbout": ["Événements culturels", "Open Data", "Agenda local", "Sorties France"],
+    "ethicsPolicy": `${siteUrl}/mentions/`,
+    "sameAs": [
+      "https://github.com/Cypriendj4/sortirici",
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${siteUrl}/#website`,
+    "name": "SortirIci",
+    "url": siteUrl,
+    "description": "L'agenda local de confiance — 100% open data, 0 cookie, 0 tracking",
+    "inLanguage": "fr-FR",
+    "publisher": { "@id": `${siteUrl}/#organization` },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": `${siteUrl}/?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
+  },
+];
 ---
 
 <!doctype html>
@@ -29,9 +73,18 @@ const fullOgImage = `${siteUrl}${ogImage}`;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content={Astro.generator} />
-    <link rel="canonical" href={fullCanonical} />
     
-    {noIndex && <meta name="robots" content="noindex, nofollow" />}
+    <!-- Robots & Canonical -->
+    <link rel="canonical" href={fullCanonical} />
+    {noIndex ? (
+      <meta name="robots" content="noindex, nofollow" />
+    ) : (
+      <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    )}
+    
+    <!-- Hreflang -->
+    <link rel="alternate" hrefLang="fr" href={fullCanonical} />
+    <link rel="alternate" hrefLang="x-default" href={fullCanonical} />
     
     <!-- Primary Meta -->
     <title>{title}</title>
@@ -39,35 +92,30 @@ const fullOgImage = `${siteUrl}${ogImage}`;
     <meta name="theme-color" content="#D45D2E" />
     
     <!-- Open Graph -->
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:url" content={fullCanonical} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={fullOgImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:site_name" content="SortirIci" />
+    <meta property="og:locale" content="fr_FR" />
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@sortirici" />
+    <meta name="twitter:creator" content="@sortirici" />
     <meta name="twitter:url" content={fullCanonical} />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={fullOgImage} />
     
-    <!-- JSON-LD Structured Data -->
+    <!-- JSON-LD Structured Data — base (Organization + WebSite) + page-specific -->
+    <script type="application/ld+json" set:html={JSON.stringify(baseJsonLd)} />
     {jsonLd && (
       <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
     )}
-    
-    <!-- Organisation JSON-LD -->
-    <script type="application/ld+json" set:html={JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "SortirIci",
-      "url": siteUrl,
-      "logo": `${siteUrl}/logo.svg`,
-      "sameAs": [],
-      "description": "L'agenda local de confiance - 100% open data, 0 cookie, 0 tracking"
-    })} />
     
     <!-- Favicon & PWA -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />

@@ -57,22 +57,12 @@ const deptGeoCoords: Record<string, [number, number]> = {
 };
 
 const siteUrl = 'https://sortirici.github.io';
-const pageTitle = "SortirIci — L'agenda local de confiance — 100% open data, 0 cookie";
-const pageDesc = "Découvrez gratuitement tous les événements près de chez vous : concerts, festivals, expositions, théâtre, ateliers. Données open data, zéro cookie, zéro tracking.";
+const deptCount = allDepts.length;
+const totalEvts = indexData.totalEvents;
+const pageTitle = `SortirIci — L'agenda culturel local 100% open data — ${totalEvts} événements dans ${deptCount} départements`;
+const pageDesc = `Découvrez ${totalEvts} événements près de chez vous dans ${deptCount} départements : concerts, festivals, expositions, théâtre, ateliers. Agenda local gratuit, 100% open data, zéro cookie, zéro tracking.`;
 
-// ---- JSON-LD ----
-const organizationLd = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "@id": `${siteUrl}/#organization`,
-  "name": "SortirIci",
-  "url": siteUrl,
-  "logo": `${siteUrl}/logo.svg`,
-  "description": pageDesc,
-  "slogan": "L'agenda local de confiance",
-  "knowsAbout": ["Événements culturels", "Open Data", "Agenda local"],
-  "ethicsPolicy": `${siteUrl}/mentions/`,
-};
+// ---- JSON-LD (page-specific ; Organization + WebSite déjà dans BaseLayout) ----
 const breadcrumbLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -95,34 +85,23 @@ const itemListLd = {
     "url": `${siteUrl}/departement/${d.departement}/`,
   })),
 };
-const webSiteLd = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "@id": `${siteUrl}/#website`,
-  "name": "SortirIci",
-  "url": siteUrl,
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": {
-      "@type": "EntryPoint",
-      "urlTemplate": `${siteUrl}/?q={search_term_string}`,
-    },
-    "query-input": "required name=search_term_string",
-  },
-};
 ---
 
 <BaseLayout
   title={pageTitle}
   description={pageDesc}
   canonical="/"
-  jsonLd={[organizationLd, breadcrumbLd, itemListLd, webSiteLd]}
+  jsonLd={[breadcrumbLd, itemListLd]}
 >
   <!-- Hero Minimal v2 -->
   <section class="hero" aria-label="Présentation de SortirIci">
     <div class="container">
       <div class="hero-content">
         <h1 class="hero-title">Sortir près de chez vous</h1>
+        
+        <p class="hero-subtitle">
+          <strong>{totalEvts} événements</strong> référencés dans <strong>{deptCount} départements</strong> — concerts, festivals, expositions, théâtre, ateliers
+        </p>
         
         <div class="search-bar" x-data="searchApp()" role="search" aria-label="Rechercher un événement">
           <div class="search-bar__wrapper">
@@ -168,7 +147,7 @@ const webSiteLd = {
   <section class="map-section" aria-label="Carte des événements par département">
     <div class="container">
       <h2 class="section-title">Explorez la carte</h2>
-      <p class="section-desc">Visualisez les événements référencés partout en France</p>
+      <p class="section-desc">Visualisez les {totalEvts} événements culturels référencés partout en France, par département</p>
       
       <div
         class="leaflet-container"
@@ -252,8 +231,19 @@ const webSiteLd = {
     font-family: var(--font-serif);
     font-weight: var(--font-normal);
     color: var(--color-neutral-900);
-    margin-bottom: var(--space-5);
+    margin-bottom: var(--space-2);
     letter-spacing: -0.02em;
+  }
+  .hero-subtitle {
+    font-size: var(--text-base);
+    color: var(--color-neutral-500);
+    margin-bottom: var(--space-4);
+    font-weight: var(--font-normal);
+    line-height: var(--leading-relaxed);
+  }
+  .hero-subtitle strong {
+    color: var(--color-brand-brick);
+    font-weight: var(--font-semibold);
   }
   .trust-line {
     font-size: var(--text-sm);

@@ -27,6 +27,7 @@ const pageDesc = `Explorez les ${indexData.totalDepartements} départements couv
 const breadcrumbLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
+  "@id": `${siteUrl}/departement/#breadcrumb`,
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Accueil", "item": `${siteUrl}/` },
     { "@type": "ListItem", "position": 2, "name": "Départements", "item": `${siteUrl}/departement/` },
@@ -35,7 +36,9 @@ const breadcrumbLd = {
 const itemListLd = {
   "@context": "https://schema.org",
   "@type": "ItemList",
+  "@id": `${siteUrl}/departement/#list`,
   "name": `Les ${orderedDepts.length} départements`,
+  "description": `Liste des ${orderedDepts.length} départements français couverts par SortirIci avec événements à venir`,
   "numberOfItems": orderedDepts.length,
   "itemListElement": orderedDepts.slice(0, 30).map((d, i) => ({
     "@type": "ListItem",

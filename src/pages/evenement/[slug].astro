@@ -1,5 +1,6 @@
 ---
-// src/pages/evenement/[slug].astro — Fiche événement
+// src/pages/evenement/[slug].astro — Fiche événement SEO/GEO optimisée
+// JSON-LD Event complet, BreadcrumbList, Place, OG/Twitter Cards riches
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 export async function getStaticPaths() {
@@ -20,12 +21,136 @@ export async function getStaticPaths() {
 const { event } = Astro.props;
 const hasEvent = event && event.titre;
 const siteUrl = 'https://sortirici.github.io';
+
+// ---- Résumé auto-généré depuis descriptionLongue (160 premiers caractères) ----
+const rawText = (event.descriptionLongue || event.descriptionCourte || '').replace(/<[^>]*>/g, '');
+const resume = rawText.slice(0, 160).trim();
+
+// ---- Formatage : découpage descriptionLongue en paragraphes pour lisibilité ----
+function formatToParagraphs(text: string): string[] {
+  if (!text) return [];
+  const cleaned = text.replace(/<[^>]*>/g, '').trim();
+  const sentences = cleaned.match(/[^.!?]+[.!?]+/g) || [cleaned];
+  const paragraphs: string[] = [];
+  for (let i = 0; i < sentences.length; i += 3) {
+    const chunk = sentences.slice(i, i + 3).join(' ').trim();
+    if (chunk) paragraphs.push(chunk);
+  }
+  return paragraphs.length > 0 ? paragraphs : [cleaned];
+}
+const descriptionParagraphs = formatToParagraphs(event.descriptionLongue);
+
+// ---- SEO Meta ----
+const pageTitle = hasEvent
+  ? `${event.titre} — ${event.lieuCommune || ''} (${event.dateDebut ? new Date(event.dateDebut).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) : ''}) | SortirIci`
+  : 'Événement — SortirIci';
+
+const pageDesc = hasEvent
+  ? (resume || event.descriptionCourte || '').slice(0, 160) || `Retrouvez tous les détails de l'événement ${event.titre} dans le ${event.lieuDepartement || ''} : dates, lieu, tarifs, programme.`
+  : 'Détails de l\'événement';
+
+const eventSlug = hasEvent ? (event.slug || String(event.uid)) : '';
+const canonicalUrl = hasEvent ? `/evenement/${eventSlug}/` : '/';
+const ogImage = hasEvent && event.image ? event.image : '/og-default.svg';
+const formattedDate = hasEvent && event.dateDebut
+  ? new Date(event.dateDebut).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })
+  : '';
+const formattedEndDate = hasEvent && event.dateFin && event.dateFin !== event.dateDebut
+  ? new Date(event.dateFin).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })
+  : '';
+
+// ---- JSON-LD Event complet ----
+const eventJsonLd = hasEvent ? {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "@id": `${siteUrl}/evenement/${eventSlug}/#event`,
+  "name": event.titre,
+  "description": (event.descriptionCourte || event.titre || '').substring(0, 500),
+  "startDate": event.dateDebut || '',
+  "endDate": event.dateFin || event.dateDebut || '',
+  "eventStatus": event.statut === 'annule' ? 'https://schema.org/EventCancelled'
+    : event.statut === 'reporte' ? 'https://schema.org/EventPostponed'
+    : 'https://schema.org/EventScheduled',
+  "eventAttendanceMode": event.modeAcces === 'en_ligne'
+    ? 'https://schema.org/OnlineEventAttendanceMode'
+    : event.modeAcces === 'hybride'
+    ? 'https://schema.org/MixedEventAttendanceMode'
+    : 'https://schema.org/OfflineEventAttendanceMode',
+  "isAccessibleForFree": event.gratuit || false,
+  "image": event.image ? {
+    "@type": "ImageObject",
+    "url": event.image,
+  } : undefined,
+  "location": {
+    "@type": "Place",
+    "name": event.lieuNom || event.lieuCommune || '',
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": event.lieuAdresse || '',
+      "addressLocality": event.lieuCommune || '',
+      "postalCode": event.lieuCodePostal || '',
+      "addressRegion": event.lieuDepartement || '',
+      "addressCountry": "FR",
+    },
+    ...(event.lieuLatitude && event.lieuLongitude ? {
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": parseFloat(event.lieuLatitude),
+        "longitude": parseFloat(event.lieuLongitude),
+      },
+    } : {}),
+  },
+  "offers": event.gratuit ? {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock",
+    "url": `${siteUrl}/evenement/${eventSlug}/`,
+  } : (event.prixIndicatif ? {
+    "@type": "Offer",
+    "price": event.prixIndicatif.replace(/[^0-9.,]/g, ''),
+    "priceCurrency": "EUR",
+    "description": event.prixIndicatif,
+    "url": `${siteUrl}/evenement/${eventSlug}/`,
+  } : undefined),
+  "organizer": {
+    "@type": "Organization",
+    "name": event.source || "SortirIci",
+    "url": event.sourceUrl || siteUrl,
+  },
+  "performer": event.organisateur ? {
+    "@type": "Person",
+    "name": event.organisateur,
+  } : undefined,
+  "url": `${siteUrl}/evenement/${eventSlug}/`,
+  "inLanguage": "fr",
+  "keywords": event.categorie || '',
+  "workPerformed": event.categorie ? {
+    "@type": "CreativeWork",
+    "name": event.categorie,
+  } : undefined,
+} : null;
+
+const breadcrumbLd = hasEvent ? {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "@id": `${siteUrl}/evenement/${eventSlug}/#breadcrumb`,
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": siteUrl },
+    { "@type": "ListItem", "position": 2, "name": event.lieuDepartement || 'Département', "item": `${siteUrl}/departement/${event.departementNumero || ''}/` },
+    { "@type": "ListItem", "position": 3, "name": event.titre || 'Événement', "item": `${siteUrl}/evenement/${eventSlug}/` },
+  ],
+} : null;
 ---
 
 <BaseLayout
-  title={hasEvent ? `${event.titre} — ${event.lieuCommune || ''} | SortirIci` : 'Événement — SortirIci'}
-  description={hasEvent ? (event.descriptionCourte || '').slice(0, 160) : 'Détails de l\'événement'}
+  title={pageTitle}
+  description={pageDesc}
+  canonical={canonicalUrl}
+  ogImage={ogImage}
+  ogType={hasEvent ? "event" : "website"}
   noIndex={!hasEvent}
+  jsonLd={[eventJsonLd, breadcrumbLd].filter(Boolean)}
 >
   <div class="container" style="padding: 3rem 1rem;">
 
@@ -45,61 +170,67 @@ const siteUrl = 'https://sortirici.github.io';
         </a>
       </div>
     ) : (
-      <div>
-        <nav aria-label="Fil d'Ariane" style="margin-bottom: 1rem; font-size: 0.875rem; color: var(--color-neutral-500);">
-          <a href="/" style="color: var(--color-neutral-500);">Accueil</a>
-          <span style="margin: 0 0.5rem;">›</span>
-          <a href={`/departement/${event.departementNumero || ''}/`} style="color: var(--color-neutral-500);">
-            {event.lieuDepartement || 'Département'}
-          </a>
-          <span style="margin: 0 0.5rem;">›</span>
-          <span style="color: #1A1A2E; font-weight: 600;">{event.titre}</span>
+      <div itemscope itemtype="https://schema.org/Event">
+        <!-- Breadcrumb visible -->
+        <nav class="event-breadcrumb" aria-label="Fil d'Ariane">
+          <ol class="event-breadcrumb__list">
+            <li class="event-breadcrumb__item">
+              <a href="/" class="event-breadcrumb__link">Accueil</a>
+              <svg class="event-breadcrumb__sep" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+            </li>
+            <li class="event-breadcrumb__item">
+              <a href={`/departement/${event.departementNumero || ''}/`} class="event-breadcrumb__link">{event.lieuDepartement || 'Département'}</a>
+              <svg class="event-breadcrumb__sep" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+            </li>
+            <li class="event-breadcrumb__item event-breadcrumb__item--current" aria-current="page">
+              <span itemprop="name">{event.titre}</span>
+            </li>
+          </ol>
         </nav>
 
-        <h1 style="font-size: 2.25rem; font-weight: 400; font-family: var(--font-serif); margin-bottom: 0.5rem; color: var(--color-neutral-900);">
-          {event.titre}
-        </h1>
+        <h1 class="event-title" itemprop="name">{event.titre}</h1>
 
         <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem;">
           {event.categorie && (
-            <span style="background: #FDF0EB; color: var(--color-brand-brick); padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 600;">
-              {event.categorie}
-            </span>
+            <span class="event-badge event-badge--cat" itemprop="keywords">{event.categorie}</span>
           )}
           {event.gratuit && (
-            <span style="background: #E8F5E9; color: var(--color-brand-green); padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 600;">
+            <span class="event-badge event-badge--free" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+              <meta itemprop="price" content="0" />
+              <meta itemprop="priceCurrency" content="EUR" />
               Gratuit
             </span>
           )}
           {event.statut === 'annule' && (
-            <span style="background: #FFEBEE; color: #DC2626; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 600;">
-              Annulé
-            </span>
+            <span class="event-badge event-badge--cancelled">Annulé</span>
           )}
-          <span style="background: var(--color-neutral-100); color: var(--color-neutral-500); padding: 0.25rem 0.75rem; border-radius: 0.5rem; font-size: 0.75rem; font-weight: 500;">
+          <span class="event-badge event-badge--source">
             Source : {event.source || 'open data'}
           </span>
         </div>
 
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; padding: 1.5rem; background: var(--color-neutral-100); border-radius: 0.75rem; margin-bottom: 1.5rem;">
+        <div class="event-details" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; padding: 1.5rem; background: var(--color-neutral-100); border-radius: 0.75rem; margin-bottom: 1.5rem;">
           <div style="display: flex; align-items: flex-start; gap: 0.75rem;">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand-brick)" stroke-width="2" style="flex-shrink: 0; margin-top: 2px;"><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h18"/></svg>
             <div>
               <div style="font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-500);">Date</div>
               <div style="font-size: 1rem; color: var(--color-neutral-900); font-weight: 500;">
-                {new Date(event.dateDebut).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}
-                {event.dateFin && event.dateFin !== event.dateDebut ? ` — ${new Date(event.dateFin).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}` : ''}
+                <time itemprop="startDate" datetime={event.dateDebut}>{formattedDate}</time>
+                {event.dateFin && event.dateFin !== event.dateDebut ? (
+                  <> — <time itemprop="endDate" datetime={event.dateFin}>{formattedEndDate}</time></>
+                ) : ''}
               </div>
             </div>
           </div>
 
-          <div style="display: flex; align-items: flex-start; gap: 0.75rem;">
+          <div style="display: flex; align-items: flex-start; gap: 0.75rem;" itemprop="location" itemscope itemtype="https://schema.org/Place">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand-brick)" stroke-width="2" style="flex-shrink: 0; margin-top: 2px;"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
             <div>
               <div style="font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-500);">Lieu</div>
               <div style="font-size: 1rem; color: var(--color-neutral-900); font-weight: 500;">
-                {event.lieuNom || event.lieuCommune}
-                {event.lieuAdresse ? <div style="font-size: 0.875rem; color: var(--color-neutral-500); font-weight: 400;">{event.lieuAdresse}</div> : ''}
+                <span itemprop="name">{event.lieuNom || event.lieuCommune}</span>
+                <meta itemprop="address" content={`${event.lieuAdresse || ''}, ${event.lieuCommune || ''}, ${event.lieuCodePostal || ''}, France`} />
+                {event.lieuAdresse ? <div style="font-size: 0.875rem; color: var(--color-neutral-500); font-weight: 400;" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"><span itemprop="streetAddress">{event.lieuAdresse}</span></div> : ''}
               </div>
             </div>
           </div>
@@ -108,8 +239,12 @@ const siteUrl = 'https://sortirici.github.io';
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand-brick)" stroke-width="2" style="flex-shrink: 0; margin-top: 2px;"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
             <div>
               <div style="font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-500);">Tarif</div>
-              <div style="font-size: 1rem; color: var(--color-neutral-900); font-weight: 500;">
-                {event.gratuit ? 'Gratuit' : (event.prixIndicatif || 'Non renseigné')}
+              <div style="font-size: 1rem; color: var(--color-neutral-900); font-weight: 500;" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                {event.gratuit ? (
+                  <><meta itemprop="price" content="0" /><meta itemprop="priceCurrency" content="EUR" />Gratuit</>
+                ) : (
+                  <span itemprop="price">{event.prixIndicatif || 'Non renseigné'}</span>
+                )}
               </div>
             </div>
           </div>
@@ -118,7 +253,8 @@ const siteUrl = 'https://sortirici.github.io';
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand-brick)" stroke-width="2" style="flex-shrink: 0; margin-top: 2px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
             <div>
               <div style="font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-500);">Source</div>
-              <div style="font-size: 1rem; color: var(--color-neutral-900); font-weight: 500;">
+              <div style="font-size: 1rem; color: var(--color-neutral-900); font-weight: 500;" itemprop="organizer" itemscope itemtype="https://schema.org/Organization">
+                <meta itemprop="name" content={event.source || 'open data'} />
                 Licence : {event.licence || 'Licence ouverte'}
                 {event.sourceUrl ? <a href={event.sourceUrl} target="_blank" rel="noopener" style="display: block; font-size: 0.875rem; color: var(--color-brand-brick); font-weight: 400;">Voir la source originale ↗</a> : ''}
               </div>
@@ -126,9 +262,30 @@ const siteUrl = 'https://sortirici.github.io';
           </div>
         </div>
 
+        {event.image && (
+          <figure class="event-image-wrapper">
+            <img 
+              src={event.image} 
+              alt={`Affiche de l'événement ${event.titre} dans le ${event.lieuDepartement || ''}`} 
+              class="event-image"
+              itemprop="image"
+              loading="lazy"
+              width="800"
+              height="450"
+            />
+          </figure>
+        )}
+
         {event.descriptionCourte && (
-          <div style="font-size: 1rem; line-height: 1.75; color: var(--color-neutral-700); max-width: 72ch; margin-bottom: 1.5rem;">
+          <div style="font-size: 1rem; line-height: 1.75; color: var(--color-neutral-700); max-width: 72ch; margin-bottom: 1.5rem;" itemprop="description">
             {event.descriptionCourte}
+          </div>
+        )}
+
+        {event.descriptionLongue && resume && resume !== event.descriptionCourte && (
+          <div style="font-size: 0.9rem; font-style: italic; color: var(--color-brand-muted); max-width: 72ch; margin-bottom: 1.5rem; padding: 0.75rem 1rem; border-left: 3px solid var(--color-brand-brick); background: var(--color-neutral-100); border-radius: 0 0.5rem 0.5rem 0;">
+            <span style="font-weight: 600; font-style: normal; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.25rem;">En résumé</span>
+            {resume}…
           </div>
         )}
 
@@ -137,8 +294,10 @@ const siteUrl = 'https://sortirici.github.io';
             <h2 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 0.75rem; color: var(--color-neutral-900);">
               À propos de cet événement
             </h2>
-            <div style="white-space: pre-line;">
-              {event.descriptionLongue}
+            <div style="white-space: pre-line;" itemprop="description">
+              {descriptionParagraphs.map(p => (
+                <p style="margin-bottom: 0.75rem;">{p}</p>
+              ))}
             </div>
           </div>
         )}
@@ -158,3 +317,24 @@ const siteUrl = 'https://sortirici.github.io';
 
   </div>
 </BaseLayout>
+
+<style is:global>
+  .event-breadcrumb { margin-bottom: 1rem; font-size: 0.875rem; }
+  .event-breadcrumb__list { display: flex; align-items: center; gap: var(--space-2); list-style: none; padding: var(--space-2) 0; flex-wrap: wrap; }
+  .event-breadcrumb__item { display: flex; align-items: center; gap: var(--space-1); }
+  .event-breadcrumb__link { color: var(--color-neutral-500); text-decoration: none; }
+  .event-breadcrumb__link:hover { color: var(--color-brand-brick); }
+  .event-breadcrumb__item--current span { color: var(--color-neutral-900); font-weight: var(--font-semibold); }
+  .event-breadcrumb__sep { color: var(--color-neutral-300); flex-shrink: 0; }
+
+  .event-title { font-size: 2.25rem; font-weight: 400; font-family: var(--font-serif); margin-bottom: 0.5rem; color: var(--color-neutral-900); line-height: var(--leading-tight); }
+  
+  .event-badge { display: inline-flex; align-items: center; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; }
+  .event-badge--cat { background: #FDF0EB; color: var(--color-brand-brick); }
+  .event-badge--free { background: #E8F5E9; color: var(--color-brand-green); }
+  .event-badge--cancelled { background: #FFEBEE; color: #DC2626; }
+  .event-badge--source { background: var(--color-neutral-100); color: var(--color-neutral-500); font-weight: 500; }
+
+  .event-image-wrapper { margin-bottom: 1.5rem; border-radius: 0.75rem; overflow: hidden; }
+  .event-image { width: 100%; max-width: 800px; height: auto; border-radius: 0.75rem; box-shadow: var(--shadow-medium); }
+</style>

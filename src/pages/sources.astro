@@ -113,7 +113,7 @@ const activeSources = sourceRegistry.filter(s => s.status === 'active');
 
 const siteUrl = 'https://sortirici.github.io';
 const pageTitle = 'Sources open data — Origine des événements | SortirIci';
-const pageDesc = `Toutes les sources open data utilisées par SortirIci : ${activeSources.map(s => s.name).join(', ')}. Licences, données, éthique. Transparence totale.`;
+const pageDesc = `Toutes les sources open data utilisées par SortirIci : ${activeSources.map(s => s.name).join(', ')}. Licences, données, éthique. Transparence totale. ${totalEvents} événements indexés.`;
 
 // ---- JSON-LD ----
 const breadcrumbLd = {
