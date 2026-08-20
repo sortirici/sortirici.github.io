@@ -573,6 +573,10 @@ const DEPT_NAME_TO_CODE = {
   'seine-saint-denis': '93', 'val-de-marne': '94', 'val-d\'oise': '95',
 };
 
+const DEPT_CODE_TO_NAME = Object.fromEntries(
+  Object.entries(DEPT_NAME_TO_CODE).map(([name, code]) => [code, name])
+);
+
 function getDeptCodeFromName(name) {
   if (!name) return '';
   let n = String(name).toLowerCase().trim();
@@ -830,7 +834,7 @@ function getHook(categorie) {
  * des données structurées de l'événement (sans copier la description originale).
  *
  * @param {Object} eventData - Données normalisées de l'événement
- * @returns {string} Texte HTML structuré (150-300 mots)
+ * @returns {string} Texte HTML structuré (800+ caractères, ~150 mots minimum)
  */
 function generateSEODescription(eventData) {
   const {
@@ -844,6 +848,9 @@ function generateSEODescription(eventData) {
     descriptionLongue: originalDesc = '',
     descriptionCourte: shortDesc = '',
     gratuit = false,
+    prixIndicatif = '',
+    lieuDepartement = '',
+    departementNumero = '',
   } = eventData;
 
   if (!titre) return '';
@@ -859,9 +866,9 @@ function generateSEODescription(eventData) {
   const hook = getHook(categorie);
 
   // Construire les parties
+  const parts = [];
 
   // 1️⃣ PHRASE D'ACCROCHE + INTRODUCTION
-  const parts = [];
   parts.push(`<p><strong>${hook} à ${ville}.</strong> ${titre} est ${getArticle(syn)}` +
     `${syn} figurant au programme de l'agenda culturel de ${ville}${ville !== 'la région' ? ' et ses environs' : ''}.`);
 
@@ -875,23 +882,38 @@ function generateSEODescription(eventData) {
   }
   parts[0] += '</p>';
 
-  // 2️⃣ SECTION « À PROPOS » (réécriture de la description originale si disponible)
-  const originalWords = originalDesc || shortDesc || '';
-  const wordCount = countWords(originalWords);
+  // 2️⃣ CONTEXTE SEO (2-3 phrases utilisant catégorie, ville, département, titre)
+  const contextHtml = generateSEODescriptionContexte(categorie, ville, titre, lieuDepartement);
+  if (contextHtml) {
+    parts.push(contextHtml);
+  }
 
-  if (wordCount >= 50) {
+  // 3️⃣ SECTION « À PROPOS »
+  // Préférer descriptionLongue si riche, sinon descriptionCourte comme matière première
+  const richDesc = countWords(originalDesc) >= 50 ? originalDesc
+    : countWords(shortDesc) >= 30 ? shortDesc
+    : '';
+
+  if (richDesc) {
     // Réécrire la description originale : changer l'ordre, reformuler, ne pas copier
-    const rewritten = rewriteDescription(originalWords, titre, ville, categorie);
+    const rewritten = rewriteDescription(richDesc, titre, ville, categorie);
     parts.push(`<h3>À propos de ${titre}</h3>`);
     parts.push(`<p>${rewritten}</p>`);
   } else {
-    // Description originale trop pauvre : générer une description à partir de titre/cat/lieu
-    const generated = generateFallbackDescription(titre, categorie, ville, lieu, dateDebutFmt);
+    // Les deux descriptions sont trop pauvres → générer une description riche
+    const generated = generateRichFallbackDescription(titre, categorie, ville, lieu, dateDebutFmt);
     parts.push(`<h3>À propos de cet événement</h3>`);
     parts.push(`<p>${generated}</p>`);
   }
 
-  // 3️⃣ INFORMATIONS PRATIQUES
+  // 4️⃣ PARAGRAPHE SPÉCIFIQUE À LA CATÉGORIE
+  // Enfants/jeune public → activités familiales ; Concert/spectacle → genre musical
+  const catPara = generateCategoryParagraph(categorie, titre, ville);
+  if (catPara) {
+    parts.push(catPara);
+  }
+
+  // 5️⃣ INFORMATIONS PRATIQUES
   parts.push('<h3>Informations pratiques</h3>');
   parts.push('<ul>');
 
@@ -916,31 +938,41 @@ function generateSEODescription(eventData) {
     parts.push(`<li><strong>Lieu :</strong> ${lieuParts.join(', ')}</li>`);
   }
 
-  // Tarif — nettoyé (supprimer téléphones, emails, URLs, billetterie)
-    if (isFree) {
-      parts.push('<li><strong>Tarif :</strong> Gratuit — entrée libre</li>');
-    } else if (eventData.prixIndicatif) {
-      let prixClean = String(eventData.prixIndicatif)
-        .replace(/<[^>]+>/g, '')
-        .replace(/[\w.+-]+@[\w-]+\.[\w.-]+/g, '')
-        .replace(/(?:\+33|0)[1-9](?:[\s.-]?\d{2}){4}/g, '')
-        .replace(/https?:\/\/[^\s,;]+/g, '')
-        .replace(/billetterie[^,;]*/gi, '')
-        .replace(/ticketmaster[^,;]*/gi, '')
-        .replace(/fnac[^,;]*/gi, '')
-        .replace(/&nbsp;/g, ' ')
-        .replace(/&amp;/g, '&')
-        .replace(/&lt;/g, '<')
-        .replace(/&gt;/g, '>')
-        .replace(/\s+/g, ' ')
-        .trim()
-        .substring(0, 150);
-      if (prixClean) {
-        parts.push('<li><strong>Tarif :</strong> ' + prixClean + '</li>');
-      } else {
-        parts.push('<li><strong>Tarif :</strong> Consultez l\'organisateur pour les conditions tarifaires</li>');
-      }
+  // Département
+  const deptCode = departementNumero || lieuDepartement || '';
+  const deptName = deptCode && DEPT_CODE_TO_NAME[deptCode] ? DEPT_CODE_TO_NAME[deptCode] : '';
+  if (deptName) {
+    parts.push(`<li><strong>Département :</strong> ${deptName.charAt(0).toUpperCase() + deptName.slice(1)}</li>`);
+  }
+
+  // Catégorie
+  parts.push(`<li><strong>Catégorie :</strong> ${categorie.charAt(0).toUpperCase() + categorie.slice(1)}</li>`);
+
+  // Tarif
+  if (isFree) {
+    parts.push('<li><strong>Tarif :</strong> Gratuit — entrée libre</li>');
+  } else if (prixIndicatif) {
+    let prixClean = String(prixIndicatif)
+      .replace(/<[^>]+>/g, '')
+      .replace(/[\w.+-]+@[\w-]+\.[\w.-]+/g, '')
+      .replace(/(?:\+33|0)[1-9](?:[\s.-]?\d{2}){4}/g, '')
+      .replace(/https?:\/\/[^\s,;]+/g, '')
+      .replace(/billetterie[^,;]*/gi, '')
+      .replace(/ticketmaster[^,;]*/gi, '')
+      .replace(/fnac[^,;]*/gi, '')
+      .replace(/&nbsp;/g, ' ')
+      .replace(/&amp;/g, '&')
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/\\s+/g, ' ')
+      .trim()
+      .substring(0, 150);
+    if (prixClean) {
+      parts.push('<li><strong>Tarif :</strong> ' + prixClean + '</li>');
     } else {
+      parts.push('<li><strong>Tarif :</strong> Consultez l\'organisateur pour les conditions tarifaires</li>');
+    }
+  } else {
     parts.push('<li><strong>Tarif :</strong> Consultez l\'organisateur pour les conditions tarifaires</li>');
   }
 
@@ -951,28 +983,20 @@ function generateSEODescription(eventData) {
 
   parts.push('</ul>');
 
-  // ✅ Assurer 150-300 mots
+  // 6️⃣ ASSURER LA LONGUEUR MINIMALE (800 caractères / ~150 mots)
   let result = parts.join('\n');
-  const resultWords = countWords(result);
 
-  // Si trop court, ajouter un paragraphe de contexte
-  if (resultWords < 150) {
-    const contextParagraph = generateContextParagraph(categorie, ville, titre, dateDebutFmt);
-    // Insérer après le premier paragraphe
-    const firstCloseP = result.indexOf('</p>');
-    if (firstCloseP !== -1) {
-      const before = result.substring(0, firstCloseP + 4);
-      const after = result.substring(firstCloseP + 4);
-      result = before + '\n' + contextParagraph + '\n' + after;
-    } else {
-      result = result + '\n' + contextParagraph;
-    }
-  }
-
-  // Si toujours trop court, ajouter encore
-  if (countWords(result) < 150) {
+  // Boucle de padding : tant qu'on est sous 150 mots, ajouter des paragraphes
+  let safety = 0;
+  while (countWords(result) < 150 && safety < 5) {
     const extraPara = generateExtraParagraph(categorie, ville);
     result = result + '\n' + extraPara;
+    safety++;
+  }
+
+  // Fallback ultime si toujours sous 800 caractères
+  if (result.length < 800 && countWords(result) < 150) {
+    result += '\n<p>' + `${titre} est un événement à ne pas manquer organisé à ${ville}. Il s'adresse à tous les publics dans le cadre de la programmation culturelle locale.` + '</p>';
   }
 
   // Tronquer si dépasse (max 300 mots ≈ ~2000 caractères)
@@ -1090,46 +1114,96 @@ function rewriteDescription(original, titre, ville, categorie) {
   const resultSimplified = result.replace(/[^a-z0-9\u00C0-\u024F ]/gi, '').toLowerCase().substring(0, 100);
   if (simplified === resultSimplified && sentences.length > 2) {
     // Fallback : générer à partir des mots-clés seulement
-    return generateFallbackDescription(titre, categorie, ville, '', '');
+    return generateRichFallbackDescription(titre, categorie, ville, '', '');
   }
 
   return result;
 }
 
 /**
- * Génère une description de substitution quand la description originale
- * est trop pauvre (< 50 mots).
+ * Génère une description de substitution enrichie quand la description originale
+ * est trop pauvre (< 50 mots). Utilise toutes les phrases générées pour garantir
+ * une longueur suffisante.
  */
-function generateFallbackDescription(titre, categorie, ville, lieu, date) {
+function generateRichFallbackDescription(titre, categorie, ville, lieu, date) {
   const syn = getCategorySynonym(categorie, categorie);
   const syn2 = getCategorySynonym(categorie, syn);
   const article = getArticle(syn).trim();
   const ceCette = FEMININE_SYNONYMS.has(syn) ? 'Cette' : 'Ce';
   const phrases = [
     `${ceCette} ${syn} intitulé${ceCette === 'Cette' ? 'e' : ''} « ${titre} » est proposé${ceCette === 'Cette' ? 'e' : ''} ${ville !== 'la région' ? 'dans la ville de ' + ville : 'dans la région'}.`,
-    `${titre} s'inscrit dans la programmation culturelle locale.`,
+    `${titre} s'inscrit dans la programmation culturelle locale et promet un moment de qualité aux visiteurs et aux habitants.`,
     `Organisé${ceCette === 'Cette' ? 'e' : ''} ${lieu ? 'au ' + lieu : 'dans un cadre adapté'}${ville !== 'la région' ? ' à ' + ville : ''}, ${ceCette.toLowerCase()} activité est accessible à tous les publics.`,
-    `Que vous soyez passionné ou simple curieux, ${titre} est l'occasion d'assister à ${ceCette.toLowerCase()} ${syn}.`,
-    `${ceCette} ${syn} fait partie de l'agenda culturel ${ville !== 'la région' ? 'de ' + ville : 'local'}.`,
+    `Que vous soyez passionné ou simple curieux, ${titre} est une occasion unique de découvrir ou redécouvrir l'univers du ${syn} dans des conditions privilégiées.`,
+    `${ceCette} ${syn} s'annonce comme un temps fort de l'agenda culturel ${ville !== 'la région' ? 'de ' + ville : 'local'}, à ne surtout pas manquer.`,
+    `${ville !== 'la région' ? 'La ville de ' + ville : 'La région'} propose une programmation riche et variée tout au long de l'année. ${titre} contribue à cette offre culturelle dynamique.`,
   ];
 
-  // Mélanger et prendre 3-4 phrases
-  const shuffled = phrases.sort(() => Math.random() - 0.5);
-  return shuffled.slice(0, 3 + Math.floor(Math.random() * 2)).join(' ');
+  // Utiliser TOUTES les phrases pour garantir une description riche
+  return phrases.join(' ');
 }
 
 /**
- * Paragraphe de contexte ajouté si le texte est trop court (< 150 mots).
+ * Paragraphe de contexte SEO généré à partir de la catégorie, la ville,
+ * le titre et le département. Ajoute 2-3 phrases de contexte après l'intro.
  */
-function generateContextParagraph(categorie, ville, titre, date) {
+function generateSEODescriptionContexte(categorie, ville, titre, departement) {
   const syn = getCategorySynonym(categorie, categorie);
   const ceCette = FEMININE_SYNONYMS.has(syn) ? 'Cette' : 'Ce';
+  const deptCode = departement || '';
+  const deptName = deptCode && DEPT_CODE_TO_NAME[deptCode] ? DEPT_CODE_TO_NAME[deptCode] : '';
+  // Éviter la redondance "Paris dans le Paris" — si ville = département, ne pas répéter
+  const villeNorm = ville ? ville.toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g, '') : '';
+  const deptNorm = deptName ? deptName.toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g, '') : '';
+  const deptPhrase = (deptName && villeNorm !== deptNorm) ? ` dans le ${deptName.charAt(0).toUpperCase() + deptName.slice(1)}` : '';
+
   const contexts = [
-    `${ville} propose une programmation culturelle tout au long de l'année. ${titre} fait partie de cette offre et s'adresse à un large public.`,
-    `L'agenda culturel de ${ville} comprend différentes propositions. ${ceCette} ${syn} s'inscrit dans cette dynamique et contribue à l'animation de la vie locale.`,
-    `Avec ${titre}, les organisateurs proposent un moment de partage et de découverte aux habitants de ${ville} ainsi qu'aux visiteurs de passage.`,
+    `La ville de ${ville}${deptPhrase} propose une programmation culturelle riche et variée tout au long de l'année. ${ceCette} ${syn} s'inscrit dans cette offre et s'adresse à un large public désireux de découvrir de nouveaux horizons culturels.`,
+    `L'agenda des sorties à ${ville}${deptPhrase} regorge de propositions pour tous les goûts et tous les âges. ${titre} fait partie de cette dynamique et contribue au rayonnement culturel de la région.`,
+    `Que vous soyez résident ou visiteur de passage, ${ville}${deptPhrase} vous invite à découvrir ses talents et ses événements culturels. ${titre} est une excellente occasion de plonger au coeur de la scène ${syn} locale.`,
+    `${ville}${deptPhrase} ne cesse d'enrichir son offre culturelle avec des événements variés. ${ceCette} ${syn} témoigne du dynamisme artistique de la commune et de l'engagement des acteurs locaux pour proposer des animations de qualité.`,
   ];
   return `<p>${pickRandom(contexts)}</p>`;
+}
+
+/**
+ * Paragraphe spécifique à la catégorie de l'événement.
+ * - Enfants / jeune public : ajoute un paragraphe sur les activités familiales
+ * - Concert / musique : ajoute un paragraphe sur le genre musical
+ * - Spectacle : ajoute un paragraphe sur le genre de spectacle
+ */
+function generateCategoryParagraph(categorie, titre, ville) {
+  const cat = categorie ? categorie.toLowerCase() : '';
+
+  // Enfants / jeune public → activités familiales
+  if (cat === 'enfants') {
+    const familyParagraphs = [
+      `Cet événement à ${ville} est spécialement conçu pour les enfants et les familles. Les plus jeunes pourront profiter d'activités ludiques et éducatives dans un cadre adapté, tandis que les parents apprécieront un moment de partage et de découverte en famille. Ateliers créatifs, jeux et animations sont au programme pour émerveiller petits et grands.`,
+      `Idéal pour une sortie en famille à ${ville}, cet événement propose des animations spécialement pensées pour le jeune public. Ateliers manuels, activités d'éveil et espaces de jeu rythmeront cette journée placée sous le signe de la créativité et du divertissement pour toute la famille.`,
+      `Les familles trouveront à ${ville} une programmation adaptée aux enfants, avec des activités qui stimulent la curiosité et l'imagination. ${titre} promet un moment d'émerveillement partagé entre parents et enfants, dans un environnement sécurisé et accueillant.`,
+    ];
+    return `<p>${pickRandom(familyParagraphs)}</p>`;
+  }
+
+  // Concert → genre musical
+  if (cat === 'concert') {
+    const musicParagraphs = [
+      `Ce concert s'inscrit dans la riche tradition musicale de ${ville} et de sa région. Les amateurs de musique apprécieront la qualité de la programmation, qui met en lumière des artistes talentueux dans des genres variés allant du classique au contemporain, du jazz à la chanson française. Une expérience sonore unique à vivre en direct.`,
+      `La scène musicale de ${ville} continue de rayonner avec des concerts qui célèbrent la diversité des genres musicaux. ${titre} promet une performance live de grande qualité dans une ambiance conviviale, portée par des musiciens passionnés.`,
+    ];
+    return `<p>${pickRandom(musicParagraphs)}</p>`;
+  }
+
+  // Spectacle → genre de spectacle
+  if (cat === 'spectacle') {
+    const spectacleParagraphs = [
+      `Les amateurs de spectacles vivants trouveront à ${ville} une programmation éclectique mêlant théâtre, danse, humour et arts de la scène. ${titre} s'annonce comme un moment fort de la saison culturelle, porté par des artistes passionnés qui sauront captiver le public.`,
+      `Le spectacle vivant à ${ville} rassemble des artistes de tous horizons pour offrir des représentations variées et accessibles à tous. ${titre} est l'occasion de vivre une expérience scénique unique dans un cadre chaleureux et intimiste.`,
+    ];
+    return `<p>${pickRandom(spectacleParagraphs)}</p>`;
+  }
+
+  return '';
 }
 
 /**
