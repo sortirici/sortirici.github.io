@@ -673,82 +673,82 @@ const CATEGORY_SYNONYMS = {
   enfants: ['activité pour enfants', 'animation familiale', 'rendez-vous jeune public', 'loisir créatif'],
 };
 
-/** Accroches SEO par catégorie (phrases d'ouverture variées) */
+/** Accroches SEO par catégorie (phrases d'ouverture variées — neutres, factuelles) */
 const SEO_HOOKS = {
   concert: [
-    'Ne manquez pas cet événement musical incontournable',
-    'Préparez-vous à vivre un moment musical unique',
-    'La scène s\'anime pour un rendez-vous musical à ne pas oublier',
+    'Un concert est programmé à l\'agenda culturel',
+    'Un rendez-vous musical est proposé',
+    'La programmation musicale locale s\'enrichit de cet événement',
   ],
   theatre: [
-    'Plongez dans l\'univers captivant du théâtre',
-    'Les planches s\'illuminent pour une représentation exceptionnelle',
-    'Découvrez une pièce qui promet d\'être inoubliable',
+    'Une pièce de théâtre est à l\'affiche',
+    'Le théâtre s\'invite à la programmation culturelle',
+    'Un spectacle vivant est proposé au public',
   ],
   exposition: [
-    'Partez à la découverte d\'un univers artistique fascinant',
-    'Laissez-vous surprendre par une exposition qui éveille les sens',
-    'Une invitation à explorer la création sous un nouveau regard',
+    'Une exposition est à découvrir',
+    'Un parcours artistique est présenté',
+    'Les œuvres sont mises à l\'honneur dans cette exposition',
   ],
   spectacle: [
-    'Vivez une expérience spectaculaire hors du commun',
-    'Un show éblouissant vous attend pour un moment de pur divertissement',
-    'Laissez-vous emporter par un spectacle qui marque les esprits',
+    'Un spectacle est programmé',
+    'La scène accueille une nouvelle représentation',
+    'Un rendez-vous du spectacle vivant est proposé',
   ],
   festival: [
-    'Le grand rendez-vous culturel est de retour',
-    'Un festival vibrant de découvertes et d\'émotions vous attend',
-    'Plongez au cœur d\'une effervescence culturelle unique',
+    'Un festival est organisé',
+    'La programmation du festival est dévoilée',
+    'Un rendez-vous culturel rassemble artistes et public',
   ],
   cinema: [
-    'Le grand écran vous invite à une expérience cinématographique',
-    'Préparez-vous à une projection qui vous transporte',
-    'Le cinéma s\'invite à l\'affiche pour un temps fort',
+    'Une séance de cinéma est programmée',
+    'Une projection est proposée au public',
+    'Le cinéma s\'invite à la programmation',
   ],
   danse: [
-    'Laissez-vous porter par la grâce et l\'énergie de la danse',
-    'Un voyage chorégraphique qui mêle émotion et virtuosité',
-    'La danse s\'empare de la scène pour un spectacle envoûtant',
+    'Un spectacle de danse est présenté',
+    'La danse est à l\'honneur dans cette représentation',
+    'Une chorégraphie est proposée au public',
   ],
   cirque: [
-    'Entrez dans l\'univers féérique du cirque',
-    'L\'émerveillement est au rendez-vous avec ce spectacle de cirque',
-    'Acrobaties, rires et poésie : le cirque vous ouvre ses portes',
+    'Un spectacle de cirque est au programme',
+    'Les arts du cirque sont à l\'honneur',
+    'Une représentation circassienne est proposée',
   ],
   lecture: [
-    'Un rendez-vous autour des mots et des histoires',
-    'Laissez-vous porter par la magie de la lecture et de la littérature',
-    'Les livres prennent vie le temps d\'une rencontre privilégiée',
+    'Un rendez-vous littéraire est organisé',
+    'Une lecture publique est proposée',
+    'Les mots sont à l\'honneur dans cette rencontre',
   ],
   conference: [
-    'Un temps d\'échange et de réflexion pour approfondir vos connaissances',
-    'Venez nourrir votre curiosité lors de cette rencontre intellectuelle',
-    'Des intervenants de qualité pour un débat qui fait avancer les idées',
+    'Une conférence est organisée',
+    'Un temps d\'échange et de réflexion est proposé',
+    'Une rencontre-débat est au programme',
   ],
   atelier: [
-    'Mettez la main à la pâte et laissez libre cours à votre créativité',
-    'Un apprentissage ludique et pratique pour tous les curieux',
-    'Participez à un atelier convivial pour découvrir et créer',
+    'Un atelier est proposé aux participants',
+    'Une activité pratique est organisée',
+    'Un moment d\'apprentissage et de création est proposé',
   ],
   marche: [
-    'Flânez au gré des étals et des découvertes',
-    'Un rendez-vous incontournable pour les amateurs de bonnes affaires',
-    'L\'ambiance chaleureuse d\'un marché authentique vous attend',
+    'Un marché est organisé',
+    'Les commerçants et exposants vous accueillent',
+    'Un rendez-vous commerçant est au programme',
   ],
   foire: [
-    'Un événement festif et convivial à ne pas rater',
-    'L\'ambiance de la foire, ses manèges et ses découvertes vous attendent',
-    'Un grand rendez-vous populaire pour petits et grands',
+    'Une foire est organisée',
+    'Un salon rassemble exposants et visiteurs',
+    'Une manifestation commerciale et festive est proposée',
   ],
   sport: [
-    'L\'effort et la passion se rencontrent dans ce rendez-vous sportif',
-    'Vivez l\'intensité d\'une compétition sportive palpitante',
-    'Le sport, l\'émotion et le dépassement de soi sont au programme',
+    'Un événement sportif est organisé',
+    'Une rencontre sportive est au programme',
+    'La compétition rassemble les participants',
   ],
   enfants: [
-    'Une activité pensée pour émerveiller les plus jeunes',
-    'Les enfants vont adorer ce moment ludique et créatif',
-    'Un rendez-vous famille qui promet rires et découvertes',
+    'Une activité pour enfants est proposée',
+    'Un rendez-vous jeune public est organisé',
+    'Une animation familiale est au programme',
   ],
 };
 
@@ -821,7 +821,7 @@ function getArticle(word) {
 
 function getHook(categorie) {
   const hooks = SEO_HOOKS[categorie];
-  if (!hooks || hooks.length === 0) return 'Découvrez cet événement unique';
+  if (!hooks || hooks.length === 0) return 'Découvrez cet événement';
   return pickRandom(hooks);
 }
 
@@ -916,13 +916,31 @@ function generateSEODescription(eventData) {
     parts.push(`<li><strong>Lieu :</strong> ${lieuParts.join(', ')}</li>`);
   }
 
-  // Tarif
-  if (isFree) {
-    parts.push('<li><strong>Tarif :</strong> Gratuit — entrée libre et sans réservation</li>');
-  } else if (eventData.prixIndicatif) {
-    const prixClean = String(eventData.prixIndicatif).replace(/<[^>]+>/g, '').substring(0, 100);
-    parts.push(`<li><strong>Tarif :</strong> ${prixClean}</li>`);
-  } else {
+  // Tarif — nettoyé (supprimer téléphones, emails, URLs, billetterie)
+    if (isFree) {
+      parts.push('<li><strong>Tarif :</strong> Gratuit — entrée libre</li>');
+    } else if (eventData.prixIndicatif) {
+      let prixClean = String(eventData.prixIndicatif)
+        .replace(/<[^>]+>/g, '')
+        .replace(/[\w.+-]+@[\w-]+\.[\w.-]+/g, '')
+        .replace(/(?:\+33|0)[1-9](?:[\s.-]?\d{2}){4}/g, '')
+        .replace(/https?:\/\/[^\s,;]+/g, '')
+        .replace(/billetterie[^,;]*/gi, '')
+        .replace(/ticketmaster[^,;]*/gi, '')
+        .replace(/fnac[^,;]*/gi, '')
+        .replace(/&nbsp;/g, ' ')
+        .replace(/&amp;/g, '&')
+        .replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+        .replace(/\s+/g, ' ')
+        .trim()
+        .substring(0, 150);
+      if (prixClean) {
+        parts.push('<li><strong>Tarif :</strong> ' + prixClean + '</li>');
+      } else {
+        parts.push('<li><strong>Tarif :</strong> Consultez l\'organisateur pour les conditions tarifaires</li>');
+      }
+    } else {
     parts.push('<li><strong>Tarif :</strong> Consultez l\'organisateur pour les conditions tarifaires</li>');
   }
 
@@ -992,8 +1010,8 @@ function rewriteDescription(original, titre, ville, categorie) {
 
   if (sentences.length <= 2) {
     // Trop peu de phrases → reformuler différemment
-    return `Cet événement, organisé à ${ville}, propose une expérience autour du thème de ${titre}. ` +
-      `Une occasion unique de découvrir ou redécouvrir cet univers dans un cadre adapté. ` +
+    return `Cet événement, organisé à ${ville}, s'inscrit dans la programmation autour de ${titre}. ` +
+      `Un rendez-vous à noter pour les personnes intéressées par cette thématique. ` +
       `L'organisation met tout en œuvre pour offrir un moment de qualité aux participants.`;
   }
 
@@ -1089,10 +1107,10 @@ function generateFallbackDescription(titre, categorie, ville, lieu, date) {
   const ceCette = FEMININE_SYNONYMS.has(syn) ? 'Cette' : 'Ce';
   const phrases = [
     `${ceCette} ${syn} intitulé${ceCette === 'Cette' ? 'e' : ''} « ${titre} » est proposé${ceCette === 'Cette' ? 'e' : ''} ${ville !== 'la région' ? 'dans la ville de ' + ville : 'dans la région'}.`,
-    `${titre} s'inscrit dans la programmation culturelle locale et promet un moment de qualité.`,
+    `${titre} s'inscrit dans la programmation culturelle locale.`,
     `Organisé${ceCette === 'Cette' ? 'e' : ''} ${lieu ? 'au ' + lieu : 'dans un cadre adapté'}${ville !== 'la région' ? ' à ' + ville : ''}, ${ceCette.toLowerCase()} activité est accessible à tous les publics.`,
-    `Que vous soyez passionné ou simple curieux, ${titre} est une occasion de découvrir l'univers du ${syn} dans des conditions privilégiées.`,
-    `${ceCette} ${syn} s'annonce comme un temps fort de l'agenda ${ville !== 'la région' ? 'de ' + ville : 'local'}.`,
+    `Que vous soyez passionné ou simple curieux, ${titre} est l'occasion d'assister à ${ceCette.toLowerCase()} ${syn}.`,
+    `${ceCette} ${syn} fait partie de l'agenda culturel ${ville !== 'la région' ? 'de ' + ville : 'local'}.`,
   ];
 
   // Mélanger et prendre 3-4 phrases
@@ -1107,9 +1125,9 @@ function generateContextParagraph(categorie, ville, titre, date) {
   const syn = getCategorySynonym(categorie, categorie);
   const ceCette = FEMININE_SYNONYMS.has(syn) ? 'Cette' : 'Ce';
   const contexts = [
-    `${ville} propose une programmation culturelle riche et variée tout au long de l'année. ${titre} fait partie de cette offre et s'adresse à un large public désireux de découvrir de nouveaux horizons.`,
-    `L'agenda culturel de ${ville} regorge de propositions pour tous les goûts. ${ceCette} ${syn} s'inscrit dans cette dynamique et contribue à l'animation de la vie locale.`,
-    `Avec ${titre}, les organisateurs souhaitent offrir un moment de partage et de découverte aux habitants de ${ville} ainsi qu'aux visiteurs de passage.`,
+    `${ville} propose une programmation culturelle tout au long de l'année. ${titre} fait partie de cette offre et s'adresse à un large public.`,
+    `L'agenda culturel de ${ville} comprend différentes propositions. ${ceCette} ${syn} s'inscrit dans cette dynamique et contribue à l'animation de la vie locale.`,
+    `Avec ${titre}, les organisateurs proposent un moment de partage et de découverte aux habitants de ${ville} ainsi qu'aux visiteurs de passage.`,
   ];
   return `<p>${pickRandom(contexts)}</p>`;
 }
@@ -1122,7 +1140,7 @@ function generateExtraParagraph(categorie, ville) {
   const ceCette = FEMININE_SYNONYMS.has(syn) ? 'Cette' : 'Ce';
   const extras = [
     `Pour ne rien manquer de l'actualité culturelle de ${ville}, consultez régulièrement l'agenda des sorties et découvrez l'ensemble des ${syn}s programmés près de chez vous.`,
-    `Que vous soyez amateur ou connaisseur, ${ceCette.toLowerCase()} ${syn} est une belle occasion de profiter de l'offre culturelle de ${ville} et de ses alentours.`,
+    `Que vous soyez amateur ou connaisseur, ${ceCette.toLowerCase()} ${syn} est une occasion de profiter de l'offre culturelle de ${ville} et de ses alentours.`,
   ];
   return `<p>${pickRandom(extras)}</p>`;
 }
