@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-19T21:02:50.207Z",
-  "totalEvents": 25652,
+  "lastUpdated": "2026-08-20T06:42:30.435Z",
+  "totalEvents": 25557,
   "totalDepartements": 96,
   "departements": [
     {
@@ -30,7 +30,7 @@
     {
       "departement": "14",
       "nom": "Calvados",
-      "totalEvents": 680,
+      "totalEvents": 673,
       "visibleEvents": 200
     },
     {
@@ -114,8 +114,8 @@
     {
       "departement": "29",
       "nom": "Finistère",
-      "totalEvents": 145,
-      "visibleEvents": 145
+      "totalEvents": 144,
+      "visibleEvents": 144
     },
     {
       "departement": "30",
@@ -162,7 +162,7 @@
     {
       "departement": "37",
       "nom": "Indre-et-Loire",
-      "totalEvents": 682,
+      "totalEvents": 681,
       "visibleEvents": 200
     },
     {
@@ -204,13 +204,13 @@
     {
       "departement": "44",
       "nom": "Loire-Atlantique",
-      "totalEvents": 4844,
+      "totalEvents": 4815,
       "visibleEvents": 200
     },
     {
       "departement": "45",
       "nom": "Loiret",
-      "totalEvents": 792,
+      "totalEvents": 781,
       "visibleEvents": 200
     },
     {
@@ -294,7 +294,7 @@
     {
       "departement": "59",
       "nom": "Nord",
-      "totalEvents": 475,
+      "totalEvents": 474,
       "visibleEvents": 200
     },
     {
@@ -348,8 +348,8 @@
     {
       "departement": "68",
       "nom": "Haut-Rhin",
-      "totalEvents": 149,
-      "visibleEvents": 149
+      "totalEvents": 148,
+      "visibleEvents": 148
     },
     {
       "departement": "69",
@@ -390,20 +390,20 @@
     {
       "departement": "75",
       "nom": "Paris",
-      "totalEvents": 2092,
+      "totalEvents": 2083,
       "visibleEvents": 200
     },
     {
       "departement": "76",
       "nom": "Seine-Maritime",
-      "totalEvents": 1581,
+      "totalEvents": 1575,
       "visibleEvents": 200
     },
     {
       "departement": "77",
       "nom": "Seine-et-Marne",
-      "totalEvents": 42,
-      "visibleEvents": 42
+      "totalEvents": 41,
+      "visibleEvents": 41
     },
     {
       "departement": "78",
@@ -438,7 +438,7 @@
     {
       "departement": "83",
       "nom": "Var",
-      "totalEvents": 292,
+      "totalEvents": 291,
       "visibleEvents": 200
     },
     {
@@ -510,8 +510,8 @@
     {
       "departement": "95",
       "nom": "Val-d'Oise",
-      "totalEvents": 35,
-      "visibleEvents": 35
+      "totalEvents": 34,
+      "visibleEvents": 34
     },
     {
       "departement": "09",

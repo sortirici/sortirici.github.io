@@ -647,6 +647,486 @@ function normalizeMobilizon(item, sourceId) {
   };
 }
 
+// ──── SEO/GEO Description Generator ────
+
+const MONTHS_FR = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+const DAYS_FR = ['dimanche','lundi','mardi','mercredi','jeudi','vendredi','samedi'];
+
+/**
+ * Synonymes par catégorie pour la variation SEO
+ */
+const CATEGORY_SYNONYMS = {
+  concert: ['concert', 'représentation musicale', 'soirée musicale', 'performance live', 'show'],
+  theatre: ['spectacle vivant', 'pièce de théâtre', 'représentation', 'comédie', 'drame'],
+  exposition: ['exposition', 'parcours artistique', 'galerie', 'présentation', 'rétrospective'],
+  spectacle: ['spectacle', 'show', 'représentation', 'divertissement', 'animation scénique'],
+  festival: ['festival', 'rencontre culturelle', 'programmation artistique', 'rendez-vous'],
+  cinema: ['séance de cinéma', 'projection', 'film', 'avant-première', 'diffusion'],
+  danse: ['spectacle de danse', 'représentation chorégraphique', 'ballet', 'show'],
+  cirque: [' spectacle de cirque',  'numéro de cirque',  'performance circassienne'],
+  lecture: ['rencontre littéraire', 'lecture publique', 'rendez-vous du livre', 'moment littéraire'],
+  conference: ['conférence', 'rencontre-débat', 'table ronde', 'colloque', 'échange'],
+  atelier: ['atelier', 'stage pratique', 'initiation', 'activité créative', 'moment d\'apprentissage'],
+  marche: ['marché', 'foire', 'brocante', 'vide-grenier', 'rendez-vous commerçant'],
+  foire: ['foire', 'salon', 'grand rendez-vous', 'fête foraine', 'manifestation'],
+  sport: ['événement sportif', 'compétition', 'rencontre sportive', 'rendez-vous du sport'],
+  enfants: ['activité pour enfants', 'animation familiale', 'rendez-vous jeune public', 'loisir créatif'],
+};
+
+/** Accroches SEO par catégorie (phrases d'ouverture variées) */
+const SEO_HOOKS = {
+  concert: [
+    'Ne manquez pas cet événement musical incontournable',
+    'Préparez-vous à vivre un moment musical unique',
+    'La scène s\'anime pour un rendez-vous musical à ne pas oublier',
+  ],
+  theatre: [
+    'Plongez dans l\'univers captivant du théâtre',
+    'Les planches s\'illuminent pour une représentation exceptionnelle',
+    'Découvrez une pièce qui promet d\'être inoubliable',
+  ],
+  exposition: [
+    'Partez à la découverte d\'un univers artistique fascinant',
+    'Laissez-vous surprendre par une exposition qui éveille les sens',
+    'Une invitation à explorer la création sous un nouveau regard',
+  ],
+  spectacle: [
+    'Vivez une expérience spectaculaire hors du commun',
+    'Un show éblouissant vous attend pour un moment de pur divertissement',
+    'Laissez-vous emporter par un spectacle qui marque les esprits',
+  ],
+  festival: [
+    'Le grand rendez-vous culturel est de retour',
+    'Un festival vibrant de découvertes et d\'émotions vous attend',
+    'Plongez au cœur d\'une effervescence culturelle unique',
+  ],
+  cinema: [
+    'Le grand écran vous invite à une expérience cinématographique',
+    'Préparez-vous à une projection qui vous transporte',
+    'Le cinéma s\'invite à l\'affiche pour un temps fort',
+  ],
+  danse: [
+    'Laissez-vous porter par la grâce et l\'énergie de la danse',
+    'Un voyage chorégraphique qui mêle émotion et virtuosité',
+    'La danse s\'empare de la scène pour un spectacle envoûtant',
+  ],
+  cirque: [
+    'Entrez dans l\'univers féérique du cirque',
+    'L\'émerveillement est au rendez-vous avec ce spectacle de cirque',
+    'Acrobaties, rires et poésie : le cirque vous ouvre ses portes',
+  ],
+  lecture: [
+    'Un rendez-vous autour des mots et des histoires',
+    'Laissez-vous porter par la magie de la lecture et de la littérature',
+    'Les livres prennent vie le temps d\'une rencontre privilégiée',
+  ],
+  conference: [
+    'Un temps d\'échange et de réflexion pour approfondir vos connaissances',
+    'Venez nourrir votre curiosité lors de cette rencontre intellectuelle',
+    'Des intervenants de qualité pour un débat qui fait avancer les idées',
+  ],
+  atelier: [
+    'Mettez la main à la pâte et laissez libre cours à votre créativité',
+    'Un apprentissage ludique et pratique pour tous les curieux',
+    'Participez à un atelier convivial pour découvrir et créer',
+  ],
+  marche: [
+    'Flânez au gré des étals et des découvertes',
+    'Un rendez-vous incontournable pour les amateurs de bonnes affaires',
+    'L\'ambiance chaleureuse d\'un marché authentique vous attend',
+  ],
+  foire: [
+    'Un événement festif et convivial à ne pas rater',
+    'L\'ambiance de la foire, ses manèges et ses découvertes vous attendent',
+    'Un grand rendez-vous populaire pour petits et grands',
+  ],
+  sport: [
+    'L\'effort et la passion se rencontrent dans ce rendez-vous sportif',
+    'Vivez l\'intensité d\'une compétition sportive palpitante',
+    'Le sport, l\'émotion et le dépassement de soi sont au programme',
+  ],
+  enfants: [
+    'Une activité pensée pour émerveiller les plus jeunes',
+    'Les enfants vont adorer ce moment ludique et créatif',
+    'Un rendez-vous famille qui promet rires et découvertes',
+  ],
+};
+
+const DEFAULT_SYNONYMS = ['événement', 'rendez-vous', 'animation', 'manifestation', 'sortie'];
+
+function countWords(text) {
+  return (text || '').split(/\s+/).filter(Boolean).length;
+}
+
+function formatFrenchDate(dateStr) {
+  if (!dateStr) return '';
+  const d = new Date(dateStr);
+  if (isNaN(d.getTime())) return dateStr;
+  const dayName = DAYS_FR[d.getDay()];
+  const dayNum = d.getDate();
+  const month = MONTHS_FR[d.getMonth()];
+  const year = d.getFullYear();
+  return `${dayName} ${dayNum} ${month} ${year}`;
+}
+
+function formatFrenchTime(dateStr) {
+  if (!dateStr) return '';
+  const d = new Date(dateStr);
+  if (isNaN(d.getTime())) return '';
+  const h = d.getHours().toString().padStart(2, '0');
+  const m = d.getMinutes().toString().padStart(2, '0');
+  return `${h}h${m}`;
+}
+
+function pickRandom(arr) {
+  if (!arr || arr.length === 0) return '';
+  return arr[Math.floor(Math.random() * arr.length)];
+}
+
+function getCategorySynonym(categorie, avoid) {
+  const syns = CATEGORY_SYNONYMS[categorie] || DEFAULT_SYNONYMS;
+  const normalizedAvoid = avoid ? avoid.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase() : '';
+  const filtered = syns.filter(s => {
+    const normalizedS = s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    return normalizedS !== normalizedAvoid;
+  });
+  if (filtered.length === 0) return syns[0] || 'événement';
+  return pickRandom(filtered);
+}
+
+/** Mots féminins nécessitant "une" au lieu de "un" */
+const FEMININE_SYNONYMS = new Set([
+  'représentation musicale', 'soirée musicale', 'performance live',
+  'représentation', 'comédie',
+  'galerie', 'présentation', 'rétrospective',
+  'rencontre culturelle', 'programmation artistique',
+  'séance de cinéma', 'projection', 'avant-première', 'diffusion',
+  'rencontre littéraire', 'lecture publique',
+  'rencontre-débat', 'table ronde',
+  'activité créative', 'initiation',
+  'foire', 'brocante', 'fête foraine', 'manifestation',
+  'rencontre sportive',
+  'activité pour enfants', 'animation familiale', 'animation scénique',
+  'compétition', 'performance circassienne',
+  'conférence', 'chorale', 'danse',
+  'rencontre', 'exposition',
+]);
+
+function getArticle(word) {
+  if (!word) return 'un ';
+  const w = word.trim().toLowerCase();
+  if (FEMININE_SYNONYMS.has(w)) return 'une ';
+  return 'un ';
+}
+
+function getHook(categorie) {
+  const hooks = SEO_HOOKS[categorie];
+  if (!hooks || hooks.length === 0) return 'Découvrez cet événement unique';
+  return pickRandom(hooks);
+}
+
+/**
+ * Remplace descriptionLongue par une description SEO/GEO générée à partir
+ * des données structurées de l'événement (sans copier la description originale).
+ *
+ * @param {Object} eventData - Données normalisées de l'événement
+ * @returns {string} Texte HTML structuré (150-300 mots)
+ */
+function generateSEODescription(eventData) {
+  const {
+    titre = '',
+    dateDebut = '',
+    dateFin = '',
+    lieuCommune = '',
+    lieuNom = '',
+    categorie = 'spectacle',
+    source = '',
+    descriptionLongue: originalDesc = '',
+    descriptionCourte: shortDesc = '',
+    gratuit = false,
+  } = eventData;
+
+  if (!titre) return '';
+
+  const ville = lieuCommune || 'la région';
+  const lieu = lieuNom || ville;
+  const dateDebutFmt = formatFrenchDate(dateDebut);
+  const dateFinFmt = dateFin && dateFin !== dateDebut ? formatFrenchDate(dateFin) : null;
+  const timeDebut = formatFrenchTime(dateDebut);
+  const timeFin = dateFin && dateFin !== dateDebut ? formatFrenchTime(dateFin) : null;
+  const isFree = gratuit === true || gratuit === 'true' || gratuit === 'oui';
+  const syn = getCategorySynonym(categorie, categorie);
+  const hook = getHook(categorie);
+
+  // Construire les parties
+
+  // 1️⃣ PHRASE D'ACCROCHE + INTRODUCTION
+  const parts = [];
+  parts.push(`<p><strong>${hook} à ${ville}.</strong> ${titre} est ${getArticle(syn)}` +
+    `${syn} figurant au programme de l'agenda culturel de ${ville}${ville !== 'la région' ? ' et ses environs' : ''}.`);
+
+  // Ajouter la date dans l'intro
+  if (dateDebutFmt) {
+    if (dateFinFmt && dateFinFmt !== dateDebutFmt) {
+      parts[0] += ` Cet événement se déroule du ${dateDebutFmt} au ${dateFinFmt}.`;
+    } else {
+      parts[0] += ` Il a lieu le ${dateDebutFmt}.`;
+    }
+  }
+  parts[0] += '</p>';
+
+  // 2️⃣ SECTION « À PROPOS » (réécriture de la description originale si disponible)
+  const originalWords = originalDesc || shortDesc || '';
+  const wordCount = countWords(originalWords);
+
+  if (wordCount >= 50) {
+    // Réécrire la description originale : changer l'ordre, reformuler, ne pas copier
+    const rewritten = rewriteDescription(originalWords, titre, ville, categorie);
+    parts.push(`<h3>À propos de ${titre}</h3>`);
+    parts.push(`<p>${rewritten}</p>`);
+  } else {
+    // Description originale trop pauvre : générer une description à partir de titre/cat/lieu
+    const generated = generateFallbackDescription(titre, categorie, ville, lieu, dateDebutFmt);
+    parts.push(`<h3>À propos de cet événement</h3>`);
+    parts.push(`<p>${generated}</p>`);
+  }
+
+  // 3️⃣ INFORMATIONS PRATIQUES
+  parts.push('<h3>Informations pratiques</h3>');
+  parts.push('<ul>');
+
+  // Date et horaire
+  if (dateDebutFmt) {
+    if (dateFinFmt && dateFinFmt !== dateDebutFmt) {
+      const dateInfo = `Du ${dateDebutFmt}` + (timeDebut ? ` à ${timeDebut}` : '') +
+        ` au ${dateFinFmt}` + (timeFin ? ` à ${timeFin}` : '');
+      parts.push(`<li><strong>Dates :</strong> ${dateInfo}</li>`);
+    } else {
+      const dateInfo = dateDebutFmt + (timeDebut ? ` à ${timeDebut}` : '') +
+        (timeFin ? ` — ${timeFin}` : '');
+      parts.push(`<li><strong>Date :</strong> ${dateInfo}</li>`);
+    }
+  }
+
+  // Lieu
+  const lieuParts = [];
+  if (lieuNom) lieuParts.push(lieuNom);
+  if (lieuCommune) lieuParts.push(lieuCommune);
+  if (lieuParts.length > 0) {
+    parts.push(`<li><strong>Lieu :</strong> ${lieuParts.join(', ')}</li>`);
+  }
+
+  // Tarif
+  if (isFree) {
+    parts.push('<li><strong>Tarif :</strong> Gratuit — entrée libre et sans réservation</li>');
+  } else if (eventData.prixIndicatif) {
+    const prixClean = String(eventData.prixIndicatif).replace(/<[^>]+>/g, '').substring(0, 100);
+    parts.push(`<li><strong>Tarif :</strong> ${prixClean}</li>`);
+  } else {
+    parts.push('<li><strong>Tarif :</strong> Consultez l\'organisateur pour les conditions tarifaires</li>');
+  }
+
+  // Accès
+  if (ville) {
+    parts.push(`<li><strong>Accès :</strong> Cet événement se déroule à ${lieuParts.length > 0 ? lieuParts.join(', ') : ville}. Vérifiez les modalités d'accès et de stationnement à proximité.</li>`);
+  }
+
+  parts.push('</ul>');
+
+  // ✅ Assurer 150-300 mots
+  let result = parts.join('\n');
+  const resultWords = countWords(result);
+
+  // Si trop court, ajouter un paragraphe de contexte
+  if (resultWords < 150) {
+    const contextParagraph = generateContextParagraph(categorie, ville, titre, dateDebutFmt);
+    // Insérer après le premier paragraphe
+    const firstCloseP = result.indexOf('</p>');
+    if (firstCloseP !== -1) {
+      const before = result.substring(0, firstCloseP + 4);
+      const after = result.substring(firstCloseP + 4);
+      result = before + '\n' + contextParagraph + '\n' + after;
+    } else {
+      result = result + '\n' + contextParagraph;
+    }
+  }
+
+  // Si toujours trop court, ajouter encore
+  if (countWords(result) < 150) {
+    const extraPara = generateExtraParagraph(categorie, ville);
+    result = result + '\n' + extraPara;
+  }
+
+  // Tronquer si dépasse (max 300 mots ≈ ~2000 caractères)
+  const finalWords = countWords(result);
+  if (finalWords > 350) {
+    // Tronquer le dernier paragraphe (hors <ul>) pour rester autour de 300 mots
+    const paragraphs = result.split('\n');
+    let trimmed = [];
+    let wc = 0;
+    for (const p of paragraphs) {
+      const pw = countWords(p);
+      if (wc + pw > 320) break;
+      trimmed.push(p);
+      wc += pw;
+    }
+    result = trimmed.join('\n');
+  }
+
+  return result;
+}
+
+/**
+ * Réécrit une description originale avec des formulations différentes :
+ * change l'ordre, reformule, ne copie pas les phrases telles quelles.
+ */
+function rewriteDescription(original, titre, ville, categorie) {
+  // Extraire les phrases
+  let text = original
+    .replace(/<[^>]+>/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  // Découper en phrases
+  const sentences = text.match(/[^.!?]+[.!?]+/g) || [text];
+
+  if (sentences.length <= 2) {
+    // Trop peu de phrases → reformuler différemment
+    return `Cet événement, organisé à ${ville}, propose une expérience autour du thème de ${titre}. ` +
+      `Une occasion unique de découvrir ou redécouvrir cet univers dans un cadre adapté. ` +
+      `L'organisation met tout en œuvre pour offrir un moment de qualité aux participants.`;
+  }
+
+  // Changer l'ordre (dernière phrase en premier, etc.)
+  const reordered = [];
+  if (sentences.length >= 3) {
+    // Commencer par une phrase du milieu
+    const midIdx = Math.floor(sentences.length / 2);
+    reordered.push(sentences[midIdx]);
+    // Ajouter la première phrase reformulée
+    reordered.push(sentences[0]);
+    // Ajouter les autres (sauf la dernière qu'on garde pour la fin)
+    for (let i = 1; i < sentences.length; i++) {
+      if (i !== midIdx && i !== 0 && i !== sentences.length - 1) {
+        reordered.push(sentences[i]);
+      }
+    }
+    if (sentences.length - 1 !== midIdx) {
+      reordered.push(sentences[sentences.length - 1]);
+    }
+  } else {
+    reordered.push(...sentences.reverse());
+  }
+
+  // Reformuler les débuts de phrase
+  const reformulated = reordered.map((s, idx) => {
+    let clean = s.trim();
+    if (!clean) return '';
+    // Changer les starters par des synonymes
+    const starters = {
+      'le ': 'Ce ',
+      'la ': 'Cette ',
+      'les ': 'Ces ',
+      'cet': 'Ce',
+      'cette': 'Cette',
+      'ces': 'Ces',
+      'vous': 'Les participants',
+      'on ': 'L\'on ',
+      'il y aura': 'Au programme',
+      'au programme': 'Parmi les temps forts',
+      'découvrez': 'Explorez',
+      'venez': 'Rendez-vous',
+      'retrouvez': 'Profitez',
+      'assistez': 'Prenez part',
+    };
+    for (const [from, to] of Object.entries(starters)) {
+      if (clean.toLowerCase().startsWith(from)) {
+        clean = to + clean.substring(from.length);
+        break;
+      }
+    }
+    return clean;
+  }).filter(Boolean);
+
+  // Assembler avec des connecteurs variés
+  const connectors = [
+    ' ', ' ', ' ',
+    ' Par ailleurs, ',
+    ' De plus, ',
+    ' En outre, ',
+    ' Également, ',
+    ' À noter : ',
+    ' Pour information, ',
+  ];
+  let result = reformulated[0] || '';
+  for (let i = 1; i < reformulated.length; i++) {
+    const conn = pickRandom(connectors);
+    result += conn + reformulated[i].toLowerCase().replace(/^(.)/, c => c.toUpperCase());
+  }
+
+  // Nettoyer les espaces
+  result = result.replace(/\s+/g, ' ').trim();
+
+  // Si le résultat ressemble trop à l'original, recommencer
+  const simplified = text.replace(/[^a-z0-9\u00C0-\u024F ]/gi, '').toLowerCase().substring(0, 100);
+  const resultSimplified = result.replace(/[^a-z0-9\u00C0-\u024F ]/gi, '').toLowerCase().substring(0, 100);
+  if (simplified === resultSimplified && sentences.length > 2) {
+    // Fallback : générer à partir des mots-clés seulement
+    return generateFallbackDescription(titre, categorie, ville, '', '');
+  }
+
+  return result;
+}
+
+/**
+ * Génère une description de substitution quand la description originale
+ * est trop pauvre (< 50 mots).
+ */
+function generateFallbackDescription(titre, categorie, ville, lieu, date) {
+  const syn = getCategorySynonym(categorie, categorie);
+  const syn2 = getCategorySynonym(categorie, syn);
+  const article = getArticle(syn).trim();
+  const ceCette = FEMININE_SYNONYMS.has(syn) ? 'Cette' : 'Ce';
+  const phrases = [
+    `${ceCette} ${syn} intitulé${ceCette === 'Cette' ? 'e' : ''} « ${titre} » est proposé${ceCette === 'Cette' ? 'e' : ''} ${ville !== 'la région' ? 'dans la ville de ' + ville : 'dans la région'}.`,
+    `${titre} s'inscrit dans la programmation culturelle locale et promet un moment de qualité.`,
+    `Organisé${ceCette === 'Cette' ? 'e' : ''} ${lieu ? 'au ' + lieu : 'dans un cadre adapté'}${ville !== 'la région' ? ' à ' + ville : ''}, ${ceCette.toLowerCase()} activité est accessible à tous les publics.`,
+    `Que vous soyez passionné ou simple curieux, ${titre} est une occasion de découvrir l'univers du ${syn} dans des conditions privilégiées.`,
+    `${ceCette} ${syn} s'annonce comme un temps fort de l'agenda ${ville !== 'la région' ? 'de ' + ville : 'local'}.`,
+  ];
+
+  // Mélanger et prendre 3-4 phrases
+  const shuffled = phrases.sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, 3 + Math.floor(Math.random() * 2)).join(' ');
+}
+
+/**
+ * Paragraphe de contexte ajouté si le texte est trop court (< 150 mots).
+ */
+function generateContextParagraph(categorie, ville, titre, date) {
+  const syn = getCategorySynonym(categorie, categorie);
+  const ceCette = FEMININE_SYNONYMS.has(syn) ? 'Cette' : 'Ce';
+  const contexts = [
+    `${ville} propose une programmation culturelle riche et variée tout au long de l'année. ${titre} fait partie de cette offre et s'adresse à un large public désireux de découvrir de nouveaux horizons.`,
+    `L'agenda culturel de ${ville} regorge de propositions pour tous les goûts. ${ceCette} ${syn} s'inscrit dans cette dynamique et contribue à l'animation de la vie locale.`,
+    `Avec ${titre}, les organisateurs souhaitent offrir un moment de partage et de découverte aux habitants de ${ville} ainsi qu'aux visiteurs de passage.`,
+  ];
+  return `<p>${pickRandom(contexts)}</p>`;
+}
+
+/**
+ * Paragraphe supplémentaire si le texte reste trop court.
+ */
+function generateExtraParagraph(categorie, ville) {
+  const syn = getCategorySynonym(categorie, categorie);
+  const ceCette = FEMININE_SYNONYMS.has(syn) ? 'Cette' : 'Ce';
+  const extras = [
+    `Pour ne rien manquer de l'actualité culturelle de ${ville}, consultez régulièrement l'agenda des sorties et découvrez l'ensemble des ${syn}s programmés près de chez vous.`,
+    `Que vous soyez amateur ou connaisseur, ${ceCette.toLowerCase()} ${syn} est une belle occasion de profiter de l'offre culturelle de ${ville} et de ses alentours.`,
+  ];
+  return `<p>${pickRandom(extras)}</p>`;
+}
+
 const PARSERS = {
   openagenda: normalizeOpenAgenda,
   csv: normalizeCSV,
@@ -743,13 +1223,13 @@ function main() {
         // dupliqués des plateformes (URLs, CTAs, copyrights)
         .map(e => {
           const cleanedCourte = deduplicateDescription(e.descriptionCourte, id);
-          const cleanedLongue = deduplicateDescription(e.descriptionLongue, id);
-          // Si la description longue devient trop courte (< 50 caractères)
-          // après nettoyage, on la remplace par la description courte
-          e.descriptionLongue = cleanedLongue.length < 50 && cleanedCourte.length > 0
-            ? cleanedCourte
-            : cleanedLongue;
           e.descriptionCourte = cleanedCourte;
+          // NE PAS copier la description originale : générer une description SEO/GEO
+          // à partir des données structurées de l'événement
+          e.descriptionLongue = generateSEODescription({
+            ...e,
+            descriptionLongue: deduplicateDescription(e.descriptionLongue, id),
+          });
           return e;
         });
 
