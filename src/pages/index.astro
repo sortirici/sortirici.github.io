@@ -321,6 +321,25 @@ const faqLd = {
     </div>
   </section>
 
+  <!-- Piliers Catégories (Cocon Sémantique — entrée des silos depuis le hub) -->
+  <section class="cats-section" aria-label="Explorer par type de sortie">
+    <div class="container">
+      <h2 class="section-title">Explorer par type de sortie</h2>
+      <p class="section-desc">Tous les événements culturels par catégorie, dans toute la France</p>
+      <div class="cats-grid">
+        {[
+          ['concert', 'Concerts'], ['festival', 'Festivals'], ['exposition', 'Expositions'],
+          ['theatre', 'Théâtre'], ['spectacle', 'Spectacles'], ['cinema', 'Cinéma'],
+          ['danse', 'Danse'], ['cirque', 'Cirque'], ['atelier', 'Ateliers'],
+          ['conference', 'Conférences'], ['lecture', 'Lectures'], ['enfants', 'Enfants'],
+          ['marche', 'Marchés'], ['foire', 'Foires'], ['sport', 'Sport'],
+        ].map(([c, l]) => (
+          <a href={`/categorie/${c}/`} class="cat-pill">{l}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
   <!-- FAQ Section -->
   <section class="faq-section" id="faq" aria-label="Questions fréquentes">
     <div class="container">
@@ -695,6 +714,17 @@ const faqLd = {
   .seo-table__link:hover { text-decoration: underline; }
   .seo-table__note { font-size: var(--text-sm); color: var(--color-neutral-500); margin-top: var(--space-3); }
   .seo-table__note a { color: var(--color-brand-brick); font-weight: var(--font-medium); }
+
+  /* ====== CATÉGORIES (piliers Cocon) ====== */
+  .cats-section { padding: var(--space-10) 0; background: var(--color-neutral-50); border-top: 1px solid var(--color-neutral-100); }
+  .cats-grid { display: flex; flex-wrap: wrap; gap: var(--space-3); justify-content: center; max-width: 760px; margin: 0 auto; }
+  .cat-pill {
+    display: inline-flex; align-items: center; padding: var(--space-3) var(--space-5);
+    background: white; color: var(--color-brand-brick); border-radius: var(--radius-full);
+    text-decoration: none; font-weight: var(--font-semibold); font-size: var(--text-sm);
+    border: 1.5px solid transparent; box-shadow: var(--shadow-soft); transition: all var(--transition-default);
+  }
+  .cat-pill:hover { border-color: var(--color-brand-brick); transform: translateY(-2px); box-shadow: var(--shadow-medium); }
 
   /* ====== FAQ SECTION ====== */
   .faq-section { padding: var(--space-10) 0; background: white; border-top: 1px solid var(--color-neutral-100); }

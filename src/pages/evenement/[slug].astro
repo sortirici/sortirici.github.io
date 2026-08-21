@@ -14,11 +14,23 @@ export async function getStaticPaths() {
       allEvents.push(...JSON.parse(readFileSync(join(dir, f), 'utf-8')));
     }
   } catch {}
+  // Index par catégorie pour calculer les connexes une seule fois (O(n))
+  const byCat: Record<string, any[]> = {};
+  for (const e of allEvents) {
+    const c = e.categorie;
+    if (!c) continue;
+    (byCat[c] ||= []).push(e);
+  }
+  const relOf = (e: any) => (byCat[e.categorie] || [])
+    .filter((x: any) => (x.slug || String(x.uid)) !== (e.slug || String(e.uid)))
+    .sort((a: any, b: any) => new Date(b.dateDebut) - new Date(a.dateDebut))
+    .slice(0, 5);
   if (allEvents.length === 0) return [{ params: { slug: 'placeholder' } }];
-  return allEvents.map(e => ({ params: { slug: e.slug || String(e.uid) }, props: { event: e } }));
+  return allEvents.map(e => ({ params: { slug: e.slug || String(e.uid) }, props: { event: e, related: relOf(e) } }));
 }
 
 const { event } = Astro.props;
+const { related = [] } = Astro.props;
 const hasEvent = event && event.titre;
 const siteUrl = 'https://sortirici.github.io';
 
@@ -290,10 +302,50 @@ const breadcrumbLd = hasEvent ? {
           </a>
           {event.categorie && (
             <a href={`/departement/${event.departementNumero}/${event.categorie}/`} style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--color-neutral-100); color: var(--color-brand-brick); border-radius: 0.75rem; text-decoration: none; font-size: 0.875rem; font-weight: 500;">
-              Voir tous les {event.categorie}s →
+              {event.categorie}s dans le {event.lieuDepartement || event.departementNumero} →
+            </a>
+          )}
+          {event.categorie && (
+            <a href={`/categorie/${event.categorie}/`} style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--color-neutral-100); color: var(--color-brand-brick); border-radius: 0.75rem; text-decoration: none; font-size: 0.875rem; font-weight: 500;">
+              Tous les {event.categorie}s en France →
+            </a>
+          )}
+          {event.lieuCommune && (
+            <a href={`/ville/${encodeURIComponent(event.lieuCommune)}/`} style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--color-neutral-100); color: var(--color-brand-brick); border-radius: 0.75rem; text-decoration: none; font-size: 0.875rem; font-weight: 500;">
+              Sortir à {event.lieuCommune} →
+            </a>
+          )}
+          {event.gratuit && (
+            <a href={`/gratuit/`} style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: #E8F5E9; color: var(--color-brand-green); border-radius: 0.75rem; text-decoration: none; font-size: 0.875rem; font-weight: 500;">
+              Toutes les sorties gratuites →
+            </a>
+          )}
+          {event.categorie === 'enfants' && (
+            <a href={`/enfants/`} style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--color-neutral-100); color: var(--color-brand-brick); border-radius: 0.75rem; text-decoration: none; font-size: 0.875rem; font-weight: 500;">
+              Toutes les sorties enfants →
             </a>
           )}
         </div>
+
+        {related.length > 0 && (
+          <section style="margin-top: 2.5rem; padding: 1.5rem; background: var(--color-neutral-100); border-radius: 0.75rem;">
+            <h2 style="font-size: 1.125rem; font-weight: 600; color: var(--color-neutral-900); margin-bottom: 1rem;">
+              {event.categorie ? `Autres ${event.categorie}s` : 'Événements similaires'} en France
+            </h2>
+            <ul style="list-style: none; padding: 0; display: grid; gap: 0.5rem;">
+              {related.map((r: any) => (
+                <li style="font-size: 0.95rem;">
+                  <a href={`/evenement/${r.slug || r.uid}/`} style="color: var(--color-brand-brick); text-decoration: none; font-weight: 500;">
+                    {r.titre}
+                  </a>
+                  <span style="color: var(--color-neutral-500); font-size: 0.85rem;">
+                    {' '}— {r.lieuCommune}{r.lieuDepartement ? ` (${r.lieuDepartement})` : ''}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
       </div>
     )}
 

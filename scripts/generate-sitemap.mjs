@@ -40,6 +40,29 @@ try {
   }
 } catch {}
 
+// Piliers Catégorie + Ville + Intentions (Cocon Sémantique)
+try {
+  const cats = new Set();
+  const villeCount = new Map();
+  for (const dept of deptFiles) {
+    try {
+      const evts = JSON.parse(readFileSync(join(dataDir, `events-${dept}.json`), 'utf-8'));
+      for (const e of evts) {
+        if (e.categorie) cats.add(e.categorie);
+        if (e.lieuCommune) villeCount.set(e.lieuCommune, (villeCount.get(e.lieuCommune) || 0) + 1);
+      }
+    } catch {}
+  }
+  for (const c of cats) {
+    urls.push({ loc: `${SITE_URL}/categorie/${c}/`, lastmod: TODAY, priority: '0.7' });
+  }
+  for (const [v, n] of villeCount) {
+    if (n >= 3) urls.push({ loc: `${SITE_URL}/ville/${encodeURIComponent(v)}/`, lastmod: TODAY, priority: '0.6' });
+  }
+  urls.push({ loc: `${SITE_URL}/gratuit/`, lastmod: TODAY, priority: '0.7' });
+  urls.push({ loc: `${SITE_URL}/enfants/`, lastmod: TODAY, priority: '0.7' });
+} catch {}
+
 // Génération XML
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

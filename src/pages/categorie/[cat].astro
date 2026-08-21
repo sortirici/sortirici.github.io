@@ -1,0 +1,113 @@
+---
+// src/pages/categorie/[cat].astro — Pilier catégorie (hub France)
+// Cocon Sémantique : page pilier maîtrisant une catégorie, link vers tous ses événements + départements + villes
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const CATEGORY_LABELS: Record<string, string> = {
+  'concert': 'Concerts', 'theatre': 'Théâtre', 'exposition': 'Expositions', 'spectacle': 'Spectacles',
+  'festival': 'Festivals', 'cinema': 'Cinéma', 'danse': 'Danse', 'cirque': 'Cirque',
+  'lecture': 'Lectures & Rencontres d\'auteurs', 'conference': 'Conférences', 'atelier': 'Ateliers',
+  'marche': 'Marchés & Foires', 'foire': 'Foires & Salons', 'sport': 'Sport', 'enfants': 'Sorties pour enfants',
+};
+
+export async function getStaticPaths() {
+  let allEvents: any[] = [];
+  try {
+    const { readFileSync, readdirSync } = await import('node:fs');
+    const { join } = await import('node:path');
+    const dir = join(process.cwd(), 'public', 'data');
+    const files = readdirSync(dir).filter(f => f.startsWith('events-') && f.endsWith('.json') && f !== 'events-index.json');
+    for (const f of files) allEvents.push(...JSON.parse(readFileSync(join(dir, f), 'utf-8')));
+  } catch {}
+  const cats = [...new Set(allEvents.map(e => e.categorie).filter(Boolean))];
+  return cats.map(cat => ({
+    params: { cat },
+    props: {
+      events: allEvents.filter(e => e.categorie === cat)
+        .sort((a: any, b: any) => new Date(b.dateDebut) - new Date(a.dateDebut)),
+    },
+  }));
+}
+
+const { cat } = Astro.params;
+const { events } = Astro.props;
+const siteUrl = 'https://sortirici.github.io';
+const label = CATEGORY_LABELS[cat as string] || (cat as string);
+const total = events?.length || 0;
+
+const pageTitle = `${label} en France — ${total} événements | SortirIci`;
+const pageDesc = `Tous les ${label.toLowerCase()} en France : ${total} événements culturels près de chez vous. Agenda 100% open data, gratuit, zéro cookie.`;
+
+const breadcrumbLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "@id": `${siteUrl}/categorie/${cat}/#breadcrumb`,
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": siteUrl },
+    { "@type": "ListItem", "position": 2, "name": label, "item": `${siteUrl}/categorie/${cat}/` },
+  ],
+};
+const collectionLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": `${siteUrl}/categorie/${cat}/#collection`,
+  "name": pageTitle,
+  "description": pageDesc,
+  "url": `${siteUrl}/categorie/${cat}/`,
+};
+
+// Départements & villes présents (pour maillage frère)
+const depts = [...new Set(events.map((e: any) => e.lieuDepartement).filter(Boolean))];
+const villes = [...new Set(events.map((e: any) => e.lieuCommune).filter(Boolean))].slice(0, 12);
+---
+<BaseLayout title={pageTitle} description={pageDesc} canonical={`/categorie/${cat}/`} jsonLd={[breadcrumbLd, collectionLd]}>
+  <div class="container" style="padding: 3rem 1rem;">
+    <nav class="bc" aria-label="Fil d'Ariane">
+      <ol style="display:flex; gap:.5rem; list-style:none; padding:0; font-size:.875rem; color:var(--color-neutral-500);">
+        <li><a href="/" style="color:var(--color-neutral-500); text-decoration:none;">Accueil</a></li>
+        <li>›</li>
+        <li><span style="color:var(--color-neutral-900); font-weight:600;">{label}</span></li>
+      </ol>
+    </nav>
+
+    <h1 style="font-family:var(--font-serif); font-size:2.25rem; font-weight:400; color:var(--color-neutral-900); margin:.5rem 0 1rem;">{label} en France</h1>
+    <p style="color:var(--color-neutral-500); max-width:72ch; margin-bottom:2rem; line-height:1.7;">
+      {total} {label.toLowerCase()} référencés dans toute la France, issus de sources open data publiques.
+      Trouvez la sortie idéale près de chez vous, gratuitement et sans tracking.
+    </p>
+
+    {depts.length > 0 && (
+      <div style="display:flex; flex-wrap:wrap; gap:.5rem; margin-bottom:2rem;">
+        <span style="font-size:.75rem; font-weight:600; text-transform:uppercase; letter-spacing:.05em; color:var(--color-neutral-500); align-self:center;">Par région :</span>
+        {depts.slice(0, 14).map((d: string) => (
+          <a href={`/departement/${events.find((e: any) => e.lieuDepartement === d)?.departementNumero || ''}/`} style="padding:.35rem .85rem; background:var(--color-neutral-100); color:var(--color-brand-brick); border-radius:9999px; text-decoration:none; font-size:.85rem; font-weight:500;">{d}</a>
+        ))}
+      </div>
+    )}
+
+    <h2 style="font-size:1.25rem; font-weight:600; color:var(--color-neutral-900); margin-bottom:1rem;">Prochains {label.toLowerCase()}</h2>
+    <ul style="list-style:none; padding:0; display:grid; gap:.75rem; max-width:760px;">
+      {events.slice(0, 60).map((e: any) => (
+        <li style="padding:1rem 1.25rem; background:var(--color-neutral-50); border-radius:.75rem; border:1px solid var(--color-neutral-100);">
+          <a href={`/evenement/${e.slug || e.uid}/`} style="font-weight:600; color:var(--color-neutral-900); text-decoration:none; font-size:1.05rem;">{e.titre}</a>
+          <div style="font-size:.85rem; color:var(--color-neutral-500); margin-top:.25rem;">
+            {e.lieuCommune}{e.lieuDepartement ? ` (${e.lieuDepartement})` : ''}
+            {e.dateDebut ? ` · ${new Date(e.dateDebut).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}` : ''}
+            {e.gratuit ? ' · Gratuit' : ''}
+          </div>
+        </li>
+      ))}
+    </ul>
+
+    {villes.length > 0 && (
+      <div style="margin-top:2.5rem; padding:1.5rem; background:var(--color-neutral-100); border-radius:.75rem;">
+        <h3 style="font-size:1rem; font-weight:600; color:var(--color-neutral-900); margin-bottom:.75rem;">{label} par ville</h3>
+        <div style="display:flex; flex-wrap:wrap; gap:.5rem;">
+          {villes.map((v: string) => (
+            <a href={`/ville/${encodeURIComponent(v)}/`} style="padding:.35rem .85rem; background:white; color:var(--color-brand-brick); border-radius:9999px; text-decoration:none; font-size:.85rem;">{v}</a>
+          ))}
+        </div>
+      </div>
+    )}
+  </div>
+</BaseLayout>

@@ -1,0 +1,110 @@
+---
+// src/pages/ville/[commune].astro — Pilier commune (hub local haute intention)
+// Cocon Sémantique : page pilier maîtrisant une ville, link vers ses événements + catégories + département
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  let allEvents: any[] = [];
+  try {
+    const { readFileSync, readdirSync } = await import('node:fs');
+    const { join } = await import('node:path');
+    const dir = join(process.cwd(), 'public', 'data');
+    const files = readdirSync(dir).filter(f => f.startsWith('events-') && f.endsWith('.json') && f !== 'events-index.json');
+    for (const f of files) allEvents.push(...JSON.parse(readFileSync(join(dir, f), 'utf-8')));
+  } catch {}
+  // Regrouper par commune, ne garder que les communes à fort volume (intention locale qualifiée)
+  const byVille = new Map<string, any[]>();
+  for (const e of allEvents) {
+    const v = e.lieuCommune;
+    if (!v) continue;
+    if (!byVille.has(v)) byVille.set(v, []);
+    byVille.get(v)!.push(e);
+  }
+  const MIN = 3;
+  const paths: any[] = [];
+  for (const [ville, evts] of byVille.entries()) {
+    if (evts.length < MIN) continue;
+    paths.push({
+      params: { commune: ville },
+      props: {
+        ville,
+        events: evts.sort((a: any, b: any) => new Date(b.dateDebut) - new Date(a.dateDebut)),
+      },
+    });
+  }
+  return paths;
+}
+
+const { commune } = Astro.params;
+const { ville, events } = Astro.props;
+const siteUrl = 'https://sortirici.github.io';
+const total = events?.length || 0;
+const dept = events?.[0]?.lieuDepartement || '';
+const deptNum = events?.[0]?.departementNumero || '';
+const cats = [...new Set(events.map((e: any) => e.categorie).filter(Boolean))];
+
+const pageTitle = `Que faire à ${ville} — ${total} événements culturels | SortirIci`;
+const pageDesc = `Agenda des sorties à ${ville}${dept ? ` (${dept})` : ''} : ${total} événements culturels. Concerts, expositions, spectacles près de chez vous. 100% open data, gratuit.`;
+
+const breadcrumbLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "@id": `${siteUrl}/ville/${commune}/#breadcrumb`,
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": siteUrl },
+    ...(deptNum ? [{ "@type": "ListItem", "position": 2, "name": dept, "item": `${siteUrl}/departement/${deptNum}/` }] : []),
+    { "@type": "ListItem", "position": deptNum ? 3 : 2, "name": ville, "item": `${siteUrl}/ville/${commune}/` },
+  ],
+};
+const collectionLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": `${siteUrl}/ville/${commune}/#collection`,
+  "name": pageTitle,
+  "description": pageDesc,
+  "url": `${siteUrl}/ville/${commune}/`,
+};
+---
+<BaseLayout title={pageTitle} description={pageDesc} canonical={`/ville/${commune}/`} jsonLd={[breadcrumbLd, collectionLd]}>
+  <div class="container" style="padding: 3rem 1rem;">
+    <nav class="bc" aria-label="Fil d'Ariane">
+      <ol style="display:flex; gap:.5rem; list-style:none; padding:0; font-size:.875rem; color:var(--color-neutral-500);">
+        <li><a href="/" style="color:var(--color-neutral-500); text-decoration:none;">Accueil</a></li>
+        <li>›</li>
+        {deptNum && <li><a href={`/departement/${deptNum}/`} style="color:var(--color-neutral-500); text-decoration:none;">{dept}</a></li>}
+        {deptNum && <li>›</li>}
+        <li><span style="color:var(--color-neutral-900); font-weight:600;">{ville}</span></li>
+      </ol>
+    </nav>
+
+    <h1 style="font-family:var(--font-serif); font-size:2.25rem; font-weight:400; color:var(--color-neutral-900); margin:.5rem 0 1rem;">Sortir à {ville}</h1>
+    <p style="color:var(--color-neutral-500); max-width:72ch; margin-bottom:2rem; line-height:1.7;">
+      {total} événements culturels à {ville}{dept ? `, dans le ${dept}` : ''}.
+      L'agenda local 100% open data pour ne manquer aucune sortie près de chez vous.
+    </p>
+
+    {cats.length > 0 && (
+      <div style="display:flex; flex-wrap:wrap; gap:.5rem; margin-bottom:2rem;">
+        <span style="font-size:.75rem; font-weight:600; text-transform:uppercase; letter-spacing:.05em; color:var(--color-neutral-500); align-self:center;">Catégories :</span>
+        {cats.map((c: string) => (
+          <a href={`/categorie/${c}/`} style="padding:.35rem .85rem; background:var(--color-neutral-100); color:var(--color-brand-brick); border-radius:9999px; text-decoration:none; font-size:.85rem; font-weight:500;">{c}</a>
+        ))}
+      </div>
+    )}
+
+    <h2 style="font-size:1.25rem; font-weight:600; color:var(--color-neutral-900); margin-bottom:1rem;">Prochains événements à {ville}</h2>
+    <ul style="list-style:none; padding:0; display:grid; gap:.75rem; max-width:760px;">
+      {events.slice(0, 80).map((e: any) => (
+        <li style="padding:1rem 1.25rem; background:var(--color-neutral-50); border-radius:.75rem; border:1px solid var(--color-neutral-100);">
+          <a href={`/evenement/${e.slug || e.uid}/`} style="font-weight:600; color:var(--color-neutral-900); text-decoration:none; font-size:1.05rem;">{e.titre}</a>
+          <div style="font-size:.85rem; color:var(--color-neutral-500); margin-top:.25rem;">
+            {e.lieuNom && e.lieuNom !== ville ? `${e.lieuNom} · ` : ''}
+            {e.categorie}
+            {e.dateDebut ? ` · ${new Date(e.dateDebut).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}` : ''}
+            {e.gratuit ? ' · Gratuit' : ''}
+          </div>
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>

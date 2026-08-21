@@ -1,0 +1,50 @@
+---
+// src/pages/enfants/index.astro — Hub intention : sorties pour enfants / famille
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+let events: any[] = [];
+try {
+  const { readFileSync, readdirSync } = await import('node:fs');
+  const { join } = await import('node:path');
+  const dir = join(process.cwd(), 'public', 'data');
+  const files = readdirSync(dir).filter(f => f.startsWith('events-') && f.endsWith('.json') && f !== 'events-index.json');
+  const all: any[] = [];
+  for (const f of files) all.push(...JSON.parse(readFileSync(join(dir, f), 'utf-8')));
+  events = all.filter((e: any) => e.categorie === 'enfants').sort((a: any, b: any) => new Date(b.dateDebut) - new Date(a.dateDebut));
+} catch {}
+
+const siteUrl = 'https://sortirici.github.io';
+const total = events.length;
+const pageTitle = `Sorties pour enfants en France — ${total} événements | SortirIci`;
+const pageDesc = `Toutes les sorties pour enfants et en famille : ${total} événements culturels. Spectacles jeune public, ateliers, cinéma. 100% open data.`;
+
+const breadcrumbLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "@id": `${siteUrl}/enfants/#breadcrumb`,
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": siteUrl },
+    { "@type": "ListItem", "position": 2, "name": "Sorties pour enfants", "item": `${siteUrl}/enfants/` },
+  ],
+};
+---
+<BaseLayout title={pageTitle} description={pageDesc} canonical="/enfants/" jsonLd={[breadcrumbLd]}>
+  <div class="container" style="padding: 3rem 1rem;">
+    <nav aria-label="Fil d'Ariane" style="font-size:.875rem; color:var(--color-neutral-500); margin-bottom:1rem;">
+      <a href="/" style="color:var(--color-neutral-500); text-decoration:none;">Accueil</a> › <span style="color:var(--color-neutral-900); font-weight:600;">Sorties pour enfants</span>
+    </nav>
+    <h1 style="font-family:var(--font-serif); font-size:2.25rem; font-weight:400; color:var(--color-neutral-900); margin-bottom:1rem;">Sortir en famille</h1>
+    <p style="color:var(--color-neutral-500); max-width:72ch; margin-bottom:2rem; line-height:1.7;">{total} sorties pour enfants et en famille référencées dans toute la France. Spectacles jeune public, ateliers créatifs, cinéma et plus encore.</p>
+    <ul style="list-style:none; padding:0; display:grid; gap:.75rem; max-width:760px;">
+      {events.slice(0, 100).map((e: any) => (
+        <li style="padding:1rem 1.25rem; background:var(--color-neutral-50); border-radius:.75rem; border:1px solid var(--color-neutral-100);">
+          <a href={`/evenement/${e.slug || e.uid}/`} style="font-weight:600; color:var(--color-neutral-900); text-decoration:none; font-size:1.05rem;">{e.titre}</a>
+          <div style="font-size:.85rem; color:var(--color-neutral-500); margin-top:.25rem;">
+            {e.lieuCommune}{e.lieuDepartement ? ` (${e.lieuDepartement})` : ''}
+            {e.dateDebut ? ` · ${new Date(e.dateDebut).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}` : ''}
+          </div>
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>
